@@ -1,4 +1,4 @@
-## Git
+## Git sprawdzic w pracy
 
 #### Q1. How can you check your current git version?
 

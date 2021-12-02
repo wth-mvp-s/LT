@@ -108,7 +108,7 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] To fire a script after updates are made to the remote repository
 - [ ] To debug all commit tags and release versions
 
-#### Q12. What option can you use to apply git configurations across your entire git environment?
+#### Q12. What option can you use to apply git configurations across your entire git environment? ok
 
 - [ ] `--all`
 - [ ] `--master`

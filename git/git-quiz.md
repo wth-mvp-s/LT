@@ -122,7 +122,7 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [x] Rebasing
 - [ ] Reflogging
 
-#### Q14. If you cloned an existing git repository, what would happen?
+#### Q14. If you cloned an existing git repository, what would happen? ok
 
 - [ ] A new copy would overwrite the central repository
 - [x] A copy of the repository would be created on your local machine

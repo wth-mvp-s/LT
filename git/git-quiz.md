@@ -129,7 +129,7 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] Nothing, cloning is not a supported git function
 - [ ] A copy of the repository would be created on the hosting platform
 
-#### Q15. How can you display a list of files added or modified in a specific commit?
+#### Q15. How can you display a list of files added or modified in a specific commit? ok
 
 - [ ] Find the commit in the remote repository, as that's the only place that kind of information is stored.
 - [x] Use the `diff-tree` command with the commit hash.

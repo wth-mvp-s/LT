@@ -1,6 +1,6 @@
 ## Git sprawdzic w pracy
 
-#### Q1. How can you check your current git version?
+#### Q1. How can you check your current git version? ok
 
 - [ ] git --v
 - [x] git --version

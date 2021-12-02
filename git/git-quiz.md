@@ -50,7 +50,7 @@ git merge --squash HEAD@{1}
 - [ ] All new files are staged
 - [ ] Only updated files are staged
 
-#### Q6. What will the following command print to the Terminal?
+#### Q6. What will the following command print to the Terminal? ok
 
 `git remote -v`
 

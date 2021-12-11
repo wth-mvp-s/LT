@@ -471,7 +471,7 @@ modified: beta-notes.js
 - [ ] Branch name
 - [ ] Project name
 
-#### Q54. What Language is used in GIT?
+#### Q54. What Language is used in GIT? ok
 
 - [x] C
 - [ ] C++

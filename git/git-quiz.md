@@ -408,7 +408,7 @@ modified: beta-notes.js
 - [ ] begin
 - [ ] track
 
-#### Q45. Which of the following is called dumb protocol?
+#### Q45. Which of the following is called dumb protocol? ok
 
 - [ ] All of these
 - [ ] SSH

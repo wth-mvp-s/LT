@@ -154,82 +154,150 @@ Which resource is an example of IaaS?
 
 ////////////////////////////////////////////////////////////////
 
-#### Q11. Your company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently hosted on the Hyper-V hosts in a data center. You are required make sure that the intended Azure solution uses the correct expenditure model. Solution: You should recommend the use of the scalable expenditure model. Does the solution meet the goal?
+#### Q11. no required capital expenditure
+
+- [ ] Hybrid cloud
+- [ ] private cloud
+- [x] public cloud
+
+#### Q12. provides complete control over security
+
+- [ ] Hybrid cloud
+- [x] private cloud
+- [ ] public cloud
+
+#### Q13. provides a choice to use on-premises or cloud-based resources
+
+- [x] Hybrid cloud
+- [ ] private cloud
+- [ ] public cloud
+
+#### Q14. a company can extend a private cloud by adding its own physical servers to the public cloud
 
 - [ ] Yes
 - [x] No
 
-#### Q12. Your company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently hosted on the Hyper-V hosts in a data center. You are required make sure that the intended Azure solution uses the correct expenditure model. Solution: You should recommend the use of the operational expenditure model. Does the solution meet the goal?
+#### Q15. to build a hybrid cloud you must deploy resources to the public cloud
 
 - [x] Yes
 - [ ] No
 
-#### Q13. You are required to deploy an Artificial Intelligence (AI) solution in Azure. You want to make sure that you are able to build, test, and deploy predictive analytics for the solution. Solution: You should make use of Azure Cosmos DB. Does the solution meet the goal?
+#### Q16. a private cloud must be disconnected from the internet
 
 - [ ] Yes
 - [x] No
 
-#### Q14. Your companyג€™s Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to sync all the Active Directory user accounts to Azure Active Directory (Azure AD). Does the solution meet the goal?
+#### Q17. You have 50 virtual machines hosted on-premises and 50 virtual machines hosted in Azure. The on-premises virtual machines and the Azure virtual machines connect to each other.Which type of cloud model is this?
+
+- [x] hybrid
+- [ ] private
+- [ ] public
+
+#### Q18. a platform as a service (PaaS) solution that hosts web apps in azure provides full control of the operating systems that host applications. 
+
+- [ ] Yes
+- [x] No
+
+#### Q19. a platform as a service (PaaS) solution that hosts web apps in azure can be provided with additional memory by changing the pricing tier. 
+- [x] Yes
+- [ ] No
+
+#### Q20. a platform as a service (PaaS) solution that hosts web apps in Azure can be configured to automatically scale the number of instances based on demand. 
 
 - [x] Yes
 - [ ] No
 
-#### Q15. You are required to deploy an Artificial Intelligence (AI) solution in Azure. You want to make sure that you are able to build, test, and deploy predictive analytics for the solution. Solution: You should make use of Azure Machine Learning Studio. Does the solution meet the goal?
+#### Q21. Your company plans to migrate all its data and resources to Azure. The companyג€™s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure.You need to deploy an Azure environment that meets the company migration plan. Solution: You create Azure virtual machines, Azure SQL databases, and Azure Storage accounts. Does this meet the goal?
+
+- [ ] Yes
+- [x] No
+
+
+#### Q22. Your company plans to deploy several custom applications to Azure. The applications will provide invoicing services to the customers of the company. Each application will have several prerequisite applications and services installed. You need to recommend a cloud deployment solution for all the applications. What should you recommend?
+
+- [ ]  Software as a Service (SaaS)
+- [ ]  Platform as a Service (PaaS)
+- [x]  Infrastructure as a Service (laaS)
+
+#### Q23. Building a data center infrastructure is an example of operational expanditure (OpEx) costs> 
+
+- [ ] Yes
+- [x] No
+
+#### Q23. Monthly salaries for technical personnel are an example of operational expenditure (OpEx) costs. 
+
+- [x] Yes
+- [ ] No
+#### Q23. Leasing software is an example of operational expanditure (OpEx) costs
 
 - [x] Yes
 - [ ] No
 
-#### Q16. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure API Management service be included in the strategy. Does the solution meet the goal?
+#### Q24. Azure Cosmos DB is an example of a ...... offering. 
+
+- [x] PaaS
+- [ ] IaaS
+- [ ] serverless
+- [ ] SaaS
+
+#### Q25. With SaaS you must apply software updates. 
 
 - [ ] Yes
 - [x] No
+#### Q25. With IaaS you must install the software that you want to use
 
-#### Q17. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that management groups be included in the strategy. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-
-#### Q18. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure Resource Manager templates be included in the strategy. Does the solution meet the goal?
+- [x] Yes
+- [ ] No
+#### Q25. Azure Backup is an example of PaaS
 
 - [x] Yes
 - [ ] No
 
-#### Q19. You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. Solution: You include two virtual machines and one availability zone in your strategy. Does the solution meet the goal?
+#### Q25. You can create a resource group inside of another resource group 
+- [ ] Yes
+- [x] No
+#### Q25. An Azure virtual machine can be in multiple resource groups
 
 - [ ] Yes
 - [x] No
-
-#### Q20. You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. Solution: You include one virtual machine and two availability zones in your strategy. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-#### Q21. You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. Solution: You include two virtual machines and two availability zones in your strategy. Does the solution meet the goal?
-
+#### Q25. A resource group can contain resources from multiple Azure regions
 - [x] Yes
 - [ ] No
 
-
-#### Q22. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: You recommend the use of Microsoft Managed Desktop. Does the solution meet the goal?
-
+#### Q25. Microsoft SQL Server 2019 installed on azure VM is an example of PaaS
 - [ ] Yes
 - [x] No
-
-#### Q23. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: You recommend the use of Azure Reserved Virtual Machines (VM) Instances. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-#### Q24. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: You recommend the use of Azure DevTest Labs. Does the solution meet the goal?
+#### Q25. Azure SQL Database is en example of PaaS
 
 - [x] Yes
 - [ ] No
+#### Q25. Azure Cosmos DB is an example of SaaS
+- [ ] Yes
+- [x] No
 
-#### Q25. Your company has virtual machines (VMs) hosted in Microsoft Azure. The VMs are located in a single Azure virtual network named VNet1. The company has users that work remotely. The remote workers require access to the VMs on VNet1. You need to provide access for the remote workers. What should you do?
+#### Q25. a Microsoft SQL Server database that is hosted in the cloud and has software updates managed by Azure is an example of 
+- [ ] disaster recovery as a service (DRaaS)
+- [ ] IaaS
+- [x] PaaS
+- [ ] SaaS
 
-- [ ] Configure a Site-to-Site (S2S) VPN.
-- [ ] Configure a VNet-toVNet VPN.
-- [x] Configure a Point-to-Site (P2S) VPN.
-- [ ] Configure DirectAccess on a Windows Server 2012 server VM.
-- [ ] Configure a Multi-Site VPN
+#### Q25. The companyג€™s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the companyג€™s migration plan. What should you create?
+- [ ] Azure virtual machines, Azure SQL databases, and Azure Storage accounts.
+- [ ] an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed.
+- [x] an Azure App Service and Azure SQL databases.
+- [ ] Azure storage accounts and web server in Azure virtual machines.
+
+#### Q25. What does a customer provide in a software as a service (SaaS) model?
+- [x] application data
+- [ ] data storage
+- [ ] compute resources
+- [ ] application software
+#### Q25. Azure Files is an example of IaaS
+- [x] Yes
+- [ ] No
+#### Q25. a DNS server that runs on Azure VM is an example of PaaS
+- [x] Yes
+- [ ] No
+#### Q25. Microsoft Intune is an example of SaaS
+- [x] Yes
+- [ ] No

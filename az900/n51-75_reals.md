@@ -1,76 +1,158 @@
-##   n0-25_reals
+##   n51-75_reals
 
 
-#### Q1. Your company intends to subscribe to an Azure support plan. The support plan must allow for new support requests to be opened. Which of the following are support plans that will allow this? Answer by dragging the correct option from the list to the answer area.
+#### Q51. In which type of cloud model are all the hardware resources owned by a third-party and shared between multiple tenants?
 
-- [ ] Basic
-- [x] Developer
-- [x] Standard
-- [x] Professional Direct
-- [x] Premier
+- [ ] private
+- [ ] hybrid
+- [x] public
 
-#### Q2. Your company has datacenters in Los Angeles and New York. The company has a Microsoft Azure subscription. You are configuring the two datacenters as geo-clustered sites or site resiliency. You need to recommend an Azure storage redundancy option. You have the following data storage requirements: ✑ Data must be stored on multiple nodes. ✑ Data must be stored on nodes in separate geographic locations. ✑ Data can be read from the secondary location as well as from the primary location Which of the following Azure stored redundancy options should you recommend?
+#### Q2. An Azure web app that queries an on-premises Microsoft SQL server is an example of a ..... cloud. 
 
-- [ ] Geo-redundant storage
-- [x] Read-only geo-redundant storage
-- [ ] Zone-redundant storage
-- [ ] Locally redundant storage
+- [x] hybrid
+- [ ] multi-vendor
+- [ ] private
+- [ ] public
 
-#### Q3. Your companyג€™s Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environmentג€™s design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Professional Direct support plan. Does the solution meet the goal? 60% vs 40%
+#### Q3. You have 1,000 virtual machines hosted on the Hyper-V hosts in a data center.
+You plan to migrate all the virtual machines to an Azure pay-as-you-go subscription.
+You need to identify which expenditure model to use for the planned Azure solution.
+Which expenditure model should you identify?
+
+- [x] operational
+- [ ] elastic
+- [ ] capital
+- [ ] scalable
+
+#### Q4. a cloud service that remains available after a failure occurs
+
+- [ ] Disaster recovery
+- [x] fault tolerance
+- [ ] low latency
+- [ ] dynamic scalability
+
+#### Q4. a cloud service that can be recovered aftre a failure occurs
+
+- [x] Disaster recovery
+- [ ] fault tolerance
+- [ ] low latency
+- [ ] dynamic scalability
+
+#### Q4. a cloud service that performs quickly when demand increases
+
+- [ ] Disaster recovery
+- [ ] fault tolerance
+- [ ] low latency
+- [x] dynamic scalability
+
+#### Q4. a cloud service that can be accesses quickly from the internet
+
+- [ ] Disaster recovery
+- [ ] fault tolerance
+- [x] low latency
+- [ ] dynamic scalability
+
+#### Q5. to implement a hybrid cloud model, a company must have an internam network
+
+- [ ] Yes
+- [x] No
+
+#### Q5. a company can extend the computing resources of its internal network by using a hybrid cloud
 
 - [x] Yes
 - [ ] No
 
-#### Q4. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Software as a Service (SaaS). Does the solution meet the goal?
+#### Q5. in a public cloud model, only guest users at your company can access the resources in the cloud
 
 - [ ] Yes
 - [x] No
 
 
-#### Q5. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Platform as a Service (PaaS). Does the solution meet the goal?
-
+#### Q6. a platform as a service (PaaS) solution provides full control of operating systems that host applications. 
 - [ ] Yes
 - [x] No
 
-#### Q6. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Infrastructure as a Service (IaaS). Does the solution meet the goal?
+#### Q6. a platform as a service (PaaS) solution provides additional memory to apps by changing pricing tiers. 
+- [ ] Yes
+- [x] No
+
+
+#### Q6. a platform as a service (PaaS) solution can automatically scale the number of instances. 
 - [x] Yes
 - [ ] No
 
-#### Q7. Your developers have created 10 web applications that must be host on Azure. You need to determine which Azure web tier plan to host the web apps. The web tier plan must meet the following requirements:
-`✑ The web apps will use custom domains.
-`✑ The web apps each require 10 GB of storage.
-`✑ The web apps must each run in dedicated compute instances.
-`✑ Load balancing between instances must be included.
-`✑ Costs must be minimized.
-`Which web tier plan should you use?
 
-- [x] Standard
-- [ ] Basic
-- [ ] Free
-- [ ] Shared
+#### Q7. Your company has an on-premises network that contains multiple servers. The company plans to reduce the following administrative responsibilities:
+`✑ Backing up application data
+`✑ Replacing failed server hardware
+`✑ Managing physical server security
+`✑ Updating server operating systems
+`✑ Managing permissions to shared documents
+`The company plans to migrate servers to Azure virtual machines.
+`You need to identify which administrative responsibilities will be eliminated after the planned migration.
+`Which two responsibilities should you identify? Each correct answer presents a complete solution.
 
-#### Q8. You are planning to migrate a company to Azure. Each of the companyג€™s numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several Azure Active Directory (Azure AD) directories. Does the solution meet the goal?
+- [x] Replacing failed server hardware
+- [ ] Backing up application data
+- [x] Managing physical server security
+- [ ] Updating server operating systems
+- [ ] Managing permissions to shared documents
+
+#### Q8. azure pay-as-you-go pricing is an example of CapEx
+
+- [ ] Yes
+- [x] No
+
+#### Q8. paying electricity for your datacenter is en example of OpEx
 
 - [ ] Yes
 - [x] No
 
-#### Q9. Your developers have created a portal web app for users in the Miami branch office. The web app will be publicly accessible and used by the Miami users to retrieve customer and product information. The web app is currently running in an on-premises test environment. You plan to host the web app on Azure. You need to determine which Azure web tier plan to host the web app. The web tier plan must meet the following requirements:
-`✑ The website will use the miami.weyland.com URL.
-`✑ The website will be deployed to two instances.
-`✑ SSL support must be included.
-`✑ The website requires 12 GB of storage.
-`✑ Costs must be minimized.
-`Which web tier plan should you use?
+#### Q8. deploying your own datacenter is an example of CapEx
 
-- [x] Standard
-- [ ] Basic
-- [ ] Free
-- [ ] Shared
+- [x] Yes
+- [ ] No
 
-#### Q10. Your company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently hosted on the Hyper-V hosts in a data center. You are required make sure that the intended Azure solution uses the correct expenditure model. Solution: You should recommend the use of the elastic expenditure model. Does the solution meet the goal?
+#### Q9. You plan to provision Infrastructure as a Service (IaaS) resources in Azure.
+Which resource is an example of IaaS?
 
-- [ ] Yes
-- [x] No
+- [ ] an Azure web app
+- [x] an Azure virtual machine
+- [ ] an Azure logic app
+- [ ] an Azure SQL database
+
+#### Q10. To which cloud models can you deploy physical servers?
+
+- [x] private cloud and hybrid cloud only
+- [ ] private cloud only
+- [ ] private cloud, hybrid cloud and public cloud
+- [ ] hybrid cloud only
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////
 
 #### Q11. Your company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently hosted on the Hyper-V hosts in a data center. You are required make sure that the intended Azure solution uses the correct expenditure model. Solution: You should recommend the use of the scalable expenditure model. Does the solution meet the goal?
 

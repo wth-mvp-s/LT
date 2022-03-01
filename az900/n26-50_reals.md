@@ -1,36 +1,42 @@
-##   n0-25_reals
+##   n26-50_reals
 
 
-#### Q1. Your company intends to subscribe to an Azure support plan. The support plan must allow for new support requests to be opened. Which of the following are support plans that will allow this? Answer by dragging the correct option from the list to the answer area.
+#### Q1. You have been informed by your superiors of the companyג€™s intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process.
+You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution.
+Solution: You recommend the use of Azure Information Protection.
+Does the solution meet the goal?
 
-- [ ] Basic
-- [x] Developer
-- [x] Standard
-- [x] Professional Direct
-- [x] Premier
+- [ ] Yes
+- [x] No
 
-#### Q2. Your company has datacenters in Los Angeles and New York. The company has a Microsoft Azure subscription. You are configuring the two datacenters as geo-clustered sites or site resiliency. You need to recommend an Azure storage redundancy option. You have the following data storage requirements: ✑ Data must be stored on multiple nodes. ✑ Data must be stored on nodes in separate geographic locations. ✑ Data can be read from the secondary location as well as from the primary location Which of the following Azure stored redundancy options should you recommend?
+#### Q2. You have been informed by your superiors of the companyג€™s intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process.
+You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution.
+Solution: You recommend the use of Azure Multi-Factor Authentication (MFA).
+Does the solution meet the goal?
 
-- [ ] Geo-redundant storage
-- [x] Read-only geo-redundant storage
-- [ ] Zone-redundant storage
-- [ ] Locally redundant storage
+- [ ] Yes
+- [x] No
 
-#### Q3. Your companyג€™s Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environmentג€™s design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Professional Direct support plan. Does the solution meet the goal? 60% vs 40%
+#### Q3. The company would like to develop a cloud solution by making use of Azure Government. Azure Government can only be used by certain types of clients to develop cloud solutions. Which of the following are the types of customers that can make use of Azure Government in this situation? Answer by dragging the correct option from the list to the answer area.
+
+- [ ] A Government contractor from any country
+- [ ] A government entity from any country
+- [ ] A European government contractor
+- [ ] A European government entity
+- [x] A United States government contractor 
+- [x] A United States government entity
+
+#### Q4. Your company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet. You have been tasked with making sure that users who connect to Azure AD via the internet from an unidentified IP address, are automatically encouraged to change passwords. Solution: You configure the use of Azure AD Identity Protection. Does the solution meet the goal?
 
 - [x] Yes
 - [ ] No
 
-#### Q4. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Software as a Service (SaaS). Does the solution meet the goal?
+
+#### Q5. Your company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet. You have been tasked with making sure that users who connect to Azure AD via the internet from an unidentified IP address, are automatically encouraged to change passwords. Solution: You configure the use of Azure AD Privileged Identity Management. Does the solution meet the goal?
 
 - [ ] Yes
 - [x] No
-
-
-#### Q5. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Platform as a Service (PaaS). Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
+#####################
 
 #### Q6. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Infrastructure as a Service (IaaS). Does the solution meet the goal?
 - [x] Yes

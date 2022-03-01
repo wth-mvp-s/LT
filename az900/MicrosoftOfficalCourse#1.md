@@ -46,10 +46,8 @@
 
 #### Q8. Which of the following describes Platform as a Service (PaaS)?
 
-- [ ]  Users are responsible for purchasing, installing, configuring, and managing their own software—oper-
-ating systems, middleware, and applications.
-- [x] Users create and deploy applications quickly without having to worry about managing the underlying
-infrastructure.
+- [ ]  Users are responsible for purchasing, installing, configuring, and managing their own software—oper-ating systems, middleware, and applications.
+- [x] Users create and deploy applications quickly without having to worry about managing the underlying infrastructure.
 - [ ] Users pay an annual or monthly subscription.
 
 #### Q9. You have legacy applications that require specialized mainframe hardware and you have newer shared applications. Which cloud deployment model would be best for you?

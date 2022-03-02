@@ -16,9 +16,7 @@
 - [x] Azure IoT Hub
 - [ ] Azure Notification Hubs
 
-#### Q3. You have an Azure web app.
-You need to manage the settings of the web app from an iPhone.
-What are two Azure management tools that you can use? Each correct answer presents a complete solution.
+#### Q3. You have an Azure web app. You need to manage the settings of the web app from an iPhone. What are two Azure management tools that you can use? Each correct answer presents a complete solution.
 
 - [ ] Azure CLI
 - [x] the Azure portal
@@ -26,8 +24,7 @@ What are two Azure management tools that you can use? Each correct answer presen
 - [ ] Windows PowerShell
 - [ ] Azure Storage Explorer
 
-#### Q4. Your company plans to deploy an Artificial Intelligence (AI) solution in Azure.
-What should the company use to build, test, and deploy predictive analytics solutions?
+#### Q4. Your company plans to deploy an Artificial Intelligence (AI) solution in Azure. What should the company use to build, test, and deploy predictive analytics solutions?
 
 - [ ] Azure Logic Apps
 - [x] Azure Machine Learning Designer
@@ -59,12 +56,12 @@ What should the company use to build, test, and deploy predictive analytics solu
 #### Q4. Provides a cloud-based Enterprise Data Warehouse (EDW)
 
 - [ ] Azure Machine Learning
-- [X] Azure Synapse Analytics
+- [x] Azure Synapse Analytics
 - [ ] Azure IoT Hub
 - [ ] Azure Functions
 #### Q4. Uses past trainings to provide predictions that have high probability
 
-- [X] Azure Machine Learning
+- [x] Azure Machine Learning
 - [ ] Azure Synapse Analytics
 - [ ] Azure IoT Hub
 - [ ] Azure Functions
@@ -73,44 +70,42 @@ What should the company use to build, test, and deploy predictive analytics solu
 - [ ] Azure Machine Learning
 - [ ] Azure Synapse Analytics
 - [ ] Azure IoT Hub
-- [X] Azure Functions
+- [x] Azure Functions
 #### Q4. Processes data from million of sensors
 
 - [ ] Azure Machine Learning
 - [ ] Azure Synapse Analytics
-- [X] Azure IoT Hub
+- [x] Azure IoT Hub
 - [ ] Azure Functions
 
 #### Q4. You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. What are three possible solutions? Each correct answer presents a complete solution.
 
-- [X] Use Bash in Azure Cloud Shell.
-- [X] Use PowerShell in Azure Cloud Shell.
+- [x] Use Bash in Azure Cloud Shell.
+- [x] Use PowerShell in Azure Cloud Shell.
 - [ ] Use the PowerApps portal.
 - [ ] Use the Security & Compliance admin center.
-- [X] Use the Azure portal.
+- [x] Use the Azure portal.
 
-#### Q5. A team of developers at your company plans to deploy, and then remove, 50 virtual machines each week. All the virtual machines are configured by using Azure
-Resource Manager templates.
-You need to recommend which Azure service will minimize the administrative effort required to deploy and remove the virtual machines.
+#### Q5. A team of developers at your company plans to deploy, and then remove, 50 virtual machines each week. All the virtual machines are configured by using Azure Resource Manager templates. You need to recommend which Azure service will minimize the administrative effort required to deploy and remove the virtual machines.
 
 - [ ] Azure Reserved Virtual Machine (VM) Instances
-- [X] Azure DevTest Labs
+- [x] Azure DevTest Labs
 - [ ] Azure virtual machine scale sets
 - [ ] Azure Virtual Desktop
 
 #### Q5. Azure Advisor provides recomendations on how to improve the security of an Azure Active Directory (Azure AD) environment
 
 - [ ] Yes
-- [X] No
+- [x] No
 
 #### Q5. Azure Advisor provides recommendations on hoz to reduce the cost of running Azure Virtual machine
 
-- [X] Yes
+- [x] Yes
 - [ ] No
 
 
 #### Q6. Azure Advisor provides recommendations on how to configure the network settings on Azure VM 
-- [X] Yes
+- [x] Yes
 - [ ] No
 
 

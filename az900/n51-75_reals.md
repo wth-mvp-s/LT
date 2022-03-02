@@ -14,10 +14,7 @@
 - [ ] private
 - [ ] public
 
-#### Q3. You have 1,000 virtual machines hosted on the Hyper-V hosts in a data center.
-You plan to migrate all the virtual machines to an Azure pay-as-you-go subscription.
-You need to identify which expenditure model to use for the planned Azure solution.
-Which expenditure model should you identify?
+#### Q3. You have 1,000 virtual machines hosted on the Hyper-V hosts in a data center. You plan to migrate all the virtual machines to an Azure pay-as-you-go subscription. You need to identify which expenditure model to use for the planned Azure solution. Which expenditure model should you identify?
 
 - [x] operational
 - [ ] elastic
@@ -150,9 +147,7 @@ Which resource is an example of IaaS?
 
 
 
-
-
-////////////////////////////////////////////////////////////////
+ 
 
 #### Q11. no required capital expenditure
 

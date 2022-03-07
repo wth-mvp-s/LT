@@ -158,9 +158,147 @@
 
 
 
-ostatnie 210
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Q211. You can create Group Policies in Azure Active Directory (Azure AD) 
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q211. You can join Windows 10 devices to Azure Active Direcotry (Azure AD)
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q211. You can join Android  devices to Azure Active Directory (Azure AD) 
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q210. The ..... explains what data Microsoft processes, how Microsoft processes the data and the purpose of processing the data 
+
+- [ ] Microsoft Online Services Privacy Statement
+- [ ] Microsoft Product Terms
+- [x] Microsoft Online Service Level Agreement
+- [ ] Online Subscription Agreement for Microsoft Azure
+
+#### Q210. .... is the process of veryfying a user's credentials.
+
+- [ ] Authorisation
+- [ ] Authentication
+- [x] Federation
+- [ ] Ticketing
+
+#### Q210. An Azure Policy initiative definition is a
+
+- [ ] collection of policy definitions
+- [ ] collection of Azure Policy definition assignements
+- [x] group of Azure Blueprints definitions
+- [ ] group of role-based access control (RBAC) role assignements
+
+#### Q210. ..... provide organisations with the ability to manage the compliance of Azure resources across multiple subscriptions
+
+- [ ] Resource groups
+- [ ] Management groups
+- [x] Azure policies
+- [ ] Azure App Service plans
+
+#### Q210. General Data Protection Regulation (GDPR) defines data protection and privacy rules
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q210. General Data Protection Regulation (GDPR) applies to companies that offer goods or services to individuals in EU. 
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q210. Azure can be used to build a General Data Protection Regulation (GDPR)- compliant infrastructure. 
+
+- [ ] Yes
+- [ ] No
+
+#### Q217. You can add an Azure Resource Manager template to an Azure blueprint
+
+- [ ] Yes
+- [ ] No
+
+#### Q210. You can assign an Azure blueprint to a resource group
+
+- [ ] Yes
+- [ ] No
+
+#### Q210. You can use Azure Blueprints to grant permissions to a resource. 
+
+- [ ] Yes
+- [ ] No
+
+
+
+#### Q218. Azure China is operated by Microsoft
+
+- [ ] Yes
+- [ ] No
+
+#### Q210. Azure Government is operated by Microsoft
+
+- [ ] Yes
+- [ ] No
+
+#### Q210. Azure Government is available only to US government agencies and their partners. 
+
+- [ ] Yes
+- [ ] No
+
+
+
+
+
+#### Q219. An Azure resource can have miltiple Delete locks
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q219. An Azure resource inherits locks from its resource group
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q219. If an Azure resource has a Read-only lock, you can add a Delete lock to the resource. 
+
+- [ ] Yes
+- [ ] No
+
+#### Q220. Your company plans to migrate all on-premises data to Azure. You need to identify whether Azure complies with the companyג€™s regional requirements. What should you use?
+
+- [ ] the Knowledge Center
+B. Azure Marketplace
+C. the MyApps portal
+D. the Trust Center

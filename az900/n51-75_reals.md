@@ -70,8 +70,8 @@
 - [x] No
 
 #### Q6. a platform as a service (PaaS) solution provides additional memory to apps by changing pricing tiers. 
-- [ ] Yes
-- [x] No
+- [x] Yes
+- [ ] No
 
 
 #### Q6. a platform as a service (PaaS) solution can automatically scale the number of instances. 

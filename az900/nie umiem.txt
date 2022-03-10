@@ -1,0 +1,120 @@
+. An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Which three computers can run the script? Each correct answer presents a complete solution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You are planning to migrate a company to Azure. Each of the companyג€™s numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several Azure Active Directory (Azure AD) directories. Does the solution meet the goal?
+
+I think the key word is SEVERAL. Why in the world a company will create SEVERAL AADs when it can create a single AAD and organize its divisions right there?
+
+
+
+
+
+
+
+
+reread eventually:
+
+azure synapse analytics = Warehouse
+Azure HDInsight = HaDoop
+
+Box 2: Yes -
+Usage scenarios for the hot access tier include:
+✑ Data that is in active use or is expected to be read from and written to frequently
+✑ Data that is staged for processing and eventual migration to the cool access tier
+
+Box 3: No -
+Usage scenarios for the cool access tier include:
+Short-term backup and disaster recovery
+
+✑ Older data not used frequently but expected to be available immediately when accessed
+✑ Large data sets that need to be stored cost effectively, while more data is being gathered for future processing
+. Azure PowerShell modules can be installed on macOS. 
+
+ Browse available virtual machine images
+
+....... is an Azure Spark-based analytics service. Azure Databricks ✅
+. A big data analysis service for machine learning  Azure Databricks ✅
+
+. An open-source framework for the distributed processing and analysis of big data sets in clusters
+
+Azure Data Lake Analytics ❌
+
+
+wrong 
+. You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. Solution: You use PowerShell in Azure Cloud Shell. 
+
+. An open-source framework for the distributed processing and analysis of big data sets in clusters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ . If you have Azure resource deployed to every region, you can implement availability zones in all the regions =>
+Not all Azure regions support availability zones.
+
+Windows Virtual Desktop supports desktop and app virtualization. - Via RemoteApps 
+
+Azure storage offers different access tiers: hot, cool and archive.
+The archive access tier has the lowest storage cost. But it has higher data retrieval costs compared to the hot and cool tiers. Data in the archive tier can take several hours to retrieve.
+While a blob is in archive storage, the blob data is offline and can't be read, overwritten, or modified. To read or download a blob in archive, you must first rehydrate it to an online tier.
+Example usage scenarios for the archive access tier include:
+✑ Long-term backup, secondary backup, and archival datasets
+✑ Original (raw) data that must be preserved, even after it has been processed into final usable form.
+✑ Compliance and archival data that needs to be stored for a long time and is hardly ever accessed.
+Reference:
+
+
+Box 1: Yes -
+There are different replication options available with a storage account. The ג€˜minimumג€™ replication option is Locally Redundant Storage (LRS). With LRS, data is replicated synchronously three times within the primary region.
+
+Box 2: No -
+Data is not backed up automatically to another Azure Data Center although it can be depending on the replication option configured for the account. Locally
+Redundant Storage (LRS) is the default which maintains three copies of the data in the data center.
+Geo-redundant storage (GRS) has cross-regional replication to protect against regional outages. Data is replicated synchronously three times in the primary region, then replicated asynchronously to the secondary region.
+
+Box 3: No -
+The limits are much higher than that. The current storage limit is 2 PB for US and Europe, and 500 TB for all other regions (including the UK) with no limit on the number of files.
+
+
+
+. To use Azure Active Direcotry (Azure AD) credentials to sign in to a computer that runs Windows 10, the computer must be joined to Azure AD
+
+=> Registered can log in but not using AD credentials ,
+
+
+. A Windows Virtual DEsktop host pool that includes 20 session hosts supports a maximum of 20 simultaneous user connections. 
+
+=> For Max session limit, enter the maximum number of users you want load-balanced to a single session host.  

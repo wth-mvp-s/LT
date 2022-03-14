@@ -1,3 +1,109 @@
+126
+
+
+
+0-25
+Your company intends to subscribe to an Azure support plan. The support plan must allow for new support requests to be opened. Which of the following are support plans that will allow this? Answer by dragging the correct option from the list to the answer area.
+
+
+Your company intends to subscribe to an Azure support plan. The support plan must allow for new support requests to be opened. Which of the following are support plans that will allow this? Answer by dragging the correct option from the list to the answer area.
+
+
+
+
+
+
+
+
+196
+. ..... provide organisations with the ability to manage the compliance of Azure resources across multiple subscriptions => Azure policies
+Question is about "manage the COMPLIANCE of Azure RESOURCES", so Azure Policy is correct.
+
+. You can create Group Policies in Azure Active Directory (Azure AD)  = Yes
+
+
+76
+
+
+151 
+ An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Solution: Run the script from a computer that runs Windows 10 and has the Azure PowerShell module installed.
+
+171
+You can use Azure Cost Management to view costs associates to ressource groups. 
+
+You can use Azure Cost Management to view costs associates to management groups. NO
+
+
+
+
+
+
+
+
+76
+Resource groups provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions.
+=> management group 
+
+
+ Each Azure subscription can be managed by using a Microsoft account only 
+=> no 
+You need an Azure Active Directory account to manage a subscription, not a Microsoft account.
+
+ When you need to delegate permissions to several Azure virtual machines simultaneously, you must deploy the Azure virtual machine
+=> to the same resource group 👈
+ The permissions you apply to the resource group apply to all resources contained in the resource group.
+
+ An Azure subscription can be associated to multiple Azure Active Directory (Azure AD) tenants 
+=> no
+An Azure AD tenant can have multiple subscriptions but an Azure subscription can only be associated with one Azure AD tenant.
+
+
+a virtual network gateway ☑ connecting your workloads in Azure Virtual Network to your on premises sites.
+a gateway subnet 👈 you specify when configuring your virtual network.
+no 
+an application gateway - enables you to manage traffic to your web applications.
+a virtual network - enables communication between multiple computers, virtual machines (VMs), virtual servers, or other devices across different office and data center locations.
+
+Local network gateways - The local network gateway (LNG) typically refers to your on-premises location. It is not the same as a virtual network gateway. You give the site a name by which Azure can refer to it, then specify the IP address of the on-premises VPN device to which you will create a connection
+
+
+ A single Microsoft account can be used to manage multiple Azure subscription
+=> YES 
+You can use the same account to manage multiple subscriptions. You can create an additional subscription for your account in the Azure portal.
+
+275
+
+. Your company plans to purchase an Azure subscription. The companyג€™s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Professional Direct support plan. => Yes
+The Basic support plan does not have any technical support for engineers.
+The Developer support plan has only technical support for engineers via email.
+The Standard, Professional Direct, and Premier support plans have technical support for engineers via email and phone.
+
+. An Azure service in private preview is released to all Azure customers => no
+ The private preview is only available to certain Azure customers for evaluation purposes.
+
+. An Azure free account can contain an unlimited number of web apps	=> No
+Azure free account has a limit of 10 web, mobile or API apps
+
+
+. The Service Level Agreement (SLA) guaranteed uptime for paid Azure is at least 99,9 percent => Yes 
+SLAג€™s vary based on the resource type and the location distribution of the resource. However, the minimum uptime for all Azure services is 99.9 percent.
+
+
+. You can stop an Azure SQL Database instance to decrease costs. => No
+There is no way to stop SQL Azure Database to avoid billing charges when not in use. The azure virtual machine can be suspended and by doing that you can avoid hourly charges, but you cannot do the same with a SQL Azure Database which is charged hourly per database
+..................
+
+. With a consumtion-based plan, you pay a fixed rate for all data sent to or from virtual machines hosted in the cloud 
+=> Consumption-based price - You are charged for only what you use. This model is also known as the Pay-As-You-Go rate.
+
+
+
+Company can extend an internal network by adding its own physical servers to the public cloud
+=> No => 
+You cannot add physical servers to the public cloud. You can only deploy virtual servers in the public cloud. You can extend a private cloud by deploying virtual servers in a public cloud. This would create a hybrid cloud.
+
+
+
 . An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Which three computers can run the script? Each correct answer presents a complete solution.
 
 

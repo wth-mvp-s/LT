@@ -102,8 +102,8 @@
 
 #### Q8. paying electricity for your datacenter is en example of OpEx
 
-- [ ] Yes
-- [x] No
+- [x] Yes
+- [ ] No
 
 #### Q8. deploying your own datacenter is an example of CapEx
 

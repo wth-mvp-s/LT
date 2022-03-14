@@ -1,3 +1,52 @@
+51
+ Microsoft SQL Server 2019 installed on azure VM is an example of PaaS
+=> No
+
+
+
+
+221@
+
+. To implement an Azure Multi-factor Authentication (MFA) solution, you must sync on-premises identities to the cloud
+=>NO
+It is not true that you must deploy a federation solution or sync on-premises identities to the cloud. You can have a cloud-only environment and use MFA.
+
+. You need to ensure that when Azure Active Directory (Azure AD) users connect to Azure AD from the Internet by using an anonymous IP address, the users are prompted automatically to change their password. Which Azure service should you use?
+=> 
+Azure AD Identity Protection 👈
+
+User accounts in Azure Active Directory can be assigned multiple licenses for different Azure or Microsoft 365 services.
+
+
+
+261
+. Your company plans to purchase an Azure subscription. The companyג€™s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Standard support plan. Does this meet the goal?
+=> Yes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 126
 
 

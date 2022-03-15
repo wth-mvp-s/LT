@@ -1,0 +1,47 @@
+245
+. You can use Azure Policy to apply tags to resources
+=> YES
+
+. A legal agreement that details the obligations between Microsoft 
+and a customer regarding the processing and security of customer data and personal data
+
+. Support from MSDN forums is only provided to companies that have a pay-as-you-go subscription
+=> NO
+
+
+
+
+
+26
+ You are planning a strategy to deploy numerous web servers and database servers to Azure.
+ This strategy should allow for connection types between the web servers and database servers
+ to be controlled. Solution: You include a local network gateway in your strategy.
+NO
+
+ If you create two Azure virtual machines that use the B2S size, each virtual machine will always generate the same monthly costs. 
+NO
+
+Storage Account is PaaS
+
+ To achive a hybrid cloud model, a company must always migrate from a private cloud model
+No
+ Your company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet. You have been tasked with making sure that users who connect to Azure AD via the internet from an unidentified IP address, are automatically encouraged to change passwords. Solution: You configure the use of Azure AD Privileged Identity Management. 
+=> NO
+
+ You are planning a strategy to deploy numerous web servers and database servers to Azure. This strategy should allow for connection types between the web servers and database servers to be controlled. Solution: You include network security groups (NSGs) in your strategy.
+Yes
+ When you are implementing a Software as a Service (SaaS) solution, you are responsible for 
+=> configuring SaaS solution 
+
+
+
+
+100 
+
+. You can use Availability Zones in Azure to protect Azure managed disks from a datacenter failure. 
+Yes
+. You can use Availability Zones in Azure to protect Azure VM from a region failure. 
+=> NO 
+
+ An Azure subscription can be managed by using a Microsoft account only
+=> Yes

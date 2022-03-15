@@ -1,3 +1,7 @@
+76
+ You plan to create an Azure virtual machine. You need to identify which storage service must be used to store the unmanaged data disks of the virtual machine. What should you identify? To answer, select the appropriate service in the answer area.
+
+
 51
  Microsoft SQL Server 2019 installed on azure VM is an example of PaaS
 => No

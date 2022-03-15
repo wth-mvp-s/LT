@@ -288,11 +288,11 @@ Which resource is an example of IaaS?
 - [ ] compute resources
 - [ ] application software
 #### Q25. Azure Files is an example of IaaS
-- [x] Yes
-- [ ] No
+- [ ] Yes
+- [x] No
 #### Q25. a DNS server that runs on Azure VM is an example of PaaS
-- [x] Yes
-- [ ] No
+- [ ] Yes
+- [x] No
 #### Q25. Microsoft Intune is an example of SaaS
 - [x] Yes
 - [ ] No

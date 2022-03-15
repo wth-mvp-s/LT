@@ -1,5 +1,48 @@
-##   nErr_02_reals76-
+##   nErr_02_reals76-196-151
 
+
+#### Q211. You can create Group Policies in Azure Active Directory (Azure AD) 
+
+- [x] Yes
+- [ ] No
+
+
+#### Q211. You can join Windows 10 devices to Azure Active Direcotry (Azure AD)
+
+- [x] Yes
+- [ ] No
+
+
+#### Q211. You can join Android  devices to Azure Active Directory (Azure AD) 
+
+- [ ] Yes
+- [x] No
+
+
+#### Q210. This question requires that you evaluate the underlined text to determine if it is correct.
+`From Azure Cloud Shell, you can track your companyג€™s regulatory standards and regulations, such as ISO 27001.
+
+- [ ] No change is needed.
+- [ ] the Microsoft Cloud Partner Portal
+- [ ] Compliance Manager
+- [x] the Trust Center
+d
+#### Q199. Azure Firewall will encrypt all the network traffic sent from Azure to the internet
+
+- [ ] Yes
+- [x] No
+
+#### Q11. A network security group (NSG) will encrypt all the network traffic sent from Azure to the internet
+
+- [ ] Yes
+- [x] No
+
+
+
+#### Q217. You can add an Azure Resource Manager template to an Azure blueprint
+
+- [x] Yes
+- [ ] No
 
 #### Q93. A single Microsoft account can be used to manage multiple Azure subscription
 
@@ -25,3 +68,17 @@
 - [ ] an application gateway
 - [ ] a virtual network
 - [x] a gateway subnet
+
+#### Q8. which Azure management tools can be used on macOS
+
+- [ ] Azure CLI and Azure Portal
+- [ ] Azure Portal and Azure PowerShell
+- [ ] Azure CLI and Azure PowerShell
+- [x] Azure CLI, Azure Portal and Azure Power Shell
+
+#### Q8. which Azure management tools can be used on ubuntu
+
+- [ ] Azure CLI and Azure Portal
+- [ ] Azure Portal and Azure PowerShell
+- [ ] Azure CLI and Azure PowerShell
+- [x] Azure CLI, Azure Portal and Azure Power Shell

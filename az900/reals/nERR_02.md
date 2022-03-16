@@ -1,4 +1,4 @@
-##   nErr_02_reals76-196-151
+##   nErr_02_reals76-196-151-100
 
 
 #### Q211. You can create Group Policies in Azure Active Directory (Azure AD) 
@@ -61,6 +61,30 @@ d
 - [x] No
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### Q95. You have an Azure environment that contains multiple Azure virtual machines. You plan to implement a solution that enables the client computers on your on-premises network to communicate to the Azure virtual machines. You need to recommend which Azure resources must be created for the planned solution. Which two Azure resources should you include in the recommendation? Each correct answer presents part of the solution.
 
 - [x] a virtual network gateway
@@ -82,3 +106,33 @@ d
 - [ ] Azure Portal and Azure PowerShell
 - [ ] Azure CLI and Azure PowerShell
 - [x] Azure CLI, Azure Portal and Azure Power Shell
+
+
+#### Q32. You are planning a strategy to deploy numerous web servers and database servers to Azure. This strategy should allow for connection types between the web servers and database servers to be controlled. Solution: You include a local network gateway in your strategy.
+
+- [ ] Yes
+- [x] No
+
+#### Q48. To achive a hybrid cloud model, a company must always migrate from a private cloud model
+
+- [ ] Yes
+- [x] No
+
+
+#### Q30. Your company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet. You have been tasked with making sure that users who connect to Azure AD via the internet from an unidentified IP address, are automatically encouraged to change passwords. Solution: You configure the use of Azure AD Privileged Identity Management. 
+
+- [ ] Yes
+- [x] No
+
+
+#### Q110 . Availability zones are used to replicate data and applications to multiple regions. 
+
+- [ ] Yes
+- [x] No
+
+#### Q117. You can use Availability Zones in Azure to protect Azure VM from a region failure. 
+
+- [ ] Yes
+- [x] No
+
+

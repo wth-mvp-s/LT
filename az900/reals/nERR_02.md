@@ -1,4 +1,70 @@
-##   nErr_02_reals76-196-151-100
+##   nErr_02_reals76-196-151-100-51
+
+
+
+
+
+#### Q25. Microsoft SQL Server 2019 installed on azure VM is an example of PaaS
+- [ ] Yes
+- [x] No
+
+#### Q25. Azure Files is an example of IaaS
+- [ ] Yes
+- [x] No
+
+#### Q25. a DNS server that runs on Azure VM is an example of PaaS
+- [ ] Yes
+- [x] No
+
+#### Q265. The Azure Standard support plan is the lowest cost option to receive 24x7 access to support engineers by phone.
+
+- [x] No change is needed
+- [ ] Developer
+- [ ] Basic
+- [ ] Professional Direct
+
+
+#### Q11. What should you use to evaluate whether your companyג€™s Azure environment meets regulatory requirements?
+
+- [ ] Azure Service Health
+- [ ] Azure Knowledge Center
+- [x] Azure Security Center
+- [ ] Azure Advisor
+
+#### Q240. What should you use to evaluate whether your companyג€™s Azure environment meets regulatory requirements?
+
+- [ ] the Knowledge Center website
+- [ ] the Advisor blade from the Azure portal
+- [x] Compliance Manager from the Service Trust Portal
+- [ ] the Solutions blade from the Azure portal
+
+
+#### Q235. You can configure tha Azure Active Directory (Azure AD) activity logs to appear in Azure Monitor
+- [x] Yes
+- [ ] No
+
+
+
+#### Q228. Each user account in Azure Active Direcotry (Azure AD) can be assigned only one license. 
+
+- [ ] Yes
+- [x] No
+
+
+#### Q231. You need to ensure that when Azure Active Directory (Azure AD) users connect to Azure AD from the Internet by using an anonymous IP address, the users are prompted automatically to change their password. Which Azure service should you use?
+
+- [ ] Azure AD Connect Health
+- [ ] Azure AD Privileged Identity Management
+- [ ] Azure Advanced Threat Protection (ATP)
+- [x] Azure AD Identity Protection
+
+
+#### Q233. To what should an application connect to retrieve security tokens?
+
+- [ ] an Azure Storage account
+- [x] Azure Active Directory (Azure AD)
+- [ ] a certificate store
+- [ ] an Azure key vault
 
 
 #### Q211. You can create Group Policies in Azure Active Directory (Azure AD) 

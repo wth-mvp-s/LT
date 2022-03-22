@@ -89,3 +89,14 @@
 - [ ] Azure Information Protection
 - [ ] Azure Cognitive Services
 
+#### Q1. How can Tailwind Traders enforce having only certain applications run on its VMs?
+
+- [ ] Connect your VMs to Azure Sentinel.
+- [x] Create an application control rule in Azure Security Center.
+- [ ] Periodically run a script that lists the running processes on each VM. The IT manager can then shut down any applications that shouldn't be running.
+
+#### Q1. What's the new composite SLA? Remember, the new SLA includes a third virtual machine and Azure Maps.
+
+- [x] 99.58 percent
+- [ ] 99.78 percent
+- [ ] 99.99 percent

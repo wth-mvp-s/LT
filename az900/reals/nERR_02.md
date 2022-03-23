@@ -127,6 +127,11 @@ d
 - [x] No
 
 
+#### Q18. An Azure subscription can be managed by using a Microsoft account only
+
+- [ ] Yes
+- [x] No
+
 
 
 

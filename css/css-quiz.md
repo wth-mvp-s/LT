@@ -21,6 +21,10 @@ div a
 - [ ] a.title {...}
 - [ ] a=title {...}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//<<<<<<<<<<< done >>>>>>>>>>>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #### Q3. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or if you need to support older browser version. What are two valid techniques used to clear floats?
 
 - [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.

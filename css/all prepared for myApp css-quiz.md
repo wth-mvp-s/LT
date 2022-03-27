@@ -726,28 +726,28 @@
 
 #### Q52. In this example, what color will Paragraph 1 be?
 
-```css
-p:first-of-type {
-  color: red;
-}
-p {
-  color: blue;
-}
-.container {
-  color: yellow;
-}
-p:first-child {
-  color: green;
-}
-```
-
-```html
-<div class="container">
-  <h1>Heading</h1>
-  <p>Paragraph1</p>
-  <p>Paragraph2</p>
-</div>
-```
+````css
+`p:first-of-type {
+`  color: red;
+`}
+`p {
+`  color: blue;
+`}
+`.container {
+`  color: yellow;
+`}
+`p:first-child {
+`  color: green;
+`}
+````
+`
+````html
+`<div class="container">
+`  <h1>Heading</h1>
+`  <p>Paragraph1</p>
+`  <p>Paragraph2</p>
+`</div>
+````
 
 - [ ] blue
 - [ ] green
@@ -785,29 +785,29 @@ p:first-child {
 #### Q57. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
 
 - [x]
-  ```markdown
-  1. Larger z-index values appear on top elements with a lower z-index value.
-  2. Negative and positive number can be used.
-  3. z-index can be used only on positioned elements.
-  ```
+`  ```markdown
+`  1. Larger z-index values appear on top elements with a lower z-index value.
+`  2. Negative and positive number can be used.
+`  3. z-index can be used only on positioned elements.
+`  ```
 - [ ]
-  ```markdown
-  1. Smaller z-index values appear on top of elements with a larger z-index value.
-  2. Negative and positive numbers can be used.
-  3. z-index can be used with or without positioned elements.
-  ```
+`  ```markdown
+`  1. Smaller z-index values appear on top of elements with a larger z-index value.
+`  2. Negative and positive numbers can be used.
+`  3. z-index can be used with or without positioned elements.
+`  ```
 - [ ]
-  ```markdown
-  1. Smaller z-index values appear on top of elements with a larger z-index value.
-  2. Negative and positive number can be used.
-  3. z-index must also be used with positioned elements.
-  ```
+`  ```markdown
+`  1. Smaller z-index values appear on top of elements with a larger z-index value.
+`  2. Negative and positive number can be used.
+`  3. z-index must also be used with positioned elements.
+`  ```
 - [ ]
-  ```markdown
-  1. Larger z-index values appear on top of elements with a lower z-index value.
-  2. Only positive number can be used.
-  3. z-index must also be used with positioned elements.
-  ```
+`  ```markdown
+`  1. Larger z-index values appear on top of elements with a lower z-index value.
+`  2. Only positive number can be used.
+`  3. z-index must also be used with positioned elements.
+`  ```
 
 Note: an alternative for Q13.
 
@@ -856,9 +856,9 @@ Note: an alternative for Q13.
 #### Q64. Are any of the following declarations invalid?
 
 ```css
-color: red; /* declaration A */
-font-size: 1em; /* declaration B */
-padding: 10px 0; /* declaration C */
+`color: red; /* declaration A */
+`font-size: 1em; /* declaration B */
+`padding: 10px 0; /* declaration C */
 ```
 
 - [ ] Declaration A is invalid.
@@ -870,39 +870,39 @@ padding: 10px 0; /* declaration C */
 
 - [x]
   ```css
-  a:link {
-    background: #0000ff;
-  }
-  a:hover {
-    background: rgba(0, 0, 255, 0.5);
-  }
+  `a:link {
+  `  background: #0000ff;
+  `}
+  `a:hover {
+  `  background: rgba(0, 0, 255, 0.5);
+  `}
   ```
 - [ ]
   ```css
-  a {
-    color: blue;
-  }
-  a:hover {
-    background: white;
-  }
+  `a {
+  `  color: blue;
+  `}
+  `a:hover {
+  `  background: white;
+  `}
   ```
 - [ ]
   ```css
-  a:link {
-    background: blue;
-  }
-  a:hover {
-    color: rgba(0, 0, 255, 0.5);
-  }
+  `a:link {
+  `  background: blue;
+  `}
+  `a:hover {
+  `  color: rgba(0, 0, 255, 0.5);
+  `}
   ```
 - [ ]
   ```css
-  a:hover {
-    background: rgba(blue, 50%);
-  }
-  a:link {
-    background: rgba(blue);
-  }
+  `a:hover {
+  `  background: rgba(blue, 50%);
+  `}
+  `a:link {
+  `  background: rgba(blue);
+  `}
   ```
 
 #### Q66. Which CSS rule takes precedence over the others listed?
@@ -915,13 +915,13 @@ padding: 10px 0; /* declaration C */
 #### Q67. The body of your page includes some HTML sections. How will it look with the following CSS applied?
 
 ```css
-body {
-  background: #ffffff; /* white */
-}
-section {
-  background: #0000ff; /* blue */
-  height: 200px;
-}
+`body {
+`  background: #ffffff; /* white */
+`}
+`section {
+`  background: #0000ff; /* blue */
+`  height: 200px;
+`}
 ```
 
 - [x] blue sections on a white background
@@ -967,9 +967,9 @@ section {
 #### Q73. In the following CSS code, `'h1'` is the `___`, while `'color'` is the `___`.
 
 ```css
-h1 {
-  color: red;
-}
+`h1 {
+`  color: red;
+`}
 ```
 
 - [ ] property; declaration
@@ -980,7 +980,7 @@ h1 {
 #### Q74. What is an alternate way to define the following CSS rule?
 
 ```css
-font-weight: bold;
+`font-weight: bold;
 ```
 
 - [ ] font-weight: 400;
@@ -994,6 +994,60 @@ font-weight: bold;
 - [ ] Generic fonts are discouraged from this list.
 - [x] It should be the last one on the list.
 - [ ] It should be the second one on the list.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Q76. What is one disadvantage of using a web font service?
 
@@ -1011,27 +1065,27 @@ font-weight: bold;
 
 #### Q78. Using the following HTML and CSS example, what will equivalent pixel value be for .em and .rem elements?
 
-```css
-html {
-  font-size: 10px;
-}
-body {
-  font-size: 2rem;
-}
-.rem {
-  font-size: 1.5rem;
-}
-.em {
-  font-size: 2em;
-}
-```
-
-```html
-<body>
-  <p class="rem"></p>
-  <p class="em"></p>
-</body>
-```
+````css
+`html {
+`  font-size: 10px;
+`}
+`body {
+`  font-size: 2rem;
+`}
+`.rem {
+`  font-size: 1.5rem;
+`}
+`.em {
+`  font-size: 2em;
+`}
+````
+`
+````html
+`<body>
+`  <p class="rem"></p>
+`  <p class="em"></p>
+`</body>
+````
 
 - [ ] The .rem will be equivalent to 25px; the .em value will be 20px.
 - [ ] The .rem will be equivalent to 15px; the .em value will be 20px.
@@ -1055,7 +1109,7 @@ body {
 #### Q81. What is the effect of this style?
 
 ```css
-background-position: 10% 50%;
+`background-position: 10% 50%;
 ```
 
 - [x] The background image is placed 10% from the left and 50% from the top of its container
@@ -1066,7 +1120,7 @@ background-position: 10% 50%;
 #### Q82. How will the grid items display?
 
 ```css
-grid-template-columns: 2fr 1fr;
+`grid-template-columns: 2fr 1fr;
 ```
 
 - [ ] The first column is twice the height of the second column and will be as wide as the content
@@ -1077,7 +1131,7 @@ grid-template-columns: 2fr 1fr;
 #### Q83. Which style rule would make the image 50% smaller during a hover?
 
 ```html
-<img id="photo" alt="" src="..." />
+`<img id="photo" alt="" src="..." />
 ```
 
 - [ ] img#photo:hover {scale: 0.5;}
@@ -1088,10 +1142,10 @@ grid-template-columns: 2fr 1fr;
 #### Q84. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element?
 
 ```css
-A. border-radius: 10px 10px 0 0;
-B. border-top-left-radius: 10px; and border-top-right-radius: 10px;
-C. border-radius: 10px 0;
-D. border-top-radius: 10px;
+`A. border-radius: 10px 10px 0 0;
+`B. border-top-left-radius: 10px; and border-top-right-radius: 10px;
+`C. border-radius: 10px 0;
+`D. border-top-radius: 10px;
 ```
 
 - [ ] A and C
@@ -1102,71 +1156,71 @@ D. border-top-radius: 10px;
 #### Q85. Review the HTML example below. Then choose the list of selectors that select the \<p>, from lowest to highest specificity.
 
 ```html
-<section>
-  <p class="example">...</p>
-</section>
+`<section>
+`  <p class="example">...</p>
+`</section>
 ```
 
 - [ ]
-  ```css
-  1. section \* {
-    ...;
-  }
-  2. [class*='example'] {
-    ...;
-  }
-  3. p.example {
-    ...;
-  }
-  4. section p {
-    ...;
-  }
-  ```
+`  ```css
+`  1. section \* {
+`    ...;
+`  }
+`  2. [class*='example'] {
+`    ...;
+`  }
+`  3. p.example {
+`    ...;
+`  }
+`  4. section p {
+`    ...;
+`  }
+`  ```
 - [ ]
-  ```css
-  1. p {
-    ...;
-  }
-  2. p.example {
-    ...;
-  }
-  3. section p {
-    ...;
-  }
-  4. [class*='example'] {
-    ...;
-  }
-  ```
+`  ```css
+`  1. p {
+`    ...;
+`  }
+`  2. p.example {
+`    ...;
+`  }
+`  3. section p {
+`    ...;
+`  }
+`  4. [class*='example'] {
+`    ...;
+`  }
+`  ```
 - [ ]
-  ```css
-  1. p.example {
-    ...;
-  }
-  2. section p {
-    ...;
-  }
-  3. [class*='example'] {
-    ...;
-  }
-  4. section \* {
-    ...;
-  }
-  ```
+`  ```css
+`  1. p.example {
+`    ...;
+`  }
+`  2. section p {
+`    ...;
+`  }
+`  3. [class*='example'] {
+`    ...;
+`  }
+`  4. section \* {
+`    ...;
+`  }
+`  ```
 - [x]
-  ```css
-  1. p {
-    ...;
-  }
-  2. section p {
-    ...;
-  }
-  3. [class*='example'] {
-    ...;
-  }
-  4. p.example {
-    ...;
-  }
-  ```
+`  ```css
+`  1. p {
+`    ...;
+`  }
+`  2. section p {
+`    ...;
+`  }
+`  3. [class*='example'] {
+`    ...;
+`  }
+`  4. p.example {
+`    ...;
+`  }
+`  ```
 
 #### Q86. Which property is used to create a drop shadow effect on an HTML element?
 
@@ -1182,12 +1236,6 @@ D. border-top-radius: 10px;
 - [ ] `input[type*="text"]:not([disabled="disabled"]) {...}`
 - [ ] `input[type="text"]:not([type="disabled"]) {...}`
 
-**Explanation:**
-
-`input[type="text"]` selects all the input with type text, and `:not([disabled])` selects all the elements not having the attribute "disabled". Combining both only selects all the input elements with type attribte as "text" and not having "disabled" attribute.`
-
-- [Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
-- [Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
 
 #### Q88. How can you create a semi-transparent background color?
 
@@ -1196,19 +1244,14 @@ D. border-top-radius: 10px;
 - [x] background-color: rgba(0, 0, 0, 0.5);
 - [ ] background-color: rgba(0, 0, 0, 1);
 
-**Explanation:**
-`rgba` is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.
-
-- [Reference link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
-
 #### Q89. Using this HTML markup, how would you select only the headings contained within the `<header>` element? ??
 
 ```html
-<header>
-  <hl>Heading 1</h1>
-  <h2>Heading 2</h2>
-</header>
-<h2>Heading 2</h2>
+`<header>
+`  <hl>Heading 1</h1>
+`  <h2>Heading 2</h2>
+`</header>
+`<h2>Heading 2</h2>
 ```
 
 - [x] `header h1, header h2 {...}`
@@ -1219,13 +1262,13 @@ D. border-top-radius: 10px;
 #### Q90. Suppose you want to have a list of items (.item) displayed in a row and in reverse order using flexbox. What is the error in the CSS below? ?? 
 
 ```css
-.container {
-  display: flex;
-}
-.item {
-  border: 1px solid red;
-  flex-direction: row-reverse;
-}
+`.container {
+`  display: flex;
+`}
+`.item {
+`  border: 1px solid red;
+`  flex-direction: row-reverse;
+`}
 ```
 
 - [ ] The value for flex-direction should be reverse-row.
@@ -1243,22 +1286,22 @@ D. border-top-radius: 10px;
 #### Q92. In this example, what color will the paragraphs be and why?
 
 ```css
-article p {
-  color: blue;
-}
-article > p {
-  color: green;
-}
+`article p {
+`  color: blue;
+`}
+`article > p {
+`  color: green;
+`}
 ```
 
 ```html
-<article>
-  <p>Paragraph 1</p>
-
-  <aside>
-    <p>Paragraph 2</p>
-  </aside>
-</article>
+`<article>
+`  <p>Paragraph 1</p>
+`
+`  <aside>
+`    <p>Paragraph 2</p>
+`  </aside>
+`</article>
 ```
 
 - [ ] Paragraph 1 will be blue. Paragraph 2 will be green.
@@ -1269,33 +1312,33 @@ article > p {
 #### Q93. Review the declaration of border style shown below. What is the corresponding longhand syntax?
 
 ```css
-border: 1px solid red;
+`border: 1px solid red;
 ```
 
 - [ ]
-  ```css
-  border-size: 1px;
-  border-style: solid;
-  border-color: red;
-  ```
+`  ```css
+`  border-size: 1px;
+`  border-style: solid;
+`  border-color: red;
+`  ```
 - [ ]
-  ```css
-  border-size: 1px;
-  border-type: solid;
-  border-color: red;
-  ```
+`  ```css
+`  border-size: 1px;
+`  border-type: solid;
+`  border-color: red;
+`  ```
 - [x]
-  ```css
-  border-width: 1px;
-  border-style: solid;
-  border-color: red;
-  ```
+`  ```css
+`  border-width: 1px;
+`  border-style: solid;
+`  border-color: red;
+`  ```
 - [ ]
-  ```css
-  border-width: 1px;
-  border-line: solid;
-  border-color: red;
-  ```
+`  ```css
+`  border-width: 1px;
+`  border-line: solid;
+`  border-color: red;
+`  ```
 
 #### Q94. Pseudo-classes are used to `_`. ??
 
@@ -1307,17 +1350,17 @@ border: 1px solid red;
 #### Q95. In this example, what styles will be applied to which elements? ?? 
 
 ```css
-section {
-  color: gray;
-}
+`section {
+`  color: gray;
+`}
 ```
 
-<section>
-  <p>paragraph</p>
-  <a href="#">link</a>
-</section>
+`<section>
+`  <p>paragraph</p>
+`  <a href="#">link</a>
+`</section>
 ```
-
+```
 - [ ] The paragraph and link will be gray.
 - [ ] The background color of the section element will be gray.
 - [ ] The paragraph will be gray. The link will be the browser default, black.
@@ -1333,34 +1376,34 @@ section {
 #### Q97. What is the correct order for listing different link states in a website so those states display correctly on the page?
 
 - [ ]
-  ```css
-  a
-  a:hover
-  ```
+```css
+`  a
+`  a:hover
+```
 - [ ]
-  ```css
-  :link
-  :visited
-  :hover
-  :active
-  :focus
-  ```
+```css
+` :link
+` :visited
+` :hover
+` :active
+` :focus
+```
 - [ ]
-  ```css
-  :active
-  :focus
-  :hover
-  :link
-  :visited
-  ```
+```css
+` :active
+` :focus
+` :hover
+`  :link
+` :visited
+```
 - [x]
-  ```css
-  :link
-  :visited
-  :focus
-  :hover
-  :active
-  ```
+```css
+` :link
+` :visited
+` :focus
+`:hover
+`:active
+````
 
 #### Q98. Which selector is used to select the paragraph element that is a direct descendent of section?
 
@@ -1369,30 +1412,28 @@ section {
 - [ ] `section ~ p`
 - [x] `section > p`
 
-Reference: [Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
-
 #### Q99. For this code, what is the font color of the hypertext link? ?? 
 
 ```css
-ul {
-  --color: red;
-}
-p {
-  color: var(--color);
-}
-a {
-  color: var(--color, orange);
-}
+`ul {
+`  --color: red;
+`}
+`p {
+`  color: var(--color);
+`}
+`a {
+`  color: var(--color, orange);
+`}
 ```
 
 ```html
-<p>Paragraph</p>
-<ul>
-  <li>
-    <a href="#">list item a link </a>
-  </li>
-  <li>list item</li>
-</ul>
+`<p>Paragraph</p>
+`<ul>
+`  <li>
+`    <a href="#">list item a link </a>
+`  </li>
+`  <li>list item</li>
+`</ul>
 ```
 
 - [x] red
@@ -1400,17 +1441,12 @@ a {
 - [ ] blue
 - [ ] black
 
-  [Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)
-
 #### Q100. Which statement is not true?
 
 - [ ] Specificity determines which CSS rule is applied by the browsers.
 - [x] When two selectors apply to the same element, the one with lower specificity wins.
 - [ ] The last rule defined overrides all previous rules and even conflicting rules.
 - [ ] Rules with more specific selectors have greater specificity.
-
-  [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
-
 
 
 

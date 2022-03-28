@@ -69,32 +69,212 @@
 
 
 
-#### Q5. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Platform as a Service (PaaS). Does the solution meet the goal?
+#### Q5. Transcribing audio files is an example of ...... analytics. 
+- [x] cognitive
+- [ ] descriptive
+- [ ] predictive
+- [ ] prescriptive
 
-- [ ] Yes
-- [x] No
+#### Q6. .... Why did sales increase last month? 
+- [ ] Cognitive
+- [x] Diagnostic
+- [ ] Descriptive
+- [ ] Predictive
+- [ ] Prescriptive
 
-#### Q6. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Infrastructure as a Service (IaaS). Does the solution meet the goal?
-- [x] Yes
-- [ ] No
 
-#### Q7. Your developers have created 10 web applications that must be host on Azure. You need to determine which Azure web tier plan to host the web apps. The web tier plan must meet the following requirements:
-`✑ The web apps will use custom domains.
-`✑ The web apps each require 10 GB of storage.
-`✑ The web apps must each run in dedicated compute instances.
-`✑ Load balancing between instances must be included.
-`✑ Costs must be minimized.
-`Which web tier plan should you use?
+#### Q6. .... How do I allocate my budget to buy diffirent inventory items? 
+- [ ] Cognitive
+- [ ] Diagnostic
+- [ ] Descriptive
+- [ ] Predictive
+- [x] Prescriptive
 
-- [x] Standard
-- [ ] Basic
-- [ ] Free
-- [ ] Shared
+#### Q6. .... Which people are mentioned in a company's business documents? 
+- [ ] Cognitive
+- [ ] Diagnostic
+- [x] Descriptive
+- [ ] Predictive
+- [ ] Prescriptive
 
-#### Q8. You are planning to migrate a company to Azure. Each of the companyג€™s numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of SEVERAL Azure Active Directory (Azure AD) directories. Does the solution meet the goal?
+#### Q7. You have the following JSON document.
+`"customer" : {
+`    "first name" : "Ben",
+`    "last name" : "Smith", 
+`    "address" : {
+`        "line1" : "161 Azure Ln",
+`        "line2" : "Palo Alto",
+`        "Zip code" : "54762"
+`    }, 
+`    "social media" : [
+`        {
+`            "service" : "twitter", 
+`            "handle" : "@bensmith"
+`        },
+`        {
+`            "service" : "LinkedIn", 
+`            "handle" : "bensmith"
+`        }
+`    ],
+`    "phone numbers" : [
+`        {
+`        "type" : "mobile", 
+`        "number" : "555-555-555"
+`        }
+`    ]
+`}
+`
+`Customer is 
 
-- [ ] Yes
-- [x] No
+- [ ] a nasted array
+- [ ] a nasted object
+- [x] a root object
+
+#### Q7. You have the following JSON document.
+`"customer" : {
+`    "first name" : "Ben",
+`    "last name" : "Smith", 
+`    "address" : {
+`        "line1" : "161 Azure Ln",
+`        "line2" : "Palo Alto",
+`        "Zip code" : "54762"
+`    }, 
+`    "social media" : [
+`        {
+`            "service" : "twitter", 
+`            "handle" : "@bensmith"
+`        },
+`        {
+`            "service" : "LinkedIn", 
+`            "handle" : "bensmith"
+`        }
+`    ],
+`    "phone numbers" : [
+`        {
+`        "type" : "mobile", 
+`        "number" : "555-555-555"
+`        }
+`    ]
+`}
+`
+`Address is 
+
+- [ ] a nasted array
+- [x] a nasted object
+- [ ] a root object
+
+#### Q7. You have the following JSON document.
+`"customer" : {
+`    "first name" : "Ben",
+`    "last name" : "Smith", 
+`    "address" : {
+`        "line1" : "161 Azure Ln",
+`        "line2" : "Palo Alto",
+`        "Zip code" : "54762"
+`    }, 
+`    "social media" : [
+`        {
+`            "service" : "twitter", 
+`            "handle" : "@bensmith"
+`        },
+`        {
+`            "service" : "LinkedIn", 
+`            "handle" : "bensmith"
+`        }
+`    ],
+`    "phone numbers" : [
+`        {
+`        "type" : "mobile", 
+`        "number" : "555-555-555"
+`        }
+`    ]
+`}
+`
+`Social media is 
+
+- [x] a nasted array
+- [ ] a nasted object
+- [ ] a root object
+
+#### Q8. You are reviewing the data model shown in the following exhibit.
+`Customer                                 Product
+`Key: CustomerID                          Key: ProductID                                     
+`Foreign Keys: None___             _______Foreign Keys: None
+`                     |            |
+`                         Sales
+`                    Key: SalesID
+`                    ForeignKeys: CustomerID, ProductID, SalesPersonID, WarehouseID
+`                      |           |
+`    SalesPerson________            _________Warehouse
+`    Key: SalesPersonID                      Key: WarehouseID
+`    ForeignKeys: None                       ForeignKeys: None      
+`
+`The Data model is a 
+
+- [ ] transactional model
+- [x] star schema
+- [ ] snowflakeschema
+
+#### Q8. You are reviewing the data model shown in the following exhibit.
+`Customer                                 Product
+`Key: CustomerID                          Key: ProductID                                     
+`Foreign Keys: None___             _______Foreign Keys: None
+`                     |            |
+`                         Sales
+`                    Key: SalesID
+`                    ForeignKeys: CustomerID, ProductID, SalesPersonID, WarehouseID
+`                      |           |
+`    SalesPerson________            _________Warehouse
+`    Key: SalesPersonID                      Key: WarehouseID
+`    ForeignKeys: None                       ForeignKeys: None      
+`
+`Customer is a 
+
+- [ ] fact
+- [x] dimension
+- [ ] bridge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Q9. Your developers have created a portal web app for users in the Miami branch office. The web app will be publicly accessible and used by the Miami users to retrieve customer and product information. The web app is currently running in an on-premises test environment. You plan to host the web app on Azure. You need to determine which Azure web tier plan to host the web app. The web tier plan must meet the following requirements:
 `✑ The website will use the miami.weyland.com URL.

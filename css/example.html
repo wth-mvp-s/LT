@@ -5,30 +5,51 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="">
 <style>
-    .block{
-    height: 200px;
-    width: 200px;
-     border-radius: 10px;
-     border: 3px;
-     background-color: aqua;
-    }
-    .block .mydiv {
-        background-color: brown;
-        height: 4rem;
-        width: 4rem;
-        margin: 10px 0px 10px 0px;
-    }
+  
+    .box {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: visible;
+}
+
+a:active {
+
+  color: pink;
+
+}
 </style>
 <script src=""></script>
 <body>
 
 <img src="img_la.jpg" alt="LA" style="width:100%">
 
-<div class="block">
+<div class="clearfix">
+    <div class="box" style="background-color:#bbb">
+    <a>Some text inside the box.pink</a>
+    </div>
+    <div class="box" style="background-color:#ccc">
+    <p>Some text inside the box.</p>
+    </div>
+    <div class="box" style="background-color:#ddd">
+    <p>Some text inside the box.</p>
+    </div>
+  </div>
+  <div class="box" style="background-color:#ddd">one</div>
+  <div class="box" style="background-color:#ddd">two</div>
+<!-- <div class="block">
     <div >Div 0</div>
     <div class="mydiv">Div 1</div>
     <div >Div 2</div>
-</div>
+</div> -->
 
 </body>
 </html>

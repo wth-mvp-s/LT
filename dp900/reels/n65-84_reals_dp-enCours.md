@@ -1,4 +1,4 @@
-##   n0-20_reals_dp
+##   n65-84_reals_dp
 
 
 
@@ -8,6 +8,108 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+#### Q65. A team of developers has computers that run Windows 10 and Ubuntu Desktop. The developers need to connect to and query an Azure SQL database from each of their computers. The developers require code assistance features such as IntelliSense. What should the developers use?
+
+- [ ]  sqlcmd
+B. Microsoft SQL Server Management Studio (SSMS)
+C. Azure Data Studio
+D. Azure Data Explorer
+
+#### Q66. Transparent Data Encryption (TDE encrypts)
+
+- [ ]  a column to protect data at rest and in transit. 
+- [ ]  queries and their results in order to protect data in transit. 
+- [ ]  the database to protect data at rest
+- [ ]  the server to protect data at rest. 
+
+#### Q67. You need to ensure that users use multi-factor authentication (MFA) when connecting to an Azure SQL database. Which type of authentication should you use?
+
+- [ ]  service principal authentication
+B. Azure Active Directory (Azure AD) authentication
+C. SQL authentication
+D. certificate authentication
+
+#### Q68. What is a benefit of hosting a database on Azure SQL managed instance as compared to an Azure SQL database?
+
+- [ ]  built-in high availability
+B. native support for cross-database queries and transactions
+C. system-initiated automatic backups
+D. support for encryption at rest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Q69. By default, each Azure SQL database is protected by
+
+- [ ] a network security group (NSG). 
+- [ ] a server-level firewall. 
+- [ ] Azure Firewall. 
+- [ ] Azure Front Door. 
+
+#### Q70. You need to design and model a database by using a graphical tool that supports project-oriented offline database development. What should you use?
+
+- [ ] Microsoft SQL Server Data Tools (SSDT)
+B. Microsoft SQL Server Management Studio (SSMS)
+C. Azure Databricks
+D. Azure Data Studio
+
+
+#### Q71. Prevent access to an Azure SQL database from another network. 
+
+- [ ] Authentication
+- [ ] Firewall
+- [ ] Encryption
+
+
+#### Q71. Support Azure Active Directory (Azure AD) sign-ins to an Azure SQL database. 
+
+- [ ] Authentication
+- [ ] Firewall
+- [ ] Encryption
+
+
+#### Q71. Ensure that sensitive data never appears as plain text in an Azure SQL database. 
+
+- [ ] Authentication
+- [ ] Firewall
+- [ ] Encryption
+
+#### Q72. You have a transactional application that stores data in an Azure SQL managed instance. When should you implement a read-only database replica?
+
+- [ ]  You need to generate reports without affecting the transactional workload.
+B. You need to audit the transactional application.
+C. You need to implement high availability in the event of a regional outage.
+D. You need to improve the recovery point objective (RPO).
 
 
 

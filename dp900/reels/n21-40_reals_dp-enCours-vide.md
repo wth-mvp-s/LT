@@ -35,36 +35,62 @@
 
 
 
-#### Q73. A relational database must be used when 
+#### Q21. Azure Blob storage
 
-- [ ] a dynamic schema is required.
-- [ ] data will be stored as key/value pairs.
-- [ ] storing large images and videos.
-- [ ] strong consistency guarantees are required. 
-
-#### Q74. Relational data uses _____ to enforce relationships between different tables. 
-
-- [ ] collections
-- [ ] columns
-- [x] keys
-- [ ] partitions
-
-#### Q75. _______ is a virtual table that contains content defined by a query. 
-
-- [ ] A heap
-- [ ] A stored procedure
-- [x] A view
-An index
-
-#### Q76. You need to query a table named Products in an Azure SQL database. Which three requirements must be met to query the table from the internet? Each correct answer presents part of the solution. (Choose three.)
-
-- [ ] You must be assigned the Reader role for the resource group that contains the database.
-B. You must have SELECT access to the Products table.
-C. You must have a user in the database.
-D. You must be assigned the Contributor role for the resource group that contains the database.
-E. Your IP address must be allowed to connect to the database.
+- [ ] Image files
+- [ ] Key/value pairs
+- [ ] Relathionships between employees
 
 
+#### Q21. Azure Cosmos DB Gremlin API
+
+- [ ] Image files
+- [ ] Key/value pairs
+- [ ] Relathionships between employees
+
+
+#### Q21. Azure Table storage
+
+- [ ] Image files
+- [ ] Key/value pairs
+- [ ] Relathionships between employees
+
+#### Q22. Match the Azure Data Lake Storage Gen2 terms to the appropriate levels in the hierarchy.
+`Azure Resource Group |_ ......|_ ...... |_ Folders |_ Files
+
+- [ ] Azure Resource Group |_ Azure Storage account |_ File share |_ Folders |_ Files
+- [ ] Azure Resource Group |_ Azure Storage account |_ Container |_ Folders |_ Files
+- [ ] Azure Resource Group |_ File share |_ Azure Storage account |_ Folders |_ Files
+- [ ] Azure Resource Group |_ Container |_ File share |_ Folders |_ Files
+- [ ] Azure Resource Group |_ Container |_ Azure Storage account |_ Folders |_ Files
+
+#### Q23. What are two characteristics of real-time data processing? Each correct answer presents a complete solution.
+
+- [ ] Data is processed periodically
+B. Low latency is expected
+C. High latency is acceptable
+D. Data is processed as it is created
+
+#### Q24. A representation of data structures within data stores
+
+- [ ] Dataset
+- [ ] Linked service
+- [ ] Mapping data flow
+- [ ] Pipeline
+
+#### Q24. The information used to connect to external resources
+
+- [ ] Dataset
+- [ ] Linked service
+- [ ] Mapping data flow
+- [ ] Pipeline
+
+#### Q24. A logical grouping of activities that performs a unit of work and can be scheduled
+
+- [ ] Dataset
+- [ ] Linked service
+- [ ] Mapping data flow
+- [ ] Pipeline
 
 
 
@@ -88,64 +114,89 @@ E. Your IP address must be allowed to connect to the database.
 
 
 
-#### Q77. Application users and their default language
 
-- [ ] Graph
-- [x] Object
-- [ ] Key/Value
+#### Q25. Data for a product catalog will be loaded every 12 hours to a data warehouse. 
 
-#### Q77. Medical images and their associated metadata
-
-- [ ] Graph
-- [x] Object
-- [ ] Key/Value
-
-#### Q77. Employee data that shows the relationships between employees
-
-- [ ] Graph
-- [x] Object
-- [ ] Key/Value
-
-#### Q78. You have an Azure Cosmos DB account that uses the Core (SQL) API. Which two settings can you configure at the container level? Each correct answer presents a complete solution. (Choose two.)
-
-- [ ]  the throughput
-B. the read region
-C. the partition key
-D. the API
+- [ ] Batch
+- [x] Streaming
 
 
-#### Q79. Your company is designing a data store that will contain student data. The data has the following format.
+#### Q25. Thousands of data sets per second for online purchases will be loaded into a data warehouse in real time
 
-`StudentNumber       ¦       StudentInformation
-`-----------------------------------------------
-`7634634             ¦       First name: Ben 
-`                    ¦       Last: Smith
-`                    ¦       Preffered Name: Benjamin
-`-----------------------------------------------
-`7634634             ¦       First name: Dominik 
-`                    ¦       Last Name: Paiha
-`                    ¦       Email Adress: dpaiha@contoso.com
-`                    ¦       MCP ID: 931817
-`-----------------------------------------------
-`7634636             ¦       First name: Reshma
-`                    ¦       Last Name: Patel
-`                    ¦       Phone number: 514-555-1101
-`-----------------------------------------------
-`7634637             ¦       First name: Yun-Feng
-`                    ¦       Last Name: Peng
+- [ ] Batch
+- [x] Streaming
+
+
+
+#### Q25. Updates to inventory data will be loaded to a data warehouse every 1 million transactions. 
+
+- [ ] Batch
+- [x] Streaming
+
+
+#### Q26. Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process. Where does data processing occur for each stage of the ELT process? 
+`Extract
+
+- [ ] A standalone data analysis tool 
+- [x] The CRM system
+- [ ] the data warehouse
+
+
+#### Q26. Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process. Where does data processing occur for each stage of the ELT process? 
+`Load
+
+- [ ] A standalone data analysis tool 
+- [x] The CRM system
+- [ ] the data warehouse
+
+
+#### Q26. Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process. Where does data processing occur for each stage of the ELT process? 
+`Transform
+
+- [ ] A standalone data analysis tool 
+- [x] The CRM system
+- [ ] the data warehouse
+
+#### Q27. Your company recently reported sales from the third quarter. You have the chart shown in the following exhibit.
+
+`75K....................................................................................@
+`70K....................................................................................
+`65K....................................................................................@
+`60K.................................................@...................................
+`55K....................................................................................@
+`50K.@...................................................................................
+`45K.........................@...........................................................
+`-------1--------------------2-----------------------3-------------------4--------------
+`Which type of analysis is shown in the fourth quarter?
+
+
+- [ ] predictive
+B. prescriptive
+C. descriptive
+D. diagnostic
+
+#### Q28. Which statement is an example of Data Manipulation Language (DML)?
+
+- [ ] REVOKE
+B. DISABLE
+C. CREATE
+D. UPDATE
+
+
+#### Q29. Creating closed caption text for audio files is an example of _____ analytics. 
                     
 
-- [x] graph
-B. key/value
-C. object
-D. columnar
+- [x] cognitive
+B. descriptive
+C. predictive
+D. prescriptive
 
-#### Q80. Which storage solution supports role-based access control (RBAC) at the file and folder level?
+#### Q30. A visualization that illustrates a university's current student enrollment per department is an example of ______ analytics. 
 
-- [ ] Azure Disk Storage
-B. Azure Data Lake Storage
-C. Azure Blob storage
-D. Azure Queue storage
+- [ ] cognitive
+B. descriptive
+C. predictive
+D. prescriptive
 
 
 
@@ -184,104 +235,19 @@ D. Azure Queue storage
 
 
 
-#### Q81. You need to store data in Azure Blob storage for seven years to meet your company's compliance requirements. The retrieval time of the data is unimportant. The solution must minimize storage costs. Which storage tier should you use?
+#### Q31. An extract, load, and transform (ELT) process requires
 
-- [ ] Archive
-B. Hot
-C. Cool
+- [ ] a separate transformation engine.
+B. a target data store powerful enough to transform data. 
+C. data that is fully processed before being loaded to the target data store. 
+a data pipeline that includes a transformation engine. 
 
-#### Q82. Which type of non-relational data store supports a flexible schema, stores data as JSON files, and stores the all the data for an entity in the same document?
+#### Q32. You need to create an Azure resource to store data in Azure Table storage. Which command should you run?
 
-- [ ]  document
-B. columnar
-C. graph
-D. time series
+- [ ]  az storage share create
+B. az storage account create
+C. az cosmosdb create
+D. az storage container create
 
-#### Q83. Graph data
-
-- [x] Cassandra API 
-- [ ] Gremlin API
-MongoDB APi
-Table API
-
-#### Q83. JSON documents
-
-- [x] Cassandra API 
-- [ ] Gremlin API
-MongoDB APi
-Table API
-
-#### Q83. Key/value data
-
-- [x] Cassandra API 
-- [ ] Gremlin API
-MongoDB APi
-Table API
-
-#### Q84. To configure an Azure Storage account to support both security at the folder level and atomic directory manipulation, 
-
-- [x] enable the hierarchical namespace. 
-- [ ] set Account kind to BlobStorage. 
-set Performance to Premium. 
-set Replication to Read-access geo-redundant storage (RA-GRS)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>skonczylem na 32

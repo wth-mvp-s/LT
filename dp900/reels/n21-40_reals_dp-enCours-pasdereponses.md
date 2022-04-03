@@ -249,5 +249,132 @@ B. az storage account create
 C. az cosmosdb create
 D. az storage container create
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
->>skonczylem na 32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Q33. The Azure Cosmos DB _______ API enables the use of SELECT statements to retrieve documents from Azure Cosmos DB. 
+
+- [ ]  Core (SQL)
+B. Gremlin
+C. MongoDB
+D. Table
+
+
+#### Q34. You need to modify a view in a relational database by adding a new column. Which statement should you use?
+
+- [ ] MERGE
+B. ALTER
+C. INSERT
+D. UPDATE
+
+
+#### Q35. Extract, transform, and load (ETL) can reduce the transfer of sensitive data to destination systems. 
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q35. Extract, transform, and load (ETL) transforms data by using a compute resource independant of the source system and destination system. 
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q35. Extract, transform, and load (ETL) minimizes the time it takes to copy large volumes of data to destination systems. 
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q36. You plan to deploy a PostgreSQL database to Azure. Which hosting model corresponds to the available deployment options? To answer, select the appropriate options in the answer area.
+` PostgreSQL on Azure VMs: 
+
+- [ ] Infrastructure as a service (IaaS)
+- [ ] Platform as a service (PaaS)
+- [ ] Software as a service (PaaS)
+
+
+#### Q36. You plan to deploy a PostgreSQL database to Azure. Which hosting model corresponds to the available deployment options? To answer, select the appropriate options in the answer area.
+` Azure Database for PostgreSQL: 
+
+- [ ] Infrastructure as a service (IaaS)
+- [ ] Platform as a service (PaaS)
+- [ ] Software as a service (PaaS)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Q37. ______ natively support the analysis of relationships between entities. 
+
+- [ ] Column family databases
+- [ ] Document databases
+- [ ] Graph databases
+- [ ] Key-value stores
+
+#### Q38. Which Azure storage solution provides native support for POSIX-compliant access control lists (ACLs)?
+
+- [ ] Azure Table storage
+B. Azure Data Lake Storage
+C. Azure Queue storage
+D. Azure Files
+
+#### Q39. Relational data is stored in
+
+- [ ] a file system an unstructured data. 
+B. a hierarchal folder structure.
+C. a tabular form of rows and columns. 
+D. comma-separated value (CSV) files. 
+
+
+#### Q40. ______ physically sorts the data in a table based on the values in a specified column. 
+
+- [ ] A view
+B. A cluster index
+C. A stored procedure
+D. A nonclustered index

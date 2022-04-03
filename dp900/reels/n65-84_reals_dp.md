@@ -161,10 +161,10 @@
 #### Q76. You need to query a table named Products in an Azure SQL database. Which three requirements must be met to query the table from the internet? Each correct answer presents part of the solution. (Choose three.)
 
 - [ ] You must be assigned the Reader role for the resource group that contains the database.
-- [x] B. You must have SELECT access to the Products table.
-- [x] C. You must have a user in the database.
-- [ ] D. You must be assigned the Contributor role for the resource group that contains the - database.
-- [x] E. Your IP address must be allowed to connect to the database.
+- [x] You must have SELECT access to the Products table.
+- [x] You must have a user in the database.
+- [ ] You must be assigned the Contributor role for the resource group that contains the - database.
+- [x] Your IP address must be allowed to connect to the database.
 
 
 

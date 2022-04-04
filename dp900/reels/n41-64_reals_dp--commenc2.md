@@ -226,30 +226,104 @@ B. bcp
 C. azdata
 D. Azure CLI
 
-#### Q82. Azure SQL Database includes a managed backup service. 
+#### Q52. Azure SQL Database includes a managed backup service. 
 
 - [ ]  Yes
 - [ ]  No
 
-#### Q82. Azure SQL Database has built-in high availability. 
-
-- [ ]  Yes
-- [ ]  No
-
-
-#### Q82. Azure SQL Database can use Azure Defender. 
+#### Q52. Azure SQL Database has built-in high availability. 
 
 - [ ]  Yes
 - [ ]  No
 
 
+#### Q52. Azure SQL Database can use Azure Defender. 
+
+- [ ]  Yes
+- [ ]  No
 
 
 
+#### Q53. You can use Azure Data Studio to query a Microsoft SQL Server big data cluster. 
+
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q53. You can use Microsoft SQL Server Management Studio (SSMS to query an Azure Synapse Analytics data warehouse. )
+
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q53. You can use MySQL Workbench to query Azure Database for MariaDB databases. 
+
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q54. Platform as a Service (PaaS) database offerings in Azure provide build-in high availability. 
+
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q54. Platform as a Service (PaaS) database offerings in Azure provide configurable scaling options. 
+
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q54. Platform as a Service (PaaS) database offerings in Azure reduce the administrative overhead for managing hardware. 
+
+- [ ]  Yes
+- [ ]  No
 
 
 
+#### Q55. You have the following SQL query.
+`
+`INSERT INTO dbo.Products (ProductID, ProductName, Price, ProductDescription) VALUES (1, 'Clamp', 12.48, 'Workbench clamp')
+`
+`What are dbo.Products and ProductName? To answer, select the appropriate options in the answer area.
 
+`Dbo.Products: 
+
+- [ ]  A column
+- [ ]  A database
+- [ ]  A table
+- [ ]  An Index
+
+
+#### Q55. You have the following SQL query.
+`
+`INSERT INTO dbo.Products (ProductID, ProductName, Price, ProductDescription) VALUES (1, 'Clamp', 12.48, 'Workbench clamp')
+`
+`What are dbo.Products and ProductName? To answer, select the appropriate options in the answer area.
+
+`ProductName: 
+
+- [ ]  A column
+- [ ]  A database
+- [ ]  A table
+- [ ]  An Index
+
+#### Q56. You must apply operating system updates to Azure SQL databases regularly. 
+
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q56. You need a Microsoft 365 subscription to create an Azure SQL database. 
+
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q56. You can use existing Microsoft SQL Server licenses to reduse the cost of Azure SQL databases. 
+
+- [ ]  Yes
+- [ ]  No
 
 
 

@@ -348,3 +348,70 @@ D. Azure CLI
 
 
 
+
+#### Q57. Which statement is an example of Data Definition Language (DDL)?
+
+- [ ]  SELECT
+B. JOIN
+C. UPDATE
+D. CREATE
+
+
+#### Q58. Azure Data Studio can be used to query an Azure SQL database from a device that runs macOS.
+
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q58. Microsoft SQL Server Management Studio (SSMS) enables users to create and use SQL notebooks. 
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q58. Azure Data Studio can be used to restore a database. 
+- [ ]  Yes
+- [ ]  No
+
+
+#### Q59. You are deploying a software as a service (SaaS) application that requires a relational database for Online Transaction Processing (OLTP). Which Azure service should you use to support the application?
+
+- [ ]  Azure Cosmos DB
+B. Azure HDInsight
+C. Azure SQL Database
+D. Azure Synapse Analytics
+
+
+#### Q60. What are two benefits of platform as a service (PaaS) relational database offerings in Azure, such as Azure SQL Database? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [ ]  access to the latest features
+B. complete control over backup and restore processes
+C. in-database machine learning services
+D. reduced administrative effort for managing the server infrastructure
+
+#### Q61. If you have a platform as a service (PaaS) database in Azure, you are responsible for applying operating system updates. 
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q61. If you have a platform as a service (PaaS) database in Azure, backups are performed automatically. 
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q61. If you have a platform as a service (PaaS) database in Azure, you are responsible for upgrading the database engine. 
+
+- [ ] Yes
+- [ ] No
+
+
+#### Q62. You have a table named Sales that contains the following data.
+
+SalesDate|SalesAmount|ProductID
+_______________________________
+4-Apr-20-|$2,000-----|1--------
+
+
+- [ ] Yes
+- [ ] No

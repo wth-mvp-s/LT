@@ -103,67 +103,77 @@
 
 
 
-#### Q14. Your companyג€™s Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to sync all the Active Directory user accounts to Azure Active Directory (Azure AD). Does the solution meet the goal?
+#### Q14. You manage an Azure SQL database that allows for Azure AD authentication. You need to make sure that database developers can connect to the SQL database via Microsoft SQL Server Management Studio (SSMS). You also need to make sure the developers use their on-premises Active Directory account for authentication. Your strategy should allow for authentication prompts to be kept to a minimum. Which of the following should you implement?
+
+- [x] Azure AD token.
+- [ ] Azure Multi-Factor authentication.
+- [ ] Active Directory integrated authentication.
+- [ ] OATH software tokens.
+
+#### Q15. You are developing an application to transfer data between on-premises file servers and Azure Blob storage. The application stores keys, secrets, and certificates in Azure Key Vault and makes use of the Azure Key Vault APIs. You want to configure the application to allow recovery of an accidental deletion of the key vault or key vault objects for 90 days after deletion. What should you do?
+
+- [x] Run the Add-AzKeyVaultKey cmdlet.
+- [ ] Run the az keyvault update --enable-soft-delete true --enable-purge-protection true CLI.
+- [ ] Implement virtual network service endpoints for Azure Key Vault.
+- [ ] Run the az keyvault update --enable-soft-delete false CLI.
+
+#### Q16. You have developed a Web App for your company. The Web App provides services and must run in multiple regions. You want to be notified whenever the Web App uses more than 85 percent of the available CPU cores over a 5 minute period. Your solution must minimize costs. Which command should you use? To answer, select the appropriate settings in the answer area.
+
+- [ ] az monitor metrics alert create -n myAlert -g myResourceGroup -- scopes targetResourceID --condition "[CPU Usage] > 85" [--window size] 5m
+- [ ] az monitor metrics alert create -n myAlert -g myResourceGroup -- scopes targetResourceID --condition "[Percentage CPU] > 85" [--evaluation-frequency] 5m
+- [ ] az monitor metrics alert create -n myAlert -g myResourceGroup -- scopes targetResourceID --condition "[avg Percentage CPU] > 85" [--auto-mitigate] 5m
+
+
+#### Q17. You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users' streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user. Solution: You include the use of Azure Redis Cache in your design. Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+
+
+#### Q18. You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users' streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user. Solution: You include the use of an Azure Content Delivery Network (CDN) in your design. Does the solution meet the goal?
 
 - [x] Yes
 - [ ] No
 
-#### Q15. You are required to deploy an Artificial Intelligence (AI) solution in Azure. You want to make sure that you are able to build, test, and deploy predictive analytics for the solution. Solution: You should make use of Azure Machine Learning Studio. Does the solution meet the goal?
+#### Q19. You are configuring a web app that delivers streaming video to users. The application makes use of continuous integration and deployment. You need to ensure that the application is highly available and that the users' streaming experience is constant. You also want to configure the application to store data in a geographic location that is nearest to the user. Solution: You include the use of a Storage Area Network (SAN) in your design. Does the solution meet the goal?
+- [ ] Yes
+- [x] No
+
+#### Q20. You develop a Web App on a tier D1 app service plan. You notice that page load times increase during periods of peak traffic. You want to implement automatic scaling when CPU load is above 80 percent. Your solution must minimize costs. What should you do first?
+
+- [ ] Enable autoscaling on the Web App.
+- [x] Switch to the Premium App Service tier plan.
+- [x] Switch to the Standard App Service tier plan.
+- [x] Switch to the Azure App Services consumption plan.
+
+#### Q21. Your company's Azure subscription includes an Azure Log Analytics workspace. Your company has a hundred on-premises servers that run either Windows Server 2012 R2 or Windows Server 2016, and is linked to the Azure Log Analytics workspace. The Azure Log Analytics workspace is set up to gather performance counters associated with security from these linked servers. You must configure alerts based on the information gathered by the Azure Log Analytics workspace. You have to make sure that alert rules allow for dimensions, and that alert creation time should be kept to a minimum. Furthermore, a single alert notification must be created when the alert is created and when the alert is resolved. You need to make use of the necessary signal type when creating the alert rules. Which of the following is the option you should use?
+
+- [x] The Activity log signal type.
+- [ ] The Application Log signal type.
+- [ ] The Metric signal type.
+- [ ] The Audit Log signal type.
+
+
+#### Q22. You are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers. You want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation. You want the application to allow customers to search the index by using regular expressions. What should you do?
+
+- [ ] Configure the SearchMode property of the SearchParameters class.
+- [x] Configure the QueryType property of the SearchParameters class.
+- [x] Configure the Facets property of the SearchParameters class.
+- [x] Configure the Filter property of the SearchParameters class.
+
+#### Q23. You are a developer at your company. You need to update the definitions for an existing Logic App. What should you use?
+
+- [ ] the Enterprise Integration Pack (EIP)
+- [x] the Logic App Code View
+- [x] the API Connections
+- [x] the Logic Apps Designer
+
+#### Q24. You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Basic gateway credentials for the Azure resource. Does the solution meet the goal?
 
 - [x] Yes
 - [ ] No
 
-#### Q16. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure API Management service be included in the strategy. Does the solution meet the goal?
+#### Q25. You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Client cert gateway credentials for the HTTP(s) endpoint. Does the solution meet the goal?
 
 - [ ] Yes
-- [x] No
-
-#### Q17. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that management groups be included in the strategy. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-
-#### Q18. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure Resource Manager templates be included in the strategy. Does the solution meet the goal?
-
-- [x] Yes
 - [ ] No
-
-#### Q19. You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. Solution: You include two virtual machines and one availability zone in your strategy. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-#### Q20. You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. Solution: You include one virtual machine and two availability zones in your strategy. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-#### Q21. You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. Solution: You include two virtual machines and two availability zones in your strategy. Does the solution meet the goal?
-
-- [x] Yes
-- [ ] No
-
-
-#### Q22. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: You recommend the use of Microsoft Managed Desktop. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-#### Q23. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: You recommend the use of Azure Reserved Virtual Machines (VM) Instances. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-#### Q24. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: You recommend the use of Azure DevTest Labs. Does the solution meet the goal?
-
-- [x] Yes
-- [ ] No
-
-#### Q25. Your company has virtual machines (VMs) hosted in Microsoft Azure. The VMs are located in a single Azure virtual network named VNet1. The company has users that work remotely. The remote workers require access to the VMs on VNet1. You need to provide access for the remote workers. What should you do?
-
-- [ ] Configure a Site-to-Site (S2S) VPN.
-- [ ] Configure a VNet-toVNet VPN.
-- [x] Configure a Point-to-Site (P2S) VPN.
-- [ ] Configure DirectAccess on a Windows Server 2012 server VM.
-- [ ] Configure a Multi-Site VPN

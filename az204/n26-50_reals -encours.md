@@ -1,38 +1,35 @@
-##   n0-25_reals
+##   n26-50_reals
 
 
-#### Q1. You have two Hyper-V hosts named Host1 and Host2. Host1 has an Azure virtual machine named VM1 that was deployed by using a custom Azure Resource Manager template. You need to move VM1 to Host2.
-- [x] From the Update management blade, click Enable.
-- [x] From the Overview blade, move VM1 to a different subscription.
-- [x] From the Redeploy blade, click Redeploy.
-- [x] From the Profile blade, modify the usage location.
+#### Q26. You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Basic gateway credentials for the HTTP(s) endpoint. Does the solution meet the goal?
 
-#### Q2. You have downloaded an Azure Resource Manager template to deploy numerous virtual machines. The template is based on a current virtual machine, but must be adapted to reference an administrative password. You need to make sure that the password is not stored in plain text. You are preparing to create the necessary components to achieve your goal.
+- [x] Yes
+- [x] No
 
-- [ ] An Azure Key Vault
-- [x] An Azure Storage account
-- [ ] Azure Active Directory (AD) Identity Protection
-- [ ] An access policy
-- [ ] An Azure policy
-- [ ] An backup policy
-
-#### Q3. Your company has an Azure Kubernetes Service (AKS) cluster that you manage from an Azure AD-joined device. The cluster is located in a resource group. Developers have created an application named MyApp. MyApp was packaged into a container image. You need to deploy the YAML manifest file for the application. Solution: You install the Azure CLI on the device and run the kubectl apply ג€"f myapp.yaml command. Does this meet the goal?
+#### Q27. You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Client cert gateway credentials for the Azure resource. Does the solution meet the goal?
 
 - [ ] Yes
 - [x] No
 
-#### Q4. Your company has an Azure Kubernetes Service (AKS) cluster that you manage from an Azure AD-joined device. The cluster is located in a resource group. Developers have created an application named MyApp. MyApp was packaged into a container image. You need to deploy the YAML manifest file for the application. Solution: You install the docker client on the device and run the docker run -it microsoft/azure-cli:0.10.17 command.
+#### Q28. You are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers. You want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation venues. You want the application to list holiday accommodation venues that fall within a specific price range and are within a specified distance to an airport. What should you do?
 
-- [ ] Yes
-- [x] No
+- [ ] Configure the SearchMode property of the SearchParameters class.
+- [x] Configure the QueryType property of the SearchParameters class.
+- [x] Configure the Facets property of the SearchParameters class.
+- [x] Configure the Filter property of the SearchParameters class.
+
+#### Q29. You are a developer at your company. You need to edit the workflows for an existing Logic App. What should you use?
+
+- [ ] the Enterprise Integration Pack (EIP)
+- [x] the Logic App Code View
+- [x] the API Connections
+- [x] the Logic Apps Designer
 
 
-#### Q5. Your company has a web app named WebApp1. You use the WebJobs SDK to design a triggered App Service background task that automatically invokes a function in the code every time new data is received in a queue. You are preparing to configure the service processes a queue data item. Which of the following is the service you should use?
+#### Q30. You are a developer for a company that provides a bookings management service in the tourism industry. You are implementing Azure Search for the tour agencies listed in your company's solution. You create the index in Azure Search. You now need to use the Azure Search .NET SDK to import the relevant data into the Azure Search service. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions from left to right and arrange them in the correct order. Select and Place:
 
-- [ ] Logic Apps
-- [x] WebJobs
-- [x] Flow
-- [x] Functions
+- [ ] L
+
 
 #### Q6. Your company has an Azure subscription. You need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set. You need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the platformFaultDomainCount property?
 

@@ -331,9 +331,9 @@
 #### Q13. Your company plans to load data from a customer relationship management (CRM) system to a data warehouse by using an extract, load, and transform (ELT) process. Where does data processing occur for each stage of the ELT process? To answer, drag the appropriate locations to the correct stages. Each location may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
 `Transform:
 
-- [x] An in-memory data integration tool 
+- [ ] An in-memory data integration tool 
 - [ ] The CRM system
-- [ ] The data warehouse
+- [x] The data warehouse
 
 #### Q14. A visualisation that shows a university's current student enrollment versus the maximum capacity is an example of _____ analytics. 
 

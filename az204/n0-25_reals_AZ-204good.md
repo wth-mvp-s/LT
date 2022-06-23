@@ -87,3 +87,39 @@
 
 - [ ] Yes
 - [x] No
+
+#### Q5. You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named Development. You create additional deployment slots named Testing and Production. You enable auto swap on the Production deployment slot.
+`You need to ensure that scripts run and resources are available before a swap operation occurs.
+`Solution: Update the web.config file to include the applicationInitialization configuration element. Specify custom initialization actions to run the scripts.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+
+
+#### Q6. You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named Development. You create additional deployment slots named Testing and Production. You enable auto swap on the Production deployment slot.
+`You need to ensure that scripts run and resources are available before a swap operation occurs.
+`Solution: Enable auto swap for the Testing slot. Deploy the app to the Testing slot.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+
+#### Q7. You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named Development. You create additional deployment slots named Testing and Production. You enable auto swap on the Production deployment slot.
+`You need to ensure that scripts run and resources are available before a swap operation occurs.
+`Solution: Disable auto swap. Update the app with a method named statuscheck to run the scripts. Re-enable auto swap and deploy the app to the Production slot.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+
+
+#### Q8. You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2.
+`When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute.
+`You need to design the process that starts the photo processing.
+`Solution: Convert the Azure Storage account to a BlockBlobStorage storage account.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+9

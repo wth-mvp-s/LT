@@ -10,7 +10,7 @@
 `Number of VM instances
 
 - [ ] 2
-- [ ] 4
+- [x] 4
 - [ ] 8 
 - [ ] 16 
 
@@ -23,7 +23,7 @@
 `You need to configure the App Service plan for the Web App.
 `Pricing tier
 
-- [ ] Isolated
+- [x] Isolated
 - [ ] Standard
 - [ ] Premium
 - [ ] Consumption
@@ -34,10 +34,12 @@
 `You need to configure Kubernetes Custom Resource Definitions (CRD) for the Azure Function.
 `Which CRDs should you configure? To answer, drag the appropriate CRD types to the correct locations. Each CRD type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
 `
-`Secret
-- [ ] Azure Function Code
-- [x] Polling Interval
-- [ ] Azure Storage connection string
+`Azure Function code
+
+- [ ] Secret
+- [x] Deployment
+- [ ] ScaledObject
+- [ ] TriggerAuthentication
 
 
 #### Q2.2 You are a developer for a software as a service (SaaS) company that uses an Azure Function to process orders. The Azure Function currently runs on an Azure
@@ -46,11 +48,12 @@
 `You need to configure Kubernetes Custom Resource Definitions (CRD) for the Azure Function.
 `Which CRDs should you configure? To answer, drag the appropriate CRD types to the correct locations. Each CRD type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
 `
-`Deployment
+`Polling interval
 
-- [ ] Azure Function Code
-- [x] Polling Interval
-- [ ] Azure Storage connection string
+- [ ] Secret
+- [ ] Deployment
+- [x] ScaledObject
+- [ ] TriggerAuthentication
 
 #### Q2.3 You are a developer for a software as a service (SaaS) company that uses an Azure Function to process orders. The Azure Function currently runs on an Azure
 `Function app that is triggered by an Azure Storage queue.
@@ -58,25 +61,14 @@
 `You need to configure Kubernetes Custom Resource Definitions (CRD) for the Azure Function.
 `Which CRDs should you configure? To answer, drag the appropriate CRD types to the correct locations. Each CRD type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
 `
-`ScaledObject
+`Azure Storage connection string
 
-- [ ] Azure Function Code
-- [x] Polling Interval
-- [ ] Azure Storage connection string
+- [x] Secret
+- [ ] Deployment
+- [ ] ScaledObject
+- [ ] TriggerAuthentication
 
 
-
-#### Q2.4 You are a developer for a software as a service (SaaS) company that uses an Azure Function to process orders. The Azure Function currently runs on an Azure
-`Function app that is triggered by an Azure Storage queue.
-`You are preparing to migrate the Azure Function to Kubernetes using Kubernetes-based Event Driven Autoscaling (KEDA).
-`You need to configure Kubernetes Custom Resource Definitions (CRD) for the Azure Function.
-`Which CRDs should you configure? To answer, drag the appropriate CRD types to the correct locations. Each CRD type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
-`
-`TriggerAuthentication
-
-- [ ] Azure Function Code
-- [x] Polling Interval
-- [ ] Azure Storage connection string
 
 #### Q4. You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure
 `Storage Blob storage. The storage account type is General-purpose V2.
@@ -96,7 +88,6 @@
 - [ ] Yes
 - [x] No
 
-
 #### Q6. You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named Development. You create additional deployment slots named Testing and Production. You enable auto swap on the Production deployment slot.
 `You need to ensure that scripts run and resources are available before a swap operation occurs.
 `Solution: Enable auto swap for the Testing slot. Deploy the app to the Testing slot.
@@ -110,8 +101,8 @@
 `Solution: Disable auto swap. Update the app with a method named statuscheck to run the scripts. Re-enable auto swap and deploy the app to the Production slot.
 `Does the solution meet the goal?
 
-- [ ] Yes
-- [x] No
+- [x] Yes
+- [ ] No
 
 
 #### Q8. You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2.
@@ -127,10 +118,10 @@
 `You need to validate the client certificate in the web app. To answer, select the appropriate options in the answer area.
 `Client certificate location
 
-- [ ] HTTP request header
-- [x] Client cookie
-- [x] HTTP message body
-- [x] URL query string
+- [x] HTTP request header
+- [ ] Client cookie
+- [ ] HTTP message body
+- [ ] URL query string
 
 
 #### Q9.2 You are developing an Azure Web App. You configure TLS mutual authentication for the web app.
@@ -138,8 +129,8 @@
 `Encoding type
 
 - [ ] HTTP
-- [x] URL
-- [x] Unicode
+- [ ] URL
+- [ ] Unicode
 - [x] Base64
 
 #### Q13 You develop a website. You plan to host the website in Azure. You expect the website to experience high traffic volumes after it is published.
@@ -150,8 +141,51 @@
 - [ ] Deploy the website to a virtual machine. Configure the virtual machine to automatically scale when the CPU load is high.
 - [ ] Deploy the website to an App Service that uses the Shared service tier. Configure the App Service plan to automatically scale when the CPU load is high.
 - [ ] Deploy the website to a virtual machine. Configure a Scale Set to increase the virtual machine instance count when the CPU load is high.
-- [ ] Deploy the website to an App Service that uses the Standard service tier. Configure the App Service plan to automatically scale when the CPU load is high.
+- [x] Deploy the website to an App Service that uses the Standard service tier. Configure the App Service plan to automatically scale when the CPU load is high.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>29.06.2022
 #### Q16 You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob.
 `The app continues to time out after four minutes. The app must process the blob data.
 `You need to ensure the app does not time out and processes the blob data.

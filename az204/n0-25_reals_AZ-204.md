@@ -80,6 +80,9 @@
 - [ ] Yes
 - [x] No
 
+
+
+
 #### Q5. You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named Development. You create additional deployment slots named Testing and Production. You enable auto swap on the Production deployment slot.
 `You need to ensure that scripts run and resources are available before a swap operation occurs.
 `Solution: Update the web.config file to include the applicationInitialization configuration element. Specify custom initialization actions to run the scripts.
@@ -101,8 +104,8 @@
 `Solution: Disable auto swap. Update the app with a method named statuscheck to run the scripts. Re-enable auto swap and deploy the app to the Production slot.
 `Does the solution meet the goal?
 
-- [x] Yes
-- [ ] No
+- [ ] Yes
+- [x] No
 
 
 #### Q8. You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2.
@@ -123,7 +126,7 @@
 - [ ] HTTP message body
 - [ ] URL query string
 
-
+ 
 #### Q9.2 You are developing an Azure Web App. You configure TLS mutual authentication for the web app.
 `You need to validate the client certificate in the web app. To answer, select the appropriate options in the answer area.
 `Encoding type
@@ -132,6 +135,7 @@
 - [ ] URL
 - [ ] Unicode
 - [x] Base64
+
 
 #### Q13 You develop a website. You plan to host the website in Azure. You expect the website to experience high traffic volumes after it is published.
 `You must ensure that the website remains available and responsive while minimizing cost.
@@ -184,16 +188,15 @@
 
 
 
-
->>>29.06.2022
 #### Q16 You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob.
 `The app continues to time out after four minutes. The app must process the blob data.
 `You need to ensure the app does not time out and processes the blob data.
 `Solution: Use the Durable Function async pattern to process the blob data.
 `Does the solution meet the goal?
 
-- [ ] Yes
-- [x] No
+- [x] Yes
+- [ ] No
+
 
 #### Q17 You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob.
 `The app continues to time out after four minutes. The app must process the blob data.
@@ -201,8 +204,11 @@
 `Solution: Pass the HTTP trigger payload into an Azure Service Bus queue to be processed by a queue trigger function and return an immediate HTTP success response.
 `Does the solution meet the goal?
 
-- [ ] Yes
-- [x] No
+- [x] Yes
+- [ ] No
+
+
+
 
 #### Q18 You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob.
 `The app continues to time out after four minutes. The app must process the blob data.
@@ -213,6 +219,7 @@
 - [ ] Yes
 - [x] No
 
+
 #### Q19 You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure
 `Storage Blob storage. The storage account type is General-purpose V2.
 `When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute.
@@ -220,8 +227,10 @@
 `Solution: Move photo processing to an Azure Function triggered from the blob upload.
 `Does the solution meet the goal?
 
-- [ ] Yes
-- [x] No
+- [x] Yes
+- [ ] No
+
+
 
 #### Q20 You are developing an application that uses Azure Blob storage.
 `The application must read the transaction logs of all the changes that occur to the blobs and the blob metadata in the storage account for auditing purposes. The changes must be in the order in which they occurred, include only create, update, delete, and copy operations and be retained for compliance reasons.
@@ -229,9 +238,11 @@
 `What should you do?
 
 - [ ] Process all Azure Blob storage events by using Azure Event Grid with a subscriber Azure Function app.
-- [ ] Enable the change feed on the storage account and process all changes for available events.
+- [x] Enable the change feed on the storage account and process all changes for available events.
 - [ ] Process all Azure Storage Analytics logs for successful blob events.
 - [ ] Use the Azure Monitor HTTP Data Collector API and scan the request body for successful blob events.
+
+
 
 #### Q22 You are developing an Azure Function App that processes images that are uploaded to an Azure Blob container.
 `Images must be processed as quickly as possible after they are uploaded, and the solution must minimize latency. You create code to process images when the
@@ -242,8 +253,11 @@
 - [ ] Use an App Service plan. Configure the Function App to use an Azure Blob Storage input trigger.
 - [ ] Use a Consumption plan. Configure the Function App to use an Azure Blob Storage trigger.
 - [ ] Use a Consumption plan. Configure the Function App to use a Timer trigger.
-- [ ] Use an App Service plan. Configure the Function App to use an Azure Blob Storage trigger.
+- [x] Use an App Service plan. Configure the Function App to use an Azure Blob Storage trigger.
 - [ ] Use a Consumption plan. Configure the Function App to use an Azure Blob Storage input trigger.
+
+
+
 
 #### Q25 You are developing a solution for a hospital to support the following use cases:
 `✑ The most recent patient status details must be retrieved even if multiple users in different locations have updated the patient record.
@@ -256,7 +270,7 @@ Consistent.
 `
 `Return the most recent patient status.
 
-- [ ] Strong
+- [x] Strong
 - [ ] Bounded Staleness
 - [ ] Consistent Prefix
 - [ ] Eventual
@@ -274,7 +288,7 @@ Consistent.
 `Return health monitoring data that is no less than one version behind
 
 - [ ] Strong
-- [ ] Bounded Staleness
+- [x] Bounded Staleness
 - [ ] Consistent Prefix
 - [ ] Eventual
 
@@ -293,7 +307,10 @@ Consistent.
 - [ ] Strong
 - [ ] Bounded Staleness
 - [ ] Consistent Prefix
-- [ ] Eventual
+- [x] Eventual
+
+
+
 
 #### Q26 The development environment requires several software development kits (SDKs) and third-party components to support application development across the organization. You install and customize the deployed virtual machine (VM) for your development team. The customized VM must be saved to allow provisioning of a new team member development environment.
 `You need to save the customized VM for future provisioning.
@@ -301,7 +318,7 @@ Consistent.
 `
 `Generalize the VM.
 
-- [ ] Azure PowerShell
+- [x] Azure PowerShell
 - [ ] Visual Studio command prompt
 - [ ] Azure Migrate
 - [ ] Azure Backup
@@ -313,10 +330,12 @@ Consistent.
 `
 `Store images.
 
-- [ ] Azure Blob Storage
+- [x] Azure Blob Storage
 - [ ] Azure Data Lake Storage
 - [ ] Azure File Storage
 - [ ] Azure Table Storage
+
+
 
 #### Q27 You are preparing to deploy a website to an Azure Web App from a GitHub repository. The website includes static content generated by a script.
 `You plan to use the Azure Web App continuous deployment feature.
@@ -325,6 +344,6 @@ What are two possible ways to achieve this goal? Each correct answer presents a 
 
 
 - [ ] Add the path to the static content generation tool to WEBSITE_RUN_FROM_PACKAGE setting in the host.json file.
-- [ ] Add a PreBuild target in the websites csproj project file that runs the static content generation script.
+- [x] Add a PreBuild target in the websites csproj project file that runs the static content generation script.
 - [ ] Create a file named run.cmd in the folder /run that calls a script which generates the static content and deploys the website.
-- [ ] Create a file named .deployment in the root of the repository that calls a script which generates the static content and deploys the website.
+- [x] Create a file named .deployment in the root of the repository that calls a script which generates the static content and deploys the website.

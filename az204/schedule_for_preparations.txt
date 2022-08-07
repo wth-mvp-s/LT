@@ -3,26 +3,22 @@
 		Number of questions in the database: 186
 		Exam Version: Aug. 1, 2022
 
+		egzamin mozliwy za 4 tygodnie. 6 sept 2022
+		tematy do czytania :  w tescie  Blob Storage trigger.
+
 
 PLAN: 
-- priorytet zeby jak najwczesniej przejsc do robienia testow. 
-- odpowiedzi do 3 pierwszych 3h - 1 tydzien. 
-	jesli wprowadze 3 pierwsze do 14 sierpnia to kupuje dostep do strony
-	
-	1 test jest skonczony check
-	[//] Przygotowanie testu for deployment check. 06.08.2022'
-	[//] >>>29.06.2022
 
-14 sierpnia:
-- do wprowadzenia 3 testy, 3h-6  - 1 tydzien. 
+
+- wydrukowac pierwsze obrazkowe pytania, i zaczac je przegladac
+- zrobic testy po 10 pytan i zaczac je robic regularnie z dwoch pierwszych plikow
+- zostal mi trzeci plik do zrobienia - jest niedziela ile czasu potrzeba ? 
+	
+- 14 sierpnia max : kupic dostep do strony do reszty pytan
+	- do wprowadzenia 3 testy, 3h-6  - 1 tydzien. 
 
 21 sierpnia: 
 
 - kupic egzamin az204. 
-- 2 tygodnie de preparation. 
-- 2 tygodnie do codziennego robienia testow. 
+- 2 tygodnie de preparation. na poziomie 17-20. do codziennego robienia testow. 
 
-egzamin mozliwy za 4 tygodnie. 6 sept 2022
-
-
-tematy w tescie  Blob Storage trigger.

@@ -28,8 +28,21 @@ PLAN:
 - 2 tygodnie de preparation. na poziomie 17-20. do codziennego robienia testow. 
 - do wprowadzenia 3 testy, 3h-6  - 1 tydzien. 
 
+<<<<<<< Updated upstream
 done: - wydrukowac pliki chociaz w pracy! ok 
 - podzielic od nowa pliki teraz kiedy mam juz :: specjamny znacznik. todo ok
 - kupic egzamin az204. 
 - kupic dostep do strony do reszty pytan
 - zostal mi trzeci plik do zrobienia - jest niedziela ile czasu potrzeba ? 
+=======
+
+10 sierpnia 2022 sroda, 
+- wydrukowac pliki chociaz w pracy! ok 
+- nie zaczalem robic testow. zrobic jeden w pracy 10 pytan. pchnac. ok
+- podzielic od nowa pliki teraz kiedy mam juz :: specjamny znacznik. todo ?
+
+WHY : po co ja sie pierdole ? 
+- 
+- bede mial wieksze oczekiwania finansowe. wieksza pensje.  
+- bede lepszy niz fdp's
+>>>>>>> Stashed changes

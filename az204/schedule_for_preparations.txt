@@ -12,18 +12,24 @@ PLAN:
 
 - wydrukowac pierwsze obrazkowe pytania, i zaczac je przegladac ok 
 - zrobic testy po 10 pytan i zaczac je robic regularnie z dwoch pierwszych plikow 
-- zostal mi trzeci plik do zrobienia - jest niedziela ile czasu potrzeba ? 
+
 	
-- 14 sierpnia max : kupic dostep do strony do reszty pytan
-	- do wprowadzenia 3 testy, 3h-6  - 1 tydzien. 
+
+
+
+
+
+18 sierpnia 2022 sroda, 
+- nie zaczalem robic testow. zrobic jeden w pracy 10 pytan. pchnac. todo ? 18.08.2022? 
+- wprowadzic nowe pytania. 4 plik. 
 
 21 sierpnia: 
 
-- kupic egzamin az204. 
 - 2 tygodnie de preparation. na poziomie 17-20. do codziennego robienia testow. 
+- do wprowadzenia 3 testy, 3h-6  - 1 tydzien. 
 
-
-10 sierpnia 2022 sroda, 
-- wydrukowac pliki chociaz w pracy! ok 
-- nie zaczalem robic testow. zrobic jeden w pracy 10 pytan. pchnac. todo ? 
-- podzielic od nowa pliki teraz kiedy mam juz :: specjamny znacznik. todo ? 
+done: - wydrukowac pliki chociaz w pracy! ok 
+- podzielic od nowa pliki teraz kiedy mam juz :: specjamny znacznik. todo ok
+- kupic egzamin az204. 
+- kupic dostep do strony do reszty pytan
+- zostal mi trzeci plik do zrobienia - jest niedziela ile czasu potrzeba ? 

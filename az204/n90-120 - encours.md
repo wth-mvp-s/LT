@@ -301,5 +301,30 @@
 - [ ] Backend
 
 
+#### Qp28.Topic5.Set5.question2 ::You are developing an e-commerce solution that uses a microservice architecture.
+`You need to design a communication backplane for communicating transactional messages between various parts of the solution. Messages must be communicated in first-in-first-out (FIFO) order.
+`What should you use?
+
+- [ ] Azure Storage Queue
+- [ ] Azure Event Hub
+- [ ] Azure Service Bus
+- [ ] Azure Event Grid
+
+
+#### Qp29.3Topic5Set5question4 ::You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently.
+`You have the following requirements:
+`✑ Queue size must not grow larger than 80 gigabytes (GB).
+`✑ Use first-in-first-out (FIFO) ordering of messages.
+`✑ Minimize Azure costs.
+`You need to implement the messaging solution.
+`Solution: Use the .Net API to add a message to an Azure Service Bus Queue from the mobile application. Create an Azure Function App that uses an Azure
+`Service Bus Queue trigger.
+`Does the solution meet the goal?
+
+
+- [ ] Yes
+- [ ] No
+
+
 [//] started 18.08.2022 Expires Sep 15, 2022:)
 [//] started 21.08.2022 Expires Sep 15, 2022:)

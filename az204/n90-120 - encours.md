@@ -326,5 +326,72 @@
 - [ ] No
 
 
+#### Qp29.3Topic5Set5question5 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
+`You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
+`You need to implement a solution to receive the device data.
+`Solution: Provision an Azure Notification Hub. Register all devices with the hub.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [ ] No
+
+
+
+#### Qp29.3Topic5Set5question6 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
+`You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
+`You need to implement a solution to receive the device data.
+`Solution: Provision an Azure Service Bus. Configure a topic to receive the device data by using a correlation filter.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [ ] No
+
+
+
+#### Qp29.3Topic5Set5question7 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
+`You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
+`You need to implement a solution to receive the device data.
+`Solution: Provision an Azure Event Grid. Configure event filtering to evaluate the device identifier.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [ ] No
+
+
+
+#### Qp30.3Topic5Set5question8.A ::You manage several existing Logic Apps.
+`You need to change definitions, add new logic, and optimize these apps on a regular basis.
+`What should you use? To answer, drag the appropriate tools to the correct functionalities. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+`
+`Edit B2B workflows
+
+- [ ] Logic Apps Designer
+- [ ] Code View Editor
+- [ ] Entreprise Integration Pack
+
+
+#### Qp30.3Topic5Set5question8.B ::You manage several existing Logic Apps.
+`You need to change definitions, add new logic, and optimize these apps on a regular basis.
+`What should you use? To answer, drag the appropriate tools to the correct functionalities. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+`
+`Edit definitions in JSON
+
+- [ ] Logic Apps Designer
+- [ ] Code View Editor
+- [ ] Entreprise Integration Pack
+
+
+#### Qp30.3Topic5Set5question8.C ::You manage several existing Logic Apps.
+`You need to change definitions, add new logic, and optimize these apps on a regular basis.
+`What should you use? To answer, drag the appropriate tools to the correct functionalities. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+`
+`Visually add functionality
+
+- [ ] Logic Apps Designer
+- [ ] Code View Editor
+- [ ] Entreprise Integration Pack
+
+
 [//] started 18.08.2022 Expires Sep 15, 2022:)
-[//] started 21.08.2022 Expires Sep 15, 2022:)
+[//] started 21.08.2022 zrobic 4: 28,29done)
+

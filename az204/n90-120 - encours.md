@@ -393,5 +393,35 @@
 
 
 [//] started 18.08.2022 Expires Sep 15, 2022:)
-[//] started 21.08.2022 zrobic 4: 28,29done)
+[//] 30 out of 46, reste 16, zrobic 3 dziennie 
+[//] 24VIII2022 start: p30,31,32,33
+
+#### Qp30.3Topic5Set5question9 ::A company is developing a solution that allows smart refrigerators to send temperature information to a central location.
+`The solution must receive and store messages until they can be processed. You create an Azure Service Bus instance by providing a name, pricing tier, subscription, resource group, and location.
+`You need to complete the configuration.
+`Which Azure CLI or PowerShell command should you run?
+
+- [ ]
+```az servicebus queue create
+`  --resource-group fridge-rg
+`  --namespace-name fridge-ns
+`  --name fridge-q
+`  ```
+- [ ]
+`  ```New-AzureRmResourceGroup
+`  -Name fridge-rg
+`  -Location fridge-loc
+`  ```
+- [x]
+`  ```az servicebus namespace create
+`  --resource-group fridge-rg
+`  --name fridge-ns
+`  --location fridge-loc
+`  ```
+- [ ]
+`  ```connectionString-$)az serviceBus namespace authorization-rule keys list
+`  --resource-group fridge-rg
+`  --fridge-ns fridge-ns
+`  --query primaryConnectionString -output tsv)
+`  ```
 

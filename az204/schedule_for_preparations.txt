@@ -1,4 +1,11 @@
-06.08.2022 - 	Exam: Developing Solutions for Microsoft Azure
+az204 		WHY : po co ja sie pierdole ? 
+		- 
+		- lepszy start do NY i do Singapuru, to jest moj bilet tam... 
+		- bede mial wieksze oczekiwania finansowe. wieksza pensje.  
+		- bede lepszy niz fdp's
+
+
+		06.08.2022 - 	Exam: Developing Solutions for Microsoft Azure
 
 		Number of questions in the database: 186
 		Exam Version: Aug. 1, 2022
@@ -41,9 +48,4 @@ PLAN:
 	- 2 tygodnie de preparation. na poziomie 17-20. do codziennego robienia 	testow. 
 	- do wprowadzenia 3 testy, 3h-6  - 1 tydzien. 
 
-WHY : po co ja sie pierdole ? 
-- 
-- lepszy start do NY i do Singapuru, to jest moj bilet tam... 
-- bede mial wieksze oczekiwania finansowe. wieksza pensje.  
-- bede lepszy niz fdp's
 

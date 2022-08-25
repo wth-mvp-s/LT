@@ -258,12 +258,84 @@ Solution: Use the .Net API to add a message to an Azure Storage Queue from the m
 - [x] JWT token
 
 
+
+
 #### Qp32.3Topic5Set5question18::You are working for Contoso, Ltd.
 `You define an API Policy object by using the following XML markup:
 `
 `
-
+[//] not finisched
 
 
 - [ ] Yes
 - [x] No
+
+#### Qp32.3Topic5Set5question19::You are developing a solution that will use Azure messaging services.
+`You need to ensure that the solution uses a publish-subscribe model and eliminates the need for constant polling.
+`What are two possible ways to achieve the goal? Each correct answer presents a complete solution.
+
+- [ ] Service Bus
+- [x] Event Hub
+- [x] Event Grid
+- [x] Queue
+
+
+#### Qp33.3Topic5Set5question20::A company is implementing a publish-subscribe (Pub/Sub) messaging component by using Azure Service Bus. You are developing the first subscription application.
+`In the Azure portal you see that messages are being sent to the subscription for each topic. You create and initialize a subscription client object by supplying the correct details, but the subscription application is still not consuming the messages.
+`You need to ensure that the subscription client processes all messages.
+`Which code segment should you use?
+
+- [ ] await subscriptionClient.AddRuleAsync(new RuleDescription(RuleDescription.DefaultRuleName, new TrueFilter()));
+- [x] subscriptionClient = new SubscriptionClient(ServiceBusConnectionString, TopicName, SubscriptionName);
+- [x] await subscriptionClient.CloseAsync();
+- [x] subscriptionClient.RegisterMessageHandler(ProcessMessagesAsync, messageHandlerOptions);
+
+
+#### Qp33.3Topic5Set5question21::You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently.
+`You have the following requirements:
+`✑ Queue size must not grow larger than 80 gigabytes (GB).
+`✑ Use first-in-first-out (FIFO) ordering of messages.
+`✑ Minimize Azure costs.
+`You need to implement the messaging solution.
+`Solution: Use the .Net API to add a message to an Azure Storage Queue from the mobile application. Create an Azure VM that is triggered from Azure Storage
+`Queue events.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+
+
+
+#### Qp33.3Topic5Set5question22::You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently.
+`You have the following requirements:
+`✑ Queue size must not grow larger than 80 gigabytes (GB).
+`✑ Use first-in-first-out (FIFO) ordering of messages.
+`✑ Minimize Azure costs.
+`You need to implement the messaging solution.
+`Solution: Use the .Net API to add a message to an Azure Service Bus Queue from the mobile application. Create an Azure Windows VM that is triggered from
+`Azure Service Bus Queue.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+
+
+
+#### Qp34.3Topic5Set5question23::
+
+[//] unfinished
+
+
+#### Qp34.3Topic5Set5question24::
+
+[//] unfinished
+
+#### Qp34.3Topic5Set5question25::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
+`You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
+`You need to implement a solution to receive the device data.
+`Solution: Provision an Azure Event Hub. Configure the machine identifier as the partition key and enable capture.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No
+

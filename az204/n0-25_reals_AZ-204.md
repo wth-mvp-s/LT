@@ -188,7 +188,7 @@
 
 
 
-#### Q16 ::You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob.
+#### Q16.p10 ::You develop an HTTP triggered Azure Function app to process Azure Storage blob data. The app is triggered using an output binding on the blob.
 `The app continues to time out after four minutes. The app must process the blob data.
 `You need to ensure the app does not time out and processes the blob data.
 `Solution: Use the Durable Function async pattern to process the blob data.

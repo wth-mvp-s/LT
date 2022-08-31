@@ -1,3 +1,7 @@
+(Expires Sep 15, 2022) 
+
+
+
 az204 		badz sprytny, wyrywaj czas, bo inaczej cie zaoraja. 
 
 		WHY : po co ja sie pierdole ? 
@@ -13,42 +17,15 @@ az204 		badz sprytny, wyrywaj czas, bo inaczej cie zaoraja.
 		Number of questions in the database: 186
 		Exam Version: Aug. 1, 2022
 
-		egzamin mozliwy za 4 tygodnie. 6 sept 2022
+
 		tematy do czytania :  w tescie  Blob Storage trigger.
-		problems
+
 
 PLAN: 
 
 
-- wydrukowac pierwsze obrazkowe pytania, i zaczac je przegladac ok 
-- zrobic testy po 10 pytan i zaczac je robic regularnie z dwoch pierwszych plikow 
+- wydrukowac reszte obrazkowych pytan
+- zrobic odpowiedzi do trzech plikow encours
 
-	
-
-
-
-
-
-23 sierpnia 
-	Viewing page 28 out of 46 pages.
-	plan na 5 dni... 
-	18 / 5 = 4 strony dziennie
-
-
-
-
-=======
-
-10 sierpnia 2022 sroda, 
-- wydrukowac pliki chociaz w pracy! ok 
-- nie zaczalem robic testow. zrobic jeden w pracy 10 pytan. pchnac. ok
-- podzielic od nowa pliki teraz kiedy mam juz :: specjamny znacznik. todo ?
-
-18 sierpnia 2022 sroda, 
-	- nie zaczalem robic testow. zrobic jeden w pracy 10 pytan. pchnac. todo ? 	18.08.2022? 
-	- wprowadzic nowe pytania. 4 plik. 
-21 sierpnia: 
-	- 2 tygodnie de preparation. na poziomie 17-20. do codziennego robienia 	testow. 
-	- do wprowadzenia 3 testy, 3h-6  - 1 tydzien. 
-
+back on track : #### Qp24.3Topic4Set4question5 plik 90-120
 

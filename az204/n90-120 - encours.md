@@ -464,14 +464,14 @@
 
 
 
-#### Qp29.3Topic5Set5question6 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
+#### Qp29.new_p.39 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
 `You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
 `You need to implement a solution to receive the device data.
 `Solution: Provision an Azure Service Bus. Configure a topic to receive the device data by using a correlation filter.
 `Does the solution meet the goal?
 
 - [ ] Yes
-- [ ] No
+- [x] No
 
 
 
@@ -482,11 +482,11 @@
 `Does the solution meet the goal?
 
 - [ ] Yes
-- [ ] No
+- [x] No
 
 
 
-#### Qp30.3Topic5Set5question8.A ::You manage several existing Logic Apps.
+#### Qp30.3Topic5Set5question8.A_100% ::You manage several existing Logic Apps.
 `You need to change definitions, add new logic, and optimize these apps on a regular basis.
 `What should you use? To answer, drag the appropriate tools to the correct functionalities. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
 `
@@ -494,7 +494,7 @@
 
 - [ ] Logic Apps Designer
 - [ ] Code View Editor
-- [ ] Entreprise Integration Pack
+- [x] Entreprise Integration Pack
 
 
 #### Qp30.3Topic5Set5question8.B ::You manage several existing Logic Apps.
@@ -504,7 +504,7 @@
 `Edit definitions in JSON
 
 - [ ] Logic Apps Designer
-- [ ] Code View Editor
+- [x] Code View Editor
 - [ ] Entreprise Integration Pack
 
 

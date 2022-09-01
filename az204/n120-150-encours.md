@@ -39,7 +39,7 @@
 `
 `Visually add functionality
 
-- [ ] Logic Apps Designer
+- [x] Logic Apps Designer
 - [ ] Code View Editor
 - [ ] Entreprise Integration Pack
 
@@ -50,7 +50,7 @@
 `Which Azure CLI or PowerShell command should you run?
 
 
-- [ ]
+- [x]
 
 ```az servicebus queue create
 `  --resource-group fridge-rg

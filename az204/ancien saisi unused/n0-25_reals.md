@@ -2,10 +2,10 @@
 
 
 #### Q1. You have two Hyper-V hosts named Host1 and Host2. Host1 has an Azure virtual machine named VM1 that was deployed by using a custom Azure Resource Manager template. You need to move VM1 to Host2.
-- [x] From the Update management blade, click Enable.
-- [x] From the Overview blade, move VM1 to a different subscription.
+- [ ] From the Update management blade, click Enable.
+- [ ] From the Overview blade, move VM1 to a different subscription.
 - [x] From the Redeploy blade, click Redeploy.
-- [x] From the Profile blade, modify the usage location.
+- [ ] From the Profile blade, modify the usage location.
 
 #### Q2. You have downloaded an Azure Resource Manager template to deploy numerous virtual machines. The template is based on a current virtual machine, but must be adapted to reference an administrative password. You need to make sure that the password is not stored in plain text. You are preparing to create the necessary components to achieve your goal.
 
@@ -31,20 +31,20 @@
 
 - [ ] Logic Apps
 - [x] WebJobs
-- [x] Flow
-- [x] Functions
+- [ ] Flow
+- [ ] Functions
 
 #### Q6. Your company has an Azure subscription. You need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set. You need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the platformFaultDomainCount property?
 
-- [x] 10
+- [ ] 10
 - [ ] 30
 - [ ] Min Value
-- [ ] Max Value
+- [x] Max Value
 
 #### Q7. Your company has an Azure subscription. You need to deploy a number of Azure virtual machines to the subscription by using Azure Resource Manager (ARM) templates. The virtual machines will be included in a single availability set. You need to ensure that the ARM template allows for as many virtual machines as possible to remain accessible in the event of fabric failure or maintenance. Which of the following is the value that you should configure for the platformUpdateDomainCount property?
 
-- [x] 10
-- [ ] 20
+- [ ] 10
+- [x] 20
 - [ ] 30
 - [ ] 40
 
@@ -66,23 +66,24 @@
 #### Q10. You are developing an e-Commerce Web App. You want to use Azure Key Vault to ensure that sign-ins to the e-Commerce Web App are secured by using Azure App Service authentication and Azure Active Directory (AAD). What should you do on the e-Commerce Web App?
 
 - [ ] Run the az keyvault secret command.
-- [x] Enable Azure AD Connect.
+- [ ] Enable Azure AD Connect.
 - [x] Enable Managed Service Identity (MSI).
-- [x] Create an Azure AD service principal.
+- [ ] Create an Azure AD service principal.
 
-#### Q11. This question requires that you evaluate the underlined text to determine if it is correct. Your Azure Active Directory Azure (Azure AD) tenant has an Azure subscription linked to it. Your developer has created a mobile application that obtains Azure AD access tokens using the OAuth 2 implicit grant type. The mobile application must be registered in Azure AD. You require a redirect URI from the developer for registration purposes.
+#### Q11. This question requires that you evaluate the underlined text to determine if it is correct. Your Azure Active Directory Azure (Azure AD) tenant has an Azure subscription linked to it. Your developer has created a mobile application that obtains Azure AD access tokens using the OAuth 2 implicit grant type. The mobile application must be registered in Azure AD. 
+`You require a redirect URI from the developer for registration purposes.
 
-- [ ] No change required.
-- [x] a secret
-- [x] a login hint
-- [x] a client ID
+- [x] No change required.
+- [ ] a secret
+- [ ] a login hint
+- [ ] a client ID
 
 #### Q12. You are creating an Azure key vault using PowerShell. Objects deleted from the key vault must be kept for a set period of 90 days. Which two of the following parameters must be used in conjunction to meet the requirement? (Choose two.)
 
-- [x] EnabledForDeployment
-- [ ] EnablePurgeProtection
+- [ ] EnabledForDeployment
+- [x] EnablePurgeProtection
 - [ ] EnabledForTemplateDeployment
-- [ ] EnableSoftDelete
+- [x] EnableSoftDelete
 
 #### Q13. You have an Azure Active Directory (Azure AD) tenant. You want to implement multi-factor authentication by making use of a conditional access policy. The conditional access policy must be applied to all users when they access the Azure portal. Which three settings should you configure? To answer, select the appropriate settings in the answer area.
 

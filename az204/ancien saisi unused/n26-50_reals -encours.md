@@ -1,22 +1,7 @@
 ##   n26-50_reals
 
 
-#### Q26. You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Basic gateway credentials for the HTTP(s) endpoint. Does the solution meet the goal?
 
-- [x] Yes
-- [x] No
-
-#### Q27. You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Client cert gateway credentials for the Azure resource. Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
-
-#### Q28. You are developing a .NET Core MVC application that allows customers to research independent holiday accommodation providers. You want to implement Azure Search to allow the application to search the index by using various criteria to locate documents related to accommodation venues. You want the application to list holiday accommodation venues that fall within a specific price range and are within a specified distance to an airport. What should you do?
-
-- [ ] Configure the SearchMode property of the SearchParameters class.
-- [x] Configure the QueryType property of the SearchParameters class.
-- [x] Configure the Facets property of the SearchParameters class.
-- [x] Configure the Filter property of the SearchParameters class.
 
 
 
@@ -69,13 +54,3 @@
 
 
 
-
-#### Q24. You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Basic gateway credentials for the Azure resource. Does the solution meet the goal?
-
-- [x] Yes
-- [ ] No
-
-#### Q25. You are developing a solution for a public facing API. The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. You must configure back-end authentication for the API Management service instance. Solution: You configure Client cert gateway credentials for the HTTP(s) endpoint. Does the solution meet the goal?
-
-- [ ] Yes
-- [ ] No

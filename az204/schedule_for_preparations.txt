@@ -23,12 +23,9 @@ az204 		badz sprytny, wyrywaj czas, bo inaczej cie zaoraja.
 
 PLAN: 
 
-- musze wszystko przejrzec. check par 30
-- 1
-- 2
-- 30
+po 5 porobic dzirawe 3 pierwsze 
+wydrukowac ostatnia i przedostatnia i porobic
 
-- wydrukowac reszte obrazkowych pytan
 
 
 

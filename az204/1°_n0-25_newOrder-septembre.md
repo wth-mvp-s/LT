@@ -9,7 +9,7 @@
 - [x] From the Redeploy blade, click Redeploy.
 - [ ] From the Profile blade, modify the usage location.
 
-[//] - 002_image 
+[//] - 002_image [//OK-omg.saved] [100%]
 
 #### 003, Q3.p1_newQuestion ::Your company has an Azure Kubernetes Service (AKS) cluster that you manage from an Azure AD-joined device. 
 `The cluster is located in a resource group.
@@ -60,7 +60,7 @@ Solution: You install the Azure CLI on the device and run the kubectl apply `"f 
 - [ ] 30
 - [ ] 40
 
-[//] - 008_image 
+[//] - 008_image [//OK-omg.saved] [100%]
 
 #### 009, Q9. ::You company has an on-premises deployment of MongoDB, and an Azure Cosmos DB account that makes use of the MongoDB API. 
 `You need to devise a strategy to migrate MongoDB to the Azure Cosmos DB account. 
@@ -99,7 +99,7 @@ Solution: You install the Azure CLI on the device and run the kubectl apply `"f 
 - [ ] EnabledForTemplateDeployment
 - [x] EnableSoftDelete
 
-[//] - 0013_image 
+[//] - 0013_image [//OK-omg.saved] [100%]
 
 #### 0014, Q14. ::You manage an Azure SQL database that allows for Azure AD authentication. 
 `You need to make sure that database developers can connect to the SQL database via Microsoft SQL Server Management Studio (SSMS). 
@@ -124,7 +124,7 @@ Solution: You install the Azure CLI on the device and run the kubectl apply `"f 
 - [ ] Implement virtual network service endpoints for Azure Key Vault.
 - [ ] Run the az keyvault update --enable-soft-delete false CLI.
 
-[//] - 0016_image 
+[//] - 0016_image [//OK-omg.saved] [??50%]
 
 
 #### 0017, Q17. ::You are configuring a web app that delivers streaming video to users. 
@@ -270,4 +270,4 @@ Solution: You install the Azure CLI on the device and run the kubectl apply `"f 
 
 
 
-[//] - 0030_image a faire ?? TODO : 
+[//] - 0030_image a faire ?? TODO : [//OK-omg.saved] [??00%]

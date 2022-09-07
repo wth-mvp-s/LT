@@ -21,11 +21,6 @@ az204 		badz sprytny, wyrywaj czas, bo inaczej cie zaoraja.
 		tematy do czytania :  w tescie  Blob Storage trigger.
 
 
-PLAN: 
-
-po 5 porobic dzirawe 3 pierwsze 
-wydrukowac ostatnia i przedostatnia i porobic
-
 
 
 

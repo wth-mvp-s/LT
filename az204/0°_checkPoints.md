@@ -18,4 +18,4 @@ fichier .doc
  contre politique brak czasu
 
 files done: 
-n*01 images ok, check answers ko
+n*01 images ok, check answers ok

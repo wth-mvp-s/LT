@@ -1,10 +1,11 @@
+
 (Expires Sep 15, 2022) 
 
 
 
-az204 		badz sprytny, wyrywaj czas, bo inaczej cie zaoraja. 
 
-		WHY : po co ja sie pierdole ? 
+az204 		WHY : po co ja sie pierdole ? 
+
 		- 
 		- lepszy start do NY i do Singapuru, to jest moj bilet tam... 
 		- bede mial wieksze oczekiwania finansowe. wieksza pensje.  
@@ -16,12 +17,3 @@ az204 		badz sprytny, wyrywaj czas, bo inaczej cie zaoraja.
 
 		Number of questions in the database: 186
 		Exam Version: Aug. 1, 2022
-
-
-		tematy do czytania :  w tescie  Blob Storage trigger.
-
-
-
-
-
-

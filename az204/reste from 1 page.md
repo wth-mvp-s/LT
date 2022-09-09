@@ -48,16 +48,6 @@
 
 
 
-#### Qp15.2 ::You have a new Azure subscription. You are developing an internal website for employees to view sensitive data. The website uses Azure Active Directory (Azure
-AD) for authentication.
-`You need to implement multifactor authentication for the website.
-`Which two actions should you perform? Each correct answer presents part of the solution.
-
-- [ ] Configure the website to use Azure AD B2C.
-- [x] In Azure AD, create a new conditional access policy.
-- [x] Upgrade to Azure AD Premium.
-- [ ] In Azure AD, enable application proxy.
-- [ ] In Azure AD conditional access, enable the baseline policy.
 
 
 
@@ -89,16 +79,6 @@ AD) for authentication.
 
 
 
-
-
-#### Qp18.14 ::You are developing a medical records document management website. The website is used to store scanned copies of patient intake forms.
-`If the stored intake forms are downloaded from storage by a third party, the contents of the forms must not be compromised.
-`You need to store the intake forms according to the requirements.
-`Solution: Store the intake forms as Azure Key Vault secrets.
-`Does the solution meet the goal?
-
-- [ ] Yes
-- [x] No
 
 
 

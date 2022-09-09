@@ -19,3 +19,5 @@ fichier .doc
 
 files done: 
 n*01 images ok, check answers ok
+4° - remplit
+5° - remplit

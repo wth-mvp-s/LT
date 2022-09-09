@@ -10,10 +10,8 @@ az204 		WHY : po co ja sie pierdole ?
 		- lepszy start do NY i do Singapuru, to jest moj bilet tam... 
 		- bede mial wieksze oczekiwania finansowe. wieksza pensje.  
 		- bede lepszy niz fdp's
-		- mozesz liczyc tylko na siebie, placisz za siebie, no body rien à foutre de Toi. 
+		- mozesz liczyc tylko na siebie, placisz za siebie, no body RAF de Toi. 
 
 
 		06.08.2022 - 	Exam: Developing Solutions for Microsoft Azure
 
-		Number of questions in the database: 186
-		Exam Version: Aug. 1, 2022

@@ -6,6 +6,7 @@ when i dont know
 
 [100%] 
 if sure
+[highly-voted%] 
 
  - pour dire la surete de la reponse
 

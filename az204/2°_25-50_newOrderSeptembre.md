@@ -1,11 +1,79 @@
 ##   2°_25-50_newOrderSeptembre
 
-[//] 31 todo: 
+#### 0031, [67%] ::You are developing an application that applies a set of governance policies for internal and external services, as well as for applications.
+`You develop a stateful ASP.NET Core 2.1 web application named PolicyApp and deploy it to an Azure App Service Web App. 
+`The PolicyApp reacts to events from Azure Event Grid and performs policy actions based on those events.
+`You have the following requirements:
+`✑ Authentication events must be used to monitor users when they sign in and sign out.
+`✑ All authentication events must be processed by PolicyApp.
+`✑ Sign outs must be processed as fast as possible.
+`What should you do?
 
-[//] 32 todo: image 32
+- [ ] Create a new Azure Event Grid subscription for all authentication events. Use the subscription to process sign-out events.
+- [ ] B. Create a separate Azure Event Grid handler for sign-in and sign-out events.
+- [ ] C. Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events. 
+- [x] Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
 
 
-#### 0033, Q1. ::You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service. 
+
+#### 0032, Q1. ::You are developing a C++ application that compiles to a native application named process.exe. 
+`The application accepts images as input and returns images in one of the following image formats: GIF, PNG, or JPEG.
+`You must deploy the application as an Azure Function.
+`You need to configure the function and host json files.
+`How should you complete the json files?
+`
+`function.json
+`{
+`   ----------------
+    "direction":"out"
+    "name":"result"
+    
+`}
+
+- [x] "type":"http"
+- [ ] "platform":"gcm"
+- [ ] "datatype":"stream"
+- [ ] "path":"process.exe"
+
+
+#### 0032, Q1. ::You are developing a C++ application that compiles to a native application named process.exe. 
+`The application accepts images as input and returns images in one of the following image formats: GIF, PNG, or JPEG.
+`You must deploy the application as an Azure Function.
+`You need to configure the function and host json files.
+`How should you complete the json files?
+`
+`host.json
+`----------------
+`     "defaultExecutablePath":"process.exe"
+`},
+`"enableForwardingHttpRequest":false
+`}
+- [x] "customHandler":{"description":{
+- [ ] "languageWorker":{"path":{
+- [ ] "extensions":{"worker":{
+- [ ] "extensionBundle":{
+
+
+#### 0032, Q1. ::You are developing a C++ application that compiles to a native application named process.exe. 
+`The application accepts images as input and returns images in one of the following image formats: GIF, PNG, or JPEG.
+`You must deploy the application as an Azure Function.
+`You need to configure the function and host json files.
+`How should you complete the json files?
+`
+`
+`host.json
+`"customHandler":{"description":{
+`     "defaultExecutablePath":"process.exe"
+`},
+`   ---------- 
+
+- [ ] "enableForwardingHttpRequest":true
+- [x] "enableForwardingHttpRequest":false
+
+
+
+
+#### 0033, Q1. [ok]::You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service. 
 `✑ Each instance of the WebJob processes data for a single customer and must run as a singleton instance.
 `✑ Each deployment must be tested by using deployment slots prior to serving production data.
 `✑ Azure costs must be minimized.
@@ -60,7 +128,7 @@
 - [x] ScaledObject
 - [ ] TriggerAuthentication
 
-#### 0034, Q2.3 ::You are a developer for a software as a service (SaaS) company that uses an Azure Function to process orders. The Azure Function currently runs on an Azure
+#### 0034, Q2.3 [ok]::You are a developer for a software as a service (SaaS) company that uses an Azure Function to process orders. The Azure Function currently runs on an Azure
 `Function app that is triggered by an Azure Storage queue.
 `You are preparing to migrate the Azure Function to Kubernetes using Kubernetes-based Event Driven Autoscaling (KEDA).
 `You need to configure Kubernetes Custom Resource Definitions (CRD) for the Azure Function.
@@ -75,10 +143,12 @@
 
 [//] 35 todo: select 
 
+[//] 10.09.2022 encours
 
 
 
-#### 0036, Q4. [//]4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure
+
+#### 0036, Q4. [?]4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure
 `Storage Blob storage. The storage account type is General-purpose V2.
 `When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute.
 `You need to design the process that starts the photo processing.
@@ -333,41 +403,3 @@ What are two possible ways to achieve this goal? Each correct answer presents a 
 
 
 [//] 00 todo: selectOrder
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

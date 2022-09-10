@@ -1,99 +1,23 @@
-##   n90-120
+##   8°_n200-225_septneworder
+
+[//] - 0018_new
+[//] - 0019_new
 
 
-[//] ou je suis le 31.08.2022
-
-
-
-
-
-
-
-
-
-#### Qp26.3Topic4Set4question13_p35 ::You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output.
-`You must use a storage mechanism with the following requirements:
-`✑ Share session state across all ASP.NET web applications.
-`✑ Support controlled, concurrent access to the same session state data for multiple readers and a single writer.
-`✑ Save full HTTP responses for concurrent requests.
-`You need to store the information.
-`Proposed Solution: Deploy and configure Azure Cache for Redis. Update the web applications.
+#### Qp34.3Topic5Set5question25 [59%]::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
+`You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
+`You need to implement a solution to receive the device data.
+`Solution: Provision an Azure Event Hub. Configure the machine identifier as the partition key and enable capture.
 `Does the solution meet the goal?
 
+- [ ] Yes
+- [x] No
 
-- [x] Yes
-- [ ] N
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[//] - 0019_todo
+[//] - 0022_todo
+[//] - 0023_todo
+[//] - 0024_todo
 
 
 
@@ -120,7 +44,7 @@
 `Remove formatting text from responses.
 
 - [ ] Inbound
-- [ ] Outbond
+- [x] Outbond
 - [ ] Backend
 
 
@@ -138,55 +62,34 @@
 - [ ] Backend
 
 
-#### Qp28.Topic5.Set5.question2 ::You are developing an e-commerce solution that uses a microservice architecture.
+
+#### Qp28.Topic5.Set5.question2 [100%]::You are developing an e-commerce solution that uses a microservice architecture.
 `You need to design a communication backplane for communicating transactional messages between various parts of the solution. Messages must be communicated in first-in-first-out (FIFO) order.
 `What should you use?
 
 - [ ] Azure Storage Queue
 - [ ] Azure Event Hub
-- [ ] Azure Service Bus
+- [x] Azure Service Bus
 - [ ] Azure Event Grid
 
 
+[//] - 0019_image
+[//] - 0028_image
 
-#### Qp29.3Topic5Set5question5 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
+
+#### Qp29.3Topic5Set5question5 [100%]::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
 `You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
 `You need to implement a solution to receive the device data.
 `Solution: Provision an Azure Notification Hub. Register all devices with the hub.
 `Does the solution meet the goal?
 
 - [ ] Yes
-- [ ] No
+- [x] No
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[//] - 0028_new
+[//] - 0029_new
+[//] - 0030_new
+[//] - 003_new
+[//] - 0034_new
+[//] - 0035_new

@@ -1,7 +1,54 @@
-##   7°_n175-200_septneworder
+##   7°_n_sept-Added_10092022
 
-[//] - 0020_new
-[//] - 0021_new
+#### 0020_new [1voter] ::You develop and deploy an Azure App Service web app. The app is deployed to multiple regions and uses Azure Traffic Manager. Application Insights is enabled for the app.
+`You need to analyze app uptime for each month.
+`Which two solutions will achieve the goal?
+
+- [ ] Azure Monitor logs
+- [x] Application Insights alerts
+- [ ] Azure Monitor metrics
+- [x] Application Insights web tests
+
+
+#### 0021_new [2voter] ::You develop and deploy an Azure App Service web app. The web app accesses data in an Azure SQL database.
+`You must update the web app to store frequently used data in a new Azure Cache for Redis Premium instance.
+`You need to implement the Azure Cache for Redis features.
+`Which feature should you implement? 
+`
+`Create a data structure for storing collection of relared items
+
+- [ ] horizontal partitioning
+- [ ] channel
+- [ ] list
+- [x] set
+
+
+#### 0021_new [2voter] ::You develop and deploy an Azure App Service web app. The web app accesses data in an Azure SQL database.
+`You must update the web app to store frequently used data in a new Azure Cache for Redis Premium instance.
+`You need to implement the Azure Cache for Redis features.
+`Which feature should you implement? 
+`
+`Create a data structure for the most recent accessed cache items
+
+- [ ] horizontal partitioning
+- [ ] channel
+- [x] list
+- [ ] set
+
+
+#### 0021_new [2voter] ::You develop and deploy an Azure App Service web app. The web app accesses data in an Azure SQL database.
+`You must update the web app to store frequently used data in a new Azure Cache for Redis Premium instance.
+`You need to implement the Azure Cache for Redis features.
+`Which feature should you implement? 
+`
+`Send messages through a high-performance publisher/subscriber mechanism
+
+- [ ] horizontal partitioning
+- [x] channel
+- [ ] list
+- [x] set
+
+
 
 
 #### 0000.23 [100%] ::You are developing an ASP.NET Core Web API web service. The web service uses Azure Application Insights for all telemetry and dependency tracking. The web service reads and writes data to a database other than Microsoft SQL Server.
@@ -86,14 +133,108 @@
 - [ ] Bypass caching for query strings
 - [x] Cache every unique URL
 
-[//] - 0025_image
-[//] - 0026_new
-[//] - 0026_image
-[//] - 0028_new
-[//] - 0029_new
-[//] - 0030_new
-[//] - 0031_new
-[//] - 0032_new
+[//] - 0025_image OK
+
+#### 0026_new ::You are developing a web application that uses Azure Cache for Redis. You anticipate that the cache will frequently fill and that you will need to evict keys.
+`You must configure Azure Cache for Redis based on the following predicted usage pattern: A small subset of elements will be accessed much more often than the rest.
+`You need to configure the Azure Cache for Redis to optimize performance for the predicted usage pattern.
+`Which two eviction policies will achieve the goal?
+
+- [ ] noeviction
+- [x] allkeys-lru
+- [x] volatile-lru
+- [ ] allkeys-random
+- [ ] volatile-ttl
+- [ ] volatile-random
+
+
+[//] - 0027_image ok 
+
+#### 0028_new [?]::An organization hosts web apps in Azure. The organization uses Azure Monitor.
+`You discover that configuration changes were made to some of the web apps.
+`You need to identify the configuration changes.
+`Which Azure Monitor log should you review?
+
+- [ ] AppServiceAppLogs
+- [x] AppServiceEnvironmentPlatformlogs
+- [ ] AppServiceConsoleLogs
+- [ ] AppServiceAuditLogs
+
+#### 0029_new [?]::You develop and deploy an Azure App Service web app to a production environment. You enable the Always On setting and the Application Insights site extensions.
+`You deploy a code update and receive multiple failed requests and exceptions in the web app.
+`You need to validate the performance and failure counts of the web app in near real time.
+`Which Application Insights tool should you use?
+
+- [ ] Profiler
+- [ ] Smart Detection
+- [x] Live Metrics Stream
+- [ ] Application Map
+- [ ] Snapshot Debugger
+
+
+#### 0030_new a [?]::You deploy an ASP.NET web app to Azure App Service.
+`You must monitor the web app by using Application Insights.
+`You need to configure Application Insights to meet the requirements.
+`Which feature should you use? 
+`
+`Automatically warn you of potential performance problems and failure anomalies in the web app. 
+
+- [x] Smart Detection
+- [ ] Snapshot Debugger
+- [ ] Profiler
+- [ ] Multi-step test
+
+
+#### 0030_new b [?]::You deploy an ASP.NET web app to Azure App Service.
+`You must monitor the web app by using Application Insights.
+`You need to configure Application Insights to meet the requirements.
+`Which feature should you use? 
+`
+`Automatically collect the state of the source code and variables when an exception is thrown in the web app. 
+
+- [ ] Smart Detection
+- [x] Snapshot Debugger
+- [ ] Profiler
+- [ ] Multi-step test
+
+
+#### 0030_new c [?]::You deploy an ASP.NET web app to Azure App Service.
+`You must monitor the web app by using Application Insights.
+`You need to configure Application Insights to meet the requirements.
+`Which feature should you use? 
+`
+`Capture performance traces of the web app without negatively affecting users of the web app. 
+
+- [ ] Smart Detection
+- [ ] Snapshot Debugger
+- [x] Profiler
+- [ ] Multi-step test
+
+
+#### 0031_new c [2?]::You are building a web application that performs image analysis on user photos and returns metadata containing objects identified. 
+`The image analysis is very costly in terms of time and compute resources. 
+`You are planning to use Azure Redis Cache so duplicate uploads do not need to be reprocessed.
+`In case of an Azure data center outage, metadata loss must be kept to a minimum.
+`You need to configure the Azure Redis cache instance.
+`Which two actions should you perform? 
+
+- [ ] Configure Azure Redis with AOF persistence.
+- [x] Configure Azure Redis with RDB persistence.
+- [ ] Configure second storage account for persistence.
+- [x] Set backup frequency to the minimum value.
+
+
+#### 0032_new c [????]::You are developing an Azure-based web application. 
+`The application goes offline periodically to perform offline data processing. While the application is offline, numerous Azure Monitor alerts fire which result in the on-call developer being paged.
+`The application must always log when the application is offline for any reason.
+`You need to ensure that the on-call developer is not paged during offline processing.
+`What should you do?
+
+- [ ] Add Azure Monitor alert processing rules to suppress notifications.
+- [ ] Disable Azure Monitor Service Health Alerts during offline processing.
+- [ ] Create an Azure Monitor Metric Alert.
+- [x] Build an Azure Monitor action group that suppresses the alerts.
+
 
 
 #### Qp29.new_p.39 [most-voted]::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
@@ -250,8 +391,125 @@
 - [ ] Yes
 - [x] No
 
-[//] - 0008_new
-[//] - 0008_todo
+[//] - 0008_new-select
+
+#### 0009_todo A. ::You develop a news and blog content app for Windows devices.
+`A notification must arrive on a user's device when there is a new article available for them to view.
+`You need to implement push notifications.
+`How should you complete the code segment?
+`
+`
+`string notificationHubName = "contoso_hub";
+`string notificationHubConnection = "connection_string";
+`--------- hub = 
+`NotificationHubClient . CreateClientConnectionString
+`(notificationHubConnection, notificationHubName);
+`string windowsToastPayload = 
+`@"<toast><visual><binding template=""ToastText01""><text id=""1"">" +
+`@"New item to view" + @"</Text></binding></visual></toast>";
+`try
+`{
+`var result = 
+`await hub SendWindowsNativeNotificationAsync.(windowsToastPayload)
+`}
+`catch (System.Exception ex)
+`{
+`...    
+`}
+
+- [x] NotificationHubClient
+- [ ] NotificationHubClientSettings
+- [ ] NotificationHubJob
+- [ ] NotificationDetails
+
+#### 0009_todo B. ::You develop a news and blog content app for Windows devices.
+`A notification must arrive on a user's device when there is a new article available for them to view.
+`You need to implement push notifications.
+`How should you complete the code segment?
+`
+`
+`string notificationHubName = "contoso_hub";
+`string notificationHubConnection = "connection_string";
+`NotificationHubClient hub = 
+`---------------- . CreateClientConnectionString
+`(notificationHubConnection, notificationHubName);
+`string windowsToastPayload = 
+`@"<toast><visual><binding template=""ToastText01""><text id=""1"">" +
+`@"New item to view" + @"</Text></binding></visual></toast>";
+`try
+`{
+`var result = 
+`await hub SendWindowsNativeNotificationAsync.(windowsToastPayload)
+`}
+`catch (System.Exception ex)
+`{
+`...    
+`}
+
+- [x] NotificationHubClient
+- [ ] NotificationHubClientSettings
+- [ ] NotificationHubJob
+- [ ] NotificationDetails
+
+
+#### 0009_todo C. ::You develop a news and blog content app for Windows devices.
+`A notification must arrive on a user's device when there is a new article available for them to view.
+`You need to implement push notifications.
+`How should you complete the code segment?
+`
+`
+`string notificationHubName = "contoso_hub";
+`string notificationHubConnection = "connection_string";
+`NotificationHubClient hub = 
+`NotificationHubClient . ----------------
+`(notificationHubConnection, notificationHubName);
+`string windowsToastPayload = 
+`@"<toast><visual><binding template=""ToastText01""><text id=""1"">" +
+`@"New item to view" + @"</Text></binding></visual></toast>";
+`try
+`{
+`var result = 
+`await hub SendWindowsNativeNotificationAsync.(windowsToastPayload)
+`}
+`catch (System.Exception ex)
+`{
+`...    
+`}
+
+- [x] GetInstallation
+- [ ] CreateClientFromConnectionString
+- [ ] CreateOrUpdateInstallation
+- [ ] PatchInstallation
+
+
+#### 0009_todo D. ::You develop a news and blog content app for Windows devices.
+`A notification must arrive on a user's device when there is a new article available for them to view.
+`You need to implement push notifications.
+`How should you complete the code segment?
+`
+`
+`string notificationHubName = "contoso_hub";
+`string notificationHubConnection = "connection_string";
+`NotificationHubClient hub = 
+`NotificationHubClient . CreateClientFromConnectionString
+`(notificationHubConnection, notificationHubName);
+`string windowsToastPayload = 
+`@"<toast><visual><binding template=""ToastText01""><text id=""1"">" +
+`@"New item to view" + @"</Text></binding></visual></toast>";
+`try
+`{
+`var result = 
+`await hub -------------------------.(windowsToastPayload)
+`}
+`catch (System.Exception ex)
+`{
+`...    
+`}
+
+- [x] SendWindowsNativeNotificationAsync
+- [ ] SubmitNotificationHubJobAsync
+- [ ] ScheduleNotificationAsync
+- [ ] SendAppleNativeNotificationAsync
 
 
 #### Qp31.3Topic5Set5question15 [7voters]::You are developing an Azure messaging solution.
@@ -313,8 +571,67 @@
 - [ ] Key authentication
 - [ ] Management Access Control
 
-[//] - 0013_todo
 
+#### 0013_todo::You are working for Contoso, Ltd.
+`You define an API Policy object by using the following XML markup:
+`
+`
+`<set-variable name= "bodySize" value="@(context.Request.Headers["Content-Length"] [0])"/>
+`<choose>
+`   <when condition= "@(int.Parse(context.Variables.GetValueOrDefault<string> ("bodySize")<512000)">
+`</when>
+`<otherwise>
+`   <rewrite-uri template= "/put"/>
+`   <set-backend-service base-url="http://contoso.com/api/9.1/"/>
+`</otherwise>
+`</choose>
+`
+`The XML segment belongs in the <inbound> section of the policy.
+
+
+- [x] Yes
+- [ ] No
+
+#### 0013_todo B. ::You are working for Contoso, Ltd.
+`You define an API Policy object by using the following XML markup:
+`
+`
+`<set-variable name= "bodySize" value="@(context.Request.Headers["Content-Length"] [0])"/>
+`<choose>
+`   <when condition= "@(int.Parse(context.Variables.GetValueOrDefault<string> ("bodySize")<512000)">
+`</when>
+`<otherwise>
+`   <rewrite-uri template= "/put"/>
+`   <set-backend-service base-url="http://contoso.com/api/9.1/"/>
+`</otherwise>
+`</choose>
+`
+`If the body size is > 256k, an error will occur. 
+
+
+- [ ] Yes
+- [x] No
+
+
+#### 0013_todo C. ::You are working for Contoso, Ltd.
+`You define an API Policy object by using the following XML markup:
+`
+`
+`<set-variable name= "bodySize" value="@(context.Request.Headers["Content-Length"] [0])"/>
+`<choose>
+`   <when condition= "@(int.Parse(context.Variables.GetValueOrDefault<string> ("bodySize")<512000)">
+`</when>
+`<otherwise>
+`   <rewrite-uri template= "/put"/>
+`   <set-backend-service base-url="http://contoso.com/api/9.1/"/>
+`</otherwise>
+`</choose>
+`
+`If the request is http://contoso.com/api/9.2/, the policy will retain the higher version.
+
+
+- [ ] Yes
+- [x] No
 
 #### Qp32.3Topic5Set5question19::You are developing a solution that will use Azure messaging services.
 `You need to ensure that the solution uses a publish-subscribe model and eliminates the need for constant polling.

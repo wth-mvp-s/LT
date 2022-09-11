@@ -1,17 +1,81 @@
 ##   6°_n150-175_septneworder
 
 
-[//] - 0042_image
-[//] - 0043_image
-[//] - 0043_new
-[//] - 0044_new
-[//] - 0046_new
-[//] - 0047_new
-`[//] - 0048_new`
-[//] - 0049_new
-[//] - 0050_new
-[//] - 0051_image
-[//] - 0052_image
+[//] - 0042_image-todo
+[//] - 0043_image-todo
+
+
+#### 0044_new ::You manage a data processing application that receives requests from an Azure Storage queue.
+`You need to manage access to the queue. You have the following requirements:
+`✑ Provide other applications access to the Azure queue.
+`✑ Ensure that you can revoke access to the queue without having to regenerate the storage account keys.
+`✑ Specify access at the queue level and not at the storage account level.
+`Which type of shared access signature (SAS) should you use?
+
+- [x] Service SAS with a stored access policy    
+- [ ] Account SAS    
+- [ ] User Delegation SAS    
+- [ ] Service SAS with ad hoc SAS    
+
+[//] - 0045_new-todo
+
+
+#### 0046_new [1]::You are building a web application that uses the Microsoft identity platform for user authentication.
+`You are implementing user identification for the web application.
+`You need to retrieve a claim to uniquely identify a user.
+`Which claim type should you use?
+
+- [ ] aud
+- [ ] nonce
+- [x] oid
+- [ ] idp
+
+#### 0047_new [1]::You are developing an Azure Function that calls external APIs by providing an access token for the API. The access token is stored in a secret named token in an Azure Key Vault named mykeyvault.
+`You need to ensure the Azure Function can access to the token. Which value should you store in the Azure Function App configuration?
+
+- [ ] KeyVault:mykeyvault;Secret:token
+- [ ] App:Settings:Secret:mykeyvault:token
+- [ ] AZUREKVCONNSTR_ https://mykeyveult.vault.ezure.net/secrets/token/
+- [x] @Microsoft.KeyVault(SecretUri=https://mykeyvault.vault.azure.net/secrets/token/)
+
+
+
+#### 0048_new [4voters]::A company maintains multiple web and mobile applications. Each application uses custom in-house identity providers as well as social identity providers.
+`You need to implement single sign-on (SSO) for all the applications.
+`What should you do?
+
+- [x] Use Azure Active Directory B2C (Azure AD B2C) with custom policies.
+- [ ] Use Azure Active Directory B2B (Azure AD B2B) and enable external collaboration.
+- [ ] Use Azure Active Directory B2C (Azure AD B2C) with user flows.
+- [ ] Use Azure Active Directory B2B (Azure AD B2B).
+
+
+#### 0049_new [1]::You develop a Python application for image rendering that uses GPU resources to optimize rendering processes. You deploy the application to an Azure
+`Container Instances (ACI) Linux container.
+`The application requires a secret value to be passed when the container is started. The value must only be accessed from within the container.
+`You need to pass the secret value.
+`What are two possible ways to achieve this goal?
+
+- [x] Create an environment variable Set the secureValue property to the secret value.
+- [ ] Add the secret value to the container image. Use a managed identity.
+- [ ] Add the secret value to the application code Set the container startup command.
+- [ ] Add the secret value to an Azure Blob storage account. Generate a SAS token.
+- [x] Mount a secret volume containing the secret value in a secrets file.
+
+
+
+#### 0050_new [1]::You are developing a user portal for a company.
+`You need to create a report for the portal that lists information about employees who are subject matter experts for a specific topic. 
+`You must ensure that administrators have full control and consent over the data.
+`Which technology should you use?
+
+- [x] Microsoft Graph data connect
+- [ ] Microsoft Graph API
+- [ ] Microsoft Graph connectors
+
+[//] - 0051_image-todo
+[//] - 0052_image-todo
+
 [//] - 0053_image
 
 

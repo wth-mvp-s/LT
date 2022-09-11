@@ -88,8 +88,241 @@
 - [ ] Virtual Kubelet
 
 
-[//] - 0016_image 
-[//] - 0017_image 
+#### 0016_image  ::You are implementing an order processing system. 
+`A point of sale application publishes orders to topics in an Azure Service Bus queue. The Label property for the topic includes the following data:
+`¦---Property-------¦-------Description------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-ShipLocation-----¦-the country/region where ----------------¦
+`¦------------------¦-the orderwill be shipped ----------------¦
+`¦-------------------------------------------------------------¦
+`¦-CorrelationId----¦-a priority value for the order-----------¦
+`¦-------------------------------------------------------------¦
+`¦-Quantity---------¦-a user-defined field that stores --------¦
+`¦------------------¦-the quantity of items in an -------------¦
+`¦------------------¦-order------------------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-AuditedAt--------¦-a user-defined field that records--------¦
+`¦------------------¦-the data an order is audited-------------¦
+`¦-------------------------------------------------------------¦
+`The system has the following requirements for subscriptions:
+`
+`¦---FutureOrders---¦-This subscription is reserved for future-¦
+`¦------------------¦------use and must not receive any orders-¦
+`¦-------------------------------------------------------------¦
+`¦HighPriorityOrders¦-Handle all high priority orders and------¦
+`¦----------------------------------------international orders-¦
+`¦-------------------------------------------------------------¦
+`¦InternationalOrders¦-Handle orders where the country/region is
+`¦-----------------------not United States---------------------¦
+`¦-------------------------------------------------------------¦
+`¦HighQuantityOrders-¦-Handle only orders with quantyities-----¦
+`¦------------------------greater than 100 units---------------¦
+`¦-------------------------------------------------------------¦
+`¦AllOrders-----------¦-This subscription is used for auditing
+`¦purposes. This subscription must receive every single order.
+`¦AllOrders has an Action defined that updates the AuditedAt
+`¦property to include the data and time it was received by the
+`¦subscription. 
+`
+`
+`You need to implement filtering and maximize throughput while evaluating filters.
+`Which filter types should you implement?
+`
+`FutoreOrders
+
+- [x] SQLFilter
+- [ ] CorrelationFilter
+- [ ] No Filter
+
+
+#### 0016_image  ::You are implementing an order processing system. 
+`A point of sale application publishes orders to topics in an Azure Service Bus queue. The Label property for the topic includes the following data:
+`¦---Property-------¦-------Description------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-ShipLocation-----¦-the country/region where ----------------¦
+`¦------------------¦-the orderwill be shipped ----------------¦
+`¦-------------------------------------------------------------¦
+`¦-CorrelationId----¦-a priority value for the order-----------¦
+`¦-------------------------------------------------------------¦
+`¦-Quantity---------¦-a user-defined field that stores --------¦
+`¦------------------¦-the quantity of items in an -------------¦
+`¦------------------¦-order------------------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-AuditedAt--------¦-a user-defined field that records--------¦
+`¦------------------¦-the data an order is audited-------------¦
+`¦-------------------------------------------------------------¦
+`The system has the following requirements for subscriptions:
+`
+`¦---FutureOrders---¦-This subscription is reserved for future-¦
+`¦------------------¦------use and must not receive any orders-¦
+`¦-------------------------------------------------------------¦
+`¦HighPriorityOrders¦-Handle all high priority orders and------¦
+`¦----------------------------------------international orders-¦
+`¦-------------------------------------------------------------¦
+`¦InternationalOrders¦-Handle orders where the country/region is
+`¦-----------------------not United States---------------------¦
+`¦-------------------------------------------------------------¦
+`¦HighQuantityOrders-¦-Handle only orders with quantyities-----¦
+`¦------------------------greater than 100 units---------------¦
+`¦-------------------------------------------------------------¦
+`¦AllOrders-----------¦-This subscription is used for auditing
+`¦purposes. This subscription must receive every single order.
+`¦AllOrders has an Action defined that updates the AuditedAt
+`¦property to include the data and time it was received by the
+`¦subscription. 
+`
+`
+`You need to implement filtering and maximize throughput while evaluating filters.
+`Which filter types should you implement?
+`
+`HighPriorityOrders
+
+- [ ] SQLFilter
+- [x] CorrelationFilter
+- [ ] No Filter
+
+
+#### 0016_image  ::You are implementing an order processing system. 
+`A point of sale application publishes orders to topics in an Azure Service Bus queue. The Label property for the topic includes the following data:
+`¦---Property-------¦-------Description------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-ShipLocation-----¦-the country/region where ----------------¦
+`¦------------------¦-the orderwill be shipped ----------------¦
+`¦-------------------------------------------------------------¦
+`¦-CorrelationId----¦-a priority value for the order-----------¦
+`¦-------------------------------------------------------------¦
+`¦-Quantity---------¦-a user-defined field that stores --------¦
+`¦------------------¦-the quantity of items in an -------------¦
+`¦------------------¦-order------------------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-AuditedAt--------¦-a user-defined field that records--------¦
+`¦------------------¦-the data an order is audited-------------¦
+`¦-------------------------------------------------------------¦
+`The system has the following requirements for subscriptions:
+`
+`¦---FutureOrders---¦-This subscription is reserved for future-¦
+`¦------------------¦------use and must not receive any orders-¦
+`¦-------------------------------------------------------------¦
+`¦HighPriorityOrders¦-Handle all high priority orders and------¦
+`¦----------------------------------------international orders-¦
+`¦-------------------------------------------------------------¦
+`¦InternationalOrders¦-Handle orders where the country/region is
+`¦-----------------------not United States---------------------¦
+`¦-------------------------------------------------------------¦
+`¦HighQuantityOrders-¦-Handle only orders with quantyities-----¦
+`¦------------------------greater than 100 units---------------¦
+`¦-------------------------------------------------------------¦
+`¦AllOrders-----------¦-This subscription is used for auditing
+`¦purposes. This subscription must receive every single order.
+`¦AllOrders has an Action defined that updates the AuditedAt
+`¦property to include the data and time it was received by the
+`¦subscription. 
+`
+`
+`You need to implement filtering and maximize throughput while evaluating filters.
+`Which filter types should you implement?
+`
+`InternationalOrders
+
+- [x] SQLFilter
+- [ ] CorrelationFilter
+- [ ] No Filter
+
+
+#### 0016_image  ::You are implementing an order processing system. 
+`A point of sale application publishes orders to topics in an Azure Service Bus queue. The Label property for the topic includes the following data:
+`¦---Property-------¦-------Description------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-ShipLocation-----¦-the country/region where ----------------¦
+`¦------------------¦-the orderwill be shipped ----------------¦
+`¦-------------------------------------------------------------¦
+`¦-CorrelationId----¦-a priority value for the order-----------¦
+`¦-------------------------------------------------------------¦
+`¦-Quantity---------¦-a user-defined field that stores --------¦
+`¦------------------¦-the quantity of items in an -------------¦
+`¦------------------¦-order------------------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-AuditedAt--------¦-a user-defined field that records--------¦
+`¦------------------¦-the data an order is audited-------------¦
+`¦-------------------------------------------------------------¦
+`The system has the following requirements for subscriptions:
+`
+`¦---FutureOrders---¦-This subscription is reserved for future-¦
+`¦------------------¦------use and must not receive any orders-¦
+`¦-------------------------------------------------------------¦
+`¦HighPriorityOrders¦-Handle all high priority orders and------¦
+`¦----------------------------------------international orders-¦
+`¦-------------------------------------------------------------¦
+`¦InternationalOrders¦-Handle orders where the country/region is
+`¦-----------------------not United States---------------------¦
+`¦-------------------------------------------------------------¦
+`¦HighQuantityOrders-¦-Handle only orders with quantyities-----¦
+`¦------------------------greater than 100 units---------------¦
+`¦-------------------------------------------------------------¦
+`¦AllOrders-----------¦-This subscription is used for auditing
+`¦purposes. This subscription must receive every single order.
+`¦AllOrders has an Action defined that updates the AuditedAt
+`¦property to include the data and time it was received by the
+`¦subscription. 
+`
+`
+`You need to implement filtering and maximize throughput while evaluating filters.
+`Which filter types should you implement?
+`
+`HighQuantityOrders
+
+- [x] SQLFilter
+- [ ] CorrelationFilter
+- [ ] No Filter
+
+
+#### 0016_image  [???110voters]::You are implementing an order processing system. 
+`A point of sale application publishes orders to topics in an Azure Service Bus queue. The Label property for the topic includes the following data:
+`¦---Property-------¦-------Description------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-ShipLocation-----¦-the country/region where ----------------¦
+`¦------------------¦-the orderwill be shipped ----------------¦
+`¦-------------------------------------------------------------¦
+`¦-CorrelationId----¦-a priority value for the order-----------¦
+`¦-------------------------------------------------------------¦
+`¦-Quantity---------¦-a user-defined field that stores --------¦
+`¦------------------¦-the quantity of items in an -------------¦
+`¦------------------¦-order------------------------------------¦
+`¦-------------------------------------------------------------¦
+`¦-AuditedAt--------¦-a user-defined field that records--------¦
+`¦------------------¦-the data an order is audited-------------¦
+`¦-------------------------------------------------------------¦
+`The system has the following requirements for subscriptions:
+`
+`¦---FutureOrders---¦-This subscription is reserved for future-¦
+`¦------------------¦------use and must not receive any orders-¦
+`¦-------------------------------------------------------------¦
+`¦HighPriorityOrders¦-Handle all high priority orders and------¦
+`¦----------------------------------------international orders-¦
+`¦-------------------------------------------------------------¦
+`¦InternationalOrders¦-Handle orders where the country/region is
+`¦-----------------------not United States---------------------¦
+`¦-------------------------------------------------------------¦
+`¦HighQuantityOrders-¦-Handle only orders with quantyities-----¦
+`¦------------------------greater than 100 units---------------¦
+`¦-------------------------------------------------------------¦
+`¦AllOrders-----------¦-This subscription is used for auditing
+`¦purposes. This subscription must receive every single order.
+`¦AllOrders has an Action defined that updates the AuditedAt
+`¦property to include the data and time it was received by the
+`¦subscription. 
+`
+`
+`You need to implement filtering and maximize throughput while evaluating filters.
+`Which filter types should you implement?
+`
+`AllOrders
+
+- [ ] SQLFilter
+- [ ] CorrelationFilter
+- [x] No Filter
+
+[//] - 0017_image-order 
 
 
 #### Q19p14.2 ::You are developing an Azure Cosmos DB solution by using the Azure Cosmos DB SQL API. The data includes millions of documents. Each document may contain hundreds of properties.
@@ -103,7 +336,56 @@
 - [x] a concatenation of multiple property values with a random suffix appended
 - [x] a hash suffix appended to a property value
 
-[//] - 0019_image 
+
+#### 0019_image  ::You are developing an Azure-hosted e-commerce web application. 
+`The application will use Azure Cosmos DB to store sales orders.
+`You are using the latest SDK to manage the sales orders in the database.
+`You create a new Azure Cosmos DB instance. 
+`You include a valid endpoint and valid authorization key to an appSettings.json file in the code project.
+`You are evaluating the following application code:
+`
+`internal class ManageSalesOrders
+`    private statis async Task GenerateSalesOrders()
+`code code code 
+`
+`A database named SalesOrders i screated. The database will include two containers. 
+
+- [x] Yes
+- [ ] No
+
+
+#### 0019_image B ::You are developing an Azure-hosted e-commerce web application. 
+`The application will use Azure Cosmos DB to store sales orders.
+`You are using the latest SDK to manage the sales orders in the database.
+`You create a new Azure Cosmos DB instance. 
+`You include a valid endpoint and valid authorization key to an appSettings.json file in the code project.
+`You are evaluating the following application code:
+`
+`internal class ManageSalesOrders
+`    private statis async Task GenerateSalesOrders()
+`code code code 
+`
+`Container1 will contain two items.
+
+- [x] Yes
+- [ ] No
+
+
+#### 0019_image C ::You are developing an Azure-hosted e-commerce web application. 
+`The application will use Azure Cosmos DB to store sales orders.
+`You are using the latest SDK to manage the sales orders in the database.
+`You create a new Azure Cosmos DB instance. 
+`You include a valid endpoint and valid authorization key to an appSettings.json file in the code project.
+`You are evaluating the following application code:
+`
+`internal class ManageSalesOrders
+`    private statis async Task GenerateSalesOrders()
+`code code code 
+`
+`Container2 will contain one items.
+
+- [x] Yes
+- [ ] No
 
 
 #### 0020,a Q19p14.2 ::You develop an Azure solution that uses Cosmos DB.
@@ -157,7 +439,39 @@
 - [ ] Lease container
 - [ ] Monitored container
 
-[//] - 0021_todo
+
+
+#### 0021_todo [3v]::You are developing a web application that will use Azure Storage. Older data will be less frequently used than more recent data.
+`You need to configure data storage for the application. You have the following requirements:
+`✑ Retain copies of data for five years.
+`✑ Minimize costs associated with storing data that is over one year old.
+`✑ Implement Zone Redundant Storage for application data.
+`What should you do?
+`
+`Configure an Azure Storage account
+
+- [ ] Implement Blob Storage
+- [ ] Implement Azure Cosmos DB
+- [ ] Implement Storage (general purpose v1)
+- [x] Implement StorageV2 (general purpose v2)
+
+
+#### 0021_todo B [3v]::You are developing a web application that will use Azure Storage. Older data will be less frequently used than more recent data.
+`You need to configure data storage for the application. You have the following requirements:
+`✑ Retain copies of data for five years.
+`✑ Minimize costs associated with storing data that is over one year old.
+`✑ Implement Zone Redundant Storage for application data.
+`What should you do?
+`
+`Configure data retention
+
+- [ ] Snapshot blobs and move them to the archive tier
+- [x] Set a lifecycle management policy to move blobs to the cool tier
+- [ ] Use AzCopy to copy the data to an on-premises device for backup
+- [ ] Set a lifecycle management policy to move blobs to the archive tier
+
+
+
 [//] - 0022_image
 
 #### 0023 ::You develop and deploy a web application to Azure App Service. 

@@ -37,8 +37,8 @@
 
 
 
-#### Q32 [//]4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure
-Storage Blob storage. The storage account type is General-purpose V2.
+#### Q32 [//]4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. 
+`Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2.
 `When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute.
 `You need to design the process that starts the photo processing.
 `Solution: Create an Azure Function app that uses the Consumption hosting model and that is triggered from the blob upload.
@@ -111,8 +111,9 @@ Storage Blob storage. The storage account type is General-purpose V2.
 - [x] In the Azure Application Gateway's HTTP setting, set the value of the Override backend path option to contoso22.azurewebsites.net.
 
 
-#### Q0038,  [//]4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure
-Storage Blob storage. The storage account type is General-purpose V2.
+#### Q0038,  [//]4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. 
+`Users upload photos to a web service which then stores the photos in Azure
+`Storage Blob storage. The storage account type is General-purpose V2.
 `When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute.
 `You need to design the process that starts the photo processing.
 `Solution:  Use the Azure Blob Storage change feed to trigger photo processing.
@@ -180,8 +181,7 @@ Storage Blob storage. The storage account type is General-purpose V2.
 [//] 5000 todo: selectOrder
 
 
-#### Q5100, 8 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce
-2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
+#### Q5100, 8 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
 `You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
 `You need to implement a solution to receive the device data.
 `Solution: Provision an Azure Event Grid. Configure the machine identifier as the partition key and enable capture.

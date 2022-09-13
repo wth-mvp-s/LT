@@ -10,8 +10,8 @@
 `What should you do?
 
 - [ ] Create a new Azure Event Grid subscription for all authentication events. Use the subscription to process sign-out events.
-- [ ] B. Create a separate Azure Event Grid handler for sign-in and sign-out events.
-- [ ] C. Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events. 
+- [ ] Create a separate Azure Event Grid handler for sign-in and sign-out events.
+- [ ] Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events. 
 - [x] Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
 
 
@@ -317,8 +317,7 @@
 `✑ The most recent patient status details must be retrieved even if multiple users in different locations have updated the patient record.
 `✑ Patient health monitoring data retrieved must be the current version or the prior version.
 `✑ After a patient is discharged and all charges have been assessed, the patient billing record contains the final charges.
-`You provision a Cosmos DB NoSQL database and set the default consistency level for the database account to Strong. You set the value for Indexing Mode to
-Consistent.
+`You provision a Cosmos DB NoSQL database and set the default consistency level for the database account to Strong. You set the value for Indexing Mode to Consistent.
 `You need to minimize latency and any impact to the availability of the solution. You must override the default consistency level at the query level to meet the required consistency guarantees for the scenarios.
 `Which consistency levels should you implement? To answer, drag the appropriate consistency levels to the correct requirements. Each consistency level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
 `
@@ -334,8 +333,7 @@ Consistent.
 `✑ The most recent patient status details must be retrieved even if multiple users in different locations have updated the patient record.
 `✑ Patient health monitoring data retrieved must be the current version or the prior version.
 `✑ After a patient is discharged and all charges have been assessed, the patient billing record contains the final charges.
-`You provision a Cosmos DB NoSQL database and set the default consistency level for the database account to Strong. You set the value for Indexing Mode to
-Consistent.
+`You provision a Cosmos DB NoSQL database and set the default consistency level for the database account to Strong. You set the value for Indexing Mode to Consistent.
 `You need to minimize latency and any impact to the availability of the solution. You must override the default consistency level at the query level to meet the required consistency guarantees for the scenarios.
 `Which consistency levels should you implement? To answer, drag the appropriate consistency levels to the correct requirements. Each consistency level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
 `
@@ -351,8 +349,7 @@ Consistent.
 `✑ The most recent patient status details must be retrieved even if multiple users in different locations have updated the patient record.
 `✑ Patient health monitoring data retrieved must be the current version or the prior version.
 `✑ After a patient is discharged and all charges have been assessed, the patient billing record contains the final charges.
-`You provision a Cosmos DB NoSQL database and set the default consistency level for the database account to Strong. You set the value for Indexing Mode to
-Consistent.
+`You provision a Cosmos DB NoSQL database and set the default consistency level for the database account to Strong. You set the value for Indexing Mode to Consistent.
 `You need to minimize latency and any impact to the availability of the solution. You must override the default consistency level at the query level to meet the required consistency guarantees for the scenarios.
 `Which consistency levels should you implement? To answer, drag the appropriate consistency levels to the correct requirements. Each consistency level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
 `

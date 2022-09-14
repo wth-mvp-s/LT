@@ -15,7 +15,7 @@
 `The cluster is located in a resource group.
 `Developers have created an application named MyApp. MyApp was packaged into a container image.
 `You need to deploy the YAML manifest file for the application.
-Solution: You install the Azure CLI on the device and run the kubectl apply `"-f myapp.yaml command.
+`Solution: You install the Azure CLI on the device and run the kubectl apply "-f myapp.yaml command.
 
 - [x] Yes
 - [ ] No

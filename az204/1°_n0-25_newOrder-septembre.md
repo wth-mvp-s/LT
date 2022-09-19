@@ -15,7 +15,8 @@
 `The cluster is located in a resource group.
 `Developers have created an application named MyApp. MyApp was packaged into a container image.
 `You need to deploy the YAML manifest file for the application.
-Solution: You install the Azure CLI on the device and run the kubectl apply `"-f myapp.yaml command.
+`
+`Solution: You install the Azure CLI on the device and run the kubectl apply "-f myapp.yaml command.
 
 - [x] Yes
 - [ ] No
@@ -23,7 +24,9 @@ Solution: You install the Azure CLI on the device and run the kubectl apply `"-f
 #### 004, Q4. [100%]::Your company has an Azure Kubernetes Service (AKS) cluster that you manage from an Azure AD-joined device. `The cluster is located in a resource group. 
 `Developers have created an application named MyApp. 
 `MyApp was packaged into a container image. 
-`You need to deploy the YAML manifest file for the application. Solution: You install the docker client on the device and run the docker run -it microsoft/azure-cli:0.10.17 command.
+`You need to deploy the YAML manifest file for the application. 
+`
+`Solution: You install the docker client on the device and run the docker run -it microsoft/azure-cli:0.10.17 command.
 
 - [ ] Yes
 - [x] No
@@ -141,6 +144,7 @@ Solution: You install the Azure CLI on the device and run the kubectl apply `"-f
 `The application makes use of continuous integration and deployment. 
 `You need to ensure that the application is highly available and that the users' streaming experience is constant. 
 `You also want to configure the application to store data in a geographic location that is nearest to the user. 
+`
 `Solution: You include the use of an Azure Content Delivery Network (CDN) in your design. 
 
 - [x] Yes
@@ -242,6 +246,7 @@ Solution: You install the Azure CLI on the device and run the kubectl apply `"-f
 #### 0027, Q27. ::You are developing a solution for a public facing API. 
 `The API back end is hosted in an Azure App Service instance. You have implemented a RESTful service for the API back end. 
 `You must configure back-end authentication for the API Management service instance. 
+`
 `Solution: You configure Client cert gateway credentials for the Azure resource. 
 
 - [x] Yes

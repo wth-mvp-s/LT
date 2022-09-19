@@ -185,9 +185,11 @@
 - [ ] Assign the value of the hazard message MessageId property to the SequenceNumber property.
 
 
+
 #### Qp25.3Topic4Set4question12 ::You are developing an Azure function that connects to an Azure SQL Database instance. The function is triggered by an Azure Storage queue.
-`You receive reports of numerous System.InvalidOperationExceptions with the following message:
-ג€Timeout expired. The timeout period elapsed prior to obtaining a connection from the pool. `This may have occurred because all pooled connections were in use and max pool size was reached.ג€
+`You receive reports of numerous System.InvalidOperationExceptions with the following message: ג€Timeout expired. 
+`The timeout period elapsed prior to obtaining a connection from the pool. 
+`This may have occurred because all pooled connections were in use and max pool size was reached.ג€
 `You need to prevent the exception.
 `What should you do?
 
@@ -195,6 +197,7 @@
 - [ ] Convert the trigger to Azure Event Hub
 - [ ] Convert the Azure Function to the Premium plan
 - [ ] In the function.json file, change the value of the type option to queueScaling
+
 
 
 

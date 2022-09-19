@@ -219,8 +219,7 @@
 [//] - 0039_image
 
 
-#### 0000.40 [100%]::You have a new Azure subscription. You are developing an internal website for employees to view sensitive data. The website uses Azure Active Directory (Azure
-AD) for authentication.
+#### 0000.40 [100%]::You have a new Azure subscription. You are developing an internal website for employees to view sensitive data. The website uses Azure Active Directory (Azure AD) for authentication.
 `You need to implement multifactor authentication for the website.
 `Which two actions should you perform? Each correct answer presents part of the solution.
 

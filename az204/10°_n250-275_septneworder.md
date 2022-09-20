@@ -1,4 +1,4 @@
-##   10°_n250-275_septneworder-encours
+##   10°_n250-275_septneworder
 
 
 
@@ -7,7 +7,7 @@
 #### Q10.2 ::
 `Issues -
 `
-`Windows Server 2016 VM - The VM shows high network `latency, jitter, and high CPU utilization. The VM is `critical and "has not been backed up in the past. The VM `must enable a quick restore from a 7-day snapshot "to `include in-place restore of disks in case of failure.
+`Windows Server 2016 VM - The VM shows high network `latency, jitter, and high CPU utilization. The VM is `critical and "has not been backed up in the past. The VM `must enable `a quick restore from a 7-day snapshot "to `include in-place restore of disks in case of failure.
 `
 `Shipping website and REST APIs - The following error `message displays while you are testing `the website: `Failed to load http://test-shippingapi.wideworldimporters.`com/: No `'Access-Control-Allow-Origin' header is present `on the requested resource. Origin 'http://`test.`wideworldimporters.com/' is therefore not allowed access.
 `
@@ -106,28 +106,62 @@
 
 
 #### Q10.1x ::
+`Issues -
+`
+`Retail Store Locations -
+`You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+`Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items `as the function app is scaling.
+`
+`Question
+`You need to implement a solution to resolve the retail store location data issue.
+`Which three Azure Blob features should you enable? Each correct answer presents part of the solution.
+`NOTE: Each correct selection is worth one point.
 
-- [ ] Soft delete
-- [ ] Change feed
+- [x] Soft delete
+- [x] Change feed
 - [ ] Snapshots
-- [ ] Versioning
+- [x] Versioning
 - [ ] Object replication
 - [ ] Immutability
 
 
 #### Q10.1x ::
+`Requirements -
+`
+`User agreements -
+`When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track `user's IP addresses.
+`Information regarding agreements is used by multiple divisions within Contoso, Ltd.
+`User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per `hour.
+`
+`Question
+`You need to store the user agreements.
+`Where should you store the agreement after it is completed?
 
 - [ ] Azure Storage queue
-- [ ] Azure Event Hub
+- [x] Azure Event Hub
 - [ ] Azure Service Bus topic
 - [ ] Azure Event Grid topic
 
 
 #### Q10.1x ::
+`The main web application for the social networking website loads user uploaded content from blob storage.
+`You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA:
+`* Messages are sent to ContentUploadService.
+`* Content is processed by ContentAnalysisService.
+`
+`
+`Monitoring -
+`An alert must be raised if the ContentUploadService uses more than 80 percent of available CPU cores.
+`Issues -
+`Users of the ContentUploadService report that they occasionally see HTTP 502 responses on specific pages.
+`
+`Question
+`You need to configure the ContentUploadService deployment.
+`Which two actions should you perform? Each correct answer presents part of the solution.
 
-- [ ] Add the following markup to line CS23: type: Private
+- [x] Add the following markup to line CS23: type: Private
 - [ ] Add the following markup to line CS24: osType: Windows
-- [ ] Add the following markup to line CS24: osType: Linux
+- [x] Add the following markup to line CS24: osType: Linux
 - [ ] Add the following markup to line CS23: type: Public
 
 

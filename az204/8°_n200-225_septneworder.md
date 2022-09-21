@@ -355,14 +355,64 @@ Event Handler
 
 
 
+#### 20 []::
+`Issues -
+`
+`Windows Server 2016 VM -
+`The VM shows high network latency, jitter, and high CPU utilization. The VM is critical and has not been backed up in the past. The VM must enable a quick restore from a 7-day snapshot to include in-place restore of disks in case of failure.
+`
+`Shipping website and REST APIs -
+`The following error message displays while you are testing the website:
+`Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://test.wideworldimporters.com/' is therefore not allowed access.
+`
+`Question
+`
+`You need to correct the VM issues.
+`Which tools should you use? 
 
 
+- [ ] Backup and Restore Azure Site Recovery
+- [x] Backup and Restore Azure Backup
+- [ ] Backup and Restore Azure Data Box
+- [ ] Backup and Restore Azure Migrate
+- [ ] Performance Azure Network Watcher
+- [ ] Performance Azure Traffic Manager
+- [ ] Performance ExpressRoute
+- [x] Performance Accelerated Networking
+
+#### 21 []::
+`Question
+`
+`You need to add code at line PC32 in Processing.cs to implement the GetCredentials method in the Processing class.
+`How should you complete the code?
+
+- [x] 
+`var tp = new AzureServiceTokenProvider()
+`var t = new TokenCredential(await tp.GetAccessTokenAsync(". . ."))
+`return new StorageCredentials(t); 
+
+- [ ] 
+`var tp = new StringTokenProvider("storage", "msi")
+`var t = new TokenCredential(await tp.GetAccessTokenAsync(". . ."))
+`return new StorageCredentials(t); 
+
+- [ ] 
+`var tp = new MSITokenProvider(". . . ", null)
+`var t = new TokenCredential(await tp.GetAccessTokenAsync(". . ."))
+`return new StorageCredentials(t); 
+
+- [ ] 
+`var tp = new MSITokenProvider(". . . ", null)
+`var t = new TokenCredential(await tp.GetAuthenticationHeaderAsync(CancellationToken.None))
+`return new StorageCredentials(t); 
+
+- [ ] 
+`var tp = new AzureServiceTokenProvider()
+`var t = new TokenCredential(await tp.GetAuthenticationHeaderAsync(CancellationToken.None))
+`return new StorageCredentials(t); 
 
 
-
-
-
-#### 22 [0%]::
+#### 22 [voters]::
 `Question
 `
 `You need to ensure disaster recovery requirements are met.
@@ -370,10 +420,43 @@ Event Handler
 
 - [x] 
 `var copyOptions = new CopyOptions {}; 
-`var context = new Value = (source, destination) => Task.FromResult(true);
-`context.Value = (source, destination) => Task.FromResult(true);
-`await TransferManager.CopyAsync(blob), isServiceCopy: Value
+`var context = new SingleTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldOverwriteCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: false
 `context: context, options: copyOptions); 
+
+
+- [ ] 
+`var copyOptions = new CopyOptions {}; 
+`var context = new DirectoryTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldTransferCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: false
+`context: context, options: copyOptions); 
+
+- [ ] 
+`var copyOptions = new CopyOptions {}; 
+`var context = new SingleTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldTransferCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: false
+`context: context, options: copyOptions); 
+
+
+- [ ] 
+`var copyOptions = new CopyOptions {}; 
+`var context = new DirectoryTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldOverwriteCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: false
+`context: context, options: copyOptions); 
+
+
+- [ ] 
+`var copyOptions = new CopyOptions {}; 
+`var context = new DirectoryTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldTransferCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: true
+`context: context, options: copyOptions); 
+
+
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 

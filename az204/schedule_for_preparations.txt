@@ -1,7 +1,3 @@
-TODO : 7.3 probleme
-
-
-(Expires Sep 15, 2022) 
 
 
 
@@ -12,8 +8,6 @@ az204 		WHY : po co ja sie pierdole ?
 		- lepszy start do NY i do Singapuru, to jest moj bilet tam... 
 		- bede mial wieksze oczekiwania finansowe. wieksza pensje.  
 		- bede lepszy niz fdp's
-		- mozesz liczyc tylko na siebie, placisz za siebie, no body RAF de Toi. 
+		- mozesz liczyc tylko na siebie, placisz za siebie, no body RAF
 
-
-		06.08.2022 - 	Exam: Developing Solutions for Microsoft Azure
 

@@ -147,8 +147,8 @@ Event Handler
 `✑ Use first-in-first-out (FIFO) ordering of messages.
 `✑ Minimize Azure costs.
 `You need to implement the messaging solution.
-`Solution: Use the .Net API to add a message to an Azure Service Bus Queue from the mobile application. Create an Azure Function App that uses an Azure
-`Service Bus Queue trigger.
+`Solution: Use the .Net API to add a message to an Azure Service Bus Queue from the mobile application. 
+`Create an Azure Function App that uses an Azure Service Bus Queue trigger.
 `Does the solution meet the goal?
 
 - [x] Yes

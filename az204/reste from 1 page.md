@@ -85,7 +85,6 @@
 
 
 
-
 #### Q2. You have downloaded an Azure Resource Manager template to deploy numerous virtual machines. The template is based on a current virtual machine, but must be adapted to reference an administrative password. You need to make sure that the password is not stored in plain text. You are preparing to create the necessary components to achieve your goal.
 
 - [ ] An Azure Key Vault

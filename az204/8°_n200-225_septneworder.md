@@ -222,19 +222,83 @@ Event Handler
 - [ ] From the code on the VM, generate a user delegation SAS token.
 
 
+#### 16_Qp33 [0%]::You are developing a road tollway tracking application that sends tracking events by using Azure Event Hubs using premium tier.
+`Each road must have a throttling policy uniquely assigned.
+`You need to configure the event hub to allow for per-road throttling.
+`What should you do?
+
+
+- [ ] Use a unique consumer group for each road.
+- [ ] Ensure each road stores events in a different partition.
+- [ ] Ensure each road has a unique connection string.
+- [x] Use a unique application group for each road.
+
+
+#### 17_Qp34 [0%]::You develop and deploy an ASP.NET Core application that connects to an Azure Database for MySQL instance.
+`Connections to the database appear to drop intermittently and the application code does not handle the connection failure.
+`You need to handle the transient connection errors in code by implementing retries.
+`What are three possible ways to achieve this goal?
+
+
+- [ ] Close the database connection and immediately report an error.
+- [ ] Disable connection pooling and configure a second Azure Database for MySQL instance.
+- [x] Wait five seconds before repeating the connection attempt to the database.
+- [x] Set a maximum number of connection attempts to 10 and report an error on subsequent connections.
+- [x] Increase connection repeat attempts exponentially up to 120 seconds.
+
+#### 18_Qp35 [0%]::You are building a B2B web application that uses Azure B2B collaboration for authentication. Paying customers authenticate to Azure B2B using federation.
+`The application allows users to sign up for trial accounts using any email address.
+`When a user converts to a paying customer, the data associated with the trial should be kept, but the user must authenticate using federation.
+`You need to update the user in Azure Active Directory (Azure AD) when they convert to a paying customer.
+`Which Graph API parameter is used to change authentication from one-time passcodes to federation?
+
+
+- [x] resetRedemption
+- [ ] Status
+- [ ] userFlowType
+- [ ] invitedUser
+
+
+#### 19_Q_QC.1 [0%]::
+`Issues -
+`
+`Shipping website and REST APIs -The following error message displays while you are testing the website: 
+`Failed to load http://test-shippingapi.wideworldimporters.com/: No `'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://`test.wideworldimporters.com/' is therefore not allowed access.
+`
+`Question
+`You need to configure Azure CDN for the Shipping web site.
+`Which configuration options should you use?
+
+
+- [x] 
+`Tier : Standard
+`Profile Akamai
+`Optimization : general web delivery
+
+- [x] 
+`Tier : Premium
+`Profile : Microsoft
+`Optimization : large file download
+
+- [x] 
+`Tier : Stanard
+`Profile : Akamai
+`Optimization : dynamic site acceleraiton
+
+- [x] 
+`Tier : Stanard
+`Profile : Akamai
+`Optimization : video-on-demand media streaming
+
+
+
+
 
 [//] - 0019_image
 [//] - 0028_image
 
 
-#### Qp29.3Topic5Set5question5 [100%]::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
-`You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
-`You need to implement a solution to receive the device data.
-`Solution: Provision an Azure Notification Hub. Register all devices with the hub.
-`Does the solution meet the goal?
 
-- [ ] Yes
-- [x] No
 
 
 [//] - 0028_new

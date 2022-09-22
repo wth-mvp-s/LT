@@ -257,7 +257,37 @@
 - [ ] Azure Event Grid topic
 
 
-#### Q10.1x ::
+
+
+
+#### Q-28 ::
+
+- [x] 
+`public static class CheckUserContent
+`{
+`    [FunctionName("CheckUserContent")]
+`    public static void Run([QueueTrigger(userContent string content,
+`    [Queue("userContent" stream outpu)
+`    {
+`        ...
+`    }
+`    
+`}
+- [] 
+`public static class CheckUserContent
+`{
+`    [FunctionName("CheckUserContent")]
+`    public static void Run([BlobTrigger(userContent/{name} string content,
+`    [CosmosDB("content","userContent" stream outpu)
+`    {
+`        ...
+`    }
+`    
+`}
+
+
+
+#### Q-29 ::
 `The main web application for the social networking website loads user uploaded content from blob storage.
 `You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA:
 `* Messages are sent to ContentUploadService.
@@ -281,4 +311,26 @@
 
 
 
-[//] - 0019_todo
+
+#### Q.30 ::
+`Requirements -
+`
+`Data must be replicated to a secondary region and three availability zones.
+`
+`Question
+`
+`You need to configure the Account Kind, Replication, and Access tier options for the corporate website's Azure Storage account.
+`How should you complete the configuration?
+
+
+- [x] Account kind : StorageV2 (general purpose v2)
+- [ ] Account kind : Storage (general purpose v1)
+- [ ] Account kind : BlobStorage
+- [ ] Replication : Locally-redundant storage (LRS) 
+- [ ] Replication : Zone-redundant storage (ZRS) 
+- [ ] Replication : Geo-redundant storage (GRS) 
+- [ ] Replication : Read-access-geo-redundant storage (RA-GRS) 
+- [x] Replication : Geo-zone-redundant storage (GZRS) 
+- [ ] Replication : Read-access geo-zone-redundant storage (RA-GZRS) 
+- [x] Access tier (default) : cool
+- [ ] Access tier (default) : Hot

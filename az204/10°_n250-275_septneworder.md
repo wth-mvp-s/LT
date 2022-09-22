@@ -2,7 +2,48 @@
 
 
 
+
 [//] - #### Q10.1 ::You are developing an Azure solution 
+
+
+#### Q10.1 ::
+`Question
+`
+`You need to support the message processing for the ocean transport `workflow.
+`Which four actions should you perform in sequence?
+
+- [x] 
+`Create an integration account in the Azure portal. 
+`Link the Logic App to the integration account. 
+`Add partners schemas, certificates, maps and agrements. 
+`Create a custom connector for the Logic App. 
+
+- [ ] 
+`Create an integration account in the Azure portal. 
+`Link the Logic App to the integration account. 
+`Update the Logic App to use the partners, schemas, certificates, maps and agrements
+`Create a custom connector for the Logic App. 
+
+- [ ] 
+`Create an integration account in the Azure portal. 
+`Link the custom connector to the Logic App. 
+`Add partners schemas, certificates, maps and agrements. 
+`Create a custom connector for the Logic App. 
+
+
+- [ ] 
+`Create a custom connector for the Logic App. 
+`Link the Logic App to the integration account. 
+`Add partners schemas, certificates, maps and agrements. 
+`Create an integration account in the Azure portal. 
+
+- [ ] 
+`Create an integration account in the Azure portal. 
+`Add partners schemas, certificates, maps and agrements. 
+`Link the Logic App to the integration account. 
+`Create a custom connector for the Logic App. 
+
+
 
 #### Q10.2 ::
 `Issues -
@@ -19,6 +60,34 @@
 - [ ] Site-to-Site (S2S) VPN connection
 - [x] On-premises Data Gateway
 - [ ] Point-to-Site (P2S) VPN connection
+
+#### Q10.3 [100%]::
+`Question
+`
+`You need to configure the integration for Azure Service Bus and Azure `Event Grid.
+`How should you complete the CLI statement? 
+
+- [x] 
+`az eventgrid event-subscription create-source-resource-id $topicid --name
+`$name --endpoint-type servicebucqueue --endpoint $endpoint
+
+- [ ] 
+`az eventgrid event-subscription create-source-resource-id $topicid --name
+`$name --endpoint-type eventhub --endpoint $endpoint
+
+- [ ] 
+`az eventgrid queue create-source-resource-id $topicid --name
+`$name --endpoint-type eventhub --endpoint $endpoint
+
+- [ ] 
+`az servicebus topic create-source-resource-id $topicid --name
+`$name --endpoint-type webhook --endpoint $endpoint
+
+- [ ] 
+`az servicebus event-subscription create-source-resource-id $topicid --name
+`$name --endpoint-type webhook --endpoint $endpoint
+
+
 
 
 #### Q10.4 [100%]::
@@ -52,6 +121,51 @@
 - [x] Azure Service Bus queue
 - [ ] Azure Storage queue   
 - [ ] Azure Logic App custom connector
+
+#### Q10.5 ::
+`Question
+`
+`You need to add code at line EG15 in EventGridController.cs to ensure that the Log policy applies to all services.
+`How should you complete the code?
+
+
+- [x] 
+`if {
+`    @event[ "data" ][ status ].ToString() == "Succeded"
+`    &&
+`    @event["data"]["operationName"].ToString() == "Microsoft.Web/sites/write"
+`}
+
+- [ ] 
+`if {
+`    @event[ "data" ][ status ].ToString() == "Succeded"
+`    &&
+`    @event["data"]["eventType"].ToString() == "Microsoft.Web/sites/write"
+`}
+
+
+- [ ] 
+`if {
+`    @event[ "data" ][ status ].ToString() == "Succeded"
+`    &&
+`    @event["data"]["resourceProvider"].ToString() == "Microsoft.Web/sites/write"
+`}
+
+
+- [ ] 
+`if {
+`    @event[ "data" ][ topic ].ToString() == "Succeded"
+`    &&
+`    @event["data"]["operationName"].ToString() == "Microsoft.Web/sites/write"
+`}
+
+
+- [ ] 
+`if {
+`    @event[ "data" ][ topic ].ToString() == "eventType"
+`    &&
+`    @event["data"]["status"].ToString() == "Microsoft.Web/sites/write"
+`}
 
 #### Q10.8 ::
 `Notification latency -

@@ -15,16 +15,16 @@
 
 
 #### 4.A 0021_todo ::You are developing an Azure solution to collect inventory data from thousands of stores located around the world. Each store location will send the inventory data hourly to an Azure Blob storage account for processing.
-The solution must meet the following requirements:
-✑ Begin processing when data is saved to Azure Blob storage.
-✑ Filter data based on store location information.
-✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
-✑ Enable high availability and geographic distribution.
-✑ Allow 24-hours for retries.
-✑ Implement an exponential back off data processing.
-You need to configure the solution.
-
-Event Source
+`The solution must meet the following requirements:
+`✑ Begin processing when data is saved to Azure Blob storage.
+`✑ Filter data based on store location information.
+`✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
+`✑ Enable high availability and geographic distribution.
+`✑ Allow 24-hours for retries.
+`✑ Implement an exponential back off data processing.
+`You need to configure the solution.
+`
+`Event Source
 
 - [ ] Azure Event Hub
 - [ ] Azure Event Grid
@@ -34,16 +34,16 @@ Event Source
 - [ ] Azure Logic App 
 
 #### 4.B 0019_todo ::You are developing an Azure solution to collect inventory data from thousands of stores located around the world. Each store location will send the inventory data hourly to an Azure Blob storage account for processing.
-The solution must meet the following requirements:
-✑ Begin processing when data is saved to Azure Blob storage.
-✑ Filter data based on store location information.
-✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
-✑ Enable high availability and geographic distribution.
-✑ Allow 24-hours for retries.
-✑ Implement an exponential back off data processing.
-You need to configure the solution.
-
-Event Receiver
+`The solution must meet the following requirements:
+`✑ Begin processing when data is saved to Azure Blob storage.
+`✑ Filter data based on store location information.
+`✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
+`✑ Enable high availability and geographic distribution.
+`✑ Allow 24-hours for retries.
+`✑ Implement an exponential back off data processing.
+`You need to configure the solution.
+`
+`Event Receiver
 
 - [ ] Azure Event Hub
 - [x] Azure Event Grid
@@ -53,16 +53,16 @@ Event Receiver
 - [ ] Azure Logic App 
 
 #### 4.C 0019_todo ::You are developing an Azure solution to collect inventory data from thousands of stores located around the world. Each store location will send the inventory data hourly to an Azure Blob storage account for processing.
-The solution must meet the following requirements:
-✑ Begin processing when data is saved to Azure Blob storage.
-✑ Filter data based on store location information.
-✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
-✑ Enable high availability and geographic distribution.
-✑ Allow 24-hours for retries.
-✑ Implement an exponential back off data processing.
-You need to configure the solution.
-
-Event Handler
+`The solution must meet the following requirements:
+`✑ Begin processing when data is saved to Azure Blob storage.
+`✑ Filter data based on store location information.
+`✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
+`✑ Enable high availability and geographic distribution.
+`✑ Allow 24-hours for retries.
+`✑ Implement an exponential back off data processing.
+`You need to configure the solution.
+`
+`Event Handler
 
 - [ ] Azure Event Hub
 - [ ] Azure Event Grid

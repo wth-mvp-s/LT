@@ -49,6 +49,12 @@
 
 
 #### 23 [0%]::
+`Requirements. Data -
+`
+`Order data is stored as nonrelational JSON and must be queried using SQL.
+`Changes to the Order data must reflect immediately across all partitions. 
+`All reads to the Order data must fetch the most recent writes.
+`
 `Question
 `
 `You need to configure Azure Cosmos DB.

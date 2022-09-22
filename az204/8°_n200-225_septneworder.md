@@ -15,16 +15,16 @@
 
 
 #### 4.A 0021_todo ::You are developing an Azure solution to collect inventory data from thousands of stores located around the world. Each store location will send the inventory data hourly to an Azure Blob storage account for processing.
-The solution must meet the following requirements:
-✑ Begin processing when data is saved to Azure Blob storage.
-✑ Filter data based on store location information.
-✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
-✑ Enable high availability and geographic distribution.
-✑ Allow 24-hours for retries.
-✑ Implement an exponential back off data processing.
-You need to configure the solution.
-
-Event Source
+`The solution must meet the following requirements:
+`✑ Begin processing when data is saved to Azure Blob storage.
+`✑ Filter data based on store location information.
+`✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
+`✑ Enable high availability and geographic distribution.
+`✑ Allow 24-hours for retries.
+`✑ Implement an exponential back off data processing.
+`You need to configure the solution.
+`
+`Event Source
 
 - [ ] Azure Event Hub
 - [ ] Azure Event Grid
@@ -34,16 +34,16 @@ Event Source
 - [ ] Azure Logic App 
 
 #### 4.B 0019_todo ::You are developing an Azure solution to collect inventory data from thousands of stores located around the world. Each store location will send the inventory data hourly to an Azure Blob storage account for processing.
-The solution must meet the following requirements:
-✑ Begin processing when data is saved to Azure Blob storage.
-✑ Filter data based on store location information.
-✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
-✑ Enable high availability and geographic distribution.
-✑ Allow 24-hours for retries.
-✑ Implement an exponential back off data processing.
-You need to configure the solution.
-
-Event Receiver
+`The solution must meet the following requirements:
+`✑ Begin processing when data is saved to Azure Blob storage.
+`✑ Filter data based on store location information.
+`✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
+`✑ Enable high availability and geographic distribution.
+`✑ Allow 24-hours for retries.
+`✑ Implement an exponential back off data processing.
+`You need to configure the solution.
+`
+`Event Receiver
 
 - [ ] Azure Event Hub
 - [x] Azure Event Grid
@@ -53,16 +53,16 @@ Event Receiver
 - [ ] Azure Logic App 
 
 #### 4.C 0019_todo ::You are developing an Azure solution to collect inventory data from thousands of stores located around the world. Each store location will send the inventory data hourly to an Azure Blob storage account for processing.
-The solution must meet the following requirements:
-✑ Begin processing when data is saved to Azure Blob storage.
-✑ Filter data based on store location information.
-✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
-✑ Enable high availability and geographic distribution.
-✑ Allow 24-hours for retries.
-✑ Implement an exponential back off data processing.
-You need to configure the solution.
-
-Event Handler
+`The solution must meet the following requirements:
+`✑ Begin processing when data is saved to Azure Blob storage.
+`✑ Filter data based on store location information.
+`✑ Trigger an Azure Logic App to process the data for output to Azure Cosmos DB.
+`✑ Enable high availability and geographic distribution.
+`✑ Allow 24-hours for retries.
+`✑ Implement an exponential back off data processing.
+`You need to configure the solution.
+`
+`Event Handler
 
 - [ ] Azure Event Hub
 - [ ] Azure Event Grid
@@ -112,6 +112,8 @@ Event Handler
 - [ ] Inbound
 - [x] Outbond
 - [ ] Backend
+
+
 
 
 #### 8.C- Qp25.Topic5.Set5.question1.B ::You have an application that provides weather forecasting data to external partners. You use Azure API Management to publish APIs.
@@ -312,49 +314,6 @@ Event Handler
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### 20 []::
 `Issues -
 `
@@ -461,6 +420,12 @@ Event Handler
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 #### 23 [0%]::
+`Requirements. Data -
+`
+`Order data is stored as nonrelational JSON and must be queried using SQL.
+`Changes to the Order data must reflect immediately across all partitions. 
+`All reads to the Order data must fetch the most recent writes.
+`
 `Question
 `
 `You need to configure Azure Cosmos DB.
@@ -476,10 +441,10 @@ Event Handler
 - [ ] API Table
 
 #### 24 [0%]::
-Question
-
-You need to retrieve all order line items from Order.json and sort the data alphabetically by the city.
-How should you complete the code?
+`Question
+`
+`You need to retrieve all order line items from Order.json and sort the data alphabetically by the city.
+`How should you complete the code?
 
 
 - [x] 
@@ -614,10 +579,10 @@ How should you complete the code?
 
 
 #### 29_Q [0%]::
-Question
-
-You need to add markup at line AM04 to implement the ContentReview role.
-How should you complete the markup?
+`Question
+`
+`You need to add markup at line AM04 to implement the ContentReview role.
+`How should you complete the markup?
 
 - [x] 
 `"AppRoles": [
@@ -679,7 +644,8 @@ How should you complete the markup?
 `        "value": ContentReviewer
 `    }
 `]
-- [ ] 
+
+
 
 
 

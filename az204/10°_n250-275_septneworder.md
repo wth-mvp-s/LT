@@ -9,7 +9,7 @@
 #### Q10.1 ::
 `Question
 `
-`You need to support the message processing for the ocean transport `workflow.
+`You need to support the message processing for the ocean transport workflow.
 `Which four actions should you perform in sequence?
 
 - [x] 

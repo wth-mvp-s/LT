@@ -80,11 +80,146 @@
 - [x] SQL API
 - [ ] Cassandra API
 
+#### 6::
+`You are developing a .NET application that communicates with Azure Storage.
+`A message must be stored when the application initializes.
+`You need to implement the message.
+`How should you complete the code segment?
+
+- [x] 
+`CloudStorageAccount storageAccount = CloudStorageAccount.Parse
+`(CloudConfigurationManager.GetSetting ("StorageConnectionString"));
+`CloudQueueClient pVar1 = storageAccount.CreateCloudQueueClient(); 
+`CloudQueue pVar2 = pVar1.GetQueueReference("contoso-storage")
+`try
+`{
+`    await pVar2.CreateIfNotExistsAsync();
+`}
+`catch (StorageException x)
+`{
+`    throw;
+`}
+`CloudQueueMessage cloudQueueMessage = new CloudQueueMessage("App Launch: <iUserID>");
+`await pVar2.AddMessageAsync(cloudQueueMessage);
 
 
-[//] - 6. 0023_todo
-[//] - 7. 0024_todo
+- [ ] 
+`CloudStorageAccount storageAccount = CloudStorageAccount.Parse
+`(CloudConfigurationManager.GetSetting ("StorageConnectionString"));
+`CloudQueueClient pVar1 = storageAccount.CreateCloudQueueClient(); 
+`CloudQueueClient pVar2 = pVar1.CreateCloudQueueClient("contoso-storage")
+`try
+`{
+`    await pVar2.CreateIfNotExistsAsync();
+`}
+`catch (StorageException x)
+`{
+`    throw;
+`}
+`CloudQueueMessage cloudQueueMessage = new CloudQueueMessage("App Launch: <iUserID>");
+`await pVar2.AddMessageAsync(cloudQueueMessage);
 
+- [ ] 
+`CloudStorageAccount storageAccount = CloudStorageAccount.Parse
+`(CloudConfigurationManager.GetSetting ("StorageConnectionString"));
+`CloudTableClient pVar1 = storageAccount.CreateCloudTableClient(); 
+`CloudTableClient pVar2 = pVar1.CreateCloudTableClient("contoso-storage")
+`try
+`{
+`    await pVar2.CreateIfNotExistsAsync();
+`}
+`catch (StorageException x)
+`{
+`    throw;
+`}
+`CloudQueueMessage cloudQueueMessage = new CloudQueueMessage("App Launch: <iUserID>");
+`await pVar2.AddMessageAsync(cloudQueueMessage);
+
+- [ ] 
+`CloudStorageAccount storageAccount = CloudStorageAccount.Parse
+`(CloudConfigurationManager.GetSetting ("StorageConnectionString"));
+`CloudQueue pVar1 = storageAccount.GetQueueReference(); 
+`CloudQueue pVar2 = pVar1.GetQueueReference("contoso-storage")
+`try
+`{
+`    await pVar2.CreateIfNotExistsAsync();
+`}
+`catch (StorageException x)
+`{
+`    throw;
+`}
+`CloudQueueMessage cloudQueueMessage = new CloudQueueMessage("App Launch: <iUserID>");
+`await pVar2.AddMessageAsync(cloudQueueMessage);
+
+- [ ] 
+`CloudStorageAccount storageAccount = CloudStorageAccount.Parse
+`(CloudConfigurationManager.GetSetting ("StorageConnectionString"));
+`CloudTable pVar1 = storageAccount.GetTableReference(); 
+`CloudTable pVar2 = pVar1.GetTableReference("contoso-storage")
+`try
+`{
+`    await pVar2.CreateIfNotExistsAsync();
+`}
+`catch (StorageException x)
+`{
+`    throw;
+`}
+`CloudQueueMessage cloudQueueMessage = new CloudQueueMessage("App Launch: <iUserID>");
+`await pVar2.AddMessageAsync(cloudQueueMessage);
+
+
+#### 7 ::
+`A software as a service (SaaS) company provides document management services. The company has a service that consists of several Azure web apps. All
+`Azure web apps run in an Azure App Service Plan named PrimaryASP.
+`You are developing a new web service by using a web app named ExcelParser. The web app contains a third-party library for processing Microsoft Excel files.
+`The license for the third-party library stipulates that you can only run a single instance of the library.
+`You need to configure the service.
+`How should you complete the script?
+
+- [x] 
+`Set-AzAppServicePlan '
+`    -ResourceGroupName $rg '
+`    -Name "PrimaryASP" '
+`    PerSiteScalling $true
+`$app = Get-AzWebApp '
+`    -ResourceGroupName $rg '
+`    -name "ExcelParser"
+`    $app.SiteConfig.NumberOfWorkers = 1
+`Set-AzWebApp $app
+
+- [ ] 
+`Set-AzAppServicePlan '
+`    -ResourceGroupName $rg '
+`    -Name "PrimaryASP" '
+`    NumberOfSites 1
+`$app = Get-AzWebApp '
+`    -ResourceGroupName $rg '
+`    -name "ExcelParser"
+`    $app.NumberOfSites 1
+`Set-AzWebApp $app
+
+- [ ] 
+`Set-AzAppServicePlan '
+`    -ResourceGroupName $rg '
+`    -Name "PrimaryASP" '
+`    PerSiteScalling $true
+`$app = Get-AzWebApp '
+`    -ResourceGroupName $rg '
+`    -name "ExcelParser"
+`    $app.TargetWorkerCount = 1
+`Set-AzWebApp $app
+
+
+- [ ] 
+`Set-AzAppServicePlan '
+`    -ResourceGroupName $rg '
+`    -Name "PrimaryASP" '
+`    MaxNumberOfWorkers = 1
+`$app = Get-AzWebApp '
+`    -ResourceGroupName $rg '
+`    -name "ExcelParser"
+`    $app.SiteConfig.NumberOfWorkers = 1
+`Set-AzWebApp $app
 
 #### 8.A- Qp25. ::You have an application that provides weather forecasting data to external partners. You use Azure API Management to publish APIs.
 `You must change the behavior of the API to meet the following requirements:

@@ -613,11 +613,103 @@
 - [x] Create and deploy a custom conflict resolution policy.
 - [ ] Update Azure Cosmos DB to use the Session consistency level. Send the SessionToken property value from the FeedResponse object of the write action to the end-user by using a cookie.
 
-[//] - 0028_todo
-[//] - 0029_todo
-[//] - 0030_todo
-[//] - 0031_todo
-[//] - 0032_todo
+#### 0029 A ::
+`You are developing a solution to store documents in Azure Blob storage. Customers upload documents to multiple containers. Documents consist of PDF, CSV,
+`Microsoft Office format and plain text files.
+`The solution must process millions of documents across hundreds of containers. The solution must meet the following requirements:
+`✑ Documents must be categorized by a customer identifier as they are uploaded to the storage account.
+`✑ Allow filtering by the customer identifier.
+`✑ Allow searching of information contained within a document
+`✑ Minimize costs.
+`You create and configure a standard general-purpose v2 storage account to support the solution.
+`You need to implement the solution.
+`What should you implement?
+`
+`Search and filter by customer identifier
+
+- [ ] Azure Cognitive Search
+- [x] Azure Blob index tags
+- [ ] Azure Blob inventory policy
+- [ ] Azure Blob metadata
+
+#### 0029 B ::
+`You are developing a solution to store documents in Azure Blob storage. Customers upload documents to multiple containers. Documents consist of PDF, CSV,
+`Microsoft Office format and plain text files.
+`The solution must process millions of documents across hundreds of containers. The solution must meet the following requirements:
+`✑ Documents must be categorized by a customer identifier as they are uploaded to the storage account.
+`✑ Allow filtering by the customer identifier.
+`✑ Allow searching of information contained within a document
+`✑ Minimize costs.
+`You create and configure a standard general-purpose v2 storage account to support the solution.
+`You need to implement the solution.
+`What should you implement?
+`
+`Search information inside documents
+
+- [x] Azure Cognitive Search
+- [ ] Azure Blob index tags
+- [ ] Azure Blob inventory policy
+- [ ] Azure Blob metadata
+
+
+#### 0030 A::
+`You are developing a web application by using the Azure SDK. The web application accesses data in a zone-redundant BlockBlobStorage storage account. 
+`The application must determine whether the data has changed since the application last read the data. Update operations must use the latest data changes when writing data to the storage account.
+`You need to implement the update operations.
+`Which values should you use?
+`
+`HTTP Header value
+
+- [x] ETag
+- [ ] Last Modified
+- [ ] VersionId
+
+#### 0030 B::
+`You are developing a web application by using the Azure SDK. The web application accesses data in a zone-redundant BlockBlobStorage storage account. 
+`The application must determine whether the data has changed since the application last read the data. Update operations must use the latest data changes when writing data to the storage account.
+`You need to implement the update operations.
+`Which values should you use?
+`
+`Conditional header
+
+- [x] If-Match
+- [ ] If-Modified-Since
+- [ ] If-None-Match
+
+
+#### 0031::
+`An organization deploys a blob storage account. Users take multiple snapshots of the blob storage account over time.
+`You need to delete all snapshots of the blob storage account. You must not delete the blob storage account itself.
+`How should you complete the code segment?
+
+- [ ] 
+`Delete (Azure.Storage.Blobs.Models.DeleteSnapshotsOption
+`snapshotsOption = Azure.Storage.Blobs.Models.DeleteIfExists.IncludeSnapshots)
+
+- [ ] 
+`Delete (Azure.Storage.Blobs.Models.DeleteSnapshotsOption
+`snapshotsOption = Azure.Storage.Blobs.Models.DeleteSnapshotsOption.None)
+
+- [ ] 
+`Delete (Azure.Storage.Blobs.Models.DeleteSnapshotsOption
+`snapshotsOption = Azure.Storage.Blobs.Models.WithSnapShot.OnlySnapshots)
+
+- [x] 
+`Delete (Azure.Storage.Blobs.Models.DeleteSnapshotsOption
+`snapshotsOption = Azure.Storage.Blobs.Models.DeleteSnapshotsOption.OnlySnapshots)
+
+#### 0032::
+`An organization deploys a blob storage account. Users take multiple snapshots of the blob storage account over time.
+`You need to delete all snapshots of the blob storage account. You must not delete the blob storage account itself.
+`How should you complete the code segment?
+
+- [ ] delete_blob (delete_conteiner = False)
+- [x] delete_blob (delete_snapshots = Only)
+- [ ] delete_blob (delete_snapshots = Include)
+- [ ] delete_blob (snapshot_blob = Only)
+- [ ] delete_blob (snapshot_present = Include)
+
+
 
 #### 00001 [100%] ::You are developing a Java application that uses Cassandra to store key and value data. You plan to use a new Azure Cosmos DB resource and the Cassandra
 `API in the application. You create an Azure Active Directory (Azure AD) group named Cosmos DB Creators to enable provisioning of Azure Cosmos accounts, databases, and containers.

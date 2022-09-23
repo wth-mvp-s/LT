@@ -488,10 +488,131 @@
 - [ ] Create a new Azure Storage account in the current region
 - [ ] Create a new subscription in the current region
 
-[//] - 0024_todo
-[//] - 0025_todo
-[//] - 0026_todo
-[//] - 0027_todo
+#### 0024 ::
+`You are developing an application to collect the following telemetry data for delivery drivers: first name, last name, package count, item id, and current location coordinates. The app will store the data in Azure Cosmos DB.
+`You need to configure Azure Cosmos DB to query the data.
+`Which values should you use? 
+
+- [ ] Azure Cosmos DB API : Gremlin
+- [ ] Azure Cosmos DB API : Table API
+- [x] Azure Cosmos DB API : Core (SQL)
+- [ ] Azure Cosmos DB partition key : first name
+- [ ] Azure Cosmos DB partition key : last name
+- [ ] Azure Cosmos DB partition key : package count
+- [x] Azure Cosmos DB partition key : item id
+
+#### 0025 ::
+`You are implementing an Azure solution that uses Azure Cosmos DB and the latest Azure Cosmos DB SDK. 
+`You add a change feed processor to a new container instance.
+`You attempt to read a batch of 100 documents. 
+`The process fails when reading one of the documents.
+`The solution must monitor the progress of the change feed processor instance on the new container as the change feed is read. 
+`You must prevent the change feed processor from retrying the entire batch when one document cannot be read.
+`You need to implement the change feed processor to read the documents.
+`Which features should you use? 
+`
+`Monitor the progress of the change feed processor
+
+- [x] Change feed estimator
+- [ ] Dead-letter queue
+- [ ] Deployment unit
+- [ ] Lease container
+
+
+#### 0025 B::
+`You are implementing an Azure solution that uses Azure Cosmos DB and the latest Azure Cosmos DB SDK. 
+`You add a change feed processor to a new container instance.
+`You attempt to read a batch of 100 documents. 
+`The process fails when reading one of the documents.
+`The solution must monitor the progress of the change feed processor instance on the new container as the change feed is read. 
+`You must prevent the change feed processor from retrying the entire batch when one document cannot be read.
+`You need to implement the change feed processor to read the documents.
+`Which features should you use? 
+`
+`Prevent the change feed processor from retrying the entire batch when one document cannot be read
+
+- [ ] Change feed estimator
+- [x] Dead-letter queue
+- [ ] Deployment unit
+- [ ] Lease container
+
+
+#### 0026 A::
+`You are developing an application that uses a premium block blob storage account. 
+`The application will process a large volume of transactions daily. 
+`You enable Blob storage versioning.
+`You are optimizing costs by automating Azure Blob Storage access tiers. 
+`You apply the following policy rules to the storage account. (Line numbers are included for reference only.)
+`
+`
+`Block blobs prefixed with transactions will transition blobs that have not been modified in over 60 days to cool storage, and delete blobs not modified in 365 days
+
+- [ ] Yes 
+- [x] No
+
+#### 0026 B::
+`You are developing an application that uses a premium block blob storage account. 
+`The application will process a large volume of transactions daily. 
+`You enable Blob storage versioning.
+`You are optimizing costs by automating Azure Blob Storage access tiers. 
+`You apply the following policy rules to the storage account. (Line numbers are included for reference only.)
+`
+`
+`Blobs are moved to cool storage if they have not been accessed for 60 days
+
+- [ ] Yes 
+- [x] No
+
+#### 0026 C::
+`You are developing an application that uses a premium block blob storage account. 
+`The application will process a large volume of transactions daily. 
+`You enable Blob storage versioning.
+`You are optimizing costs by automating Azure Blob Storage access tiers. 
+`You apply the following policy rules to the storage account. (Line numbers are included for reference only.)
+`
+`
+`The policy rule tiers previous versions within a container named transactions that are 60 days or older to the cool tier and deletes previous versions that are 365 days or older
+
+- [x] Yes 
+- [ ] No
+
+#### 0026 D::
+`You are developing an application that uses a premium block blob storage account. 
+`The application will process a large volume of transactions daily. 
+`You enable Blob storage versioning.
+`You are optimizing costs by automating Azure Blob Storage access tiers. 
+`You apply the following policy rules to the storage account. (Line numbers are included for reference only.)
+`
+`
+`Blobs will automatically be tired from cool back to hot if accessed again after being tiered to cool
+
+- [x] Yes 
+- [ ] No
+
+#### 0027::
+`An organization deploys Azure Cosmos DB.
+`You need to ensure that the index is updated as items are created, updated, or deleted.
+`What should you do?
+
+- [ ] Set the indexing mode to Lazy.
+- [ ] Set the value of the automatic property of the indexing policy to False.
+- [ ] Set the value of the EnableScanInQuery option to True.
+- [x] Set the indexing mode to Consistent.
+
+#### 0028::
+`You are developing a .Net web application that stores data in Azure Cosmos DB. 
+`The application must use the Core API and allow millions of reads and writes.
+`The Azure Cosmos DB account has been created with multiple write regions enabled. 
+`The application has been deployed to the East US2 and Central US regions.
+`You need to update the application to support multi-region writes.
+`What are two possible ways to achieve this goal? 
+
+- [ ] Update the ConnectionPolicy class for the Cosmos client and populate the PreferredLocations property based on the geo-proximity of the application.
+- [ ] Update Azure Cosmos DB to use the Strong consistency level. Add indexed properties to the container to indicate region.
+- [x] Update the ConnectionPolicy class for the Cosmos client and set the UseMultipleWriteLocations property to true.
+- [x] Create and deploy a custom conflict resolution policy.
+- [ ] Update Azure Cosmos DB to use the Session consistency level. Send the SessionToken property value from the FeedResponse object of the write action to the end-user by using a cookie.
+
 [//] - 0028_todo
 [//] - 0029_todo
 [//] - 0030_todo

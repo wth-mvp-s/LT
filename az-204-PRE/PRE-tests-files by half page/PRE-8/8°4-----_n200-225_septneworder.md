@@ -70,10 +70,10 @@
 - [ ] API Table
 
 #### 24 [0%]::
-Question
-
-You need to retrieve all order line items from Order.json and sort the data alphabetically by the city.
-How should you complete the code?
+`Question
+`
+`You need to retrieve all order line items from Order.json and sort the data alphabetically by the city.
+`How should you complete the code?
 
 
 - [x] 
@@ -193,62 +193,6 @@ How should you complete the code?
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #### 28 [0%]::
 `Requirements -
 `
@@ -268,10 +212,10 @@ How should you complete the code?
 
 
 #### 29_Q [0%]::
-Question
-
-You need to add markup at line AM04 to implement the ContentReview role.
-How should you complete the markup?
+`Question
+`
+`You need to add markup at line AM04 to implement the ContentReview role.
+`How should you complete the markup?
 
 - [x] 
 `"AppRoles": [
@@ -333,7 +277,7 @@ How should you complete the markup?
 `        "value": ContentReviewer
 `    }
 `]
-- [ ] 
+
 
 
 

@@ -37,7 +37,7 @@
 
 
 
-#### Q32 [//]4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. 
+#### Q32 4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. 
 `Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2.
 `When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute.
 `You need to design the process that starts the photo processing.
@@ -111,7 +111,7 @@
 - [x] In the Azure Application Gateway's HTTP setting, set the value of the Override backend path option to contoso22.azurewebsites.net.
 
 
-#### Q0038,  [//]4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. 
+#### Q0038,  4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. 
 `Users upload photos to a web service which then stores the photos in Azure
 `Storage Blob storage. The storage account type is General-purpose V2.
 `When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute.

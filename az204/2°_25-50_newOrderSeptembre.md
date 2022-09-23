@@ -188,7 +188,7 @@
 - [ ] Yes
 
 
-#### 0028, Q8. [//]4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2.
+#### 0028, Q8.4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2.
 `When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute.
 `You need to design the process that starts the photo processing.
 `Solution: Convert the Azure Storage account to a BlockBlobStorage storage account.

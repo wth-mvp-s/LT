@@ -3,7 +3,7 @@
 
 
 
-[//] - #### Q10.1 ::You are developing an Azure solution 
+#### Q10.1 ::You are developing an Azure solution 
 
 
 #### Q10.1 ::

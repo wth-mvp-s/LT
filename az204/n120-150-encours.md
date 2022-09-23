@@ -132,7 +132,7 @@ Solution: Use the .Net API to add a message to an Azure Storage Queue from the m
 `You define an API Policy object by using the following XML markup:
 `
 `
-[//] not finisched
+[comment] not finisched
 
 
 - [ ] Yes
@@ -143,11 +143,3 @@ Solution: Use the .Net API to add a message to an Azure Storage Queue from the m
 
 
 
-#### Qp34.3Topic5Set5question23::
-
-[//] unfinished
-
-
-#### Qp34.3Topic5Set5question24::
-
-[//] unfinished

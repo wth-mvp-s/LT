@@ -310,8 +310,7 @@
 #### 0000.29 [100%]::You develop a REST API. You implement a user delegation SAS token to communicate with Azure Blob storage.
 `The token is compromised.
 `You need to revoke the token.
-`What are two possible ways to achieve this goal? Each correct answer presents a complete solution.
-`NOTE: Each correct selection is worth one point.
+`What are two possible ways to achieve this goal?
 
 
 - [x] Revoke the delegation keys

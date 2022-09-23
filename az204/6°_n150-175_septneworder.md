@@ -221,7 +221,7 @@
 #### Qp26.3Topic4Set4question16_p35 ::You develop and deploy an ASP.NET web app to Azure App Service. You use Application Insights telemetry to monitor the app.
 `You must test the app to ensure that the app is available and responsive from various points around the world and at regular intervals. If the app is not responding, you must send an alert to support staff.
 `You need to configure a test for the web app.
-`Which two test types can you use? Each correct answer presents a complete solution.
+`Which two test types can you use?
 
 
 

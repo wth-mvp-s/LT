@@ -322,13 +322,40 @@
 - [ ] CorrelationFilter
 - [x] No Filter
 
-[//] - 0017_image-order 
+#### Q.17 ::
+Your company has several websites that use a company logo image. You use Azure Content Delivery Network (CDN) to store the static image.
+You need to determine the correct process of how the CDN and the Point of Presence (POP) server will distribute the image and list the items in the correct order.
+In which order do the actions occur? 
+
+- [x] 
+`A user requests the image from the CDN URL. The DNS routes the requests to the best performing POP location.
+`If no edge servers in the POP have the image in cache, the POP requests the file from the origin server
+`The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. 
+`Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. 
+
+- [ ] 
+`A user requests the image from the CDN URL. The DNS routes the requests to the best performing POP location.
+`The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. 
+`If no edge servers in the POP have the image in cache, the POP requests the file from the origin server
+`Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. 
+
+- [ ] 
+`The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. 
+`If no edge servers in the POP have the image in cache, the POP requests the file from the origin server
+`Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. 
+`A user requests the image from the CDN URL. The DNS routes the requests to the best performing POP location.
+
+- [ ] 
+`If no edge servers in the POP have the image in cache, the POP requests the file from the origin server
+`A user requests the image from the CDN URL. The DNS routes the requests to the best performing POP location.
+`Subsequent requests for the file may be directed to the same POP using the CDN logo image URL. The POP edge server returns the file from cache if the TTL has not expired. 
+`The origin server returns the logo image to an edge server in the POP. An edge server in the POP caches the logo image and returns the image to the client. 
 
 
 #### Q19p14.2 ::You are developing an Azure Cosmos DB solution by using the Azure Cosmos DB SQL API. The data includes millions of documents. Each document may contain hundreds of properties.
 `The properties of the documents do not contain distinct values for partitioning. Azure Cosmos DB must scale individual containers in the database to meet the performance needs of the application by spreading the workload evenly across all partitions over time.
 `You need to select a partition key.
-`Which two partition keys can you use? Each correct answer presents a complete solution.
+`Which two partition keys can you use?
 
 - [ ] a single property value that does not appear frequently in the documents
 - [ ] a value containing the collection name
@@ -472,7 +499,91 @@
 
 
 
-[//] - 0022_image
+#### 0022 A::
+`A company develops a series of mobile games. All games use a single leaderboard service.
+`You have the following requirements:
+`✑ Code must be scalable and allow for growth.
+`✑ Each record must consist of a playerId, gameId, score, and time played.
+`✑ When users reach a new high score, the system will save the new score using the SaveScore function below.
+`Each game is assigned an Id based on the series title.
+`
+`You plan to store customer information in Azure Cosmos DB. The following data already exists in the database:
+`----------------------------------------------
+`-PartitionKey-|-RowKey-|-Email
+`Harp----------|-Walter-|-wharp@contoso.com
+`Smith---------|-Steve--|-ssmith@contoso.com
+`Smith---------|-Jeff---|-jsmith@contoso.com
+`
+`SaveScore will work with Cosmos DB.
+
+- [x] Yes
+- [ ] No
+
+
+#### 0022 B::
+`A company develops a series of mobile games. All games use a single leaderboard service.
+`You have the following requirements:
+`✑ Code must be scalable and allow for growth.
+`✑ Each record must consist of a playerId, gameId, score, and time played.
+`✑ When users reach a new high score, the system will save the new score using the SaveScore function below.
+`Each game is assigned an Id based on the series title.
+`
+`You plan to store customer information in Azure Cosmos DB. The following data already exists in the database:
+`----------------------------------------------
+`-PartitionKey-|-RowKey-|-Email
+`Harp----------|-Walter-|-wharp@contoso.com
+`Smith---------|-Steve--|-ssmith@contoso.com
+`Smith---------|-Jeff---|-jsmith@contoso.com
+`
+`SaveScore will update and replace a record if one already exists with the same playerId and gameId.
+
+
+- [ ] Yes
+- [x] No
+
+
+#### 0022 C::
+`A company develops a series of mobile games. All games use a single leaderboard service.
+`You have the following requirements:
+`✑ Code must be scalable and allow for growth.
+`✑ Each record must consist of a playerId, gameId, score, and time played.
+`✑ When users reach a new high score, the system will save the new score using the SaveScore function below.
+`Each game is assigned an Id based on the series title.
+`
+`You plan to store customer information in Azure Cosmos DB. The following data already exists in the database:
+`----------------------------------------------
+`-PartitionKey-|-RowKey-|-Email
+`Harp----------|-Walter-|-wharp@contoso.com
+`Smith---------|-Steve--|-ssmith@contoso.com
+`Smith---------|-Jeff---|-jsmith@contoso.com
+`
+`Leader board data for the game will be automatically partitioned using gameId.
+
+- [ ] Yes
+- [x] No
+
+
+#### 0022 D::
+`A company develops a series of mobile games. All games use a single leaderboard service.
+`You have the following requirements:
+`✑ Code must be scalable and allow for growth.
+`✑ Each record must consist of a playerId, gameId, score, and time played.
+`✑ When users reach a new high score, the system will save the new score using the SaveScore function below.
+`Each game is assigned an Id based on the series title.
+`
+`You plan to store customer information in Azure Cosmos DB. The following data already exists in the database:
+`----------------------------------------------
+`-PartitionKey-|-RowKey-|-Email
+`Harp----------|-Walter-|-wharp@contoso.com
+`Smith---------|-Steve--|-ssmith@contoso.com
+`Smith---------|-Jeff---|-jsmith@contoso.com
+`
+`Save Score will store the values for the gameId and playerId parameters in the database. 
+
+- [x] Yes
+- [ ] No
+
+
 
 #### 0023 ::You develop and deploy a web application to Azure App Service. 
 `The application accesses data stored in an Azure Storage account. 
@@ -787,15 +898,115 @@
 #### 0000.6 [60%] ::You provide an Azure API Management managed web service to clients. The back-end web service implements HTTP Strict Transport Security (HSTS).
 `Every request to the backend service must include a valid HTTP authorization header.
 `You need to configure the Azure API Management instance with an authentication policy.
-`Which two policies can you use? Each correct answer presents a complete solution.
+`Which two policies can you use?
 
 - [x] Basic Authentication
 - [ ] Digest Authentication
 - [x] Certificate Authentication
 - [ ] OAuth Client Credential Grant
 
-[//] - 0000.7_todo
-[//] - 0000.8_todo
+#### 0000.7
+`You are developing an ASP.NET Core website that can be used to manage photographs which are stored in Azure Blob Storage containers.
+`Users of the website authenticate by using their Azure Active Directory (Azure AD) credentials.
+`You implement role-based access control (RBAC) role permissions on the containers that store photographs. You assign users to RBAC roles.
+`You need to configure the website's Azure AD Application so that user's permissions can be used with the Azure Blob containers.
+`How should you configure the application?
+
+- [x]
+API-------------|--Permission-------- -|----Type--
+Azure Storage      user_impersonation      delegated
+Microsoft Graph    User.Road               delegated
+
+
+- [ ]
+API-------------|--Permission-------- -|----Type--
+Azure Storage      profile                 delegated
+Microsoft Graph    User.Road               delegated
+
+
+- [ ]
+API-------------|--Permission-------- -|----Type--
+Azure Storage      user_impersonation      profile
+Microsoft Graph    User.Road               delegated
+
+
+- [ ]
+API-------------|--Permission-------- -|----Type--
+Azure Storage      client_id               application
+Microsoft Graph    User.Road               delegated
+
+#### 0000.8 ::
+`You are developing an ASP.NET Core app that includes feature flags which are managed by Azure App Configuration. You create an Azure App Configuration store named AppFeatureFlagStore that contains a feature flag named Export.
+`You need to update the app to meet the following requirements:
+`✑ Use the Export feature in the app without requiring a restart of the app.
+`✑ Validate users before users are allowed access to secure resources.
+`✑ Permit users to access secure resources.
+`How should you complete the code segment?
+
+- [x] 
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if(env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+    else
+    {
+        app.UseExceptionHandler("/Error");
+    }
+    app.UseAuthentication(); 
+    app.UseAuthorization();
+    app.UseStaticFiles()
+}
+
+- [ ] 
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if(env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+    else
+    {
+        app.UseExceptionHandler("/Error");
+    }
+    app.UseAuthentication(); 
+    app.UseAuthorization();
+    app.UseAzureAppConfiguration()
+}
+
+- [ ] 
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if(env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+    else
+    {
+        app.UseExceptionHandler("/Error");
+    }
+    app.UseStaticFiles(); 
+    app.UseHttpsRedirection();
+    app.UseRequestLocalization()
+}
+
+- [ ] 
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if(env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+    else
+    {
+        app.UseExceptionHandler("/Error");
+    }
+    app.UseSession(); 
+    app.UseCookiePolicy();
+    app.UseCors()
+}
+
 
 
 #### 0000.9 [81%] ::You have an application that includes an Azure Web app and several Azure Function apps. Application secrets including connection strings and certificates are stored in Azure Key Vault.

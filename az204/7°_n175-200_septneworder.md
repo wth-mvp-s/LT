@@ -133,7 +133,57 @@
 - [ ] Bypass caching for query strings
 - [x] Cache every unique URL
 
-[//] - 0025_image OK
+#### 0025::
+`You are developing an ASP.NET Core time sheet application that runs as an Azure Web App. Users of the application enter their time sheet information on the first day of every month.
+`The application uses a third-party web service to validate data.
+`The application encounters periodic server errors due to errors that result from calling a third-party web server. Each request to the third-party server has the same chance of failure.
+`You need to configure an Azure Monitor alert to detect server errors unrelated to the third-party service. You must minimize false-positive alerts.
+`How should you complete the Azure Resource Manager template?
+
+
+- [x]
+"type":"Microsoft.Insights/metricAlerts",
+"properties":{
+    "criteria":{
+        "odata.type":". . .",
+        "allof":{
+            "criterionType":"DynamicThresholdCriterion",
+            "metricName":"Http5xx",
+            "alertSensitivity":"Low"
+
+
+- [ ]
+"type":"Microsoft.Insights/metricAlerts",
+"properties":{
+    "criteria":{
+        "odata.type":". . .",
+        "allof":{
+            "criterionType":"DynamicThresholdCriterion",
+            "metricName":"Http5xx",
+            "alertSensitivity":"High"
+
+
+- [ ]
+"type":"Microsoft.Insights/metricAlerts",
+"properties":{
+    "criteria":{
+        "odata.type":". . .",
+        "allof":{
+            "criterionType":"SingleResourceMultipleMetricCriteria",
+            "metricName":"Http5xx",
+            "alertSensitivity":"Hight"
+
+
+- [ ]
+"type":"Microsoft.Insights/metricAlerts",
+"properties":{
+    "criteria":{
+        "odata.type":". . .",
+        "allof":{
+            "criterionType":"DynamicThresholdCriterion",
+            "metricName":"Http4xx",
+            "alertSensitivity":"Low"
+
 
 #### 0026_new ::You are developing a web application that uses Azure Cache for Redis. You anticipate that the cache will frequently fill and that you will need to evict keys.
 `You must configure Azure Cache for Redis based on the following predicted usage pattern: A small subset of elements will be accessed much more often than the rest.
@@ -148,7 +198,34 @@
 - [ ] volatile-random
 
 
-[//] - 0027_image ok 
+#### 0027::
+`An organization has web apps hosted in Azure.
+`The organization wants to track events and telemetry data in the web apps by using Application Insights.
+`You need to configure the web apps for Application Insights.
+`Which three actions should you perform in sequence?
+
+- [x] 
+`Create an Application insights resource
+`Copy the connection string
+`Configure the Azure App Service SDK for the app
+
+- [ ] 
+`Create an Application insights resource
+`Configure the Azure App Service SDK for the app
+`Copy the connection string
+
+- [ ] 
+`Create an Azure machine Learning workspace
+`Copy the connection string
+`Configure the Azure App Service SDK for the app
+
+
+- [ ] 
+`Configure the Azure App Service SDK for the app
+`Configure the Application insights SDK in the app
+`Copy the connection string
+`Create an Application insights resource
+
 
 #### 0028_new [?]::An organization hosts web apps in Azure. The organization uses Azure Monitor.
 `You discover that configuration changes were made to some of the web apps.
@@ -378,8 +455,33 @@
 - [ ] Yes
 - [x] No
 
+#### 0008::
+`You develop software solutions for a mobile delivery service. You are developing a mobile app that users can use to order from a restaurant in their area. The app uses the following workflow:
+`1. A driver selects the restaurants for which they will deliver orders.
+`2. Orders are sent to all available drivers in an area.
+`3. Only orders for the selected restaurants will appear for the driver.
+`4. The first driver to accept an order removes it from the list of available orders.
+`You need to implement an Azure Service Bus solution.
+`Which three actions should you perform in sequence?
 
-[//] - 0008_new-select
+- [x] 
+`Create a Single Service Bus Namespace.
+`Create a Service Bus topic for each restaurant for which a driver can receive message.
+`Create a Service Bus subscription for each restaurant for which a driver can receive orders.
+
+- [ ] 
+`Create a Single Service Bus Namespace.
+`Create a Single Service Bus topic.
+`Create a Service Bus subscription for each restaurant for which a driver can receive orders.
+
+
+- [ ] 
+`Create a Single Service Bus topic.
+`Create a Service Bus Namespace for each restaurant for which a driver can receive messages. 
+`Create a Single Service Bus subscription.
+`Create a Service Bus subscription for each restaurant for which a driver can receive orders.
+`Create a Single Service Bus Namespace.
+`Create a Service Bus topic for each restaurant for which a driver can receive message.
 
 #### 0009_todo A. ::You develop a news and blog content app for Windows devices.
 `A notification must arrive on a user's device when there is a new article available for them to view.
@@ -505,7 +607,7 @@
 `✑ Provide transactional support.
 `✑ Provide duplicate detection.
 `✑ Store the messages for an unlimited period of time.
-`Which two technologies will meet the requirements? Each correct answer presents a complete solution.
+`Which two technologies will meet the requirements?
 
 - [x] Azure Service Bus Topic
 - [x] Azure Service Bus Queue
@@ -623,7 +725,7 @@
 
 #### Qp32.3Topic5Set5question19::You are developing a solution that will use Azure messaging services.
 `You need to ensure that the solution uses a publish-subscribe model and eliminates the need for constant polling.
-`What are two possible ways to achieve the goal? Each correct answer presents a complete solution.
+`What are two possible ways to achieve the goal?
 
 - [x] Service Bus
 - [ ] Event Hub
@@ -667,4 +769,3 @@
 - [ ] Yes
 - [x] No
 
-[//] reponse = Don't use a VM, instead create an Azure Function App that uses an Azure Service Bus Queue trigger.

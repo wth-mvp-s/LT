@@ -2,7 +2,7 @@
 
 #### 1 ::
 `You are developing a REST web service. Customers will access the service by using an Azure API Management instance.
-The web service does not correctly handle conflicts. Instead of returning an HTTP status code of 409, the service returns a status code of 500. The body of the status message contains only `the word conflict.
+`The web service does not correctly handle conflicts. Instead of returning an HTTP status code of 409, the service returns a status code of 500. The body of the status message contains only the word conflict.
 `You need to ensure that conflicts produce the correct response.
 `How should you complete the policy?
 
@@ -554,7 +554,7 @@ You must automatically move blobs to Archive tier after they have not been modif
 `Issues -
 `
 `Shipping website and REST APIs -The following error message displays while you are testing the website: 
-`Failed to load http://test-shippingapi.wideworldimporters.com/: No `'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://`test.wideworldimporters.com/' is therefore not allowed access.
+`Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://test.wideworldimporters.com/' is therefore not allowed access.
 `
 `Question
 `You need to configure Azure CDN for the Shipping web site.
@@ -572,27 +572,27 @@ You must automatically move blobs to Archive tier after they have not been modif
 `Optimization : large file download
 
 - [ ] 
-`Tier : Stanard
+`Tier : Standard
 `Profile : Akamai
 `Optimization : large file download
 
 - [x] 
-`Tier : Stanard
+`Tier : Standard
 `Profile : Akamai
 `Optimization : dynamic site acceleraiton
 
 - [ ] 
-`Tier : Stanard
+`Tier : Standard
 `Profile : Akamai
 `Optimization : general web delivery
 
 - [ ] 
-`Tier : Stanard
+`Tier : Standard
 `Profile : Microsoft
 `Optimization : dynamic site acceleraiton
 
 - [ ] 
-`Tier : Stanard
+`Tier : Standard
 `Profile : Akamai
 `Optimization : video-on-demand media streaming
 
@@ -706,8 +706,6 @@ You must automatically move blobs to Archive tier after they have not been modif
 
 
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
 #### 23 [0%]::
 `Requirements. Data -
 `
@@ -731,19 +729,52 @@ You must automatically move blobs to Archive tier after they have not been modif
 
 #### 24 [0%]::
 `Question
+`Order.json
+`{
+`    "id":1
+`    "customers":[
+`        {
+`            "familyName":"Doe",
+`            "givenName":"John",
+`            "customerid":5
+`        }
+`    ],
+`    "line_items":[
+`        {
+`            "fulfillable_quantity":1,
+`            "id":6,
+`            "price":"199.99",
+`            "product_id":7513594,
+`            "quentity":1,
+`            "requires_shipping":true, 
+`            "sku":"SFC-342-N",
+`            "title":"Surface Go",
+`            "vendor":"Microsoft",
+`            "name":"Surface Go - 8GB",
+`            "taxable":true, 
+`            "tax_lines":[
+`                {
+`                    "title": "State Tax",
+`                    "price":"3.98",
+`                    "rate":0.06
+`                }
+`            ],
+`            "total_discount":"5.00",
+`            "discount_allocation":[
+`                {
+`                    "amount":"5.00",
+`                    "discount_application_index":2 
+`                }
+`            ]
+`        }
+`    ]
+`}
 `
 `You need to retrieve all order line items from Order.json and sort the data alphabetically by the city.
 `How should you complete the code?
 
 
 - [x] 
-`SELECT li.id AS lineitemid, li.price
-`FROM Orders o
-`JOIN li IN o.line_items
-`ORDER BY o.adress.city ASC
-
-
-- [ ] 
 `SELECT li.id AS lineitemid, li.price
 `FROM Orders o
 `JOIN li IN o.line_items

@@ -402,13 +402,24 @@
 
 
 #### 0030, ::
+`You are a developer for a company that provides a bookings management service in the tourism industry. You are implementing Azure Search for the tour agencies listed in your company's solution.
+`You create the index in Azure Search. You now need to use the Azure Search .NET SDK to import the relevant data into the Azure Search service.
+`Which three actions should you perform in sequence?
 
-
-- [x]
+- [ ]
 `Create a SearchIndexClient object to connect to the search index. 
 `Create an IndexBatch that contain the documents whitch must be added. 
 `Call the Documents.Suggest method of the SearchIndexClient and pass the DataSource. 
 
+- [x]
+`Create a SearchIndexClient object to connect to the search index. 
+`Create an IndexBatch that contain the documents whitch must be added. 
+`Call the documents.index method of the SearchIndexClient and pass the IndexBatch. 
+
+- [ ]
+`Create a SearchIndexClient object to connect to the search index. 
+`Set the DataSource property of the SearchServiceClient. 
+`Call the Documents.Suggest method of the SearchIndexClient and pass the DataSource. 
 
 
 - [ ]

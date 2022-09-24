@@ -1,22 +1,337 @@
-##   8°_n200-225_septneworder
+##   9°_n225-250_septneworder-encours
 
 
-#### Q9.5
+#### Q9.1 [ok]::
+`Security -
+`
+`Any web service accessible over the Internet must be protected from cross site scripting attacks.
+`All websites and services must use SSL from a valid root certificate authority.
+`Azure Storage access keys must only be stored in memory and must be available only to the service.
+`All Internal services must only be accessible from internal Virtual Networks (VNets).
+`All parts of the system must support inbound and outbound traffic restrictions.
+`All service calls must be authenticated by using Azure AD.
+`
+`Question
+`
+`You need to ensure that network security policies are met.
+`How should you configure network security?
+
+- [x] SSL certificate : Valid root certificate
+- [ ] SSL certificate : Self-signed certificate
+- [ ] Proxy type : nginx
+- [x] Proxy type : Azure Application Gateway
+
+
+#### Q9.2 :: 
+`Question
+`
+`You need to add YAML markup at line CS17 to ensure that the ContentUploadService can access Azure Storage access keys.
+`How should you complete the YAML markup? 
+
+- [x] volumeMounts : 
+`    - mountPath: /mnt/secrets
+`    name: accesskey
+`    volumes : 
+`    - name: accesskey
+`    secret: 
+`    key: TxkgZmlyc3Qgc2VjcmV0IEZPTwo=
+
+- [ ] secretValues : 
+`    - mountPath: /mnt/secrets
+`    name: accesskey
+`    volumes : 
+`    - name: accesskey
+`    secret: 
+`    key: TxkgZmlyc3Qgc2VjcmV0IEZPTwo=
+
+
+
+- [ ] volumeMounts : 
+`    - mountPath: /mnt/secrets
+`    name: accesskey
+`    volumes : 
+`    - name: accesskey
+`    envVar: 
+`    key: TxkgZmlyc3Qgc2VjcmV0IEZPTwo=
+
+
+- [ ] volumeMounts : 
+`    - mountPath: /mnt/secrets
+`    name: accesskey
+`    environmentVariables : 
+`    - name: accesskey
+`    secret: 
+`    key: TxkgZmlyc3Qgc2VjcmV0IEZPTwo=
+
+
+- [ ] secret : 
+`    - mountPath: /mnt/secrets
+`    name: accesskey
+`    envVar : 
+`    - name: accesskey
+`    secretValues: 
+`    key: TxkgZmlyc3Qgc2VjcmV0IEZPTwo=
+
+#### Q9.3 ::
+`Question
+`
+`You need to add code at line AM10 of the application manifest to ensure that the requirement for manually reviewing content can be met.
+`How should you complete the code? 
+
+- [x] 
+`    "optionalClaims":[
+`        "sid",
+`        "email"
+`    ]
+
+
+- [ ] 
+`    "optionalClaims":[
+`        "acct",
+`        "email"
+`    ]
+
+
+
+- [ ] 
+`    "optionalClaims":[
+`        "sid",
+`        "enfpolids"
+`    ]
+
+
+- [ ] 
+`    "optionalClaims":[
+`        "platf",
+`        "email"
+`    ]
+
+
+- [ ] 
+`    "optionalClaims":[
+`        "acct",
+`        "sid"
+`    ]
+
+
+#### Q9.4 ::
+`Shipping Function app -
+`Implement secure function endpoints by using app-level security and include Azure Active Directory (Azure AD).
+`
+`Shipping website -
+`Use Azure Content Delivery Network (CDN) and ensure maximum performance for dynamic content while minimizing latency and costs.
+`
+`Issues -
+`
+`Shipping website and REST APIs -
+`The following error message displays while you are testing the website:
+`Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://test.wideworldimporters.com/' is therefore not allowed access.
+`
+`Question
+`
+`You need to secure the Shipping Function app.
+`How should you configure the app?
+
+- [x] Authorization level : Function
+- [ ] Authorization level : Anonymous
+- [ ] Authorization level : Admin
+- [x] User claims : JSON Web Token (JWT)
+- [ ] User claims : Shared Access Signature (SAS) token
+- [ ] User claims : API Key
+- [ ] Trigger type : blob
+- [x] Trigger type : HTTP
+- [ ] Trigger type : queue
+- [ ] Trigger type : timer
+
+
+
+#### Q9.5::
+`Shipping Function app -
+`Implement secure function endpoints by using app-level security and include Azure Active Directory (Azure AD).
+`
+`REST APIs -
+`The REST API's that support the solution must meet the following requirements:
+`Secure resources to the corporate VNet.
+Allow deployment to a testing location within Azure while not incurring `additional costs.
+`Automatically scale to double capacity during peak shipping times while not causing application downtime.
+`Minimize costs when selecting an Azure payment model.
+`
+`You need to secure the Shipping Logic App.
 
 - [ ] Azure App Service Environment (ASE)
-- [ ] Integration Service Environment (ISE)
+- [x] Integration Service Environment (ISE)
 - [ ] VNet service endpoint
 - [ ] Azure AD B2B integration
 
-#### Q9.9
+#### Q9.6::
+`Question
+`
+`You need to retrieve the database connection string.
+ 
+- [x]
+`REST API Endpoint:
+`https:// cpandlkeyvault.vault.azure.net/secrets/PostgreSQLConn/
+`Variable type to access Azure Key Vault secret values: Querystring
 
-- [ ] ID token signature
+- [ ]
+`REST API Endpoint:
+`https:// cpandlkeyvault.vault.azure.net/secrets/PostgreSQLConn/
+`Variable type to access Azure Key Vault secret values: Environment
+
+
+- [ ]
+`REST API Endpoint:
+`https:// PostgreSQLConn.vault.azure.net/secrets/PostgreSQLConn/
+`Variable type to access Azure Key Vault secret values: Querystring
+
+
+- [ ]
+`REST API Endpoint:
+`https:// cpandlkeyvault.vault.azure.net/secrets/`80df3e46ffcd4f1cb187f79905e9a1e8/
+`Variable type to access Azure Key Vault secret values: Querystring
+
+
+- [ ]
+`REST API Endpoint:
+`https:// 80df3e46ffcd4f1cb187f79905e9a1e8.vault.azure.net/secrets/`PostgreSQLConn/
+`Variable type to access Azure Key Vault secret values: Querystring
+
+
+
+- [ ]
+`REST API Endpoint:
+`https:// cpandlkeyvault.vault.azure.net/secrets/PostgreSQLConn/
+`Variable type to access Azure Key Vault secret values: ViewState
+
+- [ ]
+`REST API Endpoint:
+`https:// cpandlkeyvault.vault.azure.net/secrets/spandlkeyvault/
+`Variable type to access Azure Key Vault secret values: Environment
+
+
+#### Q9.7
+`Issues -
+`
+`Corporate website -
+`While testing the site, the following error message displays:
+`CryptographicException: The system cannot find the file specified.
+`
+`Function app -
+`You perform local testing for the RequestUserApproval function. The following error message displays:
+`'Timeout value of 00:10:00 exceeded by function: RequestUserApproval'
+`The same error message displays when you test the function in an Azure development environment when you run the following Kusto query:
+`
+`FunctionAppLogs -
+`| where FunctionName = = "RequestUserApproval"
+`
+`Logic app -
+`You test the Logic app in a development environment. The following error message displays:
+`'400 Bad Request'
+`Troubleshooting of the error shows an HttpTrigger action to call the RequestUserApproval function.
+`
+`Question
+`
+`You need to correct the corporate website error.
+`Which four actions should you recommend be performed in sequence?
+
+- [x] 
+`Generate a certificate. 
+`Upload the certificate to Azure Vault. 
+`Import the certificate to Azure App Service. 
+`Add the certificate thumbprint to the WEBSITE_LOAD_CERTIFICATES app setting.
+
+- [ ] 
+`Generate a certificate. 
+`Update line SC05 of Security.cs to include error handling and then redeploy the code. 
+`Import the certificate to Azure App Service. 
+`Add the certificate thumbprint to the WEBSITE_LOAD_CERTIFICATES app setting.
+
+
+
+- [ ] 
+`Generate a certificate. 
+`Upload the certificate to Azure Vault. 
+`Import the certificate to Azure App Service. 
+`Update line SC05 of Security.cs to include error handling and then redeploy the code. 
+
+- [ ] 
+`Upload the certificate to Azure Vault. 
+`Update line SC05 of Security.cs to include error handling and then redeploy the code. 
+`Update line SC03 of Security.cs to include a using statement and then re-deploy the code. 
+`Add the certificate thumbprint to the WEBSITE_LOAD_CERTIFICATES app setting.
+`Upload the certificate to source control.
+`Import the certificate to Azure App Service. 
+`Generate a certificate. 
+
+#### Q9.8::
+`Issues -
+`
+`Corporate website -
+`While testing the site, the following error message displays:
+`CryptographicException: The system cannot find the file specified.
+`
+`Function app -
+`You perform local testing for the RequestUserApproval function. The following error message displays:
+`'Timeout value of 00:10:00 exceeded by function: RequestUserApproval'
+`The same error message displays when you test the function in an Azure development environment when you run the following Kusto query:
+`
+`FunctionAppLogs -
+`| where FunctionName = = "RequestUserApproval"
+`
+`Logic app -
+`You test the Logic app in a development environment. The following error message displays:
+`'400 Bad Request'
+`Troubleshooting of the error shows an HttpTrigger action to call the RequestUserApproval function.
+`
+`Question
+`
+`You need to configure API Management for authentication.
+
+- [ ] Policy : Check HTTP header
+- [ ] Policy : Restrict caller IPs
+- [ ] Policy : Limit call rate by key
+- [x] Policy : Validate JWT
+- [x] Policy section : Inbound
+- [ ] Policy section : Outbound
+
+
+
+#### Q9.9::
+`Architecture diagram -
+`
+`The company has several applications and services that support their business. The company plans to implement serverless computing where possible. The overall architecture is shown below.
+`
+`Question
+`
+`You need to authenticate the user to the corporate website as indicated by the architectural diagram.
+`Which two values should you use?
+
+- [x] ID token signature
 - [ ] ID token claims
 - [ ] HTTP response code
-- [ ] Azure AD endpoint URI
+- [x] Azure AD endpoint URI
 - [ ] Azure AD tenant ID
 
 
+#### Q9.10::
+`Issues -
+`
+`Logic app -
+`You test the Logic app in a development environment. The following error message displays:
+`'400 Bad Request'
+`Troubleshooting of the error shows an HttpTrigger action to call the RequestUserApproval function.
+`
+`Question
+`
+`You need to correct the Azure Logic app error message.
+
+- [x] authentication level : anonymous
+- [ ] authentication level : function
+- [ ] authentication level : admin
+- [x] managed identity : system-assigned
+- [ ] managed identity : user-assigned
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>23.05...24.09.2022
 #### Q9.13
 
 - [ ] ג€"PermissionsToKeys create, encrypt, decrypt

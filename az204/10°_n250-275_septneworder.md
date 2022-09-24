@@ -167,6 +167,94 @@
 `    @event["data"]["status"].ToString() == "Microsoft.Web/sites/write"
 `}
 
+#### Q10.6 ::
+`Question
+`
+`You need to insert code at line LE03 of LoginEvent.cs to ensure that all authentication events are processed correctly.
+`How should you complete the code?
+
+- [x] 
+`public string id (get; set;)
+`public string eventType (get; set;)
+`public string dataVersion (get; set;)
+
+- [ ] 
+`public string id (get; set;)
+`public string dataVersion (get; set;)
+`public string metadataVersion (get; set;)
+
+- [ ] 
+`public string id (get; set;)
+`public string eventType (get; set;)
+`public string metadataVersion (get; set;)
+
+- [ ] 
+`public string dataVersion (get; set;)
+`public string eventType (get; set;)
+`public string metadataVersion (get; set;)
+
+- [ ] 
+`public string metadataVersion (get; set;)
+`public string dataVersion (get; set;)
+`public string eventType (get; set;)
+
+
+#### Q10.7 ::
+`Question
+`
+`You need to implement the Log policy.
+`How should you complete the EnsureLogging method in EventGridController.cs?
+
+
+- [x] 
+`var client = new WebSiteManagementClient(. . .);
+`var id = ParseResourceID(resource); 
+`var appsetting = new StringDictionary(name: "properties",
+`properties: new Dictionary<string,string>{
+`    {"DIAGNOSTICS_AZUREBLOBCONTAINERSASURL",BlobStoreAccountSAS("logdrop")},
+`    {"DIAGNOSTICS_AZUREBLOBRETENTIONINDAYS","15"}
+`});
+`client.WebApps.UpdateApplicationSetting(
+`    id.resourceGroup,
+`    id.name, appSettings);
+
+- [ ] 
+`var client = new WebSiteManagementClient(. . .);
+`var id = ParseResourceID(resource); 
+`var appsetting = new StringDictionary(name: "properties",
+`properties: new Dictionary<string,string>{
+`    {"DIAGNOSTICS_AZUREBLOBCONTAINERSASURL",BlobStoreAccountSAS("logdrop")},
+`    {"DIAGNOSTICS_AZUREBLOBRETENTIONINDAYS","30"}
+`});
+`client.WebApps.UpdateApplicationSetting(
+`    id.resourceGroup,
+`    id.name, appSettings);
+
+- [ ] 
+`var client = new WebSiteManagementClient(. . .);
+`var id = ParseResourceID(resource); 
+`var appsetting = new StringDictionary(name: "properties",
+`properties: new Dictionary<string,string>{
+`    {"DIAGNOSTICS_AZUREBLOBCONTAINERSASURL",BlobStoreAccountSAS("logdrop")},
+`    {"DIAGNOSTICS_AZUREBLOBRETENTIONINDAYS","30"}
+`});
+`client.WebApps.UploadLoggingSettings(
+`    id.resourceGroup,
+`    id.name, appSettings);
+
+
+- [ ] 
+`var client = new WebSiteManagementClient(. . .);
+`var id = ParseResourceID(resource); 
+`var appsetting = new StringDictionary(name: "properties",
+`properties: new Dictionary<string,string>{
+`    {"DIAGNOSTICS_AZUREBLOBCONTAINERSASURL",BlobStoreAccountSAS("logs")},
+`    {"DIAGNOSTICS_AZUREBLOBRETENTIONINDAYS","15"}
+`});
+`client.WebApps.UploadLoggingSettings(
+`    id.resourceGroup,
+`    id.name, appSettings);
+
 #### Q10.8 ::
 `Notification latency -
 `Users report that anomaly detection emails can sometimes `arrive several minutes after an anomaly is detected.
@@ -182,7 +270,66 @@
 - [ ] Ensure that the Azure Function is set to use a consumption plan.
 
 
-#### Q10.9 ::
+#### 9 ::
+`Question
+`
+`You need to ensure that validation testing is triggered per the requirements.
+`How should you complete the code segment?
+
+1. ImagePushed
+2. repository
+3. topic
+
+- [x]
+`var event = getEvent(); 
+`if (event.eventType ==='ImagePushed')
+`    && event.data.target.repository === 'contentanalysisservice'
+`    && event.topic.contains('contosoimages'))
+`    {
+`        startValidationTesting(); 
+`    }
+
+
+- [ ]
+`var event = getEvent(); 
+`if (event.eventType ==='ImagePushed')
+`    && event.data.target.repository === 'contentanalysisservice'
+`    && event.service.contains('contosoimages'))
+`    {
+`        startValidationTesting(); 
+`    }
+
+
+- [ ]
+`var event = getEvent(); 
+`if (event.eventType ==='ImagePushed')
+`    && event.data.target.service === 'contentanalysisservice'
+`    && event.topic.contains('contosoimages'))
+`    {
+`        startValidationTesting(); 
+`    }
+
+
+
+- [ ]
+`var event = getEvent(); 
+`if (event.eventType ==='RepositoryUpdated')
+`    && event.data.target.service === 'contentanalysisservice'
+`    && event.imageCollection.contains('contosoimages'))
+`    {
+`        startValidationTesting(); 
+`    }
+
+- [ ]
+`var event = getEvent(); 
+`if (event.eventType ==='ImagePushed')
+`    && event.data.target.aci === 'contentanalysisservice'
+`    && event.topic.contains('contosoimages'))
+`    {
+`        startValidationTesting(); 
+`    }
+
+#### Q10 ::
 `Requirements -
 `
 `Costs -
@@ -208,7 +355,46 @@
 - [x] App Service plan
 - [ ] Consumption plan
 
-#### Q10.11 ::
+
+#### 11 ::
+`Question
+`
+`You need to deploy a new version of the LabelMaker application to ACR.
+`Which three actions should you perform in sequence?
+
+- [x] 
+`Build a new application image by using dockerfile.
+`Create an alias of the image with the fully qualified path to the registry.
+`Log in to the registry and push image.
+
+- [ ] 
+`Build a new application image by using dockerfile.
+`Create an alias of the image with the fully qualified path to the registry.
+`Download the image to your local computer.
+
+- [ ] 
+`Create an allias of the image with a new build number.
+`Create an alias of the image with the fully qualified path to the registry.
+`Log in to the registry and push image.
+
+- [ ] 
+`Download the image to your local computer.
+`Create an alias of the image with the fully qualified path to the registry.
+`Log in to the registry and push image.
+
+- [ ] 
+`Build a new application image by using dockerfile.
+`Create an allias of the image with a new build number.
+`Log in to the registry and push image.
+
+- [ ] 
+`Log in to the registry and push image.
+`Create an alias of the image with the fully qualified path to the registry.
+`Download the image to your local computer.
+`Build a new application image by using dockerfile.
+
+
+####  12::
 `Question
 `You need to access data from the user claim object in the `e-commerce web app.
 `What should you do first?
@@ -219,7 +405,76 @@
 - [ ] Using the Azure CLI, enable Cross-origin resource sharing (CORS) from the e-commerce checkout API to the e-commerce web app.
 
 
-#### Q10.1x ::
+#### 13 ::
+`Retail store locations -
+`Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using native SQL language queries.
+`
+`Delivery services -
+`Store service telemetry data in Azure Cosmos DB by using an Azure Function. Data must include an item id, the delivery vehicle license plate, vehicle package capacity, and current vehicle location coordinates.
+`Store delivery driver profile information in Azure Active Directory (Azure AD) by using an Azure Function called from the corporate website.
+`
+`Question
+`
+`You need to implement the retail store location Azure Function.
+`How should you configure the solution?
+`Configuration - Value
+
+- [ ] Binding : Blob storage
+- [x] Binding : Azure Cosmos DB
+- [ ] Binding : Event Grid
+- [ ] Binding : HTTP
+- [ ] Binding Direction : Input
+- [x] Binding Direction : Output
+- [x] Trigger : Blob storage
+- [ ] Trigger : Azure Cosmos DB
+- [ ] Trigger : Event Grid
+- [ ] Trigger : HTTP
+
+
+#### 14 ::
+`Requirements -
+`
+`Corporate website -
+`Minimize costs for data storage and hosting.
+`Implement native GitHub workflows for continuous integration and continuous deployment (CI/CD).
+`Distribute the website content globally for local use.
+`Implement monitoring by using Application Insights and availability web tests including SSL certificate validity and custom header value verification.
+`The website must have 99.95 percent uptime.
+`
+`Retail store locations -
+`Azure Functions must process data immediately when data is uploaded to Blob storage. Azure Functions must update Azure Cosmos DB by using native SQL language queries.
+`Audit store sale transaction information nightly to validate data, process sales financials, and reconcile inventory.
+`
+`Delivery services -
+`Store service telemetry data in Azure Cosmos DB by using an Azure Function. Data must include an item id, the delivery vehicle license plate, vehicle package capacity, and current vehicle location coordinates.
+`Store delivery driver profile information in Azure Active Directory (Azure AD) by using an Azure Function called from the corporate website.
+`
+`Inventory services -
+`The company has contracted a third-party to develop an API for inventory processing that requires access to a specific blob within the retail store storage account for three months to include read-only access to the data.
+`
+`Issues -
+`
+`Retail Store Locations -
+`You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+`Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.
+`
+`Question
+`
+`You need to implement the corporate website.
+`How should you configure the solution?
+`
+`Azure Configuration
+
+- [ ] Plan : Free
+- [x] Plan : Standard
+- [ ] Plan : Premium
+- [ ] Plan : Isolated
+- [x] Service : App Service Web App
+- [ ] Service : App Service Static Web App
+- [ ] Service : App Function App
+- [ ] Service : App Blob Storage
+
+#### 15 ::
 `Issues -
 `
 `Retail Store Locations -
@@ -239,7 +494,7 @@
 - [ ] Immutability
 
 
-#### Q10.1x ::
+#### 16 ::
 `Requirements -
 `
 `User agreements -
@@ -260,34 +515,65 @@
 
 
 
-#### Q-28 ::
+#### 17 ::
+`Requirements -
+`
+`ContentAnalysisService -
+`The company's data science group built ContentAnalysisService which accepts user generated content as a string and returns a probable value for inappropriate content. Any values over a specific threshold must be reviewed by an employee of Contoso, Ltd.
+`You must create an Azure Function named CheckUserContent to perform the content checks.
+`
+`Question
+`
+`You need to implement the bindings for the CheckUserContent function.
+`How should you complete the code segment?
 
 - [x] 
 `public static class CheckUserContent
 `{
 `    [FunctionName("CheckUserContent")]
-`    public static void Run([QueueTrigger(userContent string content,
-`    [Queue("userContent" stream outpu)
+`    public static void Run([BlobTrigger("userContent/{name}")] string content,
+`    [Blob("userContent/{name}", FileAccess.Write)] Stream output
 `    {
 `        ...
 `    }
-`    
-`}
-- [] 
+
+
+- [ ] 
 `public static class CheckUserContent
 `{
 `    [FunctionName("CheckUserContent")]
-`    public static void Run([BlobTrigger(userContent/{name} string content,
-`    [CosmosDB("content","userContent" stream outpu)
+`    public static void Run([Table("content","userContent","{name}")] string content,
+`    [Table("userContent/{name}", FileAccess.Write)] Stream output
 `    {
 `        ...
 `    }
-`    
-`}`````````````````````````````````````
+
+
+- [ ] 
+`public static class CheckUserContent
+`{
+`    [FunctionName("CheckUserContent")]
+`    public static void Run([CosmosDBTrigger("content","userContent")]string content,
+`    [CosmosDB("content","userContent")] Stream output
+`    {
+`        ...
+`    }
+
+- [ ] 
+`public static class CheckUserContent
+`{
+`    [FunctionName("CheckUserContent")]
+`    public static void Run([QueueTrigger("userContent")] string content,
+    [Queue("userContent")] Stream output
+`    {
+`        ...
+`    }
 
 
 
-#### Q-29 ::
+
+
+#### 18 ::
 `The main web application for the social networking website loads user uploaded content from blob storage.
 `You are developing a solution to monitor uploaded data for inappropriate content. The following process occurs when users upload content by using the SPA:
 `* Messages are sent to ContentUploadService.
@@ -312,7 +598,7 @@
 
 
 
-#### Q.30 ::
+#### Q.19 ::
 `Requirements -
 `
 `Data must be replicated to a secondary region and three availability zones.

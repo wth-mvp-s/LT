@@ -9,7 +9,45 @@
 - [x] From the Redeploy blade, click Redeploy.
 - [ ] From the Profile blade, modify the usage location.
 
-[//] - 002_image [//OK-omg.saved] [100%]
+#### 002::
+`You have downloaded an Azure Resource Manager template to deploy numerous virtual machines. The template is based on a current virtual machine, but must be adapted to reference an administrative password.
+`You need to make sure that the password is not stored in plain text.
+`You are preparing to create the necessary components to achieve your goal.
+`Which of the following should you create to achieve your goal?
+
+- [x]
+`An Azure Key Vault
+`An Access policy
+
+
+- [ ]
+`An Azure Storage account
+`An Access policy
+
+- [ ]
+`An Azure Storage account
+`An Azure policy
+
+
+
+- [ ]
+`An Azure Key Vault
+`An backup policy
+
+
+- [ ]
+`An Azure Key Vault
+`An Azure policy
+
+
+- [ ]
+`An Azure Key Vault
+`An Azure Storage account
+`Azure Active Directory (AD) Identity Protection
+`An Access policy
+`An Azure policy
+`An backup policy
+
 
 #### 003, Q3.p1_newQuestion [60%]::Your company has an Azure Kubernetes Service (AKS) cluster that you manage from an Azure AD-joined device. 
 `The cluster is located in a resource group.
@@ -63,7 +101,37 @@
 - [ ] 30
 - [ ] 40
 
-[//] - 008_image [//OK-omg.saved] [100%]
+#### 008::
+`You are creating an Azure Cosmos DB account that makes use of the SQL API. Data will be added to the account every day by a web application.
+`You need to ensure that an email notification is sent when information is received from IoT devices, and that compute cost is reduced.
+`You decide to deploy a function app.
+`Which of the following should you configure the function app to use? 
+
+- [x] 
+`Consumption plan
+`SendGrid binding
+
+- [ ] 
+`Consumption plan
+`SendGrid action
+
+
+- [ ] 
+`Consumption plan
+`Azure Event Hubs binding
+
+- [ ] 
+`Azure Cosmos DB connector
+`SendGrid binding
+
+
+- [ ] 
+`Azure Cosmos DB connector
+`SendGrid action
+`Consumption plan
+`Azure Event Hubs binding
+`SendGrid binding
+
 
 #### 009, Q9. [67%]::You company has an on-premises deployment of MongoDB, and an Azure Cosmos DB account that makes use of the MongoDB API. 
 `You need to devise a strategy to migrate MongoDB to the Azure Cosmos DB account. 
@@ -102,7 +170,42 @@
 - [ ] EnabledForTemplateDeployment
 - [x] EnableSoftDelete
 
-[//] - 0013_image [//OK-omg.saved] [100%]
+#### 0013::
+`You have an Azure Active Directory (Azure AD) tenant.
+`You want to implement multi-factor authentication by making use of a conditional access policy. The conditional access policy must be applied to all users when they access the Azure portal.
+`Which three settings should you configure?
+
+
+- [x] 
+`[Assignements]
+`    - Users and group : 0 users selected
+`    - Cloud apps : 0 apps selected
+`[Access controls]
+`    Grant : 0 controls selected
+
+- [ ] 
+`[Assignements]
+`    - Cloud apps : 0 apps selected
+`    - Conditions : 0 conditions selected
+`[Access controls]
+`    Grant : 0 controls selected
+
+
+- [ ] 
+`[Assignements]
+`    - Users and group : 0 users selected
+`    - Conditions : 0 conditions selected
+`[Access controls]
+`    Grant : 0 controls selected
+
+- [ ] 
+`[Assignements]
+`    - Users and group : 0 users selected
+`[Access controls]
+`    Grant : 0 controls selected
+`    Sessions : 0 controls selected
+
+
 
 #### 0014, Q14. [100%]::You manage an Azure SQL database that allows for Azure AD authentication. 
 `You need to make sure that database developers can connect to the SQL database via Microsoft SQL Server Management Studio (SSMS). 
@@ -127,8 +230,32 @@
 - [ ] Implement virtual network service endpoints for Azure Key Vault.
 - [ ] Run the az keyvault update --enable-soft-delete false CLI.
 
-[//] - 0016_image [//OK-omg.saved] [??50%]
+#### 0016::
+`You have developed a Web App for your company. The Web App provides services and must run in multiple regions.
+`You want to be notified whenever the Web App uses more than 85 percent of the available CPU cores over a 5 minute period. Your solution must minimize costs.
+`Which command should you use?
 
+- [x] 
+`az monitor metrics alert create -n myAlert -g myResourceGroup
+`--scopes targetResourceID --condition "avg Percentage CPU >85"
+`--window size 5m 
+
+
+- [ ] 
+`az monitor metrics alert create -n myAlert -g myResourceGroup
+`--scopes targetResourceID --condition "Percentage CPU >85"
+`--window size 5m 
+
+
+- [ ] 
+`az monitor metrics alert create -n myAlert -g myResourceGroup
+`--scopes targetResourceID --condition "avg Percentage CPU >85"
+`--evaluation-frequency 5m 
+
+- [ ] 
+`az monitor metrics alert create -n myAlert -g myResourceGroup
+`--scopes targetResourceID --condition "CPU Usage>85"
+`--auto-mitigate 5m 
 
 #### 0017, Q17. [100%]::You are configuring a web app that delivers streaming video to users. 
 `The application makes use of continuous integration and deployment. 
@@ -274,5 +401,33 @@
 - [ ] the Logic Apps Designer
 
 
+#### 0030, ::
 
-[//] - 0030_image a faire ?? TODO : [//OK-omg.saved] [??00%]
+
+- [x]
+`Create a SearchIndexClient object to connect to the search index. 
+`Create an IndexBatch that contain the documents whitch must be added. 
+`Call the Documents.Suggest method of the SearchIndexClient and pass the DataSource. 
+
+
+
+- [ ]
+`Create an IndexBatch that contain the documents whitch must be added. 
+`Set the DataSource property of the SearchServiceClient. 
+`Call the Documents.Suggest method of the SearchIndexClient and pass the DataSource. 
+
+
+
+- [ ]
+`Create a DataSource instance and set its Container property to the DataContainer. 
+`Create an IndexBatch that contain the documents whitch must be added. 
+`Call the Documents.Suggest method of the SearchIndexClient and pass the DataSource. 
+
+
+- [ ]
+`Create a DataSource instance and set its Container property to the DataContainer. 
+`Create an IndexBatch that contain the documents whitch must be added. 
+`Set the DataSource property of the SearchServiceClient. 
+`Create a SearchIndexClient object to connect to the search index. 
+`Call the documents.index method of the SearchIndexClient and pass the IndexBatch. 
+`Call the Documents.Suggest method of the SearchIndexClient and pass the DataSource. 

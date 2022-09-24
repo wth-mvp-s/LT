@@ -1,7 +1,131 @@
 ##   8°_n200-225_septneworder
 
-[//] - 1.0018_new
-[//] - 2.0019_new
+#### 1 ::
+`You are developing a REST web service. Customers will access the service by using an Azure API Management instance.
+The web service does not correctly handle conflicts. Instead of returning an HTTP status code of 409, the service returns a status code of 500. The body of the status message contains only `the word conflict.
+`You need to ensure that conflicts produce the correct response.
+`How should you complete the policy?
+
+- [ ] 
+`<when-error>
+`   <base/> 
+`       <choose> 
+`           <when codition="@context.Response.StatusCode == 500
+`            && context.LastError.Message.Contains("conflict = ")"> 
+`<return-response>
+`   <set-status>
+`</return-response>
+` </when>
+` <otherwise/>
+` </choose>
+`<when-error>
+
+
+- [ ] 
+`<on-error>
+`   <base/> 
+`       <choose> 
+`           <when codition="@context.Response.StatusCode == 500
+`            && context.LastError.Message.Contains("conflict = ")"> 
+`<return-response>
+`   <override-status>
+`</return-response>
+` </when>
+` <otherwise/>
+` </choose>
+`<on-error>
+
+
+
+- [ ] 
+`<on-error>
+`   <base/> 
+`       <choose> 
+`           <when codition="@server.Response.StatusCode == 500
+`            && server.LastError.Message.Contains("conflict = ")"> 
+`<return-response>
+`   <set-status>
+`</return-response>
+` </when>
+` <otherwise/>
+` </choose>
+`<on-error>
+
+
+- [x] 
+`<on-error>
+`   <base/> 
+`       <choose> 
+`           <when codition="@context.Response.StatusCode == 500
+`            && context.LastError.Message.Contains("conflict = ")"> 
+`<return-response>
+`   <set-status>
+`</return-response>
+` </when>
+` <otherwise/>
+` </choose>
+`<on-error>
+
+- [ ] 
+`<set-status>
+`   <base/> 
+`       <choose> 
+`           <when codition="@on-error.Response.StatusCode == 500
+`            && context.LastError.Message.Contains("conflict = ")"> 
+`<return-response>
+`   <override-status>
+`</return-response>
+` </when>
+` <otherwise/>
+` </choose>
+`<set-status>
+
+#### 2 ::
+
+
+- [x] 
+`var endpoint = "..."
+`var payload =  "..."
+`var request = new HttpRequestMessage(HttpMethod.Post, endpoint);
+`request.Header.Add("X-WNS-Type", "wns/raw"); 
+`request.Header.Add("ServiceBusNotification-Format", "windows"); 
+`request.Context - new StringContent(payload, Encoding.UTF8, "application/octet-stream");
+`var client = new HttpClient();
+`await client.SendAsync(request); 
+
+
+- [ ] 
+`var endpoint = "..."
+`var payload =  "..."
+`var request = new HttpRequestMessage(HttpMethod.Post, endpoint);
+`request.Header.Add("X-WNS-Type", "wns/raw"); 
+`request.Header.Add("ServiceBusNotification-Format", "windowsphone"); 
+`request.Context - new StringContent(payload, Encoding.UTF8, "application/octet-stream");
+`var client = new HttpClient();
+`await client.SendAsync(request); 
+
+
+- [ ] 
+`var endpoint = "..."
+`var payload =  "..."
+`var request = new HttpRequestMessage(HttpMethod.Post, endpoint);
+`request.Header.Add("X-WNS-Type", "wns/raw"); 
+`request.Header.Add("ServiceBusNotification-Format", "windows"); 
+`request.Context - new StringContent(payload, Encoding.UTF8, "application/json");
+`var client = new HttpClient();
+`await client.SendAsync(request); 
+
+
+
+- [ ] 
+`var endpoint = "..."
+`var payload =  "..."
+`var request = new HttpRequestMessage(HttpMethod.Post, endpoint);
+`request.Header.Add("X-WNS-Type", "wns/raw"); 
+`request.Header.Add("ServiceBusNotification-Format", "application/octet-stream"); 
+`request.Context - new StringContent(payload, Encoding.UTF8, "application/json");
+`var client = new HttpClient();
+`await client.SendAsync(request); 
 
 
 #### 3. Qp20.3Topic5Set5question25 [59%]::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
@@ -276,7 +400,37 @@
 - [ ] Azure Event Grid
 
 
-[//] - 0010_image
+#### 10::
+`A company backs up all manufacturing data to Azure Blob Storage. Admins move blobs from hot storage to archive tier storage every month.
+You must automatically move blobs to Archive tier after they have not been modified within 180 days. The path for any item that is not archived must be placed in an existing queue. This `operation must be performed automatically once a month. You set the value of TierAgeInDays to -180.
+`How should you configure the Logic App?
+
+- [x]
+`              [Reccurence]
+`              [Condition]
+`[When there are message in a queue][Tier blob]
+`               [list blobs 2]
+
+
+- [ ]
+`              [Reccurence]
+`              [Condition]
+`[When there are message in a queue][Tier blob]
+`               [Insert Entity]
+
+
+- [ ]
+`              [Reccurence]
+`              [Condition]
+`[Tier blob][When there are message in a queue]
+`               [list blobs 2]
+
+- [ ]
+`        [Put a message on a queue]
+`              [Condition]
+`[When there are message in a queue][Tier blob]
+`               [list blobs 2]
+
 
 #### 11.Qp28.Topic5.Set5.question2 [100%]::You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently.
 `You have the following requirements:

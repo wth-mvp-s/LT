@@ -187,7 +187,7 @@ The log alert is scheduled to run every two hours.
 `DIAGDATA : /home
 
 
-- [x]
+- [ ]
 `WEBSITES_ENABLE_APP_SERVICE_STORAGE : true
 `DIAGDATA : /local
 
@@ -319,11 +319,132 @@ The log alert is scheduled to run every two hours.
 - [ ] Yes
 - [x] No
 
-[//] -
+
 #### 15  ::
+`You are developing an Azure Durable Function based application that processes a list of input values. The application is monitored using a console application that retrieves JSON data from an Azure Function diagnostic endpoint.
+`During processing a single instance of invalid input does not cause the function to fail. Invalid input must be available to the monitoring application.
+`You need to implement the Azure Durable Function and the monitoring console application.
+`How should you complete the code segments?
+
+- [x]
+`[FunctionName(App)]
+`public static async Task<List<string>> RunOrchestrator(
+`    [OrchestrationTrigger] IDurableOrchestrationContext context) {
+`        EntityId[] input = . . . 
+`        int errIndex = await context.CallEntityAsync(input[errIndex], "error")
+`    }
+`    using (var client = new HttpClient())
+`    {
+`        while (true)
+`        {
+`            var response = await client.GetAsync(". . .")
+`            response.EnsureSuccessStatusCode();
+`            var json = await response.Context.ReadAsStringAsync();
+`            dynamic result = JsonConvert.DeserializeObject(json);
+`            if(result.runtimeStatus == "Failed")
+`            {
+`                return result.input
+    
 
 - [ ]
+`[FunctionName(App)]
+`public static async Task<List<string>> RunOrchestrator(
+`    [OrchestrationTrigger] IDurableOrchestrationContext context) {
+`        EntityId[] input = . . . 
+`        int errIndex = context.SetOutput(input[errIndex])
+`    }
+`    using (var client = new HttpClient())
+`    {
+`        while (true)
+`        {
+`            var response = await client.GetAsync(". . .")
+`            response.EnsureSuccessStatusCode();
+`            var json = await response.Context.ReadAsStringAsync();
+`            dynamic result = JsonConvert.DeserializeObject(json);
+`            if(result.runtimeStatus == "Failed")
+`            {
+`                return result.input
+    
 
+
+- [ ]
+`[FunctionName(App)]
+`public static async Task<List<string>> RunOrchestrator(
+`    [OrchestrationTrigger] IDurableOrchestrationContext context) {
+`        EntityId[] input = . . . 
+`        int errIndex = await context.CallEntityAsync(input[errIndex], "error")
+`    }
+`    using (var client = new HttpClient())
+`    {
+`        while (true)
+`        {
+`            var response = await client.GetAsync(". . .")
+`            response.EnsureSuccessStatusCode();
+`            var json = await response.Context.ReadAsStringAsync();
+`            dynamic result = JsonConvert.DeserializeObject(json);
+`            if(result.runtimeStatus == "Completed")
+`            {
+`                return result.outpu
+
+
+- [ ]
+`[FunctionName(App)]
+`public static async Task<List<string>> RunOrchestrator(
+`    [OrchestrationTrigger] IDurableOrchestrationContext context) {
+`        EntityId[] input = . . . 
+`        int errIndex = await context.CallEntityAsync(input[errIndex], "error")
+`    }
+`    using (var client = new HttpClient())
+`    {
+`        while (true)
+`        {
+`            var response = await client.GetAsync(". . .")
+`            response.EnsureSuccessStatusCode();
+`            var json = await response.Context.ReadAsStringAsync();
+`            dynamic result = JsonConvert.DeserializeObject(json);
+`            if(result.runtimeStatus == "Failed")
+`            {
+`                return result.runtimeStatus
+
+
+- [ ]
+`[FunctionName(App)]
+`public static async Task<List<string>> RunOrchestrator(
+`    [OrchestrationTrigger] IDurableOrchestrationContext context) {
+`        EntityId[] input = . . . 
+`        int errIndex = await context.CallEntityAsync(input[errIndex], "error")
+`    }
+`    using (var client = new HttpClient())
+`    {
+`        while (true)
+`        {
+`            var response = await client.GetAsync(". . .")
+`            response.EnsureSuccessStatusCode();
+`            var json = await response.Context.ReadAsStringAsync();
+`            dynamic result = JsonConvert.DeserializeObject(json);
+`            if(result.runtimeStatus == "Awaited")
+`            {
+`                return result.input
+    
+
+- [ ]
+`[FunctionName(App)]
+`public static async Task<List<string>> RunOrchestrator(
+`    [OrchestrationTrigger] IDurableOrchestrationContext context) {
+`        EntityId[] input = . . . 
+`        int errIndex = context.SignalEntity(input[errIndex], "error")
+`    }
+`    using (var client = new HttpClient())
+`    {
+`        while (true)
+`        {
+`            var response = await client.GetAsync(". . .")
+`            response.EnsureSuccessStatusCode();
+`            var json = await response.Context.ReadAsStringAsync();
+`            dynamic result = JsonConvert.DeserializeObject(json);
+`            if(result.runtimeStatus == "Failed")
+`            {
+`                return result.input
 
 #### 16  Q0044,  ::You are developing an Azure Durable Function to manage an online ordering process.
 `The process must call an external API to gather product discount information.
@@ -384,7 +505,7 @@ The log alert is scheduled to run every two hours.
 - [x] Yes
 - [ ] No
 
-#### Q4700 ::You are building a website that uses Azure Blob storage for data storage. You configure Azure Blob storage lifecycle to move all blobs to the archive tier after 30 days.
+#### 19  Q4700 ::You are building a website that uses Azure Blob storage for data storage. You configure Azure Blob storage lifecycle to move all blobs to the archive tier after 30 days.
 `Customers have requested a service-level agreement (SLA) for viewing data older than 30 days.
 `You need to document the minimum SLA for data recovery.
 `Which SLA should you use?
@@ -395,14 +516,197 @@ The log alert is scheduled to run every two hours.
 - [ ] at least one day
 - [ ] between zero and 60 minutes
 
-[//] 4700,  todo: mulitselect todo
+#### 20  ::
+`You are developing a ticket reservation system for an airline.
+`The storage solution for the application must meet the following requirements:
+`✑ Ensure at least 99.99% availability and provide low latency.
+`✑ Accept reservations even when localized network outages or other unforeseen failures occur.
+`✑ Process reservations in the exact sequence as reservations are submitted to minimize overbooking or selling the same seat to multiple travelers.
+`✑ Allow simultaneous and out-of-order reservations with a maximum five-second tolerance window.
+`You provision a resource group named airlineResourceGroup in the Azure South-Central US region.
+`You need to provision a SQL API Cosmos DB account to support the app.
+`How should you complete the Azure CLI commands?
 
-[//] 4800,  todo: mulitselect todo
-[//] 4900,  todo: mulitselect todo
-[//] 5000 todo: selectOrder
+- [x]
+`resourceGroupName='airlineResourceGroup'
+`name='docdb-airline-reservations'
+`database='docdb-tickets-database'
+`collectionName='docdb-tickets-collection'
+`consistencyLevel=BoundedStaleness
+`az cosmodb create \
+--name $name \
+--enable-automatic-failover true \
+--resource-group $resourceGroupName \
+--max-interval 5 \ 
+--location 'southcentralus=0 eastus=1 westus=2'
+--default-consistency-level = $consistencylevel
 
 
-#### Q5100, 8 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
+- [ ]
+`resourceGroupName='airlineResourceGroup'
+`name='docdb-airline-reservations'
+`database='docdb-tickets-database'
+`collectionName='docdb-tickets-collection'
+`consistencyLevel=Eventual
+`az cosmodb create \
+--name $name \
+--kind 'GlobalDocumentDB' \
+--resource-group $resourceGroupName \
+--max-interval 5 \ 
+--location 'eastus'
+--default-consistency-level = $consistencylevel
+
+
+
+- [ ]
+`resourceGroupName='airlineResourceGroup'
+`name='docdb-airline-reservations'
+`database='docdb-tickets-database'
+`collectionName='docdb-tickets-collection'
+`consistencyLevel=BoundedStaleness
+`az cosmodb create \
+--name $name \
+--enable-virtual-network true \
+--resource-group $resourceGroupName \
+--max-interval 5 \ 
+--location 'southcentralus=0 eastus=1 westus=2'
+--default-consistency-level = $consistencylevel
+
+- [ ]
+`resourceGroupName='airlineResourceGroup'
+`name='docdb-airline-reservations'
+`database='docdb-tickets-database'
+`collectionName='docdb-tickets-collection'
+`consistencyLevel=BoundedStaleness
+`az cosmodb create \
+--name $name \
+--enable-automatic-failover true \
+--resource-group $resourceGroupName \
+--max-interval 5 \ 
+--location 'southcentralus=0'
+--default-consistency-level = $consistencylevel
+ 
+- [ ]
+`resourceGroupName='airlineResourceGroup'
+`name='docdb-airline-reservations'
+`database='docdb-tickets-database'
+`collectionName='docdb-tickets-collection'
+`consistencyLevel=Strong
+`az cosmodb create \
+--name $name \
+--enable-automatic-failover true \
+--resource-group $resourceGroupName \
+--max-interval 5 \ 
+--location 'southcentralus=0 eastus=1 westus=2'
+--default-consistency-level = $consistencylevel
+
+
+#### 21  ::
+`You are preparing to deploy a Python website to an Azure Web App using a container. The solution will use multiple containers in the same container group. The
+`Dockerfile that builds the container is as follows:
+`
+`FROM python:3
+`ADD website.py
+`CMD ["python","./website.py"]
+`
+`You build a container by using the following command. The Azure Container Registry instance named images is a private registry.
+`
+`docker build -t images.azurecr.io/website
+`
+`The user name and password for the registry is admin.
+`The Web App must always run the same version of the website regardless of future builds.
+`You need to create an Azure Web App to run the website.
+`How should you complete the commands?
+
+- [ ]
+`az configure --defaults web=website
+`az configure --defaults group=website
+`az appservice plan create --name websitePlan --skuB1 --is-linux
+`az webapp create --plan websitePlan --deployment-source-url images.azurecr.io/website:v1.0.0
+`az webapp config container set --docker-registry-server-url https://images.azurecr.io --u admin --p admin
+
+
+- [x]
+`az configure --defaults web=website
+`az configure --defaults group=website
+`az appservice plan create --name websitePlan --skuB1 --is-linux
+`az webapp create --plan websitePlan --deployment-container-image-name images.azurecr.io/website:v1.0.0
+`az webapp config container set --docker-registry-server-url https://images.azurecr.io --u admin --p admin
+
+
+- [ ]
+`az configure --defaults web=website
+`az configure --defaults group=website
+`az appservice plan create --name websitePlan --skuB1 --is-linux
+`az webapp create --plan websitePlan --deployment-source-url images.azurecr.io/website:latest
+`az webapp config container set --docker-registry-server-url https://images.azurecr.io --u admin --p admin
+
+
+- [ ]
+`az configure --defaults web=website
+`az configure --defaults group=website
+`az appservice plan create --name websitePlan --skuB1 --is-linux
+`az webapp create --plan websitePlan --deployment-source-url images.azurecr.io/website:v1.0.0
+`az webapp config container set --docker-registry-server-url https://images.azurecr.io/website --u admin --p admin
+
+- [ ]
+`az configure --defaults web=website
+`az configure --defaults group=website
+`az appservice plan create --name websitePlan --skuB1 --hyper-v
+`az webapp create --plan websitePlan --deployment-source-url images.azurecr.io/website:v1.0.0
+`az webapp config container set --docker-registry-server-url https://images.azurecr.io --u admin --p admin
+
+#### 22  ::
+`You are developing a back-end Azure App Service that scales based on the number of messages contained in a Service Bus queue.
+`A rule already exists to scale up the App Service when the average queue length of unprocessed and valid queue messages is greater than 1000.
+`You need to add a new rule that will continuously scale down the App Service as long as the scale up condition is not met.
+`How should you configure the Scale rule?
+
+- [ ] Metric source : Storage queue
+- [x] Metric source : Service Bus queue
+- [ ] Metric source : Current resource
+- [ ] Metric source : Storage queue (classic)
+- [ ] Metric name : Message Count
+- [x] Metric name : Active Message Count
+- [ ] Time grain statistic : Total
+- [ ] Time grain statistic : Maximum
+- [x] Time grain statistic : Average
+- [ ] Time grain statistic : Count
+
+#### 23  ::
+`You have an application that uses Azure Blob storage.
+`You need to update the metadata of the blobs.
+`Which three methods should you use to develop the solution?
+
+- [ ]
+`Metadata.Add
+`SetMetadataAsync
+`SetPropertiesAsync
+
+- [x]
+`FetchAttributesAsync
+`Metadata.Add
+`SetMetadataAsync
+
+- [ ]
+`FetchAttributesAsync
+`Metadata.Add
+`SetPropertiesAsync
+
+- [ ]
+`FetchAttributesAsync
+`SetMetadataAsync
+`UploadFileStream
+
+
+- [ ]
+`Metadata.Add
+`SetMetadataAsync
+`FetchAttributesAsync
+`UploadFileStream
+`SetPropertiesAsync
+
+#### 24  Q5100, 8 ::You are developing an Azure solution to collect point-of-sale (POS) device data from 2,000 stores located throughout the world. A single device can produce 2 megabytes (MB) of data every 24 hours. Each store location has one to five devices that send data.
 `You must store the device data in Azure Blob storage. Device data must be correlated based on a device identifier. Additional stores are expected to open in the future.
 `You need to implement a solution to receive the device data.
 `Solution: Provision an Azure Event Grid. Configure the machine identifier as the partition key and enable capture.
@@ -412,7 +716,7 @@ The log alert is scheduled to run every two hours.
 - [x] No
 
 
-#### 5200, Q9 ::You develop Azure solutions.
+#### 25  5200, Q9 ::You develop Azure solutions.
 `A .NET application needs to receive a message each time an Azure virtual machine finishes processing data. The messages must NOT persist after being processed by the receiving application.
 `You need to implement the .NET object that will receive the messages.
 `Which object should you use?
@@ -422,10 +726,39 @@ The log alert is scheduled to run every two hours.
 - [ ] TopicClient
 - [ ] CloudQueueClient
 
-[//] 5300 todo: selectOrder
+#### 26 ::
+`You are maintaining an existing application that uses an Azure Blob GPv1 Premium storage account. Data older than three months is rarely used.
+`Data newer than three months must be available immediately. Data older than a year must be saved but does not need to be available immediately.
+`You need to configure the account to support a lifecycle management rule that moves blob data to archive storage for data not modified in the last year.
+`Which three actions should you perform in sequence?
+
+- [x] 
+`Upgrade the storage account to GPv2
+`Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account
+`Change the storage account access tier from hot to cool
+
+- [ ] 
+`Upgrade the storage account to GPv2
+`Change the storage account access tier from hot to cool
 
 
-#### 5400, Q11 ::You develop Azure solutions.
+- [ ] 
+`Create a new GPv2 Standard account and set its default access tier to cool
+`Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account
+`Change the storage account access tier from hot to cool
+ 
+- [ ] 
+`Upgrade the storage account to GPv2
+`Change the storage account access tier from hot to cool
+`Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account
+ 
+- [ ] 
+`Upgrade the storage account to GPv2
+`Create a new GPv2 Standard account and set its default access tier to cool
+`Change the storage account access tier from hot to cool
+`Copy the data to be archived to a Standard GPv2 storage account and then delete the data from the original storage account
+
+#### 27  5400, Q11 ::You develop Azure solutions.
 `You must connect to a No-SQL globally-distributed database by using the .NET API.
 `You need to create an object to configure and execute requests in the database.
 `Which code segment should you use?
@@ -437,7 +770,7 @@ The log alert is scheduled to run every two hours.
 
 
 
-#### 5500Q12 ::You have an existing Azure storage account that stores large volumes of data across multiple containers.
+#### 28  5500Q12 ::You have an existing Azure storage account that stores large volumes of data across multiple containers.
 `You need to copy all data from the existing storage account to a new storage account. The copy process must meet the following requirements:
 `✑ Automate data movement.
 `✑ Minimize user input required to perform the operation.
@@ -449,5 +782,133 @@ The log alert is scheduled to run every two hours.
 - [ ] Azure portal
 - [ ] .NET Storage Client Library
 
-[//] 5600, 00,  todo: mulitselect todo
-[//] 5700,  todo: image to text  todo
+#### 29 ::
+`You are developing a web service that will run on Azure virtual machines that use Azure Storage. You configure all virtual machines to use managed identities.
+`You have the following requirements:
+`✑ Secret-based authentication mechanisms are not permitted for accessing an Azure Storage account.
+`✑ Must use only Azure Instance Metadata Service endpoints.
+`You need to write code to retrieve an access token to access Azure Storage. 
+
+- [x]
+``var url = "http://169.254.169.254/metadata/identity/oauth2/token";
+`var queryString = "...";
+`var client = new HttpClient();
+`var response = await client.GetAsync(url + queryString);
+`var payload = await response.Content.ReadAsStringAsync(); 
+`return JsonConvert.DeserializeObject<Dictionary<string, string>>(payload);  
+
+
+- [ ]
+``var url = "http://169.254.169.254/metadata/identity/oauth2/token";
+`var queryString = "...";
+`var client = new HttpClient();
+`var response = await client.GetAsync(url + queryString);
+`var payload = await response.Content.ReadAsStringAsync(); 
+`return new NetworkCredential("Azure", payload);
+
+
+- [ ]
+``var url = "http://169.254.169.254/metadata/identity/oauth2/token";
+`var queryString = "...";
+`var client = new HttpClient();
+`var response = await client.GetAsync(url + queryString);
+`var payload = await response.Content.ReadAsStringAsync(); 
+`return new MultipartContent(payload)
+
+
+- [ ]
+``var url = "http://169.254.169.254/metadata/identity/oauth2/token";
+`var queryString = "...";
+`var client = new HttpClient();
+`var response = await client.GetAsync(url + queryString);
+`var payload = await response.Content.ReadAsStringAsync(); 
+`return XDocument.Parse(payload)
+
+- [ ]
+``var url = "http://localhost/metadata/identity/oauth2/token";
+`var queryString = "...";
+`var client = new HttpClient();
+`var response = await client.GetAsync(url + queryString);
+`var payload = await response.Content.ReadAsStringAsync(); 
+`return JsonConvert.DeserializeObject<Dictionary<string, string>>(payload);  
+
+#### 30 ::
+`You are developing a new page for a website that uses Azure Cosmos DB for data storage. The feature uses documents that have the following format:
+`
+`"name":"John",
+`"city": "Seattle"
+`
+`You must display data for the new page in a specific order. You create the following query for the page:
+`
+`SELECT *
+`FROM People p
+`ORDER BY p.name, p.city DESC
+`
+`You need to configure a Cosmos DB policy to support the query.
+`How should you configure the policy?
+
+- [x]
+`{
+`    "automatic":true, 
+`    "ngMode": "Consistent",
+`    "IncludedPath":[
+`        {
+`            "path": "/*",
+`        }
+`    ], "excludedPath": [
+`        "compositeIndexes": [
+`            {
+`                "path": "/name", "order": "descending"
+`            },
+`            {
+`                "path": "/city", "order": "descending"
+            
+- [ ]
+`{
+`    "automatic":true, 
+`    "ngMode": "Consistent",
+`    "IncludedPath":[
+`        {
+`            "path": "/*",
+`        }
+`    ], "excludedPath": [
+`        "sortOrder": [
+`            {
+`                "path": "/name", "order": "descending"
+`            },
+`            {
+`                "path": "/city", "order": "descending"
+
+
+- [ ]
+`{
+`    "automatic":true, 
+`    "ngMode": "Consistent",
+`    "IncludedPath":[
+`        {
+`            "path": "/*",
+`        }
+`    ], "excludedPath": [
+`        "compositeIndexes": [
+`            {
+`                "path": "/name", "order": "descending"
+`            },
+`            {
+`                "path": "/city", "order": "ascending"
+            
+- [ ]
+`{
+`    "automatic":true, 
+`    "ngMode": "Consistent",
+`    "IncludedPath":[
+`        {
+`            "path": "/*",
+`        }
+`    ], "excludedPath": [
+`        "orderBy": [
+`            {
+`                "path": "/name", "order": "descending"
+`            },
+`            {
+`                "path": "/city", "order": "descending"
+

@@ -336,8 +336,6 @@
 - [ ] the API Connections
 - [ ] the Logic Apps Designer
 
-[//] no-answer
-
 
 
 #### 0024, Q24. [78%]::You are developing a solution for a public facing API. 

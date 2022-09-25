@@ -141,10 +141,66 @@
 - [ ] ScaledObject
 - [ ] TriggerAuthentication
 
-[//] 35 todo: select 
+#### 0035::
+`You are creating a CLI script that creates an Azure web app and related services in Azure App Service. The web app uses the following variables:
+`
+`$gitrepo : https://github.com/Consos/webapp
+`$webappname : Webapp1103
+`
+`You need to automatically deploy code from GitHub to the newly created web app.
+`How should you complete the script? 
 
-[//] 10.09.2022 encours
+- [x]
+`az group create --location westeurope --nameResourceGroup
+`az appservice plan create --name $webappname --resource-group myRessourceGroup --sku FREE
+`az webapp create --name $webappname --resource-group myResourceGroup
+`--plan $webappname
+`az webapp deployment source config --name $webappname
+--resource-group myResourceGroup --repo-url $gitrepo --branch master --manual-integration
 
+
+- [ ]
+`az group create --location westeurope --nameResourceGroup
+`az appapp --name $webappname --resource-group myRessourceGroup --sku FREE
+`az webapp create --name $webappname --resource-group myResourceGroup
+`--plan $webappname
+`az webapp deployment source config --name $webappname
+--resource-group myResourceGroup --repo-url $gitrepo --branch master --manual-integration
+
+- [ ]
+`az group create --location westeurope --nameResourceGroup
+`az appservice plan create --name $webappname --resource-group myRessourceGroup --sku FREE
+`az group delete --name $webappname --resource-group myResourceGroup
+`--plan $webappname
+`az webapp deployment source config --name $webappname
+--resource-group myResourceGroup --repo-url $gitrepo --branch master --manual-integration
+
+
+- [ ]
+`az group create --location westeurope --nameResourceGroup
+`az appservice plan create --name $webappname --resource-group myRessourceGroup --sku FREE
+`az webapp create --name $webappname --resource-group myResourceGroup
+`git clone $gitrepo
+`az webapp deployment source config --name $webappname
+--resource-group myResourceGroup --repo-url $gitrepo --branch master --manual-integration
+
+
+- [ ]
+`az group create --location westeurope --nameResourceGroup
+`az appservice plan create --name $webappname --resource-group myRessourceGroup --sku FREE
+`az webapp create --name $webappname --resource-group myResourceGroup
+`--plan $webappname
+`az webapp source config --name $webappname
+--resource-group myResourceGroup --repo-url $gitrepo --branch master --manual-integration
+
+
+- [ ]
+`az group create --location westeurope --nameResourceGroup
+`az appservice plan create --name $webappname --resource-group myRessourceGroup --sku FREE
+`az webapp create --name $webappname --resource-group myResourceGroup
+`--plan $webappname
+`az webapp deployment source config --name $webappname
+--resource-group myResourceGroup git clone $gitrepo
 
 
 
@@ -218,7 +274,40 @@
 - [ ] Unicode
 - [x] Base64
 
-[//] 0040 todo: selectOrder
+#### 00 ::
+`You are developing a Docker/Go using Azure App Service Web App for Containers. You plan to run the container in an App Service on Linux. You identify a
+`Docker container image to use.
+`None of your current resource groups reside in a location that supports Linux. You must minimize the number of resource groups required.
+`You need to create the application and perform an initial deployment.
+`Which three Azure CLI commands should you use to develop the solution?
+
+- [x] 
+`az group create
+`az appservice plan create
+`az webapp create
+
+- [ ] 
+`az appservice plan create
+`az webapp create
+`az group create
+
+- [ ] 
+`az group create
+`az appservice plan create
+`az webapp update
+
+- [ ] 
+`az webapp create
+`az group create
+`az group update
+  
+- [ ] 
+`az group create
+`az group update
+`az webapp update
+`az webapp create
+`az appservice plan create
+
 [//] 0041 todo: image
 [//] 0042 todo: image
 
@@ -293,7 +382,60 @@
 - [ ] Process all Azure Storage Analytics logs for successful blob events.
 - [ ] Use the Azure Monitor HTTP Data Collector API and scan the request body for successful blob events.
 
-[//] 00 todo: selectOrder
+#### Q21 ::
+`You plan to create a Docker image that runs an ASP.NET Core application named ContosoApp. You have a setup script named setupScript.ps1 and a series of application files including ContosoApp.dll.
+`You need to create a Dockerfile document that meets the following requirements:
+`✑ Call setupScripts.ps1 when the container is built.
+`✑ Run ContosoApp.dll when the container starts.
+`The Dockerfile document must be created in the same folder where ContosoApp.dll and setupScript.ps1 are stored.
+`Which five commands should you use to develop the solution?
+
+- [x]
+`FROM microsoft/aspnetcore:latest
+`WORKDIR /apps.ContosoApp
+`COPY ./.
+`RUN powershell ./setupScript.psl
+`CMD ["dotnet", "ContosoApp.dll"]
+
+
+- [ ]
+`CMD ["dotnet", "ContosoApp.dll"]
+`FROM microsoft/aspnetcore:latest
+`COPY ./.
+`WORKDIR /apps.ContosoApp
+`RUN powershell ./setupScript.psl
+
+
+- [ ]
+`CMD ["dotnet", "ContosoApp.dll"]
+`FROM microsoft/aspnetcore:latest
+`COPY ./.
+`RUN powershell ./setupScript.psl
+`WORKDIR /apps.ContosoApp
+
+
+- [ ]
+`RUN powershell ./setupScript.psl
+`FROM microsoft/aspnetcore:latest
+`WORKDIR /apps.ContosoApp
+`COPY ./.
+`CMD ["dotnet", "ContosoApp.dll"]
+
+
+- [ ]
+`CMD ["dotnet", "ContosoApp.dll"]
+`COPY ./.
+`WORKDIR /apps.ContosoApp
+`FROM microsoft/aspnetcore:latest
+`RUN powershell ./setupScript.psl
+ 
+- [ ]
+`FROM microsoft/aspnetcore:latest
+`WORKDIR /apps.ContosoApp
+`CMD ["dotnet", "ContosoApp.dll"]
+`COPY ./.
+`RUN powershell ./setupScript.psl
+
 
 
 #### Q22 ::You are developing an Azure Function App that processes images that are uploaded to an Azure Blob container.
@@ -308,9 +450,217 @@
 - [x] Use an App Service plan. Configure the Function App to use an Azure Blob Storage trigger.
 - [ ] Use a Consumption plan. Configure the Function App to use an Azure Blob Storage input trigger.
 
-[//] 00 todo: selectOrder
-[//] 00 todo: yesno
+#### Q23 ::
+`You are configuring a new development environment for a Java application.
+`The environment requires a Virtual Machine Scale Set (VMSS), several storage accounts, and networking components.
+`The VMSS must not be created until the storage accounts have been successfully created and an associated load balancer and virtual network is configured.
+`How should you complete the Azure Resource Manager template? 
 
+
+- [x]
+`"resources":[
+`    {
+`        "apiVersion":"2016-01-01",
+`        "type":"Microsoft.Storage/storageAccounts",
+`        "name":[concat(copyIndex(),'storage', uniqueString(resourceGroup().id))]",
+`        "location":"[resourceGroup().location]",
+`        ...
+`        "sku":{
+`            "name":"Standard_LSR"
+`        },
+`        "kind":"Storage",
+`        "properties":{},
+`        "copy":{
+`            "name":"storagesetup",
+`            "count":3
+`        }
+`    },
+`    {
+`        "apiVersion":"2015-06-15",
+`        "type":"Microsoft.Compute/virtualMachines",
+`        "name":[concat('VM', uniqueString(resourceGroup().id))]",
+`        "dependsOn":[
+`            "variables('loadBalanceName')]",
+`            "variables('virtualNetworkName')]",
+`            "storagesetup",
+`        ],
+`        . . .
+`    }
+`],
+`"outputs": {}
+
+
+- [ ]
+`"resources":[
+`    {
+`        "apiVersion":"2016-01-01",
+`        "type":"Microsoft.Storage/storageAccounts",
+`        "name":[concat(dependsOn(),'storage', uniqueString(resourceGroup().id))]",
+`        "location":"[resourceGroup().location]",
+`        ...
+`        "sku":{
+`            "name":"Standard_LSR"
+`        },
+`        "kind":"Storage",
+`        "properties":{},
+`        "copyIndex":{
+`            "name":"storagesetup",
+`            "count":3
+`        }
+`    },
+`    {
+`        "apiVersion":"2015-06-15",
+`        "type":"Microsoft.Compute/virtualMachines",
+`        "name":[concat('VM', uniqueString(resourceGroup().id))]",
+`        "dependsOn":[
+`            "variables('loadBalanceName')]",
+`            "variables('virtualNetworkName')]",
+`            "storagesetup",
+`        ],
+`        . . .
+`    }
+`],
+`"outputs": {}
+
+
+- [ ]
+`"resources":[
+`    {
+`        "apiVersion":"2016-01-01",
+`        "type":"Microsoft.Storage/storageAccounts",
+`        "name":[concat(copyIndex(),'storage', uniqueString(resourceGroup().id))]",
+`        "location":"[resourceGroup().location]",
+`        ...
+`        "sku":{
+`            "name":"Standard_LSR"
+`        },
+`        "kind":"Storage",
+`        "properties":{},
+`        "dependsOn":{
+`            "name":"storagesetup",
+`            "count":3
+`        }
+`    },
+`    {
+`        "apiVersion":"2015-06-15",
+`        "type":"Microsoft.Compute/virtualMachines",
+`        "name":[concat('VM', uniqueString(resourceGroup().id))]",
+`        "copy":[
+`            "variables('loadBalanceName')]",
+`            "variables('virtualNetworkName')]",
+`            "storagesetup",
+`        ],
+`        . . .
+`    }
+`],
+`"outputs": {}
+
+- [ ]
+`"resources":[
+`    {
+`        "apiVersion":"2016-01-01",
+`        "type":"Microsoft.Storage/storageAccounts",
+`        "name":[concat(copy(),'storage', uniqueString(resourceGroup().id))]",
+`        "location":"[resourceGroup().location]",
+`        ...
+`        "sku":{
+`            "name":"Standard_LSR"
+`        },
+`        "kind":"Storage",
+`        "properties":{},
+`        "copyIndex":{
+`            "name":"storagesetup",
+`            "count":3
+`        }
+`    },
+`    {
+`        "apiVersion":"2015-06-15",
+`        "type":"Microsoft.Compute/virtualMachines",
+`        "name":[concat('VM', uniqueString(resourceGroup().id))]",
+`        "dependsOn":[
+`            "variables('loadBalanceName')]",
+`            "variables('virtualNetworkName')]",
+`            "storagesetup",
+`        ],
+`        . . .
+`    }
+`],
+`"outputs": {}
+
+
+- [ ]
+`"resources":[
+`    {
+`        "apiVersion":"2016-01-01",
+`        "type":"Microsoft.Storage/storageAccounts",
+`        "name":[concat(copy(),'storage', uniqueString(resourceGroup().id))]",
+`        "location":"[resourceGroup().location]",
+`        ...
+`        "sku":{
+`            "name":"Standard_LSR"
+`        },
+`        "kind":"Storage",
+`        "properties":{},
+`        "copyIndex":{
+`            "name":"storagesetup",
+`            "count":3
+`        }
+`    },
+`    {
+`        "apiVersion":"2015-06-15",
+`        "type":"Microsoft.Compute/virtualMachines",
+`        "name":[concat('VM', uniqueString(resourceGroup().id))]",
+`        "priority":[
+`            "variables('loadBalanceName')]",
+`            "variables('virtualNetworkName')]",
+`            "storagesetup",
+`        ],
+`        . . .
+`    }
+`],
+`"outputs": {}
+
+#### Q24.A ::
+`log.Info($"Processing Order: {myQueueItem.Id}")
+`log.Info($"Queue Insertion Time: {myQueueItem.InsertionTime}")
+`log.Info($"Queue Expiration Time: {myQueueItem.ExpirationTime}")
+`tableBinding.Add(JsonConvert.DeserializeObject<Order>(myQueueItem.AsString))
+`
+`The code will log the time that the order was processed from the queue.
+
+- [ ] Yes
+- [x] No
+#### Q24.B ::
+`log.Info($"Processing Order: {myQueueItem.Id}")
+`log.Info($"Queue Insertion Time: {myQueueItem.InsertionTime}")
+`log.Info($"Queue Expiration Time: {myQueueItem.ExpirationTime}")
+`tableBinding.Add(JsonConvert.DeserializeObject<Order>(myQueueItem.AsString))
+`
+`When the ProcessOrders function fails, the function will retry up to five times for a given order, including the first try.
+
+- [x] Yes
+- [ ] No
+#### Q24.C ::
+`log.Info($"Processing Order: {myQueueItem.Id}")
+`log.Info($"Queue Insertion Time: {myQueueItem.InsertionTime}")
+`log.Info($"Queue Expiration Time: {myQueueItem.ExpirationTime}")
+`tableBinding.Add(JsonConvert.DeserializeObject<Order>(myQueueItem.AsString))
+`
+`When there are multiple orders in the queue, a batch of orders will be retrieved from the queue and the ProcessOrders function will run multiple instances concurrently to process the orders.
+
+
+- [x] Yes
+- [ ] No
+#### Q24.D ::
+`log.Info($"Processing Order: {myQueueItem.Id}")
+`log.Info($"Queue Insertion Time: {myQueueItem.InsertionTime}")
+`log.Info($"Queue Expiration Time: {myQueueItem.ExpirationTime}")
+`tableBinding.Add(JsonConvert.DeserializeObject<Order>(myQueueItem.AsString))
+`
+`The ProcessOrders function will output the order to an Orders table in Azure Table Storage. 
+
+- [x] Yes
+- [ ] No
 
 
 #### Q25 ::You are developing a solution for a hospital to support the following use cases:
@@ -387,7 +737,7 @@
 
 
 
-#### Q27 ::You are preparing to deploy a website to an Azure Web App from a GitHub repository. The website includes static content generated by a script.
+#### Q29 ::You are preparing to deploy a website to an Azure Web App from a GitHub repository. The website includes static content generated by a script.
 `You plan to use the Azure Web App continuous deployment feature.
 `You need to run the static generation script before the website starts serving traffic.
 What are two possible ways to achieve this goal?
@@ -399,4 +749,47 @@ What are two possible ways to achieve this goal?
 - [x] Create a file named .deployment in the root of the repository that calls a script which generates the static content and deploys the website.
 
 
-[//] 00 todo: selectOrder
+#### Q30 ::
+`You are developing an application to use Azure Blob storage. You have configured Azure Blob storage to include change feeds.
+`A copy of your storage account must be created in another region. Data must be copied from the current storage account to the new storage account directly between the storage servers.
+`You need to create a copy of the storage account in another region and copy the data.
+`In which order should you perform the actions?
+
+- [x]
+`Create a new templete deployment.
+`Export a Resource Manager templete.
+`Modify the templete by changing the storage account name and region
+`Deploy the templete to create a new storage account in the target region.
+`Use AZCopy to copy the data to the new storage account
+
+
+- [ ]
+`Create a new templete deployment.
+`Export a Resource Manager templete.
+`Modify the templete by changing the storage account name and region
+`Use AZCopy to copy the data to the new storage account
+`Deploy the templete to create a new storage account in the target region.
+
+
+- [ ]
+`Create a new templete deployment.
+`Export a Resource Manager templete.
+`Deploy the templete to create a new storage account in the target region.
+`Modify the templete by changing the storage account name and region
+`Use AZCopy to copy the data to the new storage account
+
+
+- [ ]
+`Export a Resource Manager templete.
+`Create a new templete deployment.
+`Modify the templete by changing the storage account name and region
+`Deploy the templete to create a new storage account in the target region.
+`Use AZCopy to copy the data to the new storage account
+
+
+- [ ]
+`Use AZCopy to copy the data to the new storage account
+`Deploy the templete to create a new storage account in the target region.
+`Export a Resource Manager templete.
+`Create a new templete deployment.
+`Modify the templete by changing the storage account name and region

@@ -331,65 +331,391 @@ Allow deployment to a testing location within Azure while not incurring `additio
 - [x] managed identity : system-assigned
 - [ ] managed identity : user-assigned
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>23.05...24.09.2022
-#### Q9.13
+#### Q9.11::
+`Azure Database for PostgreSQL -
+`
+`The connection information is updated frequently. The application must always use the latest information to connect to the database.
+`Azure Service Bus and Azure Event Grid
+`Azure Event Grid must use Azure Service Bus for queue-based load leveling.
+`Events in Azure Event Grid must be routed directly to Service Bus queues for use in buffering.
+`Events from Azure Service Bus and other Azure services must continue to be routed to Azure Event Grid for processing.
+`
+`Question
+`
+`You need to configure Azure Service Bus to Event Grid integration.
+`Which Azure Service Bus settings should you use?
+
+- [ ] Tier : Basic
+- [ ] Tier : Standard
+- [x] Tier : Premium
+- [ ] RBAC role : Owner
+- [x] RBAC role : Contributor
+- [ ] RBAC role : Azure Service Bus Data Owner
+- [ ] RBAC role : Azure Service Bus Data Receiver
+
+
+
+#### Q9.12::
+`Security -
+`User's SecurityPin must be stored in such a way that access to the database does not allow the viewing of SecurityPins. The web application is the only system that should have access to SecurityPins.
+`All certificates and secrets used to secure data must be stored in Azure Key Vault.
+`You must adhere to the principle of least privilege and provide privileges which are essential to perform the intended function.
+`All access to Azure Storage and Azure SQL database must use the application's Managed Service Identity (MSI).
+`Receipt data must always be encrypted at rest.
+`All data must be protected in transit.
+`User's expense account number must be visible only to logged in users. All other views of the expense account number should include only the last segment, with the remaining parts obscured.
+`In the case of a security breach, access to all summary reports must be revoked without impacting other parts of the system.
+`
+`Question
+`
+`You need to add code at line PC26 of Processing.cs to ensure that security policies are met.
+`How should you complete the code that you will add at line PC26?
+
+- [x]
+`var resolver = new KeyVaultKeyResolver(_keyVaultClient);
+`keyBundle = await _keyVaultClient.GetKeyAsync("...","...");
+`var key = await resolver.ResolveKeyAsync(keyBundle.KeyIdentifier.Identifier, CancellationToken.None),
+`var x = new BlobEncryptionPolicy(key, resolver),
+`cloudBlobClient.DefaultRequestOption.Encryption.Policy = x; 
+
+- [ ]
+`var resolver = new KeyVaultKeyResolver(_keyVaultClient);
+`keyBundle = await _keyVaultClient.GetKeyAsync("...","...");
+`var key = await resolver.ResolveKeyAsync(keyBundle.KeyIdentifier.Identifier, CancellationToken.None)
+`var x = keyBundle.Managed;
+`cloudBlobClient.DefaultRequestOption.Encryption.Policy = x; 
+
+- [ ]
+`var resolver = new KeyVaultKeyResolver(_keyVaultClient);
+`keyBundle = await _keyVaultClient.GetKeyAsync("...","...");
+`var key = await resolver.ResolveKeyAsync(keyBundle.KeyIdentifier.Identifier, CancellationToken.None)
+`var x = new DeleteRetentionPolicy(key, resolver),
+`cloudBlobClient.DefaultRequestOption.Encryption.Policy = x; 
+
+
+- [ ]
+`var resolver = new KeyVaultKeyResolver(_keyVaultClient);
+`keyBundle = await _keyVaultClient.GetKeyAsync("...","...");
+`var key = await resolver.ResolveKeyAsync(keyBundle.KeyIdentifier.Identifier, CancellationToken.None)
+`var x = new BlobEncryptionPolicy(key, resolver),
+`cloudBlobClient.SetServiceProperties(new ServiceProperties(deleteRetentionPolicy:x))
+
+
+- [ ]
+`var resolver = new KeyVaultKeyResolver(_keyVaultClient);
+`keyBundle = await _keyVaultClient.GetKeyAsync("...","...");
+`var key = await resolver.ResolveKeyAsync("encrypt", null)
+`var x = new BlobEncryptionPolicy(key, resolver),
+`cloudBlobClient.DefaultRequestOption.Encryption.Policy = x; 
+
+- [ ]
+`var resolver = new KeyVaultKeyResolver(_keyVaultClient);
+`keyBundle = await _keyVaultClient.GetKeyAsync("...","...");
+`var key = keyBundle.KeyIdentifier.Identifier;
+`var x = keyBundle.Managed; 
+`cloudBlobClient.Authentication.Scheme = x; 
+
+
+
+#### Q9.13::
+`Security -
+`User's SecurityPin must be stored in such a way that access to the database does not allow the viewing of SecurityPins. The web application is the only system that should have access to SecurityPins.
+`All certificates and secrets used to secure data must be stored in Azure Key Vault.
+`You must adhere to the principle of least privilege and provide privileges which are essential to perform the intended function.
+`All access to Azure Storage and Azure SQL database must use the application's Managed Service Identity (MSI).
+`Receipt data must always be encrypted at rest.
+`All data must be protected in transit.
+`User's expense account number must be visible only to logged in users. All other views of the expense account number should include only the last segment, with the remaining parts obscured.
+`In the case of a security breach, access to all summary reports must be revoked without impacting other parts of the system.
+`
+`You need to ensure the security policies are met.
+`What code do you add at line CS07 of ConfigureSSE.ps1?
 
 - [ ] ג€"PermissionsToKeys create, encrypt, decrypt
 - [ ] ג€"PermissionsToCertificates create, encrypt, decrypt
 - [ ] ג€"PermissionsToCertificates wrapkey, unwrapkey, get
-- [ ] ג€"PermissionsToKeys wrapkey, unwrapkey, get
+- [x] ג€"PermissionsToKeys wrapkey, unwrapkey, get
 
-#### Q9.14
+#### Q9.14::
+`Issues -
+`
+`Retail Store Locations -
+You must perform a point-in-time restoration of the retail store location data due to an `unexpected and accidental deletion of data.
+Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the `function app is scaling.
+`
+`Question
+`You need to reduce read latency for the retail store solution.
+`What are two possible ways to achieve the goal?
 
 - [ ] Create a new composite index for the store location data queries in Azure Cosmos DB. Modify the queries to support parameterized SQL and update the Azure Function app to call the new queries.
-- [ ] Provision an Azure Cosmos DB dedicated gateway. Update the Azure Function app connection string to use the new dedicated gateway endpoint.
-- [ ] Configure Azure Cosmos DB consistency to session consistency. Cache session tokens in a new Azure Redis cache instance after every write. Update reads to use the session token stored in Azure Redis.
+- [x] Provision an Azure Cosmos DB dedicated gateway. Update the Azure Function app connection string to use the new dedicated gateway endpoint.
+- [x] Configure Azure Cosmos DB consistency to session consistency. Cache session tokens in a new Azure Redis cache instance after every write. Update reads to use the session token stored in Azure Redis.
 - [ ] Provision an Azure Cosmos DB dedicated gateway. Update blob storage to use the new dedicated gateway endpoint.
 - [ ] Configure Azure Cosmos DB consistency to strong consistency. Increase the RUs for the container supporting store location data.
 
-#### Q9.15
+#### Q9.15::
+`Issues -
+`
+`Retail Store Locations -
+You must perform a point-in-time restoration of the retail store location data due to an `unexpected and accidental deletion of data.
+Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the `function app is scaling.
+`
+`Question
+`
+`You need to audit the retail store sales transactions.
+`What are two possible ways to achieve the goal?
 
 - [ ] Update the retail store location data upload process to include blob index tags. Create an Azure Function to process the blob index tags and filter by store location.
-- [ ] Process the change feed logs of the Azure Blob storage account by using an Azure Function. Specify a time range for the change feed data.
+- [x] Process the change feed logs of the Azure Blob storage account by using an Azure Function. Specify a time range for the change feed data.
 - [ ] Enable blob versioning for the storage account. Use an Azure Function to process a list of the blob versions per day.
 - [ ] Process an Azure Storage blob inventory report by using an Azure Function. Create rule filters on the blob inventory report.
-- [ ] Subscribe to blob storage events by using an Azure Function and Azure Event Grid. Filter the events by store location.
+- [x] Subscribe to blob storage events by using an Azure Function and Azure Event Grid. Filter the events by store location.
 
-#### Q9.16
+#### Q9.16::
+`Issues -
+`Users of the ContentUploadService report that they occasionally see HTTP 502 responses on specific pages.
+`Question
+`
+`You need to monitor ContentUploadService according to the requirements.
+`Which command should you use?
 
 - [ ] az monitor metrics alert create ג€"n alert ג€"g ג€¦ - -scopes ג€¦ - -condition "avg Percentage CPU > 8"
 - [ ] az monitor metrics alert create ג€"n alert ג€"g ג€¦ - -scopes ג€¦ - -condition "avg Percentage CPU > 800"
-- [ ] az monitor metrics alert create ג€"n alert ג€"g ג€¦ - -scopes ג€¦ - -condition "CPU Usage > 800"
+- [x] az monitor metrics alert create ג€"n alert ג€"g ג€¦ - -scopes ג€¦ - -condition "CPU Usage > 800"
 - [ ] az monitor metrics alert create ג€"n alert ג€"g ג€¦ - -scopes ג€¦ - -condition "CPU Usage > 8"
 
-#### Q9.17
+#### Q9.17::
+`Issues -
+`Users of the ContentUploadService report that they occasionally see HTTP 502 responses on specific pages.
+`
+`Question
+`
+`You need to investigate the http server log output to resolve the issue with the ContentUploadService.
+`Which command should you use first?
 
 - [ ] az webapp log
 - [ ] az ams live-output
 - [ ] az monitor activity-log
-- [ ] az container attach
+- [x] az container attach
 
-#### Q9.18
+#### Q9.18::
+`Issues -
+`
+`Function app -
+`You perform local testing for the RequestUserApproval function. The following error message displays:
+`'Timeout value of 00:10:00 exceeded by function: RequestUserApproval'
+`The same error message displays when you test the function in an Azure development environment when you run the following Kusto query:
+`
+`FunctionAppLogs -
+`| where FunctionName = = "RequestUserApproval"
+`
+`Question
+`
+`You need to investigate the Azure Function app error message in the development environment.
+`What should you do?
 
-- [ ] Connect Live Metrics Stream from Application Insights to the Azure Function app and filter the metrics.
+- [x] Connect Live Metrics Stream from Application Insights to the Azure Function app and filter the metrics.
 - [ ] Create a new Azure Log Analytics workspace and instrument the Azure Function app with Application Insights.
 - [ ] Update the Azure Function app with extension methods from Microsoft.Extensions.Logging to log events by using the log instance.
 - [ ] Add a new diagnostic setting to the Azure Function app to send logs to Log Analytics.
 
 
-#### Q9.20
+#### Q9.19::
+`Security -
+`All SSL certificates and credentials must be stored in Azure Key Vault.
+`File access must restrict access by IP, protocol, and Azure AD rights.
+`All user accounts and processes must receive only those privileges which are essential to perform their intended function.
+`
+`Compliance -
+`Auditing of the file updates and transfers must be enabled to comply with General Data Protection Regulation (GDPR). The file updates must be read-only, stored in the order in which they occurred, include only create, update, delete, and copy operations, and be retained for compliance reasons.
+`
+`Question
+`
+`You need to configure security and compliance for the corporate website files.
+`Which Azure Blob storage settings should you use?
+
+- [ ] Restrict file access : role-based access control (RBAC)
+- [ ] Restrict file access : managed identity
+- [x] Restrict file access : shared access signature (SAS) token
+- [ ] Restrict file access : connection string
+- [ ] Enable file auditing : access tier
+- [x] Enable file auditing : change feed
+- [ ] Enable file auditing : blob indexer
+- [ ] Enable file auditing : storage account type
+
+
+#### Q9.20::
+`Issues -
+`
+`Corporate website -
+`While testing the site, the following error message displays:
+`CryptographicException: The system cannot find the file specified.
+`
+`Function app -
+`You perform local testing for the RequestUserApproval function. The following error message displays:
+`'Timeout value of 00:10:00 exceeded by function: RequestUserApproval'
+`The same error message displays when you test the function in an Azure development environment when you run the following Kusto query:
+`
+`FunctionAppLogs -
+`| where FunctionName = = "RequestUserApproval"
+`
+`Logic app -
+`You test the Logic app in a development environment. The following error message displays:
+`'400 Bad Request'
+`Troubleshooting of the error shows an HttpTrigger action to call the RequestUserApproval function.
+`
+`Question
+`
+`You need to correct the RequestUserApproval Function app error.
+`What should you do?
 
 - [ ] Update line RA13 to use the async keyword and return an HttpRequest object value.
 - [ ] Configure the Function app to use an App Service hosting plan. Enable the Always On setting of the hosting plan.
-- [ ] Update the function to be stateful by using Durable Functions to process the request payload.
+- [x] Update the function to be stateful by using Durable Functions to process the request payload.
 - [ ] Update the functionTimeout property of the host.json project file to 15 minutes.
 
-#### Q9.22
+#### Q9.21::
+`Policies -
+`
+`Log policy -
+`All Azure App Service Web Apps must write logs to Azure Blob storage. All log files should be saved to a container named logdrop. Logs must remain in the container for 15 days.
+`
+`Question
+`
+`You need to implement the Log policy.
+`How should you complete the Azure Event Grid subscription?
+
+- [x]
+`{
+    "name": "newlogs",
+    "properties":{
+        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+        "destination":{
+            "endpointType": "WebHook"},
+        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+    },
+    "labels":[],
+    "eventDeliverySchema":"EventGridSchema"
+
+- [ ]
+`{
+    "name": "newlogs",
+    "properties":{
+        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+        "destination":{
+            "endpointType": "WebHook"},
+        "filter":"subjectEndsWith":"/blobServices/default/containers/logdrop",
+        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+    },
+    "labels":[],
+    "eventDeliverySchema":"EventGridSchema"
+
+
+- [ ]
+`{
+    "name": "newlogs",
+    "properties":{
+        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+        "destination":{
+            "endpointType": "WebHook"},
+        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+        "includedEventTypes":["Microsoft.Storage"]},
+    },
+    "labels":[],
+    "eventDeliverySchema":"EventGridSchema"
+
+- [ ]
+`{
+    "name": "newlogs",
+    "properties":{
+        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+        "destination":{
+            "endpointType": "EventHub"},
+        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+    },
+    "labels":[],
+    "eventDeliverySchema":"EventGridSchema"
+
+- [ ]
+`{
+    "name": "newlogs",
+    "properties":{
+        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+        "destination":{
+            "endpointType": "All"},
+        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+    },
+    "labels":[],
+    "eventDeliverySchema":"EventGridSchema"
+
+
+
+
+#### Q9.22::
+`PolicyLib -
+`You have a shared library named PolicyLib that contains functionality common to all ASP.NET Core web services and applications. The PolicyLib library must:
+`Exclude non-user actions from Application Insights telemetry.
+`Provide methods that allow a web service to scale itself.
+`Ensure that scaling actions do not disrupt application usage.
+`
+`Issues -
+`
+`Performance issue -
+`When under heavy load, the anomaly detection service undergoes slowdowns and rejects connections.
+`
+`Notification latency -
+`Users report that anomaly detection emails can sometimes arrive several minutes after an anomaly is detected.
+`
+`Question
+`
+`You need to ensure that the solution can meet the scaling requirements for Policy Service.
+`Which Azure Application Insights data model should you use?
 
 - [ ] an Application Insights dependency
 - [ ] an Application Insights event
 - [ ] an Application Insights trace
-- [ ] an Application Insights metric
+- [x] an Application Insights metric
+
+
+#### Q9.23::
+
+- [ x]
+`public class Filter : ITelemetryProcessor
+`{
+`    private readonly ITelemetryProcessor _next;
+`    public Filter (ITelemetryProcessor next)
+`    {
+`        _next = next;
+`    }
+`    public void Process(ITelemetry item)
+`    {
+`        var x = item as RequestTelemetry;
+`        if(x?.Url.AbsolutePath =="/health")
+`        {
+`            return;
+`        }
+`        -next.Process(item);
+
+- [x]
+`public class Filter : ITelemetryProcessor
+`{
+`    private readonly ITelemetryProcessor _next;
+`    public Filter (ITelemetryProcessor next)
+`    {
+`        _next = next;
+`    }
+`    public void Process(ITelemetry item)
+`    {
+`        var x = item as RequestTelemetry;
+`        if(x?.Url.AbsolutePath =="/health")
+`        {
+`            return;
+`        }
+`        -next.Process(item);
+    
 
 
 #### Q9.25

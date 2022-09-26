@@ -324,7 +324,67 @@
 - [x] Deploy the website to an App Service that uses the Standard service tier. Configure the App Service plan to automatically scale when the CPU load is high.
 
 
-[//] 0044 todo: selectOrder
+####  ::
+`A company is developing a Java web app. The web app code is hosted in a GitHub repository located at https://github.com/Contoso/webapp.
+`The web app must be evaluated before it is moved to production. You must deploy the initial code release to a deployment slot named staging.
+`You need to create the web app and deploy the code.
+`How should you complete the commands?
+
+- [ ]
+`gitrepo=https://github.com/Contoso/webapp
+`webappname=businesswebapp
+`resourcegroupname=BusinessAppResourceGroup
+`az group create --location centralus --name $resourcegroupname
+`az appservice plan create --name $webappname --resource-group $resourcegroupname --sku S3
+`az webapp create --name $webappname --resource-group $resourcegroupname --plan $webappname
+`az webapp deployment source create --name $webappname --resource-group $resourcegroupname --slot staging
+`az webapp deployment slot config --name $webappname --resource-group $resourcegroupname \ --slot staging --repo-url $gitrepo --branch master --manual-integration
+
+
+- [x]
+`gitrepo=https://github.com/Contoso/webapp
+`webappname=businesswebapp
+`resourcegroupname=BusinessAppResourceGroup
+`az group create --location centralus --name $resourcegroupname
+`az appservice plan create --name $webappname --resource-group $resourcegroupname --sku S3
+`az webapp create --name $webappname --resource-group $resourcegroupname --plan $webappname
+`az webapp deployment slot create --name $webappname --resource-group $resourcegroupname --slot staging
+`az webapp deployment source config --name $webappname --resource-group $resourcegroupname \ --slot staging --repo-url $gitrepo --branch master --manual-integration
+
+
+- [ ]
+`gitrepo=https://github.com/Contoso/webapp
+`webappname=businesswebapp
+`resourcegroupname=BusinessAppResourceGroup
+`az group create --location centralus --name $resourcegroupname
+`az webapp deployment source create --name $webappname --resource-group $resourcegroupname --sku S3
+`az webapp create --name $webappname --resource-group $resourcegroupname --plan $webappname
+`az webapp deployment slot create --name $webappname --resource-group $resourcegroupname --slot staging
+`az appservice plan config --name $webappname --resource-group $resourcegroupname \ --slot staging --repo-url $gitrepo --branch master --manual-integration
+
+
+- [ ]
+`gitrepo=https://github.com/Contoso/webapp
+`webappname=businesswebapp
+`resourcegroupname=BusinessAppResourceGroup
+`az webapp deployment source create --location centralus --name $resourcegroupname
+`az appservice plan create --name $webappname --resource-group $resourcegroupname --sku S3
+`az webapp create --name $webappname --resource-group $resourcegroupname --plan $webappname
+`az webapp deployment slot create --name $webappname --resource-group $resourcegroupname --slot staging
+`az group config --name $webappname --resource-group $resourcegroupname \ --slot staging --repo-url $gitrepo --branch master --manual-integration
+
+
+- [ ]
+`gitrepo=https://github.com/Contoso/webapp
+`webappname=businesswebapp
+`resourcegroupname=BusinessAppResourceGroup
+`az group create --location centralus --name $resourcegroupname
+`az webapp create --name $webappname --resource-group $resourcegroupname --sku S3
+`az appservice plan create --name $webappname --resource-group $resourcegroupname --plan $webappname
+`az webapp deployment slot create --name $webappname --resource-group $resourcegroupname --slot staging
+`az webapp deployment source config --name $webappname --resource-group $resourcegroupname \ --slot staging --repo-url $gitrepo --branch master --manual-integration
+
+
 [//] 0045 todo: selectOrder
 
 

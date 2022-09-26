@@ -69,8 +69,17 @@
 
 - [x] 
 `az eventgrid event-subscription create-source-resource-id $topicid --name
-`$name --endpoint-type servicebucqueue --endpoint $endpoint
+`$name --endpoint-type servicebusqueue --endpoint $endpoint
 
+
+- [ ] 
+`az servicebus queue create-source-resource-id $topicid --name
+`$name --endpoint-type servicebusqueue --endpoint $endpoint
+ 
+- [ ] 
+`az servicebus topic create-source-resource-id $topicid --name
+`$name --endpoint-type servicebusqueue --endpoint $endpoint
+ 
 - [ ] 
 `az eventgrid event-subscription create-source-resource-id $topicid --name
 `$name --endpoint-type eventhub --endpoint $endpoint
@@ -564,7 +573,7 @@
 `{
 `    [FunctionName("CheckUserContent")]
 `    public static void Run([QueueTrigger("userContent")] string content,
-    [Queue("userContent")] Stream output
+`    [Queue("userContent")] Stream output
 `    {
 `        ...
 `    }

@@ -918,83 +918,83 @@ Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) u
 
 - [ ]
 `"print_label":{
-    "type": "Http",
-    "inputs":{
-        "method": "POST",
-        "uri":"https://cohowinery.com/printer/printlabel",
-        "retryPolicy":{
-            "type":"fixed",
-            "interwal":"PT60S",
-            "count":5
+`    "type": "Http",
+`    "inputs":{
+`        "method": "POST",
+`        "uri":"https://cohowinery.com/printer/printlabel",
+`        "retryPolicy":{
+`            "type":"fixed",
+`            "interwal":"PT60S",
+`            "count":5
 
 
 - [ ]
 `"print_label":{
-    "type": "Http",
-    "inputs":{
-        "method": "POST",
-        "uri":"https://cohowinery.com/printer/printlabel",
-        "retryPolicy":{
-            "type":"exponential",
-            "interwal":"PT60S",
-            "count":5
+`    "type": "Http",
+`    "inputs":{
+`        "method": "POST",
+`        "uri":"https://cohowinery.com/printer/printlabel",
+`        "retryPolicy":{
+`            "type":"exponential",
+`            "interwal":"PT60S",
+`            "count":5
 
 
 
 - [ ]
 `"print_label":{
-    "type": "Http",
-    "inputs":{
-        "method": "POST",
-        "uri":"https://cohowinery.com/printer/printlabel",
-        "retryPolicy":{
-            "type":"default",
-            "interwal":"PT60S",
-            "count":5
+`    "type": "Http",
+`    "inputs":{
+`        "method": "POST",
+`        "uri":"https://cohowinery.com/printer/printlabel",
+`        "retryPolicy":{
+`            "type":"default",
+`            "interwal":"PT60S",
+`            "count":5
 
 
 - [ ]
 `"print_label":{
-    "type": "Http",
-    "inputs":{
-        "method": "POST",
-        "uri":"https://cohowinery.com/printer/printlabel",
-        "retryPolicy":{
-            "type":"fixed",
-            "interwal":"PT1D",
-            "count":5
+`    "type": "Http",
+`    "inputs":{
+`        "method": "POST",
+`        "uri":"https://cohowinery.com/printer/printlabel",
+`        "retryPolicy":{
+`            "type":"fixed",
+`            "interwal":"PT1D",
+`            "count":5
 
 
 - [ ]
 `"print_label":{
-    "type": "Http",
-    "inputs":{
-        "method": "POST",
-        "uri":"https://cohowinery.com/printer/printlabel",
-        "retryPolicy":{
-            "type":"none",
-            "interwal":"PT10S",
-            "count":5
+`    "type": "Http",
+`    "inputs":{
+`        "method": "POST",
+`        "uri":"https://cohowinery.com/printer/printlabel",
+`        "retryPolicy":{
+`            "type":"none",
+`            "interwal":"PT10S",
+`            "count":5
 
 
 - [x]
 `"print_label":{
-    "type": "Http",
-    "inputs":{
-        "method": "POST",
-        "uri":"https://cohowinery.com/printer/printlabel",
-        "retryPolicy":{
-            "type":"fixed",
-            "interwal":"PT10S",
-            "count":5
+`    "type": "Http",
+`    "inputs":{
+`        "method": "POST",
+`        "uri":"https://cohowinery.com/printer/printlabel",
+`        "retryPolicy":{
+`            "type":"fixed",
+`            "interwal":"PT10S",
+`            "count":5
 
 - [ ]
 `"print_label":{
-    "type": "Http",
-    "inputs":{
-        "method": "POST",
-        "uri":"https://cohowinery.com/printer/printlabel",
-        "retryPolicy":{
-            "type":"fixed",
-            "interwal":"PT60S",
-            "count":10
+`    "type": "Http",
+`    "inputs":{
+`        "method": "POST",
+`        "uri":"https://cohowinery.com/printer/printlabel",
+`        "retryPolicy":{
+`            "type":"fixed",
+`            "interwal":"PT60S",
+`            "count":10

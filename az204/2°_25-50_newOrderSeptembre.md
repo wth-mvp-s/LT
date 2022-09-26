@@ -308,8 +308,77 @@
 `az webapp create
 `az appservice plan create
 
-[//] 0041 todo: image
-[//] 0042 todo: image
+#### xx? ::
+
+[//] unfinished
+
+`#/bin/bash
+`appName="FourthCoffeePublicWeb$random"
+`location="WestUS"
+`dockerHubContainerPath="FourthCoffee/publicweb:v1"
+`fqdn="http://fourthcoffee.com">www.fourthcoffee.com
+`
+`az webapp create
+`--name $appName
+`--plan AppServiceLinuxDockerPlan
+`fourthCoffeePublicWebResourceGroup
+`
+`az webapp config container set
+`--docker-custom-image-name
+`$dockerHubContainerPath
+`--name $appName
+`--resource-group
+`fourthCoffeePublicWebResourceGroup
+`
+`az webapp config hostname add
+`webapp-name $appName
+`resource-group
+fourthCoffeePublicWebResourceGroup \
+`hostname $fqdn
+
+
+#### xx? ::
+`You are developing a serverless Java application on Azure. You create a new Azure Key Vault to work with secrets from a new Azure Functions application.
+`The application must meet the following requirements:
+`✑ Reference the Azure Key Vault without requiring any changes to the Java code.
+`✑ Dynamically add and remove instances of the Azure Functions host based on the number of incoming application events.
+`✑ Ensure that instances are perpetually warm to avoid any cold starts.
+`✑ Connect to a VNet.
+`✑ Authentication to the Azure Key Vault instance must be removed if the Azure Function application is deleted.
+`You need to grant the Azure Functions application access to the Azure Key Vault.
+`Which three actions should you perform in sequence? 
+
+
+- [x] 
+`Create the Azure Function app with a Premium plan type.
+`Create a system-assigned managed identity for the application.
+`Create an access policy in Azure Key Vault for the application identity.
+
+
+- [ ] 
+`Create the Azure Function app with a Premium plan type.
+`Create a system-assigned managed identity for the application.
+`Create the Azure Function app with a Consumption plan type.
+
+
+- [ ] 
+`Create the Azure Function app with a Premium plan type.
+`Create a system-assigned managed identity for the application.
+`Create an SSL certification in Azure Key Vault for the application identity.
+
+
+- [ ] 
+`Create the Azure Function app with a Premium plan type.
+`Create a user-assigned managed identity for the application.
+`Create an access policy in Azure Key Vault for the application identity.
+
+
+- [ ] 
+`Create the Azure Function app with a Consumption plan type.
+`Create a user-assigned managed identity for the application.
+`Create an access policy in Azure Key Vault for the application identity.
+
+
 
 
 

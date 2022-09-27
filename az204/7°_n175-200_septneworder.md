@@ -158,6 +158,16 @@
 `    "criteria":{
 `        "odata.type":". . .",
 `        "allof":{
+`            "criterionType":"SingleResourceMultipleMetricCriteria",
+`            "metricName":"Http5xx",
+`            "alertSensitivity":"Low"
+ 
+- [ ]
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
 `            "criterionType":"DynamicThresholdCriterion",
 `            "metricName":"Http5xx",
 `            "alertSensitivity":"High"

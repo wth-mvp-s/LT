@@ -133,6 +133,7 @@
 - [ ] Bypass caching for query strings
 - [x] Cache every unique URL
 
+
 #### 0025::
 `You are developing an ASP.NET Core time sheet application that runs as an Azure Web App. Users of the application enter their time sheet information on the first day of every month.
 `The application uses a third-party web service to validate data.
@@ -142,47 +143,47 @@
 
 
 - [x]
-"type":"Microsoft.Insights/metricAlerts",
-"properties":{
-    "criteria":{
-        "odata.type":". . .",
-        "allof":{
-            "criterionType":"DynamicThresholdCriterion",
-            "metricName":"Http5xx",
-            "alertSensitivity":"Low"
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
+`            "criterionType":"DynamicThresholdCriterion",
+`            "metricName":"Http5xx",
+`            "alertSensitivity":"Low"
 
 
 - [ ]
-"type":"Microsoft.Insights/metricAlerts",
-"properties":{
-    "criteria":{
-        "odata.type":". . .",
-        "allof":{
-            "criterionType":"DynamicThresholdCriterion",
-            "metricName":"Http5xx",
-            "alertSensitivity":"High"
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
+`            "criterionType":"DynamicThresholdCriterion",
+`            "metricName":"Http5xx",
+`            "alertSensitivity":"High"
 
 
 - [ ]
-"type":"Microsoft.Insights/metricAlerts",
-"properties":{
-    "criteria":{
-        "odata.type":". . .",
-        "allof":{
-            "criterionType":"SingleResourceMultipleMetricCriteria",
-            "metricName":"Http5xx",
-            "alertSensitivity":"Hight"
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
+`            "criterionType":"SingleResourceMultipleMetricCriteria",
+`            "metricName":"Http5xx",
+`            "alertSensitivity":"Hight"
 
 
 - [ ]
-"type":"Microsoft.Insights/metricAlerts",
-"properties":{
-    "criteria":{
-        "odata.type":". . .",
-        "allof":{
-            "criterionType":"DynamicThresholdCriterion",
-            "metricName":"Http4xx",
-            "alertSensitivity":"Low"
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
+`            "criterionType":"DynamicThresholdCriterion",
+`            "metricName":"Http4xx",
+`            "alertSensitivity":"Low"
 
 
 

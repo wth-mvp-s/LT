@@ -1,0 +1,345 @@
+
+##   8°_3from4
+
+
+
+#### 14.B_Qp30 [100%]::You develop and deploy a web app to Azure App Service in a production environment. You scale out the web app to four instances and configure a staging slot to support changes.
+`You must monitor the web app in the environment to include the following requirements:
+`✑ Increase web app availability by re-routing requests away from instances with error status codes and automatically replace instances if they remain in an error state after one hour.
+`✑ Send web server logs, application logs, standard output, and standard error messaging to an Azure Storage blob account.
+`You need to configure Azure App Service.
+`Which values should you use?
+`
+`Send logs
+
+
+- [ ] Health check
+- [x] Diagnostic setting
+- [ ] Deployment slot
+- [ ] Autoscale rule
+- [ ] Zone redundency
+
+
+#### 15_Qp32 [0%]::You develop a solution that uses Azure Virtual Machines (VMs).
+`The VMs contain code that must access resources in an Azure resource group. You grant the VM access to the resource group in Resource Manager.
+`You need to obtain an access token that uses the VM's system-assigned managed identity.
+`Which two actions should you perform?
+
+
+- [x] From the code on the VM, call Azure Resource Manager using an access token.
+- [ ] Use PowerShell on a remote machine to make a request to the local managed identity for Azure resources endpoint.
+- [x] Use PowerShell on the VM to make a request to the local managed identity for Azure resources endpoint.
+- [ ] From the code on the VM, call Azure Resource Manager using a SAS token.
+- [ ] From the code on the VM, generate a user delegation SAS token.
+
+
+#### 16_Qp33 [0%]::You are developing a road tollway tracking application that sends tracking events by using Azure Event Hubs using premium tier.
+`Each road must have a throttling policy uniquely assigned.
+`You need to configure the event hub to allow for per-road throttling.
+`What should you do?
+
+
+- [ ] Use a unique consumer group for each road.
+- [ ] Ensure each road stores events in a different partition.
+- [ ] Ensure each road has a unique connection string.
+- [x] Use a unique application group for each road.
+
+
+#### 17_Qp34 [0%]::You develop and deploy an ASP.NET Core application that connects to an Azure Database for MySQL instance.
+`Connections to the database appear to drop intermittently and the application code does not handle the connection failure.
+`You need to handle the transient connection errors in code by implementing retries.
+`What are three possible ways to achieve this goal?
+
+
+- [ ] Close the database connection and immediately report an error.
+- [ ] Disable connection pooling and configure a second Azure Database for MySQL instance.
+- [x] Wait five seconds before repeating the connection attempt to the database.
+- [x] Set a maximum number of connection attempts to 10 and report an error on subsequent connections.
+- [x] Increase connection repeat attempts exponentially up to 120 seconds.
+
+#### 18_Qp35 [0%]::You are building a B2B web application that uses Azure B2B collaboration for authentication. Paying customers authenticate to Azure B2B using federation.
+`The application allows users to sign up for trial accounts using any email address.
+`When a user converts to a paying customer, the data associated with the trial should be kept, but the user must authenticate using federation.
+`You need to update the user in Azure Active Directory (Azure AD) when they convert to a paying customer.
+`Which Graph API parameter is used to change authentication from one-time passcodes to federation?
+
+
+- [x] resetRedemption
+- [ ] Status
+- [ ] userFlowType
+- [ ] invitedUser
+
+
+#### 19_Q_QC.1 [0%]::
+`Issues -
+`
+`Shipping website and REST APIs -The following error message displays while you are testing the website: 
+`Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://test.wideworldimporters.com/' is therefore not allowed access.
+`
+`Question
+`You need to configure Azure CDN for the Shipping web site.
+`Which configuration options should you use?
+
+
+- [ ] 
+`Tier : Standard
+`Profile Akamai
+`Optimization : general web delivery
+
+- [ ] 
+`Tier : Premium
+`Profile : Microsoft
+`Optimization : large file download
+
+- [ ] 
+`Tier : Standard
+`Profile : Akamai
+`Optimization : large file download
+
+- [x] 
+`Tier : Standard
+`Profile : Akamai
+`Optimization : dynamic site acceleraiton
+
+- [ ] 
+`Tier : Standard
+`Profile : Akamai
+`Optimization : general web delivery
+
+- [ ] 
+`Tier : Standard
+`Profile : Microsoft
+`Optimization : dynamic site acceleraiton
+
+- [ ] 
+`Tier : Standard
+`Profile : Akamai
+`Optimization : video-on-demand media streaming
+
+
+
+
+
+
+
+
+#### 20 []::
+`Issues -
+`
+`Windows Server 2016 VM -
+`The VM shows high network latency, jitter, and high CPU utilization. The VM is critical and has not been backed up in the past. The VM must enable a quick restore from a 7-day snapshot to include in-place restore of disks in case of failure.
+`
+`Shipping website and REST APIs -
+`The following error message displays while you are testing the website:
+`Failed to load http://test-shippingapi.wideworldimporters.com/: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://test.wideworldimporters.com/' is therefore not allowed access.
+`
+`Question
+`
+`You need to correct the VM issues.
+`Which tools should you use? 
+
+
+- [ ] Backup and Restore Azure Site Recovery
+- [x] Backup and Restore Azure Backup
+- [ ] Backup and Restore Azure Data Box
+- [ ] Backup and Restore Azure Migrate
+- [ ] Performance Azure Network Watcher
+- [ ] Performance Azure Traffic Manager
+- [ ] Performance ExpressRoute
+- [x] Performance Accelerated Networking
+
+#### 21 []::
+`Question
+`
+`You need to add code at line PC32 in Processing.cs to implement the GetCredentials method in the Processing class.
+`How should you complete the code?
+
+- [x] 
+`var tp = new AzureServiceTokenProvider()
+`var t = new TokenCredential(await tp.GetAccessTokenAsync(". . ."))
+`return new StorageCredentials(t); 
+
+- [ ] 
+`var tp = new StringTokenProvider("storage", "msi")
+`var t = new TokenCredential(await tp.GetAccessTokenAsync(". . ."))
+`return new StorageCredentials(t); 
+
+- [ ] 
+`var tp = new MSITokenProvider(". . . ", null)
+`var t = new TokenCredential(await tp.GetAccessTokenAsync(". . ."))
+`return new StorageCredentials(t); 
+
+- [ ] 
+`var tp = new MSITokenProvider(". . . ", null)
+`var t = new TokenCredential(await tp.GetAuthenticationHeaderAsync(CancellationToken.None))
+`return new StorageCredentials(t); 
+
+- [ ] 
+`var tp = new AzureServiceTokenProvider()
+`var t = new TokenCredential(await tp.GetAuthenticationHeaderAsync(CancellationToken.None))
+`return new StorageCredentials(t); 
+
+
+#### 22 [voters]::
+`Question
+`
+`You need to ensure disaster recovery requirements are met.
+`What code should you add at line PC16?
+
+- [x] 
+`var copyOptions = new CopyOptions {}; 
+`var context = new SingleTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldOverwriteCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: false
+`context: context, options: copyOptions); 
+
+
+- [ ] 
+`var copyOptions = new CopyOptions {}; 
+`var context = new DirectoryTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldTransferCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: false
+`context: context, options: copyOptions); 
+
+- [ ] 
+`var copyOptions = new CopyOptions {}; 
+`var context = new SingleTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldTransferCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: false
+`context: context, options: copyOptions); 
+
+
+- [ ] 
+`var copyOptions = new CopyOptions {}; 
+`var context = new DirectoryTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldOverwriteCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: false
+`context: context, options: copyOptions); 
+
+
+- [ ] 
+`var copyOptions = new CopyOptions {}; 
+`var context = new DirectoryTransferContext = (source, destination) => Task.FromResult(true);
+`context.ShouldTransferCallbackAsync = (source, destination) => Task.FromResult(true);
+`await TransferManager.CopyAsync(blob), isServiceCopy: true
+`context: context, options: copyOptions); 
+
+
+
+#### 23 [0%]::
+`Requirements. Data -
+`
+`Order data is stored as nonrelational JSON and must be queried using SQL.
+`Changes to the Order data must reflect immediately across all partitions. 
+`All reads to the Order data must fetch the most recent writes.
+`
+`Question
+`
+`You need to configure Azure Cosmos DB.
+`Which settings should you use?
+
+- [x] Consistency Level Strong
+- [ ] Consistency Level Bounded-staleness
+- [ ] Consistency Level Session
+- [ ] Consistency Level Eventual
+- [x] API SQL 
+- [ ] API MongoDB
+- [ ] API Graph
+- [ ] API Table
+
+#### 24 [0%]::
+`Question
+`Order.json
+`{
+`    "id":1
+`    "customers":[
+`        {
+`            "familyName":"Doe",
+`            "givenName":"John",
+`            "customerid":5
+`        }
+`    ],
+`    "line_items":[
+`        {
+`            "fulfillable_quantity":1,
+`            "id":6,
+`            "price":"199.99",
+`            "product_id":7513594,
+`            "quentity":1,
+`            "requires_shipping":true, 
+`            "sku":"SFC-342-N",
+`            "title":"Surface Go",
+`            "vendor":"Microsoft",
+`            "name":"Surface Go - 8GB",
+`            "taxable":true, 
+`            "tax_lines":[
+`                {
+`                    "title": "State Tax",
+`                    "price":"3.98",
+`                    "rate":0.06
+`                }
+`            ],
+`            "total_discount":"5.00",
+`            "discount_allocation":[
+`                {
+`                    "amount":"5.00",
+`                    "discount_application_index":2 
+`                }
+`            ]
+`        }
+`    ]
+`}
+`
+`You need to retrieve all order line items from Order.json and sort the data alphabetically by the city.
+`How should you complete the code?
+
+
+- [x] 
+`SELECT li.id AS lineitemid, li.price
+`FROM Orders o
+`JOIN li IN o.line_items
+`ORDER BY o.adress.city ASC
+
+- [ ] 
+`SELECT li.id AS lineitemid, li.price
+`FROM LineItems li
+`JOIN o IN li.line_items
+`ORDER BY li.adress.city ASC
+
+- [ ] 
+`SELECT li.id AS lineitemid, li.price
+`FROM LineItems li
+`JOIN o IN o.adress
+`ORDER BY o.city ASC
+
+- [ ] 
+`SELECT li.id AS lineitemid, li.price
+`FROM LineItems li
+`JOIN o IN o.adress
+`ORDER BY li.city ASC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

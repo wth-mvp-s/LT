@@ -142,47 +142,57 @@
 
 
 - [x]
-"type":"Microsoft.Insights/metricAlerts",
-"properties":{
-    "criteria":{
-        "odata.type":". . .",
-        "allof":{
-            "criterionType":"DynamicThresholdCriterion",
-            "metricName":"Http5xx",
-            "alertSensitivity":"Low"
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
+`            "criterionType":"DynamicThresholdCriterion",
+`            "metricName":"Http5xx",
+`            "alertSensitivity":"Low"
 
 
 - [ ]
-"type":"Microsoft.Insights/metricAlerts",
-"properties":{
-    "criteria":{
-        "odata.type":". . .",
-        "allof":{
-            "criterionType":"DynamicThresholdCriterion",
-            "metricName":"Http5xx",
-            "alertSensitivity":"High"
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
+`            "criterionType":"SingleResourceMultipleMetricCriteria",
+`            "metricName":"Http5xx",
+`            "alertSensitivity":"Low"
+ 
+- [ ]
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
+`            "criterionType":"DynamicThresholdCriterion",
+`            "metricName":"Http5xx",
+`            "alertSensitivity":"High"
 
 
 - [ ]
-"type":"Microsoft.Insights/metricAlerts",
-"properties":{
-    "criteria":{
-        "odata.type":". . .",
-        "allof":{
-            "criterionType":"SingleResourceMultipleMetricCriteria",
-            "metricName":"Http5xx",
-            "alertSensitivity":"Hight"
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
+`            "criterionType":"SingleResourceMultipleMetricCriteria",
+`            "metricName":"Http5xx",
+`            "alertSensitivity":"Hight"
 
 
 - [ ]
-"type":"Microsoft.Insights/metricAlerts",
-"properties":{
-    "criteria":{
-        "odata.type":". . .",
-        "allof":{
-            "criterionType":"DynamicThresholdCriterion",
-            "metricName":"Http4xx",
-            "alertSensitivity":"Low"
+`"type":"Microsoft.Insights/metricAlerts",
+`"properties":{
+`    "criteria":{
+`        "odata.type":". . .",
+`        "allof":{
+`            "criterionType":"DynamicThresholdCriterion",
+`            "metricName":"Http4xx",
+`            "alertSensitivity":"Low"
 
 
 #### 0026_new ::You are developing a web application that uses Azure Cache for Redis. You anticipate that the cache will frequently fill and that you will need to evict keys.

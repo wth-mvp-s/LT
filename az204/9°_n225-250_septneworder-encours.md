@@ -209,7 +209,7 @@ Allow deployment to a testing location within Azure while not incurring `additio
 `Variable type to access Azure Key Vault secret values: Environment
 
 
-#### Q9.7
+#### Q9.7 ::
 `Issues -
 `
 `Corporate website -

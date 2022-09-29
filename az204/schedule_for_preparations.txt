@@ -22,3 +22,134 @@ s:10.9.8.7
 d:6-1
 
 
+
+`SELECT li.id AS lineitemid, li.price
+
+`FROM Orders o
+
+`JOIN li IN o.line_items
+
+`ORDER BY o.adress.city ASC
+
+
+CHNAGEMENT ; 
+` Export---|-Export-| Off---| Ability to export data |- 6/11/2020,9:13:26 
+
+2. 
+`Host .CreateDefaultBuilder(args)
+
+`.ConfigureWebHostDefaults(wb =>
+
+`{
+
+`    wb.ConfigureAppConfiguration((hc, config) => 
+
+`    {
+
+`        var settings = config.Build(); 
+
+`        config.ChainedTokenCredential (Options => 
+
+`        options.Connect(new Uri(settings["AppConfig:Endpoint"]),
+
+`        new DefaultAzureCredential()));
+
+3, 
+
+`Host .CreateDefaultBuilder(args)
+
+`.ConfigureWebHostDefaults(wb =>
+
+`{
+
+`    wb.ConfigureAppConfiguration((hc, config) => 
+
+`    {
+
+`        var settings = config.Build(); 
+
+`        config.AddAzureAppConfiguration (Options => 
+
+`        options.Connect(new Uri(settings["AppConfig:Endpoint"]),
+
+`        new ManagedIdentityCredential()));
+4 
+`Host .CreateDefaultBuilder(args)
+
+`.ConfigureWebHostDefaults(wb =>
+
+`{
+
+`    wb.ConfigureAppConfiguration((hc, config) => 
+
+`    {
+
+`        var settings = config.Build(); 
+
+`        config.AddAzureAppConfiguration (Options => 
+
+`        options.Connect(new Uri(settings["AppConfig:Endpoint"]),
+
+`        new ManagedIdentityCredential()));
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+putain 
+You are developing an Azure Service application that processes queue data when it receives a message from a mobile application. Messages may not be sent to the service consistently.
+
+`You have the following requirements:
+
+`✑ Queue size must not grow larger than 80 gigabytes (GB).
+
+`✑ Use first-in-first-out (FIFO) ordering of messages.
+
+`✑ Minimize Azure costs.
+
+`You need to implement the messaging solution.
+
+`Solution: Use the .Net API to add a message to an Azure Storage Queue from the mobile application. 
+
+`Create an Azure Function App that uses an Azure Storage Queue trigger.
+
+`Does the solution meet the goal? 
+
+
+
+
+
+
+
+
+
+print - solution qui marchge
+
+1. 
+You develop Azure solutions.
+
+`You must grant a virtual machine (VM) access to specific resource groups in Azure Resource Manager.
+
+`You need to obtain an Azure Resource Manager access token.
+
+`Solution: Run the Invoke-RestMethod cmdlet to make a request to the local managed identity for Azure resources endpoint.
+
+`Does the solution meet the goal? 

@@ -1,4 +1,4 @@
-##   6°_n150-175_septneworder
+##   6°_all1234
 
 
 #### 001 ::
@@ -174,7 +174,7 @@ The application must be granted access to the Azure Blob storage account with a 
 `        options.Connect(new Uri(settings["AppConfig:Endpoint"]),
 `        new DefaultAzureCredential()));
  
- - [x] 
+- [x] 
 `Host .CreateDefaultBuilder(args)
 `.ConfigureWebHostDefaults(wb =>
 `{
@@ -265,38 +265,38 @@ The application must be granted access to the Azure Blob storage account with a 
 `Which four actions should you perform in sequence? 
 
 - [x] 
-Configure the web app to the Standard App Service tier. 
-Enable autoscalling on the web app. 
-Add a Scale rule. 
-Configure a Scale condition.
+`Configure the web app to the Standard App Service tier. 
+`Enable autoscalling on the web app. 
+`Add a Scale rule. 
+`Configure a Scale condition.
 
 
 - [ ] 
-Configure the web app to the Standard App Service tier. 
-Add a Scale rule. 
-Enable autoscalling on the web app. 
-Configure a Scale condition.
+`Configure the web app to the Standard App Service tier. 
+`Add a Scale rule. 
+`Enable autoscalling on the web app. 
+`Configure a Scale condition.
 
 - [ ] 
-Configure the web app to the Standard App Service tier. 
-Add a Scale rule. 
-Switch to an Azure App Services consumtion plan. 
-
-
-- [ ] 
-Configure the web app to the Standard App Service tier. 
-Enable autoscalling on the web app. 
-Add a Scale rule. 
-Switch to an Azure App Services consumtion plan. 
+`Configure the web app to the Standard App Service tier. 
+`Add a Scale rule. 
+`Switch to an Azure App Services consumtion plan. 
+`Configure a Scale condition.
 
 
 - [ ] 
-Configure the web app to the Premium App Service tier. 
-Configure the web app to the Standard App Service tier. 
-Enable autoscalling on the web app. 
-Add a Scale rule. 
-Switch to an Azure App Services consumtion plan. 
-Configure a Scale condition.
+`Configure the web app to the Standard App Service tier. 
+`Enable autoscalling on the web app. 
+`Add a Scale rule. 
+`Switch to an Azure App Services consumtion plan. 
+
+
+- [ ] 
+`Configure the web app to the Premium App Service tier. 
+`Configure the web app to the Standard App Service tier. 
+`Enable autoscalling on the web app. 
+`Add a Scale rule. 
+
 
 
 #### 0000.13 [11] ::You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output.
@@ -356,6 +356,13 @@ Configure a Scale condition.
 - [ ] 
 `void ClearCachedTeams()
 `{
+`    ICache cache = Connection.GetDatabase();
+`    cache.KeyDelete("Team");
+`    ViewBag.msg +="Team data removed from cache."
+
+- [ ] 
+`void ClearCachedTeams()
+`{
 `    IDatabase cache = Connection.GetDatabase();
 `    cache.ValueDelete("Team");
 `    ViewBag.msg +="Team data removed from cache."
@@ -369,6 +376,7 @@ Configure a Scale condition.
 `    cache.StringSet("Team","");
 `    ViewBag.msg +="Team data removed from cache."
     
+
 
 
 
@@ -402,8 +410,8 @@ Configure a Scale condition.
 
 - [ ]
 `Create a blank Logic app. 
-`Add a logic app Trigger that fires when one or more messages arrive in the queue. 
 `Add an action that reads IoT temperature data from the Service Bus queue. 
+`Add a logic app Trigger that fires when one or more messages arrive in the queue. 
 `Add a condition that compares the temperature against the upper and lower thresholds. 
 `Add an action that sends an email to specified personnel if the temperature is outside of those thresholds.
 
@@ -413,10 +421,6 @@ Configure a Scale condition.
 `Add an action that sends an email to specified personnel if the temperature is outside of those thresholds.
 `Add a trigger that reads IoT temperature data from a Service Bus queue. 
 `Add a logic app action that fires when one or more messages arrive in the queue. 
-`Add a condition that compares the temperature against the upper and lower thresholds. 
-`Create a blank Logic app. 
-`Add an action that reads IoT temperature data from the Service Bus queue. 
-
 
 
 #### 17 Qp25.3Topic4Set4question9.A_p34 [rechecked]::You develop an ASP.NET Core MVC application. You configure the application to track webpages and custom events.
@@ -830,6 +834,8 @@ Configure a Scale condition.
 `Create action groups and alert rules. 
 `Create a Log Analytics workspace. 
 `Install the Logic Apps Management solution. 
+
+- [ ]
 `Add a diagram setting to the Azure Function App. 
 `Create an Azure storage account. 
 `Add a diagnostic setting to the Azure Logic App. 
@@ -848,6 +854,13 @@ Configure a Scale condition.
 `Create an Application Insight resource. 
 
 - [ ]
+`Create a Log Analytics workspace.
+`Add a VMInsights solution. 
+`Install agents on the VM and VM scale set to be monitored. 
+`Create a Log Analytics workspace.
+
+
+- [ ]
 `Add a VMInsights solution. 
 `Create a Log Analytics workspace.
 `Install agents on the VM and VM scale set to be monitored. 
@@ -875,5 +888,4 @@ Configure a Scale condition.
 `Install agents on the VM and VM scale set to be monitored. 
 `Send console logs. 
 `Add a VMInsights solution. 
-`Create an Application Insight resource. 
 

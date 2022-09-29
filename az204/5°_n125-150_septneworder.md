@@ -1,4 +1,4 @@
-##   5°_n125-150_septneworder
+##   5°_all1234
 
 
 
@@ -310,6 +310,15 @@
 - [ ] 
 `IsDevice
 `"@odata.type": "#Microsoft.Azure.Cdn.Models.DeliveryRulelsDeviceConditionParameters"
+`"matchValues": Mobile
+`RequestHeader
+`"@odata.type": "#Microsoft.Azure.Cdn.Models.DeliveryRuleRequestHeaderConditionParameters"
+`"selector": "X-POWERED-BY"
+`"matchValues": ["iPhone"]
+
+- [ ] 
+`IsDevice
+`"@odata.type": "#Microsoft.Azure.Cdn.Models.DeliveryRulelsDeviceConditionParameters"
 `"matchValues": iOS
 `RequestHeader
 `"@odata.type": "#Microsoft.Azure.Cdn.Models.DeliveryRuleRequestHeaderConditionParameters"
@@ -395,31 +404,30 @@
 `How should you configure the manifest?
 
 - [ ] 
-    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
-    "displayName": "internal",
-    "optionalClaims": "All",
-    "allowPublicClient": true 
+`    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
+`    "displayName": "internal",
+`    "optionalClaims": "All",
+`    "allowPublicClient": true 
 - [ ] 
-    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
-    "displayName": "internal",
-    "groupMembershipClaims": "All",
-    "oauth2Permissions": true 
+`    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
+`    "displayName": "internal",
+`    "groupMembershipClaims": "All",
+`    "oauth2Permissions": true 
 - [x] 
-    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
-    "displayName": "internal",
-    "groupMembershipClaims": "All",
-    "oauth2AllowImplicitFlow": true 
+`    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
+`    "displayName": "internal",
+`    "groupMembershipClaims": "All",
+`    "oauth2AllowImplicitFlow": true 
 - [ ] 
-    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
-    "displayName": "internal",
-    "optionalClaims": "All",
-    "requiredResourceAccess": true 
+`    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
+`    "displayName": "internal",
+`    "optionalClaims": "All",
+`    "oauth2AllowImplicitFlow": true 
 - [ ] 
-    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
-    "displayName": "internal",
-    "groupMembershipClaims": "All",
-    "oauth2AllowImplicitFlow": true 
-
+`    "appId":"d61126e3-089b-4adb-b721-d5023213df7d"
+`    "displayName": "internal",
+`    "optionalClaims": "All",
+`    "requiredResourceAccess": true 
 
 #### 0000.22 [100%]::You develop an app that allows users to upload photos and videos to Azure storage. The app uses a storage REST API call to upload the media to a blob storage account named Account1. You have blob storage containers named Container1 and Container2.
 `Uploading of videos occurs on an irregular basis.
@@ -939,7 +947,6 @@ The deployment must be unattended and include all application assets. The third-
 #### 0000.41 A::
 `An organization plans to deploy Azure storage services.
 `You need to configure shared access signature (SAS) for granting access to Azure Storage.
-Which SAS types should you use? To answer, drag the appropriate SAS types to the correct `requirements.
 `
 `Delegate access to resources in one or more of the storage services
 
@@ -950,7 +957,6 @@ Which SAS types should you use? To answer, drag the appropriate SAS types to the
 #### 0000.41 B::
 `An organization plans to deploy Azure storage services.
 `You need to configure shared access signature (SAS) for granting access to Azure Storage.
-Which SAS types should you use? To answer, drag the appropriate SAS types to the correct `requirements.
 `
 `Delegate access to resource in a single storage service
 
@@ -961,7 +967,6 @@ Which SAS types should you use? To answer, drag the appropriate SAS types to the
 #### 0000.41 C::
 `An organization plans to deploy Azure storage services.
 `You need to configure shared access signature (SAS) for granting access to Azure Storage.
-Which SAS types should you use? To answer, drag the appropriate SAS types to the correct `requirements.
 `
 `Secure a resource by using Azure AD credentials
 

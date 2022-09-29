@@ -184,6 +184,29 @@ The application must be granted access to the Azure Blob storage account with a 
 `        config.AddAzureAppConfiguration (Options => 
 `        options.Connect(new Uri(settings["AppConfig:Endpoint"]),
 `        new ManagedIdentityCredential()));
+
+
+- [ ] 
+`Host .CreateDefaultBuilder(args)
+`.ConfigureWebHostDefaults(wb =>
+`{
+`    wb.ConfigureAppConfiguration((hc, config) => 
+`    {
+`        var settings = config.Build(); 
+`        config.DefaultAzureCredential (Options => 
+`        options.Connect(new Uri(settings["AppConfig:Endpoint"]),
+`        new AddAzureAppConfiguration()));
+ 
+- [ ] 
+`Host .CreateDefaultBuilder(args)
+`.ConfigureWebHostDefaults(wb =>
+`{
+`    wb.ConfigureAppConfiguration((hc, config) => 
+`    {
+`        var settings = config.Build(); 
+`        config.ManagedIdentityCredential (Options => 
+`        options.Connect(new Uri(settings["AppConfig:Endpoint"]),
+`        new ManagedIdentityCredential()));
         
 - [ ] 
 `Host .CreateDefaultBuilder(args)

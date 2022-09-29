@@ -20,3 +20,15 @@
 
 - [x] Yes
 - [ ] No
+
+#### 0000.14 [most_voted]::You are developing and deploying several ASP.NET web applications to Azure App Service. You plan to save session state information and HTML output.
+`You must use a storage mechanism with the following requirements:
+`✑ Share session state across all ASP.NET web applications.
+`✑ Support controlled, concurrent access to the same session state data for multiple readers and a single writer.
+`✑ Save full HTTP responses for concurrent requests.
+`You need to store the information.
+`Proposed Solution: Deploy and configure an Azure Database for PostgreSQL. Update the web applications.
+`Does the solution meet the goal?
+
+- [x] Yes
+- [ ] No

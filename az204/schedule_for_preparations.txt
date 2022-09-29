@@ -153,3 +153,5 @@ You develop Azure solutions.
 `Solution: Run the Invoke-RestMethod cmdlet to make a request to the local managed identity for Azure resources endpoint.
 
 `Does the solution meet the goal? 
+
+

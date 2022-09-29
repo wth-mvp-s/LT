@@ -440,8 +440,8 @@ Allow deployment to a testing location within Azure while not incurring `additio
 `Issues -
 `
 `Retail Store Locations -
-You must perform a point-in-time restoration of the retail store location data due to an `unexpected and accidental deletion of data.
-Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the `function app is scaling.
+`You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+`Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.
 `
 `Question
 `You need to reduce read latency for the retail store solution.
@@ -457,8 +457,8 @@ Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) u
 `Issues -
 `
 `Retail Store Locations -
-You must perform a point-in-time restoration of the retail store location data due to an `unexpected and accidental deletion of data.
-Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the `function app is scaling.
+`You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+`Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.
 `
 `Question
 `
@@ -587,69 +587,69 @@ Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) u
 
 - [x]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "WebHook"},
-        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "WebHook"},
+`        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
 
 - [ ]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "WebHook"},
-        "filter":"subjectEndsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "WebHook"},
+`        "filter":"subjectEndsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
 
 
 - [ ]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "WebHook"},
-        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "WebHook"},
+`        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
 
 - [ ]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "EventHub"},
-        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "EventHub"},
+`        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
 
 - [ ]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "All"},
-        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "All"},
+`        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
 
 
 

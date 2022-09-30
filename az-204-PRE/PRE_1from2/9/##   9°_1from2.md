@@ -209,7 +209,7 @@ Allow deployment to a testing location within Azure while not incurring `additio
 `Variable type to access Azure Key Vault secret values: Environment
 
 
-#### Q9.7
+#### Q9.7::
 `Issues -
 `
 `Corporate website -
@@ -440,8 +440,8 @@ Allow deployment to a testing location within Azure while not incurring `additio
 `Issues -
 `
 `Retail Store Locations -
-You must perform a point-in-time restoration of the retail store location data due to an `unexpected and accidental deletion of data.
-Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the `function app is scaling.
+`You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+`Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.
 `
 `Question
 `You need to reduce read latency for the retail store solution.
@@ -457,8 +457,8 @@ Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) u
 `Issues -
 `
 `Retail Store Locations -
-You must perform a point-in-time restoration of the retail store location data due to an `unexpected and accidental deletion of data.
-Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the `function app is scaling.
+`You must perform a point-in-time restoration of the retail store location data due to an unexpected and accidental deletion of data.
+`Azure Cosmos DB queries from the Azure Function exhibit high Request Unit (RU) usage and contain multiple, complex queries that exhibit high point read latency for large items as the function app is scaling.
 `
 `Question
 `

@@ -91,69 +91,71 @@
 
 - [x]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "WebHook"},
-        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "WebHook"},
+`        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
 
 - [ ]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "WebHook"},
-        "filter":"subjectEndsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "WebHook"},
+`        "filter":"subjectEndsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
 
 
 - [ ]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "WebHook"},
-        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "WebHook"},
+`        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
 
 - [ ]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "EventHub"},
-        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "EventHub"},
+`        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
 
 - [ ]
 `{
-    "name": "newlogs",
-    "properties":{
-        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
-        "destination":{
-            "endpointType": "All"},
-        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
-        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
-    },
-    "labels":[],
-    "eventDeliverySchema":"EventGridSchema"
+`    "name": "newlogs",
+`    "properties":{
+`        "topic":"/subscriptions/. . ./providers/Microsoft.EventGrid/topics/. . .",
+`        "destination":{
+`            "endpointType": "All"},
+`        "filter":"subjectBeginsWith":"/blobServices/default/containers/logdrop",
+`        "includedEventTypes":["Microsoft.Storage.BlobCreated"]},
+`    },
+`    "labels":[],
+`    "eventDeliverySchema":"EventGridSchema"
+
+
 
 
 

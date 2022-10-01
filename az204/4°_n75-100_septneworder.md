@@ -905,7 +905,7 @@ In which order do the actions occur?
 - [x] Certificate Authentication
 - [ ] OAuth Client Credential Grant
 
-#### 0000.7
+#### 0000.7 :: 
 `You are developing an ASP.NET Core website that can be used to manage photographs which are stored in Azure Blob Storage containers.
 `Users of the website authenticate by using their Azure Active Directory (Azure AD) credentials.
 `You implement role-based access control (RBAC) role permissions on the containers that store photographs. You assign users to RBAC roles.

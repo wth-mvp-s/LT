@@ -13,9 +13,10 @@ az204 		WHY : po co ja sie pierdole ?
 		- bede mial wieksze oczekiwania finansowe. wieksza pensje.  
 		- bede lepszy niz fdp's
 		- mozesz liczyc tylko na siebie, placisz za siebie, no body RAF
-l: 10.9
-m:8.7
-m:6.5
+
+l: 10.9 - ok
+m:8.7 - ok 
+m:6.5 - ok all
 j:4.3
 v:2.1
 s:10.9.8.7

@@ -1,4 +1,4 @@
-##   2°_25-50_newOrderSeptembre
+##   2°_all1234
 
 #### 0031, [67%] ::You are developing an application that applies a set of governance policies for internal and external services, as well as for applications.
 `You develop a stateful ASP.NET Core 2.1 web application named PolicyApp and deploy it to an Azure App Service Web App. 
@@ -195,9 +195,9 @@
 
 
 - [ ]
-`az group create --location westeurope --nameResourceGroup
-`az appservice plan create --name $webappname --resource-group myRessourceGroup --sku FREE
 `az webapp create --name $webappname --resource-group myResourceGroup
+`az appservice plan create --name $webappname --resource-group myRessourceGroup --sku FREE
+`az group create --location westeurope --nameResourceGroup
 `--plan $webappname
 `az webapp deployment source config --name $webappname
 --resource-group myResourceGroup git clone $gitrepo

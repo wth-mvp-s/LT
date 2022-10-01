@@ -1,4 +1,4 @@
-##   3°_n50-75-septneworderd
+##   3°_all1234
 
 
 
@@ -534,12 +534,12 @@ The log alert is scheduled to run every two hours.
 `collectionName='docdb-tickets-collection'
 `consistencyLevel=BoundedStaleness
 `az cosmodb create \
---name $name \
---enable-automatic-failover true \
---resource-group $resourceGroupName \
---max-interval 5 \ 
---location 'southcentralus=0 eastus=1 westus=2'
---default-consistency-level = $consistencylevel
+`--name $name \
+`--enable-automatic-failover true \
+`--resource-group $resourceGroupName \
+`--max-interval 5 \ 
+`--location 'southcentralus=0 eastus=1 westus=2'
+`--default-consistency-level = $consistencylevel
 
 
 - [ ]
@@ -549,12 +549,12 @@ The log alert is scheduled to run every two hours.
 `collectionName='docdb-tickets-collection'
 `consistencyLevel=Eventual
 `az cosmodb create \
---name $name \
---kind 'GlobalDocumentDB' \
---resource-group $resourceGroupName \
---max-interval 5 \ 
---location 'eastus'
---default-consistency-level = $consistencylevel
+`--name $name \
+`--kind 'GlobalDocumentDB' \
+`--resource-group $resourceGroupName \
+`--max-interval 5 \ 
+`--location 'eastus'
+`--default-consistency-level = $consistencylevel
 
 
 
@@ -565,12 +565,12 @@ The log alert is scheduled to run every two hours.
 `collectionName='docdb-tickets-collection'
 `consistencyLevel=BoundedStaleness
 `az cosmodb create \
---name $name \
---enable-virtual-network true \
---resource-group $resourceGroupName \
---max-interval 5 \ 
---location 'southcentralus=0 eastus=1 westus=2'
---default-consistency-level = $consistencylevel
+`--name $name \
+`--enable-virtual-network true \
+`--resource-group $resourceGroupName \
+`--max-interval 5 \ 
+`--location 'southcentralus=0 eastus=1 westus=2'
+`--default-consistency-level = $consistencylevel
 
 - [ ]
 `resourceGroupName='airlineResourceGroup'
@@ -579,12 +579,12 @@ The log alert is scheduled to run every two hours.
 `collectionName='docdb-tickets-collection'
 `consistencyLevel=BoundedStaleness
 `az cosmodb create \
---name $name \
---enable-automatic-failover true \
---resource-group $resourceGroupName \
---max-interval 5 \ 
---location 'southcentralus=0'
---default-consistency-level = $consistencylevel
+`--name $name \
+`--enable-automatic-failover true \
+`--resource-group $resourceGroupName \
+`--max-interval 5 \ 
+`--location 'southcentralus=0'
+`--default-consistency-level = $consistencylevel
  
 - [ ]
 `resourceGroupName='airlineResourceGroup'
@@ -593,12 +593,12 @@ The log alert is scheduled to run every two hours.
 `collectionName='docdb-tickets-collection'
 `consistencyLevel=Strong
 `az cosmodb create \
---name $name \
---enable-automatic-failover true \
---resource-group $resourceGroupName \
---max-interval 5 \ 
---location 'southcentralus=0 eastus=1 westus=2'
---default-consistency-level = $consistencylevel
+`--name $name \
+`--enable-automatic-failover true \
+`--resource-group $resourceGroupName \
+`--max-interval 5 \ 
+`--location 'southcentralus=0 eastus=1 westus=2'
+`--default-consistency-level = $consistencylevel
 
 
 #### 21  ::
@@ -633,6 +633,21 @@ The log alert is scheduled to run every two hours.
 `az webapp create --plan websitePlan --deployment-container-image-name images.azurecr.io/website:v1.0.0
 `az webapp config container set --docker-registry-server-url https://images.azurecr.io --u admin --p admin
 
+
+- [ ]
+`az configure --defaults web=website
+`az configure --defaults group=website
+`az appservice plan create --name websitePlan --skuB1 --is-linux
+`az webapp create --plan websitePlan --deployment-container-image-name images.azurecr.io/website:v1.0.0
+`az webapp config container set --docker-registry-server-url https://images.azurecr.io/website --u admin --p admin
+
+
+- [ ]
+`az configure --defaults web=website
+`az configure --defaults group=website
+`az appservice plan create --name websitePlan --skuB1 --hyper-v
+`az webapp create --plan websitePlan --deployment-container-image-name images.azurecr.io/website:v1.0.0
+`az webapp config container set --docker-registry-server-url https://images.azurecr.io --u admin --p admin
 
 - [ ]
 `az configure --defaults web=website

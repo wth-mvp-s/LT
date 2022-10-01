@@ -264,6 +264,7 @@ Allow deployment to a testing location within Azure while not incurring `additio
 `Generate a certificate. 
 
 #### Q9.8::
+[//]add requirement 
 `Issues -
 `
 `Corporate website -
@@ -297,6 +298,7 @@ Allow deployment to a testing location within Azure while not incurring `additio
 
 
 #### Q9.9::
+[addrequirement]
 `Architecture diagram -
 `
 `The company has several applications and services that support their business. The company plans to implement serverless computing where possible. The overall architecture is shown below.
@@ -314,6 +316,7 @@ Allow deployment to a testing location within Azure while not incurring `additio
 
 
 #### Q9.10::
+[requirements]
 `Issues -
 `
 `Logic app -

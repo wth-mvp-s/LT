@@ -87,3 +87,97 @@
 
 - [x] Yes
 - [ ] No
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 0000.4 [78%] ::You are developing a website that will run as an Azure Web App. Users will authenticate by using their Azure Active Directory (Azure AD) credentials.
+`You plan to assign users one of the following permission levels for the website: admin, normal, and reader. A user's Azure AD group membership must be used to determine the permission level.
+`You need to configure authorization.
+`Solution:
+`✑ Create a new Azure AD application. In the application's manifest, define application roles that match the required permission levels for the application.
+`✑ Assign the appropriate Azure AD group to each role. In the website, use the value of the roles claim from the JWT for the user to determine permissions.
+`Does the solution meet the goal?
+
+- [x] Yes
+- [ ] No
+
+#### 0000.2 [67%] ::You are developing a website that will run as an Azure Web App. Users will authenticate by using their Azure Active Directory (Azure AD) credentials.
+`You plan to assign users one of the following permission levels for the website: admin, normal, and reader. A user's Azure AD group membership must be used to determine the permission level.
+`You need to configure authorization.
+`Solution: Configure the Azure Web App for the website to allow only authenticated requests and require Azure AD log on.
+
+- [ ] Yes
+- [x] No
+
+
+
+#### 0000.3 [100%] ::You are developing a website that will run as an Azure Web App. Users will authenticate by using their Azure Active Directory (Azure AD) credentials.
+`You plan to assign users one of the following permission levels for the website: admin, normal, and reader. A user's Azure AD group membership must be used to determine the permission level.
+`You need to configure authorization.
+`Solution:
+`✑ Create a new Azure AD application. In the application's manifest, set value of the groupMembershipClaims option to All.
+`✑ In the website, use the value of the groups claim from the JWT for the user to determine permissions.
+`Does the solution meet the goal?
+
+- [x] Yes
+- [ ] No
+
+
+#### 0000.19 ::You develop Azure solutions.
+`You are developing a website that will run as an Azure Web App. Users will authenticate by using their Azure Active Directory (Azure AD) credentials.
+`You plan to assign users one of the following permission levels for the website: admin, normal, and reader. A user's Azure AD group membership must be used to determine the permission level.
+`You need to configure authorization.
+`Solution:
+`✑ Configure and use Integrated Windows Authentication in the website.
+`✑ In the website, query Microsoft Graph API to load the groups to which the user is a member.
+`Does the solution meet the goal?
+
+- [ ] Yes
+- [x] No

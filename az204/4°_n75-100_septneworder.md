@@ -1,4 +1,4 @@
-##   4°_n75-100_septneworder
+##   4°_all1234
 
 
 
@@ -655,6 +655,14 @@ In which order do the actions occur?
 `You are optimizing costs by automating Azure Blob Storage access tiers. 
 `You apply the following policy rules to the storage account. (Line numbers are included for reference only.)
 `
+`"tierToCool":{
+`    "daysAfterCreationGreaterThan": 60
+`},
+`"delete":{
+`   "daysAfterCreationGraterThan": 365    
+`},
+`"filters":{
+`   "blobTypes": ["blockblob"], "prefixMatch" : ["transactions"]    
 `
 `Block blobs prefixed with transactions will transition blobs that have not been modified in over 60 days to cool storage, and delete blobs not modified in 365 days
 
@@ -668,6 +676,14 @@ In which order do the actions occur?
 `You are optimizing costs by automating Azure Blob Storage access tiers. 
 `You apply the following policy rules to the storage account. (Line numbers are included for reference only.)
 `
+`"tierToCool":{
+`    "daysAfterCreationGreaterThan": 60
+`},
+`"delete":{
+`   "daysAfterCreationGraterThan": 365    
+`},
+`"filters":{
+`   "blobTypes": ["blockblob"], "prefixMatch" : ["transactions"]    
 `
 `Blobs are moved to cool storage if they have not been accessed for 60 days
 
@@ -681,6 +697,14 @@ In which order do the actions occur?
 `You are optimizing costs by automating Azure Blob Storage access tiers. 
 `You apply the following policy rules to the storage account. (Line numbers are included for reference only.)
 `
+`"tierToCool":{
+`    "daysAfterCreationGreaterThan": 60
+`},
+`"delete":{
+`   "daysAfterCreationGraterThan": 365    
+`},
+`"filters":{
+`   "blobTypes": ["blockblob"], "prefixMatch" : ["transactions"]    
 `
 `The policy rule tiers previous versions within a container named transactions that are 60 days or older to the cool tier and deletes previous versions that are 365 days or older
 
@@ -694,6 +718,14 @@ In which order do the actions occur?
 `You are optimizing costs by automating Azure Blob Storage access tiers. 
 `You apply the following policy rules to the storage account. (Line numbers are included for reference only.)
 `
+`"tierToCool":{
+`    "daysAfterCreationGreaterThan": 60
+`},
+`"delete":{
+`   "daysAfterCreationGraterThan": 365    
+`},
+`"filters":{
+`   "blobTypes": ["blockblob"], "prefixMatch" : ["transactions"]    
 `
 `Blobs will automatically be tired from cool back to hot if accessed again after being tiered to cool
 

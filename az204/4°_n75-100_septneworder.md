@@ -913,27 +913,27 @@ In which order do the actions occur?
 `How should you configure the application?
 
 - [x]
-API-------------|--Permission-------- -|----Type--
-Azure Storage      user_impersonation      delegated
-Microsoft Graph    User.Road               delegated
+`API-------------|--Permission-------- -|----Type--
+`Azure Storage      user_impersonation      delegated
+`Microsoft Graph    User.Road               delegated
 
 
 - [ ]
-API-------------|--Permission-------- -|----Type--
-Azure Storage      profile                 delegated
-Microsoft Graph    User.Road               delegated
+`API-------------|--Permission-------- -|----Type--
+`Azure Storage      profile                 delegated
+`Microsoft Graph    User.Road               delegated
 
 
 - [ ]
-API-------------|--Permission-------- -|----Type--
-Azure Storage      user_impersonation      profile
-Microsoft Graph    User.Road               delegated
+`API-------------|--Permission-------- -|----Type--
+`Azure Storage      user_impersonation      profile
+`Microsoft Graph    User.Road               delegated
 
 
 - [ ]
-API-------------|--Permission-------- -|----Type--
-Azure Storage      client_id               application
-Microsoft Graph    User.Road               delegated
+`API-------------|--Permission-------- -|----Type--
+`Azure Storage      client_id               application
+`Microsoft Graph    User.Road               delegated
 
 #### 0000.8 ::
 `You are developing an ASP.NET Core app that includes feature flags which are managed by Azure App Configuration. You create an Azure App Configuration store named AppFeatureFlagStore that contains a feature flag named Export.
@@ -944,69 +944,67 @@ Microsoft Graph    User.Road               delegated
 `How should you complete the code segment?
 
 - [x] 
-public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-{
-    if(env.IsDevelopment())
-    {
-        app.UseDeveloperExceptionPage();
-    }
-    else
-    {
-        app.UseExceptionHandler("/Error");
-    }
-    app.UseAuthentication(); 
-    app.UseAuthorization();
-    app.UseStaticFiles()
-}
+`public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+`{
+`    if(env.IsDevelopment())
+`    {
+`        app.UseDeveloperExceptionPage();
+`    }
+`    else
+`    {
+`        app.UseExceptionHandler("/Error");
+`    }
+`    app.UseAuthentication(); 
+`    app.UseAuthorization();
+`    app.UseStaticFiles()
+
 
 - [ ] 
-public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-{
-    if(env.IsDevelopment())
-    {
-        app.UseDeveloperExceptionPage();
-    }
-    else
-    {
-        app.UseExceptionHandler("/Error");
-    }
-    app.UseAuthentication(); 
-    app.UseAuthorization();
-    app.UseAzureAppConfiguration()
-}
+`public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+`{
+`    if(env.IsDevelopment())
+`    {
+`        app.UseDeveloperExceptionPage();
+`    }
+`    else
+`    {
+`        app.UseExceptionHandler("/Error");
+`    }
+`    app.UseAuthentication(); 
+`    app.UseAuthorization();
+`    app.UseAzureAppConfiguration()
+
 
 - [ ] 
-public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-{
-    if(env.IsDevelopment())
-    {
-        app.UseDeveloperExceptionPage();
-    }
-    else
-    {
-        app.UseExceptionHandler("/Error");
-    }
-    app.UseStaticFiles(); 
-    app.UseHttpsRedirection();
-    app.UseRequestLocalization()
-}
+`public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+`{
+`    if(env.IsDevelopment())
+`    {
+`        app.UseDeveloperExceptionPage();
+`    }
+`    else
+`    {
+`        app.UseExceptionHandler("/Error");
+`    }
+`    app.UseStaticFiles(); 
+`    app.UseHttpsRedirection();
+`    app.UseRequestLocalization()
+
 
 - [ ] 
-public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-{
-    if(env.IsDevelopment())
-    {
-        app.UseDeveloperExceptionPage();
-    }
-    else
-    {
-        app.UseExceptionHandler("/Error");
-    }
-    app.UseSession(); 
-    app.UseCookiePolicy();
-    app.UseCors()
-}
-
+`public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+`{
+`    if(env.IsDevelopment())
+`    {
+`        app.UseDeveloperExceptionPage();
+`    }
+`    else
+`    {
+`        app.UseExceptionHandler("/Error");
+`    }
+`    app.UseSession(); 
+`    app.UseCookiePolicy();
+`    app.UseCors()
 
 
 #### 0000.9 [81%] ::You have an application that includes an Azure Web app and several Azure Function apps. Application secrets including connection strings and certificates are stored in Azure Key Vault.

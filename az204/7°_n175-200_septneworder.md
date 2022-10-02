@@ -1,4 +1,4 @@
-##   7°_n_sept-Added_10092022
+##   7°_all_1234
 
 #### 0020_new [1voter] ::You develop and deploy an Azure App Service web app. The app is deployed to multiple regions and uses Azure Traffic Manager. Application Insights is enabled for the app.
 `You need to analyze app uptime for each month.

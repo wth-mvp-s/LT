@@ -475,3 +475,24 @@
 
 - [ ] Yes
 - [x] No
+
+
+#### 16 ::
+`Requirements -
+`
+`User agreements -
+`When a user submits content, they must agree to a user agreement. The agreement allows employees of Contoso, Ltd. to review content, store cookies on user devices, and track `user's IP addresses.
+`Information regarding agreements is used by multiple divisions within Contoso, Ltd.
+`User responses must not be lost and must be available to all parties regardless of individual service uptime. The volume of agreements is expected to be in the millions per `hour.
+`
+`Question
+`You need to store the user agreements.
+`Where should you store the agreement after it is completed?
+
+- [ ] Azure Storage queue
+- [x] Azure Event Hub
+- [ ] Azure Service Bus topic
+- [ ] Azure Event Grid topic
+
+Use an App Service plan. Configure the Function App to use an Azure Blob Storage trigger.
+          

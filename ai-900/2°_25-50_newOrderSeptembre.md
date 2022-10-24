@@ -1,140 +1,201 @@
 ##   2°_all1234
 
-#### 0031, [67%] ::You are developing an application that applies a set of governance policies for internal and external services, as well as for applications.
-`You develop a stateful ASP.NET Core 2.1 web application named PolicyApp and deploy it to an Azure App Service Web App. 
-`The PolicyApp reacts to events from Azure Event Grid and performs policy actions based on those events.
-`You have the following requirements:
-`✑ Authentication events must be used to monitor users when they sign in and sign out.
-`✑ All authentication events must be processed by PolicyApp.
-`✑ Sign outs must be processed as fast as possible.
-`What should you do?
-
-- [ ] Create a new Azure Event Grid subscription for all authentication events. Use the subscription to process sign-out events.
-- [ ] Create a separate Azure Event Grid handler for sign-in and sign-out events.
-- [ ] Create separate Azure Event Grid topics and subscriptions for sign-in and sign-out events. 
-- [x] Add a subject prefix to sign-out events. Create an Azure Event Grid subscription. Configure the subscription to use the subjectBeginsWith filter.
+#### 0017 ::
+`You run a charity event that involves posting photos of people wearing sunglasses on Twitter.
+`You need to ensure that you only retweet photos that meet the following requirements:
+`✑ Include one or more faces.
+`✑ Contain at least one person wearing sunglasses.
+`What should you use to analyze the images?
 
 
+- [ ] the Verify operation in the Face service 
+- [x] the Detect operation in the Face service
+- [ ] the Describe Image operation in the Computer Vision service
+- [ ] the Analyze Image operation in the Computer Vision service
 
-#### 0032, Q1. ::You are developing a C++ application that compiles to a native application named process.exe. 
-`The application accepts images as input and returns images in one of the following image formats: GIF, PNG, or JPEG.
-`You must deploy the application as an Azure Function.
-`You need to configure the function and host json files.
-`How should you complete the json files?
+
+
+#### 0018 ::
+`When you design an AI system to assess whether loans should be approved, the factors used to make the decision should be explainable.
+`This is an example of which Microsoft guiding principle for responsible AI?
+
+- [x] transparency
+- [ ] inclusiveness
+- [ ] fairness
+- [ ] privacy and security
+
+
+#### 0019::
+`Providing an explanation of the outcome of a credit loan application is an example of the Microsoft transparency principle for responsible AI. 
+
+- [x] Yes
+- [ ] No
+
+
+#### 0019::
+`A triage bot that prioritizes insurance claims based on injuries is an example of the Microsoft reliability and safety principle for responsible AI.
+
+- [ ] Yes
+- [x] No
+
+
+#### 0019::
+Àn AI solution is offered at different prices for diffirent sales territories is an example of the Microsoft inclusiveness principle for responsible AI. 
+
+- [ ] Yes
+- [x] No
+
+
+#### 0020 ::
+`Match the principles of responsible AI to appropriate requirements.
 `
-`function.json
-`{
-`   ----------------
-    "direction":"out"
-    "name":"result"
-    
-`}
+`The system must not discriminate based on gender, race
 
-- [x] "type":"http"
-- [ ] "platform":"gcm"
-- [ ] "datatype":"stream"
-- [ ] "path":"process.exe"
+- [x] Fairness
+- [ ] Privacy and security
+- [ ] Reliability and safety
+- [ ] Transparency
 
 
-#### 0032, Q1. ::You are developing a C++ application that compiles to a native application named process.exe. 
-`The application accepts images as input and returns images in one of the following image formats: GIF, PNG, or JPEG.
-`You must deploy the application as an Azure Function.
-`You need to configure the function and host json files.
-`How should you complete the json files?
+
+#### 0020 ::
+`Match the principles of responsible AI to appropriate requirements.
 `
-`host.json
-`----------------
-`     "defaultExecutablePath":"process.exe"
-`},
-`"enableForwardingHttpRequest":false
-`}
-- [x] "customHandler":{"description":{
-- [ ] "languageWorker":{"path":{
-- [ ] "extensions":{"worker":{
-- [ ] "extensionBundle":{
+`Personal data must be visible only to approve
+
+- [ ] Fairness
+- [x] Privacy and security
+- [ ] Reliability and safety
+- [ ] Transparency
 
 
-#### 0032, Q1. ::You are developing a C++ application that compiles to a native application named process.exe. 
-`The application accepts images as input and returns images in one of the following image formats: GIF, PNG, or JPEG.
-`You must deploy the application as an Azure Function.
-`You need to configure the function and host json files.
-`How should you complete the json files?
+#### 0020 ::
+`Match the principles of responsible AI to appropriate requirements.
 `
-`
-`host.json
-`"customHandler":{"description":{
-`     "defaultExecutablePath":"process.exe"
-`},
-`   ---------- 
+`Automated decision-making processes must be recorded so that approved users can identify why a decision was made 
 
-- [ ] "enableForwardingHttpRequest":true
-- [x] "enableForwardingHttpRequest":false
+- [ ] Fairness
+- [ ] Privacy and security
+- [ ] Reliability and safety
+- [x] Transparency
 
 
 
 
-#### 0033, Q1. [ok]::You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service. 
-`✑ Each instance of the WebJob processes data for a single customer and must run as a singleton instance.
-`✑ Each deployment must be tested by using deployment slots prior to serving production data.
-`✑ Azure costs must be minimized.
-`✑ Azure resources must be located in an isolated network.
-`You need to configure the App Service plan for the Web App.
-`Number of VM instances
-
-- [ ] 2
-- [x] 4
-- [ ] 8 
-- [ ] 16 
 
 
-#### 0033, Q1.2. ::You are implementing a software as a service (SaaS) ASP.NET Core web service that will run as an Azure Web App. The web service will use an on-premises SQL Server database for storage. The web service also includes a WebJob that processes data updates. Four customers will use the web service. 
-`✑ Each instance of the WebJob processes data for a single customer and must run as a singleton instance.
-`✑ Each deployment must be tested by using deployment slots prior to serving production data.
-`✑ Azure costs must be minimized.
-`✑ Azure resources must be located in an isolated network.
-`You need to configure the App Service plan for the Web App.
-`Pricing tier
-
-- [x] Isolated
-- [ ] Standard
-- [ ] Premium
-- [ ] Consumption
 
 
-#### 0034, Q2. ::You are a developer for a software as a service (SaaS) company that uses an Azure Function to process orders. The Azure Function currently runs on an Azure
-`Function app that is triggered by an Azure Storage queue.
-`You are preparing to migrate the Azure Function to Kubernetes using Kubernetes-based Event Driven Autoscaling (KEDA).
-`You need to configure Kubernetes Custom Resource Definitions (CRD) for the Azure Function.
-`Which CRDs should you configure? To answer, drag the appropriate CRD types to the correct locations. Each CRD type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
-`
-`Azure Function code
-
-- [ ] Secret
-- [x] Deployment
-- [ ] ScaledObject
-- [ ] TriggerAuthentication
 
 
-#### 0034, Q2.2 ::You are a developer for a software as a service (SaaS) company that uses an Azure Function to process orders. The Azure Function currently runs on an Azure
-`Function app that is triggered by an Azure Storage queue.
-`You are preparing to migrate the Azure Function to Kubernetes using Kubernetes-based Event Driven Autoscaling (KEDA).
-`You need to configure Kubernetes Custom Resource Definitions (CRD) for the Azure Function.
-`Which CRDs should you configure? To answer, drag the appropriate CRD types to the correct locations. Each CRD type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
-`
-`Polling interval
 
-- [ ] Secret
-- [ ] Deployment
-- [x] ScaledObject
-- [ ] TriggerAuthentication
 
-#### 0034, Q2.3 [ok]::You are a developer for a software as a service (SaaS) company that uses an Azure Function to process orders. The Azure Function currently runs on an Azure
-`Function app that is triggered by an Azure Storage queue.
-`You are preparing to migrate the Azure Function to Kubernetes using Kubernetes-based Event Driven Autoscaling (KEDA).
-`You need to configure Kubernetes Custom Resource Definitions (CRD) for the Azure Function.
-`Which CRDs should you configure? To answer, drag the appropriate CRD types to the correct locations. Each CRD type may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
-`
-`Azure Storage connection string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 0021::
+`You plan to deploy an Azure Machine Learning model as a service that will be used by client applications.
+`Which three processes should you perform in sequence before you deploy the model?
+
+- [x]
+`data preparation
+`model training
+`model evaluation
+
+
+- [ ]
+`data encryption
+`model training
+`model evaluation
+
+- [ ]
+`data preparation
+`model retraining
+`model evaluation
+
+- [ ]
+`data preparation
+`model evaluation
+`model training
+
+- [ ]
+`data encryption
+`model training
+`model evaluation
+
+#### 0022 ::
+`You are building an AI-based app.
+`You need to ensure that the app uses the principles for responsible AI.
+`Which two principles should you follow? 
+
+- [ ] Implement an Agile software development methodology
+- [x] Implement a process of AI model validation as part of the software review process
+- [x] Establish a risk governance committee that includes members of the legal team, members of the risk management team, and a privacy officer
+- [ ] Prevent the disclosure of the use of AI-based algorithms for automated decision making
+
+
+#### 0023 ::
+`According to Microsoft's ______ principle of responsible AI, AI system should NOT reflect biases from the data sets that are used to train the systems. 
+
+- [ ] accountability
+- [x] fairness
+- [ ] inclusiveness
+- [ ] transparency
+
+
+#### 0024 ::
+`According to Microsoft's _____ principle of responsible AI, AI system should NOT reflect biases from the data sets that are used to train the systems. 
+
+- [ ] accountability
+- [x] fairness
+- [ ] inclusiveness
+- [ ] transparency
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 0025::
 
 - [x] Secret
 - [ ] Deployment

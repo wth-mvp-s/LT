@@ -2,141 +2,139 @@
 
 
 
-#### 1.A  Q29. ::You are preparing to deploy an Azure virtual machine (VM)-based application.
-`The VMs that run the application have the following requirements:
-`✑ When a VM is provisioned the firewall must be automatically configured before it can access Azure resources.
-`✑ Supporting services must be installed by using an Azure PowerShell script that is stored in Azure Storage.
-`You need to ensure that the requirements are met.
-`Which features should you use? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
-`
-` Firewall configuration
+#### 33::
+`A banking that predict whether a loan will be repaid is an example of the ______ type of machine learning. 
 
-- [x] Run Command
-- [ ] Serial console
-- [ ] Hybrid Runbook Worker
-- [ ] Custom Script Extension
+- [x] classification
+- [ ] regression
+- [ ] clustering
 
 
-#### 1.B  Q29.2 ::You are preparing to deploy an Azure virtual machine (VM)-based application.
-`The VMs that run the application have the following requirements:
-`✑ When a VM is provisioned the firewall must be automatically configured before it can access Azure resources.
-`✑ Supporting services must be installed by using an Azure PowerShell script that is stored in Azure Storage.
-`You need to ensure that the requirements are met.
-`Which features should you use? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
-`
-` Supporting service script
+#### 34::
+`Labelling is the process of tagging training data with known values. 
+`You should evaluate a model by using the same data used to train the model.
+`Accuracy is always the primary metric used to measure a model's performance. 
 
-- [ ] Run Command
-- [ ] Serial console
-- [ ] Hybrid Runbook Worker
-- [x] Custom Script Extension
+- [x] Yes
+- [ ] No
 
 
-#### 2::
-`A company is developing a Node.js web app. The web app code is hosted in a GitHub repository located at https://github.com/TailSpinToys/webapp.
-`The web app must be reviewed before it is moved to production. You must deploy the initial code release to a deployment slot named review.
-`You need to create the web app and deploy the code.
+#### 34::
+`Labelling is the process of tagging training data with known values. 
+`You should evaluate a model by using the same data used to train the model.
+`Accuracy is always the primary metric used to measure a model's performance. 
 
-- [x]
-`$gitrepo="https://github.com/TailSpinToys/webapp"
-`$webappname="TailSpinToysWeb"
-`$location="WestUS2"
-`New-AzResourceGroup -Name myResourceGroup -Location $location
-`New-AzAppServicePlan -Name $webappname -Location $location -ResourceGroupName myResourceGroup -Tier Standard
-`New-AzWebApp -Name $webappname -Location $location -AppServicePlan $webappname -ResourceGroupName myResourceGroup
-`New-AzWebAppSlot -Name $webappname -ResourceGroupName myResourceGroup -Slot review
+- [ ] Yes
+- [x] No
 
+#### 34::
+`Labelling is the process of tagging training data with known values. 
+`You should evaluate a model by using the same data used to train the model.
+`Accuracy is always the primary metric used to measure a model's performance. 
 
-- [ ]
-`$gitrepo="https://github.com/TailSpinToys/webapp"
-`$webappname="TailSpinToysWeb"
-`$location="WestUS2"
-`New-AzResourceGroup -Name myResourceGroup -Location $location
-`New-AzWebApp -Name $webappname -Location $location -ResourceGroupName myResourceGroup -Tier Standard
-`New-AzAppServicePlan -Name $webappname -Location $location -AppServicePlan $webappname -ResourceGroupName myResourceGroup
-`New-AzWebAppSlot -Name $webappname -ResourceGroupName myResourceGroup -Slot review
+- [ ] Yes
+- [x] No
 
+#### 35::
+`Which service should you use to extract text, key/value pairs, and table data automatically from scanned documents?
 
-- [ ]
-`$gitrepo="https://github.com/TailSpinToys/webapp"
-`$webappname="TailSpinToysWeb"
-`$location="WestUS2"
-`New-AzAppServicePlan -Name myResourceGroup -Location $location
-`New-AzResourceGroup -Name $webappname -Location $location -ResourceGroupName myResourceGroup -Tier Standard
-`New-AzWebApp -Name $webappname -Location $location -AppServicePlan $webappname -ResourceGroupName myResourceGroup
-`New-AzWebAppSlot -Name $webappname -ResourceGroupName myResourceGroup -Slot review
+- [x] Form Recognizer 
+- [ ] Text Analytics
+- [ ] Language Understanding
+- [ ] Custom Vision
 
-- [ ]
-`$gitrepo="https://github.com/TailSpinToys/webapp"
-`$webappname="TailSpinToysWeb"
-`$location="WestUS2"
-`New-AzResourceGroup -Name myResourceGroup -Location $location
-`New-AzAppServicePlan -Name $webappname -Location $location -ResourceGroupName myResourceGroup -Tier Standard
-`New-AzWebAppSlot -Name $webappname -Location $location -AppServicePlan $webappname -ResourceGroupName myResourceGroup
-`New-AzWebApp -Name $webappname -ResourceGroupName myResourceGroup -Slot review
-
-#### Q 3::
-`You are developing an application that needs access to an Azure virtual machine (VM).
-`The access lifecycle for the application must be associated with the VM service instance.
-`You need to enable managed identity for the VM.
-`How should you complete the PowerShell segment?
-
-- [x]
-`$vm = Get-AzVM -ResourceGroupName "ContosoRG" -Name "ContosoVM"
-`Update-AzVM -ResourceGrouopName "ContosoRG" -VM $vm -IdentityId: $SystemAssigned
+#### Q 36::
+`The ability to extract subtotals and totals from a receipt is a capacity of the  ______ service. 
 
 
-- [ ]
-`$vm = Get-AzVM -ResourceGroupName "ContosoRG" -Name "ContosoVM"
-`Update-AzVM -ResourceGrouopName "ContosoRG" -VM $vm -IdentityId: $UserAssigned
- 
-- [ ]
-`$vm = Get-AzVM -ResourceGroupName "ContosoRG" -Name "ContosoVM"
-`Update-AzVM -ResourceGrouopName "ContosoRG" -VM $vm -AssignIdentity: $SystemAssigned
 
-- [ ]
-`$vm = Get-AzVM -ResourceGroupName "ContosoRG" -Name "ContosoVM"
-`Update-AzVM -ResourceGrouopName "ContosoRG" -VM $vm -AssignIdentity: $UserAssigned
+- [ ] Custom Vision
+- [x] Form Recognizer
+- [ ] Ink Recognizer
+- [ ] Text Analytics
+
+#### 37 ::
+`You use Azure Machine Learning designer to publish an inference pipeline.
+`Which two parameters should you use to access the web service? 
+
+- [ ] the model name
+- [ ] the training endpoint
+- [x] the authentication key
+- [x] the REST endpoint
 
 
-#### 4 4QuestionPareil::You develop a software as a service (SaaS) offering to manage photographs. 
-`Users upload photos to a web service which then stores the photos in Azure Storage Blob storage. The storage account type is General-purpose V2.
-`When photos are uploaded, they must be processed to produce and save a mobile-friendly version of the image. The process to produce a mobile-friendly version of the image must start in less than one minute.
-`You need to design the process that starts the photo processing.
-`Solution: Create an Azure Function app that uses the Consumption hosting model and that is triggered from the blob upload.
-`Does the solution meet the goal?
+#### 38 ::
+`From Azure Machine Learning designer, to deploy a real-time inference pipeline as a service for others to consume, you must deploy the model to ______ 
+
+
+- [ ] a local web service
+- [ ] Azure Container Instances. 
+- [x] Azure Kubernates Service (AKS).
+- [ ] Aure Machine Learning compute. 
+
+#### 39  ::
+`Predicting how many hours of overtime a delivery person will work based on the number of order received is an example of _____ 
+
+- [ ] classification.
+- [ ] clustering.
+- [x] regression. 
+
+#### 40  ::
+`Azure Machine Learning designer provides a drag-and-drop visual canvas to build, test, and deploy machine learning models. 
+`Azure Machine Learning designer enables you to save your progress as a pipeline draft. 
+`Azure machine Learning designer enables you to include custom JavaScript functions. 
+
+- [x] Yes
+- [ ] No
+
+
+#### 40  ::
+`Azure Machine Learning designer provides a drag-and-drop visual canvas to build, test, and deploy machine learning models. 
+`Azure Machine Learning designer enables you to save your progress as a pipeline draft. 
+`Azure machine Learning designer enables you to include custom JavaScript functions. 
+
+- [x] Yes
+- [ ] No
+
+
+#### 40  ::
+`Azure Machine Learning designer provides a drag-and-drop visual canvas to build, test, and deploy machine learning models. 
+`Azure Machine Learning designer enables you to save your progress as a pipeline draft. 
+`Azure machine Learning designer enables you to include custom JavaScript functions. 
 
 - [ ] Yes
 - [x] No
 
 
-#### 5  Q33 ::You develop and deploy an Azure App Service API app to a Windows-hosted deployment slot named Development. You create additional deployment slots named Testing and Production. You enable auto swap on the Production deployment slot.
-`You need to ensure that scripts run and resources are available before a swap operation occurs.
-`Solution: Update the app with a method named statuscheck to run the scripts. Update the app settings for the app. Set the
-`WEBSITE_SWAP_WARMUP_PING_PATH and WEBSITE_SWAP_WARMUP_PING_STATUSES with a path to the new method and appropriate response codes.
-`Does the solution meet the goal?
 
-- [x] Yes
-- [ ] No
 
-#### 6.A  ::
-`$source = New-AzScheduledQueryRuleSource -Query "Heartbeat" | where TimeGenerated > ago(1h)
-`$schedule = New-AzScheduledQueryRuleSchedule -FrequencyInMinutes 60 -TimeWindowInMinutes 60
-`$triggerCondition = New-AzScheduledQueryRuleTriggerCondition -ThresholdOperator "LessThan" -Threshold 5
-`
-`A log alert is created that sends an email when the CPU percentage is above 60 percent for five minutes.
 
-- [ ] Yes
-- [x] No
 
-#### 6.B  ::
-A log alert is created that sends an email when the number of virtual machines heartbeats in the past hour is less than five.
 
-- [x] Yes
-- [ ] No
 
-#### 6.C  ::
-The log alert is scheduled to run every two hours. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 41  ::
+
 - [ ] Yes
 - [x] No
 

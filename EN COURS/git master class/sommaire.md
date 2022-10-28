@@ -1,0 +1,4 @@
+- fusionner les commit
+- rebase from master to develop et suppresion de commits
+- cherry pick
+- utiliset le cmd

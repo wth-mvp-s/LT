@@ -1,6 +1,6 @@
-## clf-c01_p1-01-44_verified
+## clf-c01_p1-01-44
 
-#### Q1. ::A company is planning to run a global marketing application in the AWS Cloud. The application will feature videos that can be viewed by users. The company must ensure that all users can view these videos with low latency.
+#### Q1. A company is planning to run a global marketing application in the AWS Cloud. The application will feature videos that can be viewed by users. The company must ensure that all users can view these videos with low latency.
 `Which AWS service should the company use to meet this requirement?
 
 - [ ] AWS Auto Scaling
@@ -9,7 +9,7 @@
 - [x] Amazon CloudFront
 
 
-#### Q2. ::Which pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand?
+#### Q2. Which pillar of the AWS Well-Architected Framework refers to the ability of a system to recover from infrastructure or service disruptions and dynamically acquire computing resources to meet demand?
 
 - [ ] Security
 - [x] Reliability
@@ -340,7 +340,7 @@
 
 - [ ] Launch globally in minutes
 - [ ] Increase speed and agility
-- [x] High economies of scale
+- [ ] High economies of scale
 - [ ] No guessing about compute capacity
 
 #### Q39. ::

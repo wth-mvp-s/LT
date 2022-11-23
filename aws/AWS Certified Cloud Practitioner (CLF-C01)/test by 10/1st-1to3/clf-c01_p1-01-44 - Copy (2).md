@@ -67,6 +67,7 @@
 - [ ] Security
 - [ ] Centralized auditing
 
+
 #### Q37. :: 
 `Which of the following are advantages of the AWS Cloud? (Choose two.)
 
@@ -83,7 +84,7 @@
 
 - [ ] Launch globally in minutes
 - [ ] Increase speed and agility
-- [ ] High economies of scale
+- [x] High economies of scale
 - [ ] No guessing about compute capacity
 
 #### Q39. ::

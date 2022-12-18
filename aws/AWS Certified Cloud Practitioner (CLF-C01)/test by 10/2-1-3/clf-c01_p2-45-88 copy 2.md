@@ -1,4 +1,4 @@
-## p2-3-3
+##   p2-3-3
 #### Q73. ::
 `Which characteristic of the AWS Cloud helps users eliminate underutilized CPU capacity?
 

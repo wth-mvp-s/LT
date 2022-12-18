@@ -1,4 +1,4 @@
-## p2-2-3
+##   p2-2-3
 
 #### Q59.::
 `A company is preparing to launch a new web store that is expected to receive high traffic for an upcoming event. The web store runs only on AWS, and the company has an AWS Enterprise Support plan.

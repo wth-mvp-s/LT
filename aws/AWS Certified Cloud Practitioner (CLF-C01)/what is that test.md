@@ -6,5 +6,5 @@ Amazon Kinesis
 
 
 general what we talking about 
-data persistence layer,
+data persistence layer
  S3 bucket

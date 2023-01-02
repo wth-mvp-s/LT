@@ -10,3 +10,8 @@ AWS WAF ,web application firewall
 Amazon Redshift ,data warehouse
 Amazon Aurora ,RDBMS
 VPC ,Virtual Private Cloud
+
+
+
+
+AWS Organizations

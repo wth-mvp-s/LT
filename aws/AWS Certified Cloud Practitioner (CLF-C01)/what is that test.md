@@ -8,3 +8,15 @@ Amazon Kinesis
 general what we talking about 
 data persistence layer
  S3 bucket
+
+ AWS Certificate Manager (ACM) - enables you to easily provision, manage, and deploy SSL/TLS certificates
+
+ SSH traffic :: securely connect to a computer over a network. It is often used to remotely access servers, configure devices, and transfer files. 
+
+ AWS CloudTrail :: record of actions taken by a user, role, or an AWS service i
+
+ Amazon Inspector ::assesses applications for vulnerabilities, provides a detailed list of security findings
+
+AWS Direct Connect :: bypass internet more reliable  on-premises to AWS.
+
+AWS Storage Gateway ::cloud like on-premises

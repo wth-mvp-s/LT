@@ -21,6 +21,8 @@ AWS Direct Connect :: bypass internet more reliable  on-premises to AWS.
 
 AWS Storage Gateway ::cloud like on-premises
 
+Amazon API Gateway :: API traffic management, authorization and access control, 
+
 AWS Budgets :: set custom budgets, track cost, get alerts
 
 Amazon Athena ::  serverless, query service to analyze data in Amazon S3 using SQL.

@@ -20,3 +20,10 @@ data persistence layer
 AWS Direct Connect :: bypass internet more reliable  on-premises to AWS.
 
 AWS Storage Gateway ::cloud like on-premises
+
+AWS Budgets :: set custom budgets, track cost, get alerts
+
+Amazon Athena ::  serverless, query service to analyze data in Amazon S3 using SQL.
+          
+
+Cloud9 :: development environment to write, run, and debug code from their web browsers. 

@@ -30,6 +30,6 @@ Amazon Athena ::  serverless, query service to analyze data in Amazon S3 using S
 
 Cloud9 :: development environment to write, run, and debug code from their web browsers. 
 
-stateful firewall :: more advanced than stateless firewalls, tracks the state of network connections passing through it 
+stateful firewall :: more advanced than stateless firewalls, tracks the state of network connections passing through it (Security groups)
 
 stateless firewall :: decision based on the individual packets of data being transmitted

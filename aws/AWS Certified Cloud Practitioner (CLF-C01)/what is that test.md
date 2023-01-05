@@ -39,8 +39,17 @@ Amazon Aurora :: sql bdd, speed and reliability
 Amazon Inspector  :: network security of EC2 
 AWS CloudTrail ::  information about each API call
 
- Amazon GuardDuty ::  threat detection by  analyzes Logs
+Amazon GuardDuty ::  threat detection by  analyzes Logs
 
 AWS WAF
 
 Network ACLs
+
+
+Inherited Controls – Controls which a customer fully inherits from AWS.
+
+Physical and Environmental controls
+
+Auto Scaling :: scale the number of instances in your application
+
+Global Accelerator :: route traffic to the optimal location for the best performance.

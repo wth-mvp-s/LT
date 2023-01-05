@@ -35,3 +35,12 @@ stateful firewall :: more advanced than stateless firewalls, tracks the state of
 stateless firewall :: decision based on the individual packets of data being transmitted
 
 Amazon Aurora :: sql bdd, speed and reliability
+
+Amazon Inspector  :: network security of EC2 
+AWS CloudTrail ::  information about each API call
+
+ Amazon GuardDuty ::  threat detection by  analyzes Logs
+
+AWS WAF
+
+Network ACLs

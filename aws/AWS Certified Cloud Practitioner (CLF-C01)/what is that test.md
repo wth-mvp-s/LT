@@ -33,3 +33,5 @@ Cloud9 :: development environment to write, run, and debug code from their web b
 stateful firewall :: more advanced than stateless firewalls, tracks the state of network connections passing through it (Security groups)
 
 stateless firewall :: decision based on the individual packets of data being transmitted
+
+Amazon Aurora :: sql bdd, speed and reliability

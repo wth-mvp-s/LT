@@ -21,7 +21,7 @@ AWS Direct Connect :: bypass internet more reliable  on-premises to AWS.
 
 AWS Storage Gateway ::cloud like on-premises
 
-Amazon API Gateway :: API traffic management, authorization and access control, 
+Amazon API Gateway :: CRUD ? API traffic management, authorization and access control, 
 
 AWS Budgets :: set custom budgets, track cost, get alerts
 
@@ -55,3 +55,23 @@ Auto Scaling :: scale the number of instances in your application
 Global Accelerator :: route traffic to the optimal location for the best performance.
 
 Amazon Athena ::
+
+
+
+money
+
+Service Quotas :: centrally request and track service limit increases
+
+AWS Budgets
+          
+
+stateful :: state dependent on the past events
+stateless :: each request or event treated independantly
+
+Amazon QuickSight
+
+
+
+english words : 
+
+federation

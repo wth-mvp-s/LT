@@ -53,3 +53,5 @@ Physical and Environmental controls
 Auto Scaling :: scale the number of instances in your application
 
 Global Accelerator :: route traffic to the optimal location for the best performance.
+
+Amazon Athena ::

@@ -98,5 +98,3 @@ stateful :: state dependent on the past events
 stateless :: each request or event treated independantly
 
 Amazon QuickSight
-
-`Which AWS services will require the use of a VPC? (Choose two.)

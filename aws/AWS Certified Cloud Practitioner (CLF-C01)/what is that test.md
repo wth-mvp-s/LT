@@ -60,7 +60,6 @@ Auto Scaling :: scale the number of instances in your application
 
 Global Accelerator :: route traffic to the optimal location for the best performance.
 
-<<<<<<< HEAD
 Amazon Athena :: sql query service to analyze data, ideal for S3, and does not require any infrastructure
 
 network access control list (ACL) ::allows or denies specific inbound or outbound traffic at the subnet level.
@@ -84,7 +83,6 @@ trusted advisor :: `A user wants to identify any security group that is allowing
 `Which AWS service should the company use to meet this requirement? 
 
 not cloudtriqal
-=======
 Amazon Athena ::
 
 
@@ -106,4 +104,5 @@ Amazon QuickSight
 english words : 
 
 federation
->>>>>>> a12c2c630eff3c6b542bd2d0e3ebf2854d1497f7
+
+Amazon WorkSpaces vs Amazon AppStream 2.0

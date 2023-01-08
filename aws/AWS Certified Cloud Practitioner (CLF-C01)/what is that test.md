@@ -99,10 +99,4 @@ stateless :: each request or event treated independantly
 
 Amazon QuickSight
 
-
-
-english words : 
-
-federation
-
-Amazon WorkSpaces vs Amazon AppStream 2.0
+`Which AWS services will require the use of a VPC? (Choose two.)

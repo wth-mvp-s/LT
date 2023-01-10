@@ -98,3 +98,6 @@ stateful :: state dependent on the past events
 stateless :: each request or event treated independantly
 
 Amazon QuickSight
+
+
+!!!nie zgadzam sie 

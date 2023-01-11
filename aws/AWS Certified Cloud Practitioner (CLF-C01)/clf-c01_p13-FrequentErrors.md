@@ -1,11 +1,10 @@
-##   p12_v1
+##   p13
 
-#### Q485::
-`Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Choose two.)
+#### Q175. ::
+`A company is starting to build its infrastructure in the AWS Cloud. The company wants access to technical support during business hours. The company also wants general architectural guidance as teams build and test new applications.
+`Which AWS Support plan will meet these requirements at the LOWEST cost?
 
-- [ ] AWS Trusted Advisor
-- [x] AWS Online Tech Talks
-- [ ] AWS Blog
-- [ ] AWS Forums
-- [x] AWS Classroom Training
-
+- [ ] AWS Basic Support
+- [x] AWS Developer Support
+- [ ] AWS Business Support
+- [ ] AWS Enterprise Support

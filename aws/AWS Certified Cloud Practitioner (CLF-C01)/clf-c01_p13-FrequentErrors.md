@@ -29,3 +29,13 @@
 - [x] AWS Enterprise Support
 - [ ] AWS Developer Support
 - [ ] AWS Basic Support
+
+
+#### Q379. ::
+`A company is using AWS for all its IT infrastructure. The company's developers are allowed to deploy applications on their own. The developers want to deploy their applications without having to provision the infrastructure themselves.
+`Which AWS service should the developers use to meet these requirements?
+
+- [ ] AWS Cloud Formation
+- [ ] AWS CodeBuild
+- [x] AWS Elastic Beanstalk
+- [ ] AWS CodeDeploy

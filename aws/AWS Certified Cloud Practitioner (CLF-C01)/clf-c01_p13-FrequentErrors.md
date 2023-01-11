@@ -18,3 +18,14 @@
 - [ ] Amazon Neptune
 - [x] Amazon DocumentDB (with MongoDB compatibility)
 - [ ] Amazon Redshift
+
+
+
+#### Q246. ::
+`A company has a complex AWS architecture. The company needs assistance from a dedicated technical professional who can suggest strategies regarding incidents, trade-offs, support, and risk management.
+`Which AWS Support plan will provide the required support?
+
+- [ ] AWS Business Support
+- [x] AWS Enterprise Support
+- [ ] AWS Developer Support
+- [ ] AWS Basic Support

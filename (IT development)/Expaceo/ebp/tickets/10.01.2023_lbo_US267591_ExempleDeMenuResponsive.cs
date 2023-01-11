@@ -41,4 +41,4 @@ git branch lbo_US267591_ExempleDeMenuResponsive  origin/develop
 dwa ekrany 
 otworzyc i zobaczyc menu obok ze strona : https://getbootstrap.com/docs/4.3/components/navbar/
 
-1. znalezc kod odpowiedzialny za menu 
+1. znalezc kod odpowiedzialny za menu 12.56

@@ -8,3 +8,13 @@
 - [x] AWS Developer Support
 - [ ] AWS Business Support
 - [ ] AWS Enterprise Support
+
+
+#### Q225. ::
+`Which AWS services use cloud-native storage that provides replication across multiple Availability Zones by default? (Choose two.)
+
+- [ ] Amazon ElastiCache
+- [x] Amazon RDS for Oracle
+- [ ] Amazon Neptune
+- [x] Amazon DocumentDB (with MongoDB compatibility)
+- [ ] Amazon Redshift

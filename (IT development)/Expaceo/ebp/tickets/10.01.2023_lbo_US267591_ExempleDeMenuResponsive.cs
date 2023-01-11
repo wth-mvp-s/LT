@@ -42,3 +42,7 @@ dwa ekrany
 otworzyc i zobaczyc menu obok ze strona : https://getbootstrap.com/docs/4.3/components/navbar/
 
 1. znalezc kod odpowiedzialny za menu 12.56
+
+bootstrap 4, depuis 2018 ; remplacer le préprocesseur utilisé LESS par SASS, 
+
+Bootstrap 4 prend en charge les dernières versions de Google Chrome, 

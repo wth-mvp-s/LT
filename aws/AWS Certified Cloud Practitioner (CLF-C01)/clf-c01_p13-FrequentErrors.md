@@ -39,3 +39,33 @@
 - [ ] AWS CodeBuild
 - [x] AWS Elastic Beanstalk
 - [ ] AWS CodeDeploy
+
+
+#### Q216. ::
+`Which AWS service contains built-in engines to protect web applications that run in the cloud from SQL injection attacks and cross-site scripting?
+
+- [x] AWS WAF
+- [ ] AWS Shield Advanced
+- [ ] Amazon GuardDuty
+- [ ] Amazon Detective
+
+
+#### Q199. ::
+`What is the LEAST expensive AWS Support plan that contains a full set of AWS Trusted Advisor best practice checks?
+
+- [ ] AWS Enterprise Support
+- [x] AWS Business Support
+- [ ] AWS Developer Support
+- [ ] AWS Basic Support
+
+
+#### Q198. ::
+`What information is found on an AWS Identity and Access Management (IAM) credential report? (Choose two.)
+
+- [x] The date and time when an IAM user's password was last used to sign in to the AWS Management Console.
+- [ ] The type of multi-factor authentication (MFA) device assigned to an IAM user.
+- [ ] The User-Agent browser identifier for each IAM user currently logged in.
+- [x] Whether multi-factor authentication (MFA) has been enabled for an IAM user.
+- [ ] The number of incorrect login attempts by each IAM user in the previous 30 days.
+
+

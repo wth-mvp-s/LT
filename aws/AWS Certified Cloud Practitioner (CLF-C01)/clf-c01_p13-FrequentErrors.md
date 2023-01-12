@@ -142,3 +142,25 @@
 
 
 `Which of the following actions are controlled with AWS Identity and Access Management (IAM)? (Choose two.)
+
+
+
+
+
+
+
+
+
+
+
+
+#### Q436. ::
+`A company needs to migrate all of its development teams to a cloud-based integrated development environment (IDE).
+`
+`Which AWS service should the company use?
+
+- [ ] AWS CodeBuild
+- [x] AWS Cloud9
+- [ ] AWS OpsWorks
+- [ ] AWS Cloud Development Kit (AWS CDK)
+

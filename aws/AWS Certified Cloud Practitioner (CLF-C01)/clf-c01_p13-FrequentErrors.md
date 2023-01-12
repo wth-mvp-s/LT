@@ -108,3 +108,27 @@
 - [ ] Cost allocation tags
 - [ ] AWS Cost and Usage Reports
 
+//////////////////////////////////////////
+#### Q481. ::
+`Which of the following is available to a company that has an AWS Business Support plan?
+
+- [ ] AWS Support concierge 
+- [ ] AWS DDoS Response Team (DRT)
+- [ ] AWS technical account manager (TAM)
+- [x] AWS Health API
+
+#### Q462. ::
+`Which AWS Support plan provides customers with access to an AWS technical account manager (TAM)?
+
+- [ ] AWS Basic Support
+- [ ] AWS Developer Support
+- [ ] AWS Business Support
+- [x] AWS Enterprise Support
+
+
+
+
+
+
+
+

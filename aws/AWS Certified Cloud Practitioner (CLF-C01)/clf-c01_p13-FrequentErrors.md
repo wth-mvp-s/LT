@@ -68,4 +68,20 @@
 - [x] Whether multi-factor authentication (MFA) has been enabled for an IAM user.
 - [ ] The number of incorrect login attempts by each IAM user in the previous 30 days.
 
+#### Q34. :: 
+`A global media company uses AWS Organizations to manage multiple AWS accounts.
+`Which AWS service or feature can the company use to limit the access to AWS services for member accounts?
 
+- [ ] AWS Identity and Access Management (IAM)
+- [x] Service control policies (SCPs) 
+- [ ] Organizational units (OUs)
+- [ ] Access control lists (ACLs)
+
+#### Q17. ::
+`A company wants to migrate its workloads to AWS, but it lacks expertise in AWS Cloud computing.
+`Which AWS service or feature will help the company with its migration?
+
+- [ ] AWS Trusted Advisor
+- [x] AWS Consulting Partners
+- [ ] AWS Artifacts
+- [ ] AWS Managed Services

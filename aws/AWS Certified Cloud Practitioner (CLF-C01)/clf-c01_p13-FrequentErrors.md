@@ -1,4 +1,4 @@
-##   p13
+##   p13_extras
 
 #### Q175. ::
 `A company is starting to build its infrastructure in the AWS Cloud. The company wants access to technical support during business hours. The company also wants general architectural guidance as teams build and test new applications.
@@ -96,3 +96,15 @@
 - [ ] Maintain the runtime environment.
 - [ ] Maintain the networking infrastructure.
 - [x] Configure the resource.
+
+
+#### Q480. ::
+`A cloud engineer needs to track AWS costs. The cloud engineer also needs to receive event driven alerts when costs exceed specific thresholds.
+`
+`Which AWS tool provides this functionality?
+
+- [ ] AWS Cost Explorer
+- [x] AWS Budgets
+- [ ] Cost allocation tags
+- [ ] AWS Cost and Usage Reports
+

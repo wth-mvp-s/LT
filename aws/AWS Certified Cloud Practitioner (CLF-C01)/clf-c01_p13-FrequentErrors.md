@@ -164,3 +164,29 @@
 - [ ] AWS OpsWorks
 - [ ] AWS Cloud Development Kit (AWS CDK)
 
+
+#### Q130. ::
+`Which AWS Cloud benefit is shown by an architecture's ability to withstand failures with minimal downtime?
+
+- [ ] Agility
+- [ ] Elasticity
+- [ ] Scalability
+- [x] High availability
+
+#### Q108. ::
+`Which AWS service allows users to download security and compliance reports about the AWS infrastructure on demand?
+
+- [ ] Amazon GuardDuty
+- [x] AWS Security Hub
+- [ ] AWS Artifact
+- [ ] AWS Shield
+
+#### Q120. ::
+`A retail company has recently migrated its website to AWS. The company wants to ensure that it is protected from SQL injection attacks. The website uses an
+`Application Load Balancer to distribute traffic to multiple Amazon EC2 instances.
+`Which AWS service or feature can be used to create a custom rule that blocks SQL injection attacks?
+
+- [ ] Security groups
+- [x] AWS WAF
+- [ ] Network ACLs
+- [ ] AWS Shield

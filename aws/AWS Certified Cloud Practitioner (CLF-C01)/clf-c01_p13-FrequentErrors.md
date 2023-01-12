@@ -69,3 +69,13 @@
 - [ ] The number of incorrect login attempts by each IAM user in the previous 30 days.
 
 
+#### Q440. ::
+`Which AWS service is a cloud security posture management (CSPM) service that aggregates alerts from various AWS services and partner products in a standardized format?
+
+- [x] AWS Security Hub
+- [ ] AWS Trusted Advisor
+- [ ] Amazon EventBridge
+- [ ] Amazon GuardDuty
+
+
+`Which of the following actions are controlled with AWS Identity and Access Management (IAM)? (Choose two.)

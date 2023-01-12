@@ -190,3 +190,35 @@
 - [x] AWS WAF
 - [ ] Network ACLs
 - [ ] AWS Shield
+
+
+#### Q272. ::
+`A developer wants to deploy an application on a container-based service. The service must automatically provision and manage the backend instances. The service must provision only the necessary resources.
+`Which AWS service will meet these requirements?
+
+- [ ] Amazon EC2
+- [ ] Amazon Lightsail
+- [ ] Amazon Elastic Kubernetes Service (Amazon EKS)
+- [x] AWS Fargate
+
+
+
+#### Q308. ::
+`A company needs fully managed, highly reliable, and scalable file storage that is accessible over the Server Message Block (SMB) protocol.
+`Which AWS service will meet these requirements?
+
+- [ ] Amazon S3
+- [ ] Amazon Elastic File System (Amazon EFS)
+- [x] Amazon FSx for Windows File Server
+- [ ] Amazon Elastic Block Store (Amazon EBS)
+
+
+
+#### Q279. ::
+`A company stores configuration files in an Amazon S3 bucket. These configuration files must be accessed by applications that are running on Amazon EC2 instances.
+`According to AWS security best practices, how should the company grant permissions to allow the applications for access the S3 bucket?
+
+- [ ] Use the AWS account root user access keys.
+- [ ] Use the AWS access key ID and the EC2 secret access key.
+- [x] Use an IAM role with the necessary permissions.
+- [ ] Activate multi-factor authentication (MFA) and versioning on the S3 bucket.

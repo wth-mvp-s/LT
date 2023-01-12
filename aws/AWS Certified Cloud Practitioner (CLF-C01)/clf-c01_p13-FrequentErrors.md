@@ -85,3 +85,14 @@
 - [x] AWS Consulting Partners
 - [ ] AWS Artifacts
 - [ ] AWS Managed Services
+
+
+#### Q476. ::
+`A company is using AWS Lambda.
+`
+`Which task is the company’s responsibility, according to the AWS shared responsibility model?
+
+- [ ] Update the Lambda runtime language.
+- [ ] Maintain the runtime environment.
+- [ ] Maintain the networking infrastructure.
+- [x] Configure the resource.

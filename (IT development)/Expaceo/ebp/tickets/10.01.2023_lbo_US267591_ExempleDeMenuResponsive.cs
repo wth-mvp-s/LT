@@ -46,3 +46,25 @@ otworzyc i zobaczyc menu obok ze strona : https://getbootstrap.com/docs/4.3/comp
 bootstrap 4, depuis 2018 ; remplacer le préprocesseur utilisé LESS par SASS, 
 
 Bootstrap 4 prend en charge les dernières versions de Google Chrome, 
+
+
+ - le but est de voir comment on peut avoir un front qui est responsive
+
+
+
+ - que ce que je dois faire. : 
+
+ pok, 
+ pas de spec. 
+
+
+
+ responsive existant, 
+
+ le but est de comprendre comment ca fonctionne, 
+
+ je continue compredre comment ça marche. 
+
+
+ - evaluer l'avancement. 
+ - le dev - ruscouche. 

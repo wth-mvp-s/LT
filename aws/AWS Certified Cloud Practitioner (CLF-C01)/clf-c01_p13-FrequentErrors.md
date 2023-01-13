@@ -141,10 +141,6 @@
 - [ ] Amazon GuardDuty
 
 
-`Which of the following actions are controlled with AWS Identity and Access Management (IAM)? (Choose two.)
-
-
-
 
 
 
@@ -226,36 +222,65 @@
 
 
 
-
+#### Q505. ::
 `Which AWS Support plan includes infrastructure event management at no additional cost?
 
+- [ ] AWS Basic Support
+- [x] AWS Business Support
+- [ ] AWS Enterprise Support
+- [ ] AWS Developer Support
 
-//
 
 
 
-`A developer needs to debug and troubleshoot an application that is experiencing runtime errors. The application is running on microservices architecture on AWS.
-
-`
-
-`Which AWS service should the developer use to troubleshoot the application?    
-
-//
-
+#### Q524. ::
 `A company is migrating an application that includes an Oracle database to AWS. The company cannot rewrite the application.
-
 `
-
 `To which AWS service could the company migrate the database?
-//
+
+- [ ] Amazon Athena
+- [ ] Amazon DynamoDB
+- [x] Amazon RDS
+- [ ] Amazon DocumentDB (with MongoDB compatibility)
+
+
+
+#### Q494. ::
 `Which task requires the use of AWS account root user credentials?
-//
+
+
+- [x] The deletion of IAM users
+- [ ] The change to a different AWS Support plan
+- [ ] The creation of an organization in AWS Organizations
+- [ ] The deletion of Amazon EC2 instances
+
+
+#### Q530. ::
 `Which AWS feature or resource is a deployable Amazon EC2 instance template that is prepackaged with software and security requirements?
 
-//
+- [ ] Amazon Elastic Block Store (Amazon EBS) volume
+- [ ] AWS CloudFormation template
+- [ ] Amazon Elastic Block Store (Amazon EBS) snapshot
+- [x] Amazon Machine Image (AMI)
 
+
+#### Q487 ::
 `A company is configuring its AWS Cloud environment. The company's administrators need to group users together and apply permissions to the group.
-
 `
-
 `Which AWS service or feature can the company use to meet these requirements?
+
+- [ ] AWS Organizations
+- [ ] Resource groups
+- [ ] Resource tagging
+- [x] AWS Identity and Access Management (IAM)
+
+
+#### Q506. ::
+`A developer needs to debug and troubleshoot an application that is experiencing runtime errors. The application is running on microservices architecture on AWS.
+`
+`Which AWS service should the developer use to troubleshoot the application?
+
+- [ ] Amazon Inspector
+- [ ] AWS CloudShell
+- [ ] AWS CodeStar
+- [x] AWS X-Ray

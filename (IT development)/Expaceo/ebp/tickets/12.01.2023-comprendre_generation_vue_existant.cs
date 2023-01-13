@@ -36,3 +36,14 @@ j'ai besoin demander l'accès pour cette projet qui est à part.
 on aurait pu le voir dans le DevOps, git, etc. c'est un projet à part, et pour le compiler et surtout pour le modifier faut avoir le code de repo pour ceci. 
 à voir à haut voix avec responsable technique. 
 c'est jbb ou jco ? 
+
+
+
+
+
+
+
+
+
+
+

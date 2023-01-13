@@ -68,14 +68,6 @@
 - [x] Whether multi-factor authentication (MFA) has been enabled for an IAM user.
 - [ ] The number of incorrect login attempts by each IAM user in the previous 30 days.
 
-#### Q34. :: 
-`A global media company uses AWS Organizations to manage multiple AWS accounts.
-`Which AWS service or feature can the company use to limit the access to AWS services for member accounts?
-
-- [ ] AWS Identity and Access Management (IAM)
-- [x] Service control policies (SCPs) 
-- [ ] Organizational units (OUs)
-- [ ] Access control lists (ACLs)
 
 #### Q17. ::
 `A company wants to migrate its workloads to AWS, but it lacks expertise in AWS Cloud computing.
@@ -108,7 +100,7 @@
 - [ ] Cost allocation tags
 - [ ] AWS Cost and Usage Reports
 
-//////////////////////////////////////////
+
 #### Q481. ::
 `Which of the following is available to a company that has an AWS Business Support plan?
 
@@ -125,13 +117,6 @@
 - [ ] AWS Business Support
 - [x] AWS Enterprise Support
 
-
-
-
-
-
-
-
 #### Q440. ::
 `Which AWS service is a cloud security posture management (CSPM) service that aggregates alerts from various AWS services and partner products in a standardized format?
 
@@ -139,15 +124,6 @@
 - [ ] AWS Trusted Advisor
 - [ ] Amazon EventBridge
 - [ ] Amazon GuardDuty
-
-
-
-
-
-
-
-
-
 
 
 #### Q436. ::
@@ -220,8 +196,6 @@
 - [ ] Activate multi-factor authentication (MFA) and versioning on the S3 bucket.
 
 
-
-
 #### Q505. ::
 `Which AWS Support plan includes infrastructure event management at no additional cost?
 
@@ -264,15 +238,6 @@
 - [x] Amazon Machine Image (AMI)
 
 
-#### Q487 ::
-`A company is configuring its AWS Cloud environment. The company's administrators need to group users together and apply permissions to the group.
-`
-`Which AWS service or feature can the company use to meet these requirements?
-
-- [ ] AWS Organizations
-- [ ] Resource groups
-- [ ] Resource tagging
-- [x] AWS Identity and Access Management (IAM)
 
 
 #### Q506. ::
@@ -284,3 +249,45 @@
 - [ ] AWS CloudShell
 - [ ] AWS CodeStar
 - [x] AWS X-Ray
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Q487 ::
+`A company is configuring its AWS Cloud environment. The company's administrators need to group users together and apply permissions to the group.
+`
+`Which AWS service or feature can the company use to meet these requirements?
+
+- [ ] AWS Organizations
+- [ ] Resource groups
+- [ ] Resource tagging
+- [x] AWS Identity and Access Management (IAM)
+
+
+
+#### Q34. :: 
+`A global media company uses AWS Organizations to manage multiple AWS accounts.
+`Which AWS service or feature can the company use to limit the access to AWS services for member accounts?
+
+- [ ] AWS Identity and Access Management (IAM)
+- [x] Service control policies (SCPs) 
+- [ ] Organizational units (OUs)
+- [ ] Access control lists (ACLs)

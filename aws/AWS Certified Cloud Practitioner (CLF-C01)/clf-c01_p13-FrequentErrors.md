@@ -222,3 +222,40 @@
 - [ ] Use the AWS access key ID and the EC2 secret access key.
 - [x] Use an IAM role with the necessary permissions.
 - [ ] Activate multi-factor authentication (MFA) and versioning on the S3 bucket.
+
+
+
+
+
+`Which AWS Support plan includes infrastructure event management at no additional cost?
+
+
+//
+
+
+
+`A developer needs to debug and troubleshoot an application that is experiencing runtime errors. The application is running on microservices architecture on AWS.
+
+`
+
+`Which AWS service should the developer use to troubleshoot the application?    
+
+//
+
+`A company is migrating an application that includes an Oracle database to AWS. The company cannot rewrite the application.
+
+`
+
+`To which AWS service could the company migrate the database?
+//
+`Which task requires the use of AWS account root user credentials?
+//
+`Which AWS feature or resource is a deployable Amazon EC2 instance template that is prepackaged with software and security requirements?
+
+//
+
+`A company is configuring its AWS Cloud environment. The company's administrators need to group users together and apply permissions to the group.
+
+`
+
+`Which AWS service or feature can the company use to meet these requirements?

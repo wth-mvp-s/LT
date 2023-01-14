@@ -1,0 +1,5 @@
+Question sur: 
+ - certyficaty, wszelkiego typy SSL, tcl etc. 
+ - jak sie komunikuje vpc, a jak sie komunikuje server virtualny, jak jest podlaczony
+ - enkrypcja. 
+ - jak udostepnic dostep jak cos jest na EC2, des bonnes pratiques

@@ -5,3 +5,8 @@ node_modules
 .vscode
 package-lock.json
 yarn.lock
+
+#VIM files
+*~
+*.swp
+*.swo

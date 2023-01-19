@@ -1,0 +1,12 @@
+Angular Interview Questions
+
+Define Directives, instructions to DOM
+Explain Components, reusable UI building blocks
+What's Dependency injection, injecting services
+How to implement Routing, navigate between views
+What is Change Detection, updates view on data change
+How to use Pipes, format data in templates
+Explain Zones, detects change for CD
+How to use Services, share data across components
+What is AOT compilation, improves performance
+How to debug Angular, use chrome dev tools

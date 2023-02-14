@@ -1,7 +1,5 @@
-1. sa responsabilité
-
-2. how is build, how it work, what properties 
-3. Why is here, design pattern, 
-3. what aspect we can treat speaking about it? 
-
-*. ciekawostki, comme c'est pareil dans le vueJs.  conclusion.
+1. responsabilities
+2. how is build, characteristics, how it work deep down.
+3. design pattern, higher concerns.
+3. other aspects concerned. 
+4. extra infos, comparaison. conclusion.

@@ -1,2 +1,0 @@
-Vous allez recevoir votre identifiant par mail dans les minutes qui suivent !
-Si vous ne le recevez pas rapidement, nous vous invitons à contacter un de nos téléconseillers au 09 69 32 03 46 du lundi au vendredi, de 8h30 à 18h30 (service gratuit + prix d'appel)

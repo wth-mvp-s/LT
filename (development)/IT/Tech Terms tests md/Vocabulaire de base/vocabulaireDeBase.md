@@ -10,3 +10,4 @@ fournisseur:: provider
 eagerly:: vivement, in a way that shows that you want to do or have something very much, especially something interesting or enjoyable, volontier
 coercion::pr. double egalité, the use of force to persuade someone to do something that they are unwilling to do
 3A::Arrange, Act, Assert
+`::back ticks, accent grave

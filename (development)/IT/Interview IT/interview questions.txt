@@ -1,0 +1,180 @@
+
+async/await since C# 5.
+delegate and events - loosely coopled app
+ASP.NET, WPF, WinForms - work with events 
+thread - virtualized CPU, orchstred by OS (context switching)
+parallelism - multi threads on diffirent CPUs
+CPU registers - state data 
+
+
+
+
+
+
+#################################################################################
+ 1. Question : 
+
+Func<P,R>
+#################################################################################
+ 2. Question : 
+
+Expliquer les différences entre List<T>, Array<T>, LinkedList<T>. 
+#################################################################################
+ 3. Question : 
+
+Quelle est le cout d’un ajout, d’une suppression, d’une recherche d’un element dans chacune de ces collections ?
+#################################################################################
+ 4. Question : 
+
+Expliquer ce que c’est un Dictionary<K,T> et comment on peut accéder à ses elements ou ajouter/supprimer ses elements ? (expliciter TOUTES les possibilités)
+#################################################################################
+ 5. Question : 
+
+Qu’est-ce que c’est un Bag<T>, un HashSet<T> ? Exemple d’utilisations possibles ?Avantages ?
+#################################################################################
+ 6. Question : 
+
+[Test]
+    public void Test()
+    {
+        int[] toCompute = new int[]{12,21,40,3,78};
+        foreach (int computedValue in GetComputedValues(toCompute))
+        {
+            if (computedValue > 150)
+            {
+                Console.WriteLine(computedValue);
+                break;
+            }
+        }
+    }
+List<int> GetComputedValues (int[] toCompute)
+{ 
+	var result= new List<int>();
+	foreach (var k in toCompute)
+	{
+           result.Add(k*k);
+	}
+	return result;
+}
+#################################################################################
+ 7. Question : 
+
+List<Action> actions = new List<Action>();
+for (int i = 0; i < 5; i++)
+{
+    actions.Add(()=>Console.WriteLine(i*i+8));
+}
+
+foreach (var action in actions)
+{
+    action();
+}
+#################################################################################
+ 8. Question : 
+
+public static class MaClasse 
+{ 
+    public const string MA_VARIABLE_CONSTANTE = "Ceci est une constante"; 
+    public static readonly string MA_VARIABLE_READONLY = "Ceci est une variable readonly"; 
+}
+string str1 = MaClasse.MA_VARIABLE_CONSTANTE;
+string str2 = "Ceci est une constante";
+
+class singleton<T>  where T : new()
+ { Private static T instance ; private Singleton(); pibulic  get { return Singleton();}
+Vous18:35
+public T get { return Singleton();}
+Vous18:36
+public T Instance  { get { return Singleton();}
+public T Instance  { get { return Singleton();}}
+Vous18:39
+public T Instance { get { return new Singleton();                          
+#################################################################################
+ 9. Question : 
+
+Func<P,R>
+#################################################################################
+ 10. Question : 
+
+Expliquer les différences entre List<T>, Array<T>, LinkedList<T>. 
+#################################################################################
+ 11. Question : 
+
+Quelle est le cout d’un ajout, d’une suppression, d’une recherche d’un element dans chacune de ces collections ?
+#################################################################################
+ 12. Question : 
+
+Expliquer ce que c’est un Dictionary<K,T> et comment on peut accéder à ses elements ou ajouter/supprimer ses elements ? (expliciter TOUTES les possibilités)
+#################################################################################
+ 13. Question : 
+
+Qu’est-ce que c’est un Bag<T>, un HashSet<T> ? Exemple d’utilisations possibles ?Avantages ?
+#################################################################################
+ 14. Question : 
+
+[Test]
+    public void Test()
+    {
+        int[] toCompute = new int[]{12,21,40,3,78};
+        foreach (int computedValue in GetComputedValues(toCompute))
+        {
+            if (computedValue > 150)
+            {
+                Console.WriteLine(computedValue);
+                break;
+            }
+        }
+    }
+List<int> GetComputedValues (int[] toCompute)
+{ 
+	var result= new List<int>();
+	foreach (var k in toCompute)
+	{
+           result.Add(k*k);
+	}
+	return result;
+}
+#################################################################################
+ 15. Question : delegate ? 
+
+List<Action> actions = new List<Action>();
+for (int i = 0; i < 5; i++)
+{
+    actions.Add(()=>Console.WriteLine(i*i+8));
+}
+
+foreach (var action in actions)
+{
+    action();
+}
+#################################################################################
+ 16. Question : const vs read-only
+
+public static class MaClasse 
+{ 
+    public const string MA_VARIABLE_CONSTANTE = "Ceci est une constante"; 
+    public static readonly string MA_VARIABLE_READONLY = "Ceci est une variable readonly"; 
+}
+string str1 = MaClasse.MA_VARIABLE_CONSTANTE;
+string str2 = "Ceci est une constante";
+
+}
+
+Optimisation_de_code
+
+1. good algorithm design
+2. good implementations
+3. micro-optimizations
+cd. 
+Une spécificité du binaire : le décalage
+Utilisation de variables locales pour éviter les alias de mémoire
+
+void MyClass::DoSomething()
+ {
+     const int nbrElements = m_nbrElements;
+     for( int i=0; i<nbrElements; ++i )
+     {
+         ....
+     }
+ }
+

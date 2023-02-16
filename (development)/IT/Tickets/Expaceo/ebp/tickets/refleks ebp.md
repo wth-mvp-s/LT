@@ -1,1 +1,0 @@
-- Quand tu completes une PR, penses à le faire avec le Squash commit si tes commits dans ta PR ne sont pas propres comme c'est le cas du ta dernière PR

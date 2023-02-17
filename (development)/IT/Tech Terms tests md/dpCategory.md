@@ -22,3 +22,7 @@ State::Behavioral
 Strategy::Behavioral
 Template Method::Behavioral
 Visitor::Behavioral
+total number of design patterns described in the "Gang of Four" book::23
+number of Creational patterns::5
+number of Structural patterns::7
+number of Behavioral patterns::11

@@ -1,6 +1,6 @@
 ma version : 
 
-1. l'entreprise (client)
+1. l'entreprise (client, timeframe)
 2. Mission / Projet
 3. Equipe
 4. des technos

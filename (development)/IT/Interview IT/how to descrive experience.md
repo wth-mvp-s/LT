@@ -1,5 +1,13 @@
+ma version : 
 
-from le gars de interview telephonique: 17dec 2020
+1. l'entreprise (client)
+2. Mission / Projet
+3. Equipe
+4. des technos
+5. Moi (je retiens quoi de cette experience)
+
+
+<!-- from le gars de interview telephonique: 17dec 2020
 
 1. L’equipe
 2. projet
@@ -12,4 +20,4 @@ from JB Expaceo,
 2. Mission / Projet
 3. Equipe
 4. des technos
-5. Moi (ce que tu as fait)
+5. Moi (ce que tu as fait) -->

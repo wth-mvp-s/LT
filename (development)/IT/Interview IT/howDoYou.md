@@ -10,3 +10,5 @@ how do you ...
 3. other aspects concerned. 
 4. extra infos, comparaison. conclusion.
 
+shared est dp ? 
+

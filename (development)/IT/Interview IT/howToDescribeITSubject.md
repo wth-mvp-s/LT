@@ -1,3 +1,12 @@
+1. definition
+2. responsability
+3. construction
+4. dp
+5. other aspects concerned. 
+6. extra infos, comparaison. conclusion.
+
+
+0. definition - 
 1. responsability
 2. construction, characteristics, how it work deep down.
 3. design pattern, higher concerns.

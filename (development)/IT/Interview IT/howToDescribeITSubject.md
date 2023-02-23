@@ -4,6 +4,7 @@
 4. dp
 5. other aspects concerned. 
 6. extra infos, comparaison. conclusion.
+7. Reflexion: 
 
 
 0. definition - 

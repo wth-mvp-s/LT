@@ -1,7 +1,14 @@
 ## Zyc. 
 
 # byc soba
-> Jak patrze na siebie z 2006, jak robie sdjecie dziewczyny. Ja nie wiem czego chce. Tylko fotografuje ludzi, zastanawiajac sie czego mi brakuje zeby kogos miec. 
+
+>Plan na zycie, nie byc koniem w kieracie
+Nie mozesz tak zyc jak osiol w kieracie. Musisz sie zaczac interesowac czyms, miec jakies pasje. 
+Kiedy zaczynasz analizowac jakis temat, odnajdujesz rzeczy jakie wolisz. I to jest pierwszy krok w kierunku tworzenia planu. 
+
+
+
+Jak patrze na siebie z 2006, jak robie sdjecie dziewczyny. Ja nie wiem czego chce. Tylko fotografuje ludzi, zastanawiajac sie czego mi brakuje zeby kogos miec. 
 Popatrzec na ludzi. Pobyc w roznych miejscach. Jak turysta. Ale zainteresowany nie monumentami ale szukaniem osoby ktora mi sie spodoba. 
 
 ##      Weekend
@@ -12,7 +19,8 @@ Popatrzec na ludzi. Pobyc w roznych miejscach. Jak turysta. Ale zainteresowany n
 
 ## wakacje
 - lowic lososia
-- odkryc koree
+
+**odkryc koree**
 
 
 #       Gdybym byl bogaty 
@@ -32,6 +40,7 @@ Popatrzec na ludzi. Pobyc w roznych miejscach. Jak turysta. Ale zainteresowany n
       
 #      Co mi kradnie czas
 - Siedzenie wieczorem przed kompem
+- zakupy na ALIEXPRESS, 1h (20€)stracona zeby zaoszcvzedzic 30€, et encore, 
 
 # muscu 
 

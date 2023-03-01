@@ -14,3 +14,6 @@ export class EvenBetterLogger extends Logger {
 Directive, -  used as a placeholder for content that will be dynamically inserted. 
 # Use Vault
 for storing connection strings or encryption keys
+
+# nswag
+> , creer model pour le front de maniere automatique. 

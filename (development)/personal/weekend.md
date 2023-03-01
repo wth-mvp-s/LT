@@ -1,3 +1,10 @@
+# T9 
+
+> apropos czasu wolnego. chcialbym byc jak zaqwodnik, robic cos dobrze, byc temu poswiecony, nie chce robic rzeczy pod kogos, wychodzic zeby kogos poznac. chce robic rzeczy jakie mnie pasjonuja. miec wlasne pomysly i pod nie odnajdywac sie w pewnych miejscach. 
+
+
+
+
 # T8
 
 *      sobota: jest 12h15, postrzatalem troche, zaraz obiad. mam satysfakcje ze wszystko sie kreci. mysle o tym co pisalem poprzednio. 

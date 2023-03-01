@@ -1,8 +1,0 @@
-- pedzelki
-- rozgaleziacz 6, plus jeden malu 2
-- bache do malowania
-- lampa 
-- lampka
-- gourde 0.25
-- torbe na okulary, papierosy nowa puma
-- 

@@ -5,7 +5,7 @@
 
 - [=] Document Object Model
 
-#### 2. [brakuje komentarza]::MANY
+#### 2. ::MANY
 `You are configuring project metrics for dashboards in Azure DevOps.
 `You need to configure a chart widget that measures the elapsed time to complete work items once they become active.
 `Which of the following is the widget you should use?
@@ -13,6 +13,24 @@
 - [ ] Cumulative Flow Diagram
 - [ ] Burnup
 - [x] Cycle time
+- [ ] Burndown
+
+#### 2.2. [przyklad traktowania komentarzy]::MANY
+`You are configuring project metrics for dashboards in Azure DevOps.
+`You need to configure a chart widget that measures the elapsed time to complete work items once they become active.
+`Which of the following is the widget you should use?
+
+[//] komentarz do pytania
+`komentarz do pytania linia 1
+`komentarz do pytania linia 2
+
+- [ ] Cumulative Flow Diagram
+- [ ] Burnup
+- [x] Cycle time
+- [/] komentarz do odpowiedzi
+`komentarz do odpowiedzi linia 1
+`komentarz do odpowiedzi linia 2
+
 - [ ] Burndown
 
 #### 3. ::ORDER

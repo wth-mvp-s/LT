@@ -13,10 +13,11 @@ Qui je suis. Tu dois savoir qui tu es avant devenir quelq'un.
 ###  kiedy bylem soba ? 
 
 - na ASP
-- w podrozy
+- w podrozy, w Izraelu
+
 
 ##   Je ne me vois pas
-wzrost, musculatura plecow, beaute, inteligence, popatrzec na swoje fotki
+wzrost 183cm, musculatura plecow aviron 3ans, beaute, inteligence, popatrzec na swoje fotki
 ##   J'ai un vecu de ouf. 
 ##   Je cherche et je trouve
      Sante limitations. 

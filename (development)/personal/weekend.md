@@ -1,8 +1,20 @@
+# T10 
+- isc w piatek do tego klubu po pracy o 9 na jak to sie nazywalo Danfer Rochechoua
 # T9 
+## 911 club black 
 
-> apropos czasu wolnego. chcialbym byc jak zaqwodnik, robic cos dobrze, byc temu poswiecony, nie chce robic rzeczy pod kogos, wychodzic zeby kogos poznac. chce robic rzeczy jakie mnie pasjonuja. miec wlasne pomysly i pod nie odnajdywac sie w pewnych miejscach. 
+*       Memphis i ten caly syf Paryski, udawanie milionerow i zamawianie butelek..dla znajomych klubu. porazka jebana padaka. takie to jest widoczne. zapomnialem ze mialem isc w piatek do tego klubu po pracy o 9 na jak to sie nazywalo Danfer Rochechoua
+*       dzisiaj pojde tam gdzie sprawdzalem tydzien temu w tej ulicy z tylu, za bastille. on va voir. 
 
 
+*       apropos czasu wolnego. chcialbym byc jak zaqwodnik, robic cos dobrze, byc temu poswiecony, nie chce robic rzeczy pod kogos, wychodzic zeby kogos poznac. chce robic rzeczy jakie mnie pasjonuja. miec wlasne pomysly i pod nie odnajdywac sie w pewnych miejscach. 
+
+### rozmowa z Irena
+- kluczem jest byc soba, kazdy ma inna odpowiedz na to jaka jest odpowiedz, dla mnie to bedzie sztuka, dla Ciebie bycie w naturze i patrzenie na wiewiorki. 
+
+**- poszukiwanie autentycznosci. Bycie Soba. To o to chodzi w zyciu.**
+
+*       zobaczylem tego goscia z kippa na glowie o 18:45 jak wracalem z pracy, pomyslalem sobie, juz wszystko zapomnialem z Izraela. 
 
 
 # T8
@@ -10,19 +22,21 @@
 *      sobota: jest 12h15, postrzatalem troche, zaraz obiad. mam satysfakcje ze wszystko sie kreci. mysle o tym co pisalem poprzednio. 
 ## plany 
 > nie potrafie planowac weekendu. jedynie wydatki, wyjscia, koncerty nadaja mi rytm w weekendy
-- moze zone karavagia zrobic w czwartek ?!
+- moze zone czaikovskiego zrobic w czwartek ?!
 ## pro 
 ## cons
 
 # T7
 ## plans 
-Zrobic blind date 40€
+Zrobic blind date 40€ ***40€***
 
 # T6. 
 
 *      Nie czuje sie wypoczetyw poniedzialek, mysle ze brakowalo spedzenia czasu na zewnatrz; bez maratonow, jezdzenia z miejsca na mijsce, 
 ***cos spokojnego*** 
-> z ksiazka; w jednym miejscu, na caly dzien. Np. Spedzic cala niedziele na dworzu, troche w kawiarni, troche w parku, troche w dzielnicy zeby sprawdzic jak tam sie mieszka. 
+> z ksiazka; w jednym miejscu, na caly dzien. Np. Spedzic 
+_cala niedziele na dworzu, troche w kawiarni, troche w parku, troche w dzielnicy zeby sprawdzic jak tam sie mieszka._
+
 Gdzie jest X, i dlaczego jej szukam. Potrzebuje jej. A gdzie ona jest? W dobrych miejscach spokojnych. Typu tam gdzie mieszka Samuel, nalezalo by to sprawdzic. Posiedziec chwile na stacji, pobyc tam. Posprawdzac ogloszenia. Ceny. 
 Zastanowic sie jak jest na wsi, a jak w miescie, to co teraz, co strace. Co zyskam. Jak zmieni sie moje zycie? 
 
@@ -51,3 +65,11 @@ szlajanie jak wilk, maraton, zero dodsumowan mimo czasu na podsumowania
 
 
 # 2023
+
+
+### Mies jazz clubs
+- Du morning 
+- Duc de lombard
+- Sun set 
+- sun side
+- Boston , new machin

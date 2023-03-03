@@ -1,3 +1,16 @@
+## music de chambre
+
+4  Clarinet Quintet in A major, K. 581 by Wolfgang Amadeus Mozart
+4+  String Trio in C major, Op. 9 No. 1 by Luigi Boccherini
+
+## composition pour la trompette 
+
+Concerto for Trumpet in E-flat major, Hob. VIIe:1 by Joseph Haydn
+Trumpet Concerto in E-flat major by Johann Nepomuk Hummel
+The Virgin by Camille Saint-SaÃ«ns
+Adagio in B-flat major by Tomaso Albinoni
+Fanfare for the Common Man by Aaron Copland
+
 Znalezione, co mi sie podoba 
 - Symphony No. 4 In B-Flat Major, Op. 60: I. Adagio - Allegro Vivace
 
@@ -38,7 +51,7 @@ Here are 20 of the most notable music compositions associated with Venice:
 "Turandot" by Giacomo Puccini
 "La Fenice" by Ermanno Wolf-Ferrari
 "L'Orfeo" by Claudio Monteverdi
-"La bohème" by Giacomo Puccini
+"La bohï¿½me" by Giacomo Puccini
 "Madama Butterfly" by Giacomo Puccini
 "Lohengrin" by Richard Wagner
 "Aida" by Giuseppe Verdi
@@ -48,19 +61,19 @@ Here are 20 of the most notable music compositions associated with Venice:
 Antonio Vivaldi - Les Quatre Saisons, Gloria
 Claudio Monteverdi - L'Orfeo, Vespro della Beata Vergine
 Baldassare Galuppi - Il filosofo di campagna, Il mondo alla rovescia
-Tomaso Albinoni - Adagio en sol mineur, Concerto a cinque en ré mineur
+Tomaso Albinoni - Adagio en sol mineur, Concerto a cinque en rï¿½ mineur
 Francesco Cavalli - La Calisto, L'Ormindo
-Benedetto Marcello - Concerto en ré mineur pour hautbois, Sonate en mi mineur pour flûte à bec et basse continue
+Benedetto Marcello - Concerto en rï¿½ mineur pour hautbois, Sonate en mi mineur pour flï¿½te ï¿½ bec et basse continue
       Compositeurs de Rome
 
 Dvorak 1841-1904
 Moja Ocena: 
- la Symphonie « Du Nouveau Monde », 
+ la Symphonie ï¿½ Du Nouveau Monde ï¿½, 
 2+ les Danses slaves , 
-3= (pod kotleta) le Quatuor américain , 
+3= (pod kotleta) le Quatuor amï¿½ricain , 
 le Concerto pour violoncelle , 
-l'opéra Rusalka (d'après l'histoire « La Petite Sirène » d' Andersen ) 
-l'opéra Jacobin , 
+l'opï¿½ra Rusalka (d'aprï¿½s l'histoire ï¿½ La Petite Sirï¿½ne ï¿½ d' Andersen ) 
+l'opï¿½ra Jacobin , 
 le Quintette avec piano. en B. Ver , 
 le trio avec piano "Domki", 
 l'ouverture "Carnaval" 

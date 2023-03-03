@@ -1,9 +1,9 @@
 # Zlote mysli. [LB1]
 
-## Co jest dla mnie najwa?niejsze w ?yciu?
+## Co jest dla mnie najwazniejsze w zyciu?
 
 Zyc. Byc soba. Nigdy nie grac. 
-Czego najbardziej boj? si? w ?yciu?
+## Czego najbardziej boje sie w zyciu?
 Niczego sie nie boje. 
 
 ## 1. Co chce osiagnac w zyciu?
@@ -23,6 +23,7 @@ Miec rodzine, miec strone ktora generuje kase.
 ## Czego najbardziej zaluje w zyciu?
 
 - Walczenia o prace w grafice, stawiania wszystkiego na kariere zawodowa bez jednoczesnie kochania zawodu jaki wykonywalem. 
+- siedzenia z kims w niczym 
 
 ## Co sprawia mi najwiecej radosci?
 
@@ -32,29 +33,30 @@ Miec rodzine, miec strone ktora generuje kase.
 - les gens les rencontres
 - Inteligence, beautes de femmes
 
-## 3. Co jest dla mnie najwa?niejsze w zwiazku ?
+## 3. Co jest dla mnie najwazniejsze w zwiazku ?
 
 Piekna osoba z ktora bede na zawsze
 
-## 4. Co jest dla mnie najwa?niejsze w pracy?
-- Przyszlosc ? 
+## 4. Co jest dla mnie najwazniejsze w pracy?
+- Przyszlosc ? wlasny projekt ktory bedzie pracowal na mnie. 
 - Mozliwosc podrozowania ? 
 - tworzenie projektu jaki bedzie mial znaczenie, ( upload images)  
 
 ## Jakie sa moje najwazniejsze relacje z innymi ludzmi?
 
 - Z mama, 
-- z przyjaciolmi (potrzebuje przyjaciela)
+- z przyjaciolmi (potrzebuje przyjaciela) Irena, Damien
 
 ## Czego nie zrobilbym nigdy dla pieniedzy?
 
 - Wprowadzil najblizszych w niebezpieczenstwo
+- stracil ostatnie 13 lat jakie mi zostaly na walczenie o kase
 
 ## Jakie sa moje najwieksze osiagniecia?
 
 - Beaux Art. 
-- Zmiana zawodu na programiste. 
-- Podroze autostopem. 
+- Zmiana zawodu na programiste. bo moge. 
+- Podroze autostopem. zero limitow. 
 - Odnaleznienie sie. (Izrael)
 
 ## Jakie sa moje najwieksze porazki?
@@ -63,17 +65,17 @@ Piekna osoba z ktora bede na zawsze
 - iscie na latwizne. seksing 
 - Bladzenie przez ten caly czas I nie bycie autentycznym. 
 
-## Co jest dla mnie najwa?niejsze w ?yciu rodzinnym?
+## Co jest dla mnie najwa?niejsze w zyciu rodzinnym?
 
-- milosc
+- milosc, do zycia, do siebie. 
 
-## Co jest dla mnie najwa?niejsze w zyciu duchowym?
+## Co jest dla mnie najwazniejsze w zyciu duchowym?
 
-- uratowac kogos. dzieki obrazom. 
-- Odpowiedziec na prosbe zostawiona u stup raju. Zrobic cos ze swoim zyciem. Osiagnac sukces. 
+- uratowac siebie. korzystac, i wykorzystac talenty jakie mam (dzieki obrazom.)
+- Odpowiedziec na prosbe zostawiona u stup raju. Zrobic cos ze swoim zyciem. Osiagnac sukces. Podziekowac Mu za To co mam. Za ten piekny swiat jaki mam do dyspozycji. 
 
 ## Co jest dla mnie najwazniejsze w zyciu zawodowym?
-- polaczyc to z poasjami
+- polaczyc to z poasjami, sprzedaz obrazow web site. 
 - Nie robic rzeczy tymczasowych. Bez wizji konca. 3dMax, strony web. Mycie okien. Praca na wykonczenowce. 
 - Zmiany co praca to inny program.  Zdecydowac sie na perfekcjonowanie czegos. 
 
@@ -85,9 +87,11 @@ Niczego sie nie boje. MTF!
 
 Czegos eternelle, pieknego. Sztuki, komplexite. Inteligencji, wrazliwosci. Autentycznosci. 
 
-## Czego najbardziej boj? si? straci? w ?yciu?
-Siebie. 
-## Co jest dla mnie najwa?niejsze w ?yciu osobistym?
-Byc soba. 
+## Czego najbardziej boje sie stracic w ?yciu?
 
-[LB1]"Pens�es dor�es" lub "Pens�es positives".
+Siebie. 
+
+## Co jest dla mnie najwazniejsze w zyciu osobistym?
+- zeby to bylo dla mnie a nie dla firmy. Byc soba. 
+
+[LB1]"Pensees dorees" lub "Pensees positives".

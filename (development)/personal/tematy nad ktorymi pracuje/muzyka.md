@@ -11,9 +11,12 @@ The Virgin by Camille Saint-Saëns
 Adagio in B-flat major by Tomaso Albinoni
 Fanfare for the Common Man by Aaron Copland
 
-Znalezione, co mi sie podoba 
+## Znalezione, co mi sie podoba 
 - Symphony No. 4 In B-Flat Major, Op. 60: I. Adagio - Allegro Vivace
 
+## co kocham
+
+- 	Igor Stravinsky, The Rite of Spring
 Royale, handel harp.
 - Bach: Harpsichord Works
 - Claudio Merulo, venice avant baroc

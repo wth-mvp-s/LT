@@ -4,6 +4,10 @@
 
 cwiczenia partie duze abdos
 
+seans 3 - plecy, postura, nogi 
+seans 1 - biceps, triceps, pecs, abdo
+seans 2 MAX - pecs max 3 repet, ...
+
 
 
 # spytac

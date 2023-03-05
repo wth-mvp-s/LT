@@ -1,3 +1,7 @@
+###### perelki 
+
+- Concert for Planet Earth, Marsalis
+
 ## music de chambre
 
 4  Clarinet Quintet in A major, K. 581 by Wolfgang Amadeus Mozart
@@ -84,3 +88,27 @@ ainsi que plusieurs oeuvres vocales ( Te Deum , Requiem ) Stave Mater .
 
 Biographie
 
+
+> research 
+"Nessun Dorma" by Giacomo Puccini
+"Concerto in E-flat Major" by Johann Nepomuk Hummel
+"Adagio in G minor" by Tomaso Albinoni
+"Sonata for Trumpet and Piano" by Kent Kennan
+"La Virgen de la Macarena" by Rafael Mendez
+
+
+
+
+can you go9ve me example of performance on trompet for each 
+
+
+
+"Nessun Dorma" by Giacomo Puccini - Performed by Wynton Marsalis and the London Philharmonic Orchestra: https://www.youtube.com/watch?v=F4wQ7VHfIM8
+
+"Concerto in E-flat Major" by Johann Nepomuk Hummel - Performed by Alison Balsom and the Deutsche Kammerphilharmonie Bremen: https://www.youtube.com/watch?v=k5h5stvABz0
+
+"Adagio in G minor" by Tomaso Albinoni - Performed by Sergei Nakariakov and the Saint Paul Chamber Orchestra: https://www.youtube.com/watch?v=1vklNhBl5sg
+
+"Sonata for Trumpet and Piano" by Kent Kennan - Performed by Sergei Nakariakov and Alexander Markovich: https://www.youtube.com/watch?v=PRZo8cKGJvM
+
+"La Virgen de la Macarena" by Rafael Mendez - Performed by Arturo Sandoval: https://www.youtube.com/watch?v=JNEVg1-Zin4

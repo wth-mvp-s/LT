@@ -16,3 +16,8 @@
 - znasz parametry ? os ? versja os ? ilosc pamieci ? iulosc pixeli w aparacie ? 
 - masz zainstalowana ostatnio wersje systemu, ? 
 - czy wiesz dlaczego to wazne ? 
+
+## zakupy
+- drabina duza 
+- drabinka do mieszkania zeby nie stawac na krzeslach 
+- gasnica

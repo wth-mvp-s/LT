@@ -11,3 +11,8 @@
 - czy wylot i koncowka do kapuczino jest czysta, 
 - czy pojemnik na dole jest czysty
 - czy masz dobra kawe dobrej firmy 
+
+## kochasz swoj telefon
+- znasz parametry ? os ? versja os ? ilosc pamieci ? iulosc pixeli w aparacie ? 
+- masz zainstalowana ostatnio wersje systemu, ? 
+- czy wiesz dlaczego to wazne ? 

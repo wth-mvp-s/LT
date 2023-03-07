@@ -21,3 +21,7 @@
 - drabina duza 
 - drabinka do mieszkania zeby nie stawac na krzeslach 
 - gasnica
+
+# do zrobienia
+
+-       Opowiadać o Wersalu i kaplicy st Louis żeby brzmieć inteligentnie

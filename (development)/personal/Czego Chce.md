@@ -26,7 +26,7 @@ Wszystko sprowadza sie do jednego, zyj pasje. wtedy zaczniesz zyc.
 - korea - to nie jest twoja pasja
 - hong kong - to nie ejst twoja pasja
 - delonghi, ekspress - to nie jest twoja pasja
-- 
+- Chile to nie jestem ja
 
 ##      moje marzenia 
 
@@ -38,7 +38,9 @@ Wszystko sprowadza sie do jednego, zyj pasje. wtedy zaczniesz zyc.
 - Moc miec psa. 
 - zlowic lososia na muche.
 - tworzenie projektu jaki bedzie mial znaczenie, ( upload images)  
-
+- zwiedzic Chile
+- zwiedzic Hong Kong
+- spedzic sylwestra w madrycie
 
 ## traktuj czas jak pieniadz.
       
@@ -46,6 +48,7 @@ Wszystko sprowadza sie do jednego, zyj pasje. wtedy zaczniesz zyc.
 - Siedzenie wieczorem przed kompem
 - zakupy na ALIEXPRESS, 1h (20€)stracona zeby zaoszcvzedzic 30€, et encore, 
 - kluby, zainteresowania, ten coly biznes wokol. (bateau, club volier, bonsai). 
+- nie przebywac z looserami
 
 
 

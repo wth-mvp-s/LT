@@ -19,3 +19,10 @@ for storing connection strings or encryption keys
 > , creer model pour le front de maniere automatique. 
 
 ## Two root module?
+
+for performance
+## preload  
+
+# glossary 
+## Angular 
+- ivy ,  renderer engine

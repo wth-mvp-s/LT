@@ -49,6 +49,8 @@ Wszystko sprowadza sie do jednego, zyj pasje. wtedy zaczniesz zyc.
 - zakupy na ALIEXPRESS, 1h (20€)stracona zeby zaoszcvzedzic 30€, et encore, 
 - kluby, zainteresowania, ten coly biznes wokol. (bateau, club volier, bonsai). 
 - nie przebywac z looserami
+- kluby, kolka zainteresowan, wspolne spedzanie weekendow, etc
+- pourpose, new religion, pasje na sprzedarz, wszystko co ma slowo cotisation, pierdole tych zlodzieji czasu !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 

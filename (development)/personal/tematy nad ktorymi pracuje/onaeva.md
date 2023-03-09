@@ -29,3 +29,13 @@ od razu trace czas nad tym jakie sa techniki, jaki sprzet, ile kosztuje...
 
 # na co ? 
 ## na muche
+
+# szukam perfum
+Perfumy z Amber gris : 
+- Ambre Gris by Chanel
+- Angelique Encens by Serge Lutens
+- Black Gemstone by Ormonde Jayne + 
+- Fumerie Turque by Serge Lutens + 
+- Opus X by Amouage + 
+- Pour un Homme by Caron + 
+- Rive Gauche by Yves Saint Laurent

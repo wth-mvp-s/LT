@@ -101,7 +101,7 @@ Biographie
 
 can you go9ve me example of performance on trompet for each 
 
-# pour la trompette
+
 
 "Nessun Dorma" by Giacomo Puccini - Performed by Wynton Marsalis and the London Philharmonic Orchestra: https://www.youtube.com/watch?v=F4wQ7VHfIM8
 

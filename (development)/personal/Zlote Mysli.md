@@ -40,7 +40,7 @@ Piekna osoba z ktora bede na zawsze
 ## 4. Co jest dla mnie najwazniejsze w pracy?
 - Przyszlosc ? wlasny projekt ktory bedzie pracowal na mnie. 
 - Mozliwosc podrozowania ? 
-- tworzenie projektu jaki bedzie mial znaczenie, ( upload images)  
+`- tworzenie projektu jaki bedzie mial znaczenie, ( upload images)  `
 
 ## Jakie sa moje najwazniejsze relacje z innymi ludzmi?
 
@@ -75,7 +75,7 @@ Piekna osoba z ktora bede na zawsze
 - Odpowiedziec na prosbe zostawiona u stup raju. Zrobic cos ze swoim zyciem. Osiagnac sukces. Podziekowac Mu za To co mam. Za ten piekny swiat jaki mam do dyspozycji. 
 
 ## Co jest dla mnie najwazniejsze w zyciu zawodowym?
-- polaczyc to z poasjami, sprzedaz obrazow web site. 
+- zeby to bylo dla mnie a nie dla firmy. polaczyc to z poasjami, sprzedaz obrazow web site. 
 - Nie robic rzeczy tymczasowych. Bez wizji konca. 3dMax, strony web. Mycie okien. Praca na wykonczenowce. 
 - Zmiany co praca to inny program.  Zdecydowac sie na perfekcjonowanie czegos. 
 
@@ -92,6 +92,6 @@ Czegos eternelle, pieknego. Sztuki, komplexite. Inteligencji, wrazliwosci. Auten
 Siebie. 
 
 ## Co jest dla mnie najwazniejsze w zyciu osobistym?
-- zeby to bylo dla mnie a nie dla firmy. Byc soba. 
+- Byc soba. 
 
-[LB1]"Pensees dorees" lub "Pensees positives".
+<!--"Pensees dorees" lub "Pensees positives".-->

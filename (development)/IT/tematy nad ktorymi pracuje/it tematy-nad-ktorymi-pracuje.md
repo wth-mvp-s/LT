@@ -1,13 +1,10 @@
 
-# nauka Angular
+
+# TODO
+ 
+### nauka Angular
 - test on service
 - Use Vault - for storing connection strings or encryption keys
-
-
-
-
-
-
 ### moj projekt task
 - zapis CRUD
 
@@ -19,7 +16,7 @@
     - nswag - creer model pour le front de maniere automatique. 
     - versioning
     - startpage	
-
+    - ngrx en place 
 
 
 ## wylapane rzeczy ktorych nie znam 

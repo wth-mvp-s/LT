@@ -1,0 +1,2 @@
+# VC
+search.exclude **/.angular

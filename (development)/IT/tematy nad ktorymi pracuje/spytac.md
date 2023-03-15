@@ -1,0 +1,1 @@
+- jak mam komponent, facade, et service to kto sie subskrybuje ? 

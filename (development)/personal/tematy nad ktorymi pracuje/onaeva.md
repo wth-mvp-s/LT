@@ -1,6 +1,7 @@
 # co
 pierzsze pytanie co. 
 
+- inteligence, subtilite, delicatnesse, beauty
 - przepieknosc, delikatne piekne stworzenie ktore bede widdzial jak czysta inteligentna pieknosc. 
 - nie panne w ktorej widze ruchanie, kurewke, 
 - dziewczyna ktora potrafila by byc mama. 

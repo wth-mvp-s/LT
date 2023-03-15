@@ -9,7 +9,8 @@
     - zapis CRUD
 ## generale
     - oath, docker, 
-
+    - telemetry
+    - cache with redis
 
 ###  zrealizowane
     - model for front with nswag

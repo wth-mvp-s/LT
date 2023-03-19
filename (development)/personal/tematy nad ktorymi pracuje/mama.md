@@ -25,3 +25,6 @@
 # do zrobienia
 
 -       Opowiadać o Wersalu i kaplicy st Louis żeby brzmieć inteligentnie
+
+# przyjazd do warszawy 
+- lipiec to moj miesiac: lepiej planowac takie chujowe miesiace jak marzec, lub listopad, zeby ich podniesc na duchu. 

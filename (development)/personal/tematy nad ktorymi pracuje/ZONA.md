@@ -6,9 +6,16 @@ pierzsze pytanie co.
 - nie panne w ktorej widze ruchanie, kurewke, 
 - dziewczyna ktora potrafila by byc mama. 
 
-# gdzie
-rzeka czy jezioro ? 
+# gdzie (rzeka czy jezioro ? )
 
+jezioro - rzeka: 
+- le grand point virgule
+- la meremoque~
+- concert jezz 
+- rosa bonheur
+- mama shelter
+
+od Helene: 
 - Le Speakeasy Paris, Festive Rstaurant & Club, Dansant, Piano Club, Disquotheque, Night Club, All Night Long (cote Place de l'Uruguay)
 - Le Piaf Paris, French restaurant (rue Jean Merm...)
 

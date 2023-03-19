@@ -32,25 +32,30 @@ Wszystko sprowadza sie do jednego, zyj pasje. wtedy zaczniesz zyc.
 
 - Zdecydowac sie na perfekcjonowanie czegos. 
 
-- pojechac do Afryki.
-- muscu - stracic ten zwisajacy brzuszek. 
-- miec strone ktora generuje kase. 
-- Moc miec psa. 
-- zlowic lososia na muche.
-- tworzenie projektu jaki bedzie mial znaczenie, ( upload images)  
-- zwiedzic Chile
-- zwiedzic Hong Kong
-- spedzic sylwestra w madrycie
+
+
+reszta jest secondaire: - pojechac do Afryki.- muscu - stracic ten zwisajacy brzuszek. - miec strone ktora generuje kase. - Moc miec psa. - zlowic lososia na muche.- tworzenie projektu jaki bedzie mial znaczenie, ( upload images), - zwiedzic Chile, - zwiedzic Hong Kong, - spedzic sylwestra w madrycie
 
 ## traktuj czas jak pieniadz.
+
+- co mozesz zrobic z czasem. 
+      0. mozesz zyc zycie jakie marzyles zeby miec, byc malarzem. 
+      1. mozesz sie nauczyc grac na trombce
+      2. nauczyc sie jezyka. Hiszpanskiego- ale najpierw naucz sie mowic o swoim doswiadczeniu, slowek z it. 
+            1. terminy z cv
+            2. przedstaw sie like a pro. 
+
       
 #      Co mi kradnie czas
 - Siedzenie wieczorem przed kompem
 - zakupy na ALIEXPRESS, 1h (20€)stracona zeby zaoszcvzedzic 30€, et encore, 
 - kluby, zainteresowania, ten coly biznes wokol. (bateau, club volier, bonsai). 
 - nie przebywac z looserami
+      1. cafe populkire
+      2. mere moquere
+      3. pubs a permantier
 - kluby, kolka zainteresowan, wspolne spedzanie weekendow, etc
-- pourpose, new religion, pasje na sprzedarz, wszystko co ma slowo cotisation, pierdole tych zlodzieji czasu !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+- ci co daja ci pourpose, new religion, pasje na sprzedarz, wszystko co ma slowo cotisation, pierdole tych zlodzieji czasu!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 

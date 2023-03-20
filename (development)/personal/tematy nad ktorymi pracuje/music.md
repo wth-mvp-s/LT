@@ -16,8 +16,11 @@ Adagio in B-flat major by Tomaso Albinoni
 Fanfare for the Common Man by Aaron Copland
 
 ## Znalezione, co mi sie podoba 
-- Symphony No. 4 In B-Flat Major, Op. 60: I. Adagio - Allegro Vivace
 
+#### classic: 
+      - Symphony No. 4 In B-Flat Major, Op. 60: I. Adagio - Allegro Vivace
+      - Debussy, Clair de lune
+      
 ## co kocham
 
 - 	Igor Stravinsky, The Rite of Spring

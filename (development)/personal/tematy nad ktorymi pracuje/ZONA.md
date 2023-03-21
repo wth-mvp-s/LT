@@ -18,6 +18,7 @@ jezioro - rzeka:
 od Helene: 
 - Le Speakeasy Paris, Festive Rstaurant & Club, Dansant, Piano Club, Disquotheque, Night Club, All Night Long (cote Place de l'Uruguay)
 - Le Piaf Paris, French restaurant (rue Jean Merm...)
+- La morisienne boîte permantier 
 
 # techniki polowu
 # przynety

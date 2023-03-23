@@ -5,6 +5,14 @@ Donc un dev full-stack, depuis plusieurs annees deja, principalement DOTNET et A
 
     Pareil pour .NET, 
 
+
+        Je vais vous parler de mon experience pour le client Ministere des solidarite et de la sante, c'est une organisme de l'etat, dont un de projet sur lequel j'ai ete ammenne a travaille c'etait digitalisation de donnes personnelle dans le but de chercher les match entre les parents biologique et les enfants adoptes. 
+
+        Leur situation c'est que avec les nouveaux droit qui ont entree en vigeur, leurs proces dois etre digitaliser 
+
+        equipe 16 personnes. 
+
+
     Donc sur la missions, on retrouve tout les sujets de base de framework: routing, communication entre les composants, les services, etc. mais dans ce contexte d'une application chargé de complexité, on est sur 300 pages de spec, attention. on a en parallelle les tickets sur DeVopS, mais aussi, des infos recu lors de daily, rituel SCRUM en tout ca beaute. 
     Avec cette densite des infos, meme les sujets simple de framework prends tout une autre dimmension, et d'un coup les sujets simples deviens unsurmontable. 
 

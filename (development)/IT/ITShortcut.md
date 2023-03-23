@@ -4,3 +4,5 @@ Adding Style - Ctr+Shift+S
 changing kayboard language - Alt+Shift
 # VC
 uppercase - Ctrl+Shift+P > upper
+# npm
+check currently installed version - npm list lib

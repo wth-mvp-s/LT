@@ -1,4 +1,16 @@
 
+wyjscia w potencjalem 
+    spoko
+        - kibele. 
+
+    koncerty jazz
+        Du morning 
+        Duc de lombard
+        Sun set 
+        sun side
+        Boston , new machin
+
+
 ## wyjscie o 23h, bary, boite de nuit. 
 pro
 - pozwala zobaczyc miejsce w jakim mieszkasz, looserskich staruchow, mlodych mapetow, inne miasto, pelne ludzi z manque de securite

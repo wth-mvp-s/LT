@@ -21,8 +21,8 @@ Fanfare for the Common Man by Aaron Copland
 #### classic: 
       - Symphony No. 4 In B-Flat Major, Op. 60: I. Adagio - Allegro Vivace
       - Debussy, Clair de lune, Daniel Barenboim
-#### choral 
-      - Camille Saint-Saëns
+            choral 
+                  - Camille Saint-Saëns, Ave Maria
 ## co kocham
 
 - 	Igor Stravinsky, The Rite of Spring
@@ -117,3 +117,14 @@ can you go9ve me example of performance on trompet for each
 "Sonata for Trumpet and Piano" by Kent Kennan - Performed by Sergei Nakariakov and Alexander Markovich: https://www.youtube.com/watch?v=PRZo8cKGJvM
 
 "La Virgen de la Macarena" by Rafael Mendez - Performed by Arturo Sandoval: https://www.youtube.com/watch?v=JNEVg1-Zin4
+
+#### ACP
+Christ, Thou Art A Single Body, Fred Gramann
+Jesus Christ, the Apple Tree, Fred Gramann
+O where is He that trod the sea? , Fred Gramann
+Beautiful , Fred Gramann
+Grant Peace, We Pray, Felix Mendelssohn
+Immortal, Invisible, God Only Wise, Welsh folk melody
+Te Deum
+I'm Gonna Live So God Can Use Me, African-American spiritual, Arr. Wendell Whalum 1932-1987
+

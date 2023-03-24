@@ -20,28 +20,26 @@ od Helene:
 - Le Piaf Paris, French restaurant (rue Jean Merm...)
 - La morisienne boîte permantier 
 
-# techniki polowu
-# przynety
-## sprzet
-czy to nie powinno byc drugorzedne ? 
-# pulapka
-od razu trace czas nad tym jakie sa techniki, jaki sprzet, ile kosztuje... 
+# techniki polowu, # przynety, ## sprzet
+czy to nie powinno byc drugorzedne ? = pulapka, od razu trace czas nad tym jakie sa techniki,jaki sprzet, ile kosztuje... 
 
 
 
 
 
-# gdzie 
+# gdzie, 
 # czego potrzebuje
-# jaka rybe chce zlowic ? 
 
+# jaka rybe chce zlowic ? 
+    dotychczas nie nigdy nie mialem okazji, zawsze wpadalem w cos innego niz chce
 ## losos
 
 ### szczupak 
 ### okon
-
 # na co ? 
 ## na muche
+
+ferrari a ty pragniesz helikopter
 
 # szukam perfum
 Perfumy z Amber gris : 

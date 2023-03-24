@@ -1,6 +1,7 @@
 - Secret
 - Maradona
 
+movie about trompette
 
 
 
@@ -19,3 +20,8 @@ Books about time frame
 
 Art martieux
 https://www.dailymotion.com/video/x20c7y8
+
+
+- movies about trumpet
+https://www.imdb.com/search/keyword/?keywords=trumpet-player%2Ctrumpet&sort=moviemeter,asc&mode=detail&page=1&ref_=kw_ref_key
+https://bestsimilar.com/tag/28443-trumpet-player

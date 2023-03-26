@@ -20,6 +20,22 @@ pierzsze pytanie co.
 - za duzej
 - co robi pranie mozgu
 
+## things I hate 
+- followers, without personality, with the pourpouse to life they bought
+- people with no values, or there own values theyt imagined
+- idolatres
+- instagram, fb, etc
+- people complaining about orthographe but they speak only one language
+
+## things I love
+- ideas, creativity, smile
+- modesty, like Rembrandt
+- art, painting
+
+## things I like
+- bonsai, even if I doesnt have one, 
+- playing something (me I'm learning trumpet since few years)
+-
 
 # gdzie (rzeka czy jezioro ? )
 

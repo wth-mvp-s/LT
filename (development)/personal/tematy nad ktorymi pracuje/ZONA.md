@@ -10,6 +10,7 @@ pierzsze pytanie co.
 - urody, zgrabnosci, usmiechu
 - inteligencji, gracji, subtelnosci
 - ktos kto potrafi kochac na zawsze
+- qqn avec qui on va faire des truc. sex ma byc bombardowac. 
 
 ## - czego nie chce
 - cpuna, alkoholiczki, nieroba, depresyjnej, bipolarnej 

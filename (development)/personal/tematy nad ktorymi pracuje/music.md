@@ -67,7 +67,7 @@ Here are 20 of the most notable music compositions associated with Venice:
 "Madama Butterfly" by Giacomo Puccini
 "Lohengrin" by Richard Wagner
 "Aida" by Giuseppe Verdi
-"Tosca" by Giacomo Puccini
+"Tosca" by Giacomo Puccini - tested, ? 
 
 
 Antonio Vivaldi - Les Quatre Saisons, Gloria
@@ -128,3 +128,5 @@ Immortal, Invisible, God Only Wise, Welsh folk melody
 Te Deum
 I'm Gonna Live So God Can Use Me, African-American spiritual, Arr. Wendell Whalum 1932-1987
 
+# trumpet 
+- Sergei Nakariakov

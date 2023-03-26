@@ -2,9 +2,21 @@
 pierzsze pytanie co. 
 
 - inteligence, subtilite, delicatnesse, beauty
-- przepieknosc, delikatne piekne stworzenie ktore bede widdzial jak czysta inteligentna pieknosc. 
+- przepieknosc, delikatne piekne stworzenie ktore bede widzial jak czysta inteligentna pieknosc. 
 - nie panne w ktorej widze ruchanie, kurewke, 
 - dziewczyna ktora potrafila by byc mama. 
+
+## - czego chce 
+- urody, zgrabnosci, usmiechu
+- inteligencji, gracji, subtelnosci
+- ktos kto potrafi kochac na zawsze
+
+## - czego nie chce
+- cpuna, alkoholiczki, nieroba, depresyjnej, bipolarnej 
+- gdzie zwiazek jest jak z liskiem 
+- za duzej
+- co robi pranie mozgu
+
 
 # gdzie (rzeka czy jezioro ? )
 
@@ -19,6 +31,14 @@ od Helene:
 - Le Speakeasy Paris, Festive Rstaurant & Club, Dansant, Piano Club, Disquotheque, Night Club, All Night Long (cote Place de l'Uruguay)
 - Le Piaf Paris, French restaurant (rue Jean Merm...)
 - La morisienne boîte permantier 
+od echange rosa bonheur: 
+- baddaboum
+- bus palladium
+- alimentation generale
+- mouftard
+- rue de lappe
+- espace wagram
+- bellevilloise
 
 # techniki polowu, # przynety, ## sprzet
 czy to nie powinno byc drugorzedne ? = pulapka, od razu trace czas nad tym jakie sa techniki,jaki sprzet, ile kosztuje... 

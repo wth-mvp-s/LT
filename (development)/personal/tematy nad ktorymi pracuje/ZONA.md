@@ -1,3 +1,5 @@
+
+
 # co
 pierzsze pytanie co. 
 
@@ -20,6 +22,15 @@ pierzsze pytanie co.
 
 
 # gdzie (rzeka czy jezioro ? )
+
+3+ - galeries, musees, 
+- spectavles, theatre, concerts
+- unikac miejsc dla hipsterow, gejow, turystow, 
+- przedzial czasowy 16-20
+- miejsca platne, nie dla chomerow, looserow, nie trac czasu na looserow, 
+
+### gdzie nie : 
+- looserskie miejsca za free: rosa, butt, meremoquer, oz, osalivan, 
 
 jezioro - rzeka: 
 - le grand point virgule

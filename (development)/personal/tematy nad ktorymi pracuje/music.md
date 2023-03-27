@@ -104,19 +104,7 @@ Biographie
 
 
 
-can you go9ve me example of performance on trompet for each 
-
-
-
-"Nessun Dorma" by Giacomo Puccini - Performed by Wynton Marsalis and the London Philharmonic Orchestra: https://www.youtube.com/watch?v=F4wQ7VHfIM8
-
-4- "Concerto in E-flat Major" by Johann Nepomuk Hummel - Performed by Alison Balsom and the Deutsche Kammerphilharmonie Bremen: https://www.youtube.com/watch?v=k5h5stvABz0
-
-4 "Adagio in G minor" by Tomaso Albinoni - Performed by Sergei Nakariakov and the Saint Paul Chamber Orchestra: https://www.youtube.com/watch?v=1vklNhBl5sg
-
-"Sonata for Trumpet and Piano" by Kent Kennan - Performed by Sergei Nakariakov and Alexander Markovich: https://www.youtube.com/watch?v=PRZo8cKGJvM
-
-"La Virgen de la Macarena" by Rafael Mendez - Performed by Arturo Sandoval: https://www.youtube.com/watch?v=JNEVg1-Zin4
+5h5stvABz0
 
 #### ACP
 Christ, Thou Art A Single Body, Fred Gramann
@@ -128,5 +116,12 @@ Immortal, Invisible, God Only Wise, Welsh folk melody
 Te Deum
 I'm Gonna Live So God Can Use Me, African-American spiritual, Arr. Wendell Whalum 1932-1987
 
-# trumpet 
+# trumpet player
 - Sergei Nakariakov
+- Arturo Sandoval
+- Alison Balsom
+- Wynton Marsalis
+
+            can you go9ve me example of performance on trompet for each 
+
+            4- "Concerto in E-flat Major" by Johann Nepomuk Hummel - Performed by  and the Deutsche Kammerphilharmonie Bremen: https://www.youtube.com/watch?v=k

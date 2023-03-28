@@ -7,3 +7,8 @@ skoncentruj sie tylko na tym tescie i wprowadzaniu jego pytan
 
 definitions a connaitre
     deployment gate - 
+    whiteSource Bolt
+    black Duck
+    gradle in pipeline
+    sonarQube
+    maven

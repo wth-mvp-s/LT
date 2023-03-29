@@ -1,1 +1,0 @@
-- na pamiec utwory z ksiazki. 

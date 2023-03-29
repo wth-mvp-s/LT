@@ -125,3 +125,29 @@ I'm Gonna Live So God Can Use Me, African-American spiritual, Arr. Wendell Whalu
             can you go9ve me example of performance on trompet for each 
 
             4- "Concerto in E-flat Major" by Johann Nepomuk Hummel - Performed by  and the Deutsche Kammerphilharmonie Bremen: https://www.youtube.com/watch?v=k
+
+
+      Louis Armstrong
+      Miles Davis
+      Dizzy Gillespie
+      Wynton Marsalis
+      Chet Baker
+      Clifford Brown
+      Freddie Hubbard
+      Lee Morgan
+      Arturo Sandoval
+      Maynard Ferguson
+
+active in the 21st century:
+
+      3 Terence Blanchard 
+      Ambrose Akinmusire
+      Christian Scott aTunde Adjuah
+      Roy Hargrove
+      Jeremy Pelt
+      Ingrid Jensen
+      Nicholas Payton
+      Avishai Cohen
+      Dave Douglas
+      Chris Botti
+

@@ -141,7 +141,6 @@ I'm Gonna Live So God Can Use Me, African-American spiritual, Arr. Wendell Whalu
 active in the 21st century:
 
       3 Terence Blanchard 
-      Ambrose Akinmusire
       Christian Scott aTunde Adjuah
       Roy Hargrove
       Jeremy Pelt
@@ -150,4 +149,5 @@ active in the 21st century:
       Avishai Cohen
       Dave Douglas
       Chris Botti
+      Ambrose Akinmusire
 

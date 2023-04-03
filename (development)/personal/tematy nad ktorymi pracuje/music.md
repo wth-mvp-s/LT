@@ -16,13 +16,6 @@ The Virgin by Camille Saint-Saëns
 Adagio in B-flat major by Tomaso Albinoni
 Fanfare for the Common Man by Aaron Copland
 
-## Znalezione, co mi sie podoba 
-
-#### classic: 
-      - Symphony No. 4 In B-Flat Major, Op. 60: I. Adagio - Allegro Vivace
-      - Debussy, Clair de lune, Daniel Barenboim
-            choral 
-                  - Camille Saint-Saëns, Ave Maria
 ## co kocham
 
 - 	Igor Stravinsky, The Rite of Spring
@@ -116,7 +109,21 @@ Immortal, Invisible, God Only Wise, Welsh folk melody
 Te Deum
 I'm Gonna Live So God Can Use Me, African-American spiritual, Arr. Wendell Whalum 1932-1987
 
-# trumpet player
+
+
+
+
+
+#### classic: 
+      - Symphony No. 4 In B-Flat Major, Op. 60: I. Adagio - Allegro Vivace
+      - Debussy, Clair de lune, Daniel Barenboim
+
+#####            choral 
+                  - Camille Saint-Saëns, Ave Maria
+                  - Miserere mei, Deus - Allegri - Tenebrae conducted by Nigel Short
+
+#####             trumpet players
+
 - Sergei Nakariakov
 - Arturo Sandoval
 - Alison Balsom

@@ -1,30 +1,56 @@
 
-    WHY (PROBLEMS)
+1° WHY (PROBLEMS)
 
-    complexite
-    modele de domain complexe
-    stabilite de l'application
-#                  travail d'equipe
-                            14 personnes
-##                              DevOps
-                                    collaboration des equipes dev vs metier
-##                              gitflow
+
+[//] ticketing
+##                               gitflow
                                   differents fonctionalités travaillés en paralelle, différentes phases du cycle de vie du code source, 
-##                              Agilité
-                                    reprise de donnes, estimation, from scrach
+                                    devops:
+                                        pipelines 
+                                            automatisation  
+                                        lint
+                                            stabilité des environments
+                                    normes
+                                            charte graphique    
 ##                              Scrum
                                     iterative livraison de features
+##                              Agilité
+                                    reprise de donnes, estimation, from scrach
+                                    referant sur les fonctionement
+####                            TRAVAIL D'EQUIPE
+                                    14 personnes 
+#                               complexité
+                                        html - 3400 lignes
+                                        commits - 70 fichers modifié
+                                        specyfication 300 pages
+                                            reprise de données - complexite
+                                            modele de domain complexe
+                                            stabilite de l'application
+[//]                                    developper des onglets
+#                               difficultés
+                                    pas d'acces au ancienne appli
+                                    recolte de infos et veuille que ce soit ecrit, 
 
-#                  complexité
-                            html - 3400 lignes
-                            commits - 70 fichers modifié
-                            specyfication 300 pages
-##                              Mediator et Facade 
-                                    pour simplifier le code complexe et ameliorer la communication entre les differents parts de systeme
-##                              CQRS        
-                                    pour mieux maintenir le code 
-##                              .NET CORE 6 
+####                            SOLO
+                                        preparer les nouveaux arrivé (ngrx)
+                                        creation from scratch une app Extraner pour Orper
+#                    ##                              Mediator et Facade 
+                                                        pour simplifier le code complexe et ameliorer la communication entre les differents parts de systeme
+#                    ##                              CQRS        
+                                                        pour mieux maintenir le code 
+#                    ##                              .NET CORE 6 
+                                                        MICROSOFT 
+                                                        Frameworks that follow the convention
+                                                            support for the features. 
+                                                            well-documented
+                                                        HIGH PERFORMANCE IN LARGE OR COMPLEX APPLICATIONS vs node, Ruby on Rails
+                                                            asyncronous, parallel code, multi-thread architecture
+                                                            Compile quickly
+                                                        LESS MEMORY REQUIEMENT as writen in C 
+                                                            garbage collector, 
+                                                        mature, cross-platform, robust, highly performant, native Azure
 
+[//] beaucoup de travail
 #                   gagner du temps et ameliorer le code 
                                 Nswag Studio 
                                 RxJS
@@ -51,12 +77,6 @@
 
 
     performance
-#           gitflow
-                devops:
-                    pipelines 
-                        automatisation  
-                    lint
-                        stabilité des environments
-    normes
-            charte graphique
 
+##                              DevOps
+                                    collaboration des equipes dev vs metier

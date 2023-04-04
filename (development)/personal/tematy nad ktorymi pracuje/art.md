@@ -46,3 +46,4 @@ il.
             Le Zohar est un autre commentaire important de la Torah. Il s'agit d'un texte mystique qui explore les concepts kabbalistiques de la Torah. Le Zohar est écrit en hébreu et a été rédigé au XIIIe siècle.
 
             Il existe également de nombreux autres commentaires de la Torah écrits en hébreu, notamment le Rambam, le Rashi et le Shulchan Aruch. Chacun de ces textes a sa propre approche et sa propre perspective sur l'interprétation de la Torah.
+

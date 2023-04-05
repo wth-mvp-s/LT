@@ -123,6 +123,9 @@ I'm Gonna Live So God Can Use Me, African-American spiritual, Arr. Wendell Whalu
                   - Miserere mei, Deus - Allegri - Tenebrae conducted by Nigel Short
                   - Carl Orff, Carmina Burana, O fortuna
                   - Requiem, Dies Irae, Giuseppe Verdi
+                  - Agnus Dei - Samuel Barber,  5
+                  Mozart Requiem
+                  
 #####             trumpet players
 
 - Sergei Nakariakov

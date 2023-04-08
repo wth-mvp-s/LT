@@ -13,3 +13,4 @@ seans 2 MAX - pecs
 
 
 
+BCAA - redui la fatigue pendant les exercices

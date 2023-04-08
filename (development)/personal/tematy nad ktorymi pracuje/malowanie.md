@@ -30,7 +30,7 @@ Co ?
         - Dailey Rowney graduate 4-8
 
     plutna
-        rozmiary jakie mnie interesuja
+        rozmiary jakie mnie interesuja ? 
 
     couleurs
 

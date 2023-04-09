@@ -1,3 +1,5 @@
+# T14
+jebanej gamy nawet nie znam 
 # T9
 
 na razie to mam tylko 3 utwory wydrukowane

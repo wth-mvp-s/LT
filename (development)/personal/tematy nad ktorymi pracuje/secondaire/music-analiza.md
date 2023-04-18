@@ -162,3 +162,18 @@ active in the 21st century:
       Chris Botti
       Ambrose Akinmusire
 
+research 
+      haydn, 
+      reponds using this subjects, as guideline: 
+      - definition, 
+      - how is constructed his work, what instruments etc, 
+      - category, classification of style, 
+      - alternatif, 
+      - extra infos
+# Haydn
+      classical style, with a focus on balance, clarity, and formal structure.father of symphony and quartet 
+      Mozart, Beethoven period
+      music is known for its formal clarity, wit, and charm. 
+      later romantic Schubert, Chopin: more emotionally expressive
+      
+      - Symphonie n° 49 en fa mineur, « La Passion »

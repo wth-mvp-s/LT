@@ -26,6 +26,7 @@
                                             reprise de données - complexite
                                             modele de domain complexe
                                             stabilite de l'application
+                                            regles de metier
 [//]                                    developper des onglets
 #                               difficultés
                                     pas d'acces au ancienne appli

@@ -27,3 +27,7 @@ Exercises / chest / muscle
     - patrze w historie, nie wiem (pamietnik nie potrzebny, jest google agenda)
     - cwiczenia jakie wykonuje, nie wiem tak na prawde co pracuje 
 
+
+baton muscu bon ? 
+FIBRE desavantage
+gateau sans glucide ni sucre

@@ -75,3 +75,8 @@ jenkins for builds
 `You plan to use Azure Repos for all the projects.
 
 //
+helm package
+
+retention
+configure RBAC roles in the cluster
+DACPAC BACPAC

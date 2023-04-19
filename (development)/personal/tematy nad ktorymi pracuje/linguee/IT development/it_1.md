@@ -1,3 +1,0 @@
-append
-upon
-liable, responsable

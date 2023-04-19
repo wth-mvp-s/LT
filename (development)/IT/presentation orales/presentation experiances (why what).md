@@ -3,7 +3,7 @@
 
 
 [//] ticketing
-##                               gitflow
+##                               gitflow(parler mieux!important)
                                   differents fonctionalités travaillés en paralelle, différentes phases du cycle de vie du code source, 
                                     devops:
                                         pipelines 
@@ -18,7 +18,7 @@
                                     reprise de donnes, estimation, from scrach
                                     referant sur les fonctionement
 ####                            TRAVAIL D'EQUIPE
-                                    14 personnes 
+                                    14 personnes !important
 #                               complexité
                                         html - 3400 lignes
                                         commits - 70 fichers modifié

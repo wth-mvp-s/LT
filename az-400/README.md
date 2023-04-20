@@ -53,18 +53,20 @@
         - goals achiveness monitoring
 
 
-yarn
-jenkins for builds
+yarn - facebooks npm 
+jenkins - building, testing, and deploying software
 
-helm package
+kubernates - orchestration platform that automates the deployment, scaling, and management of containerized applications.
+helm package - chart,  package manager for Kubernetes,  collection of Kubernetes resources that are packaged together for deployment.
 
-retention
+retention -  time that data and artifacts are kept in a system or storage location. 
 configure RBAC roles in the cluster
-DACPAC BACPAC
-a readiness probe
-a liviness probe
+DACPAC - file type used in SQL Server for deployment and backup purpouse, create and update 
+BACPAC - export and import 
+a readiness probe - In Kubernetes, if container is ready to serve traffic.
+a liviness probe - In Kubernetes, if container is still running and able to perform its intended function.
      WhiteSource 
      
-     test $
+     
 
-     RBAC binding   
+RBAC binding - (Role-Based Access Control) binding refers to the process of associating a role with one or more users or groups in a system.

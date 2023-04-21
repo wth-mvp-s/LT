@@ -70,3 +70,5 @@ a liviness probe - In Kubernetes, if container is still running and able to perf
      
 
 RBAC binding - (Role-Based Access Control) binding refers to the process of associating a role with one or more users or groups in a system.
+
+self hosted agent - jobs

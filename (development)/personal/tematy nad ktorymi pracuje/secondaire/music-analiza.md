@@ -177,3 +177,35 @@ research
       later romantic Schubert, Chopin: more emotionally expressive
       
       - Symphonie n° 49 en fa mineur, « La Passion »
+
+      Certainly, here are 13 examples of individuals in classical music known for their perfectionism and mania for quality:
+
+Glenn Gould - A Canadian pianist known for his meticulous attention to detail and interpretation of Bach's works.
+
+Herbert von Karajan - An Austrian conductor known for his exacting standards and perfectionism in conducting the world's leading orchestras.
+
+Martha Argerich - An Argentine pianist known for her technical mastery and exacting standards in her performances.
+
+Arturo Toscanini - An Italian conductor known for his perfectionism and exacting standards in conducting the world's leading orchestras.
+
+Maria Callas - An American-born Greek soprano known for her perfectionism and exacting standards in her operatic performances.
+
+Jascha Heifetz - A Russian-born American violinist known for his precision and exacting standards in his performances.
+
+Wilhelm Furtwängler - A German conductor known for his exacting standards and attention to detail in conducting the world's leading orchestras.
+
+Yo-Yo Ma - A Chinese-American cellist known for his technical mastery and perfectionism in his performances.
+
+Claudio Abbado - An Italian conductor known for his meticulous attention to detail and exacting standards in conducting orchestras.
+
+Arthur Rubinstein - A Polish-American pianist known for his technical mastery and exacting standards in his performances.
+
+Daniel Barenboim - An Israeli pianist and conductor known for his exacting standards and perfectionism in his performances and conducting.
+
+Leonard Bernstein - An American conductor and composer known for his perfectionism and exacting standards in conducting orchestras and composing music.
+
+Itzhak Perlman - An Israeli-American violinist known for his technical mastery and exacting standards in his performances.
+
+
+
+

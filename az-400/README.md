@@ -73,4 +73,12 @@ RBAC binding - (Role-Based Access Control) binding refers to the process of asso
 
 self hosted agent - jobs
 
-artifacts feed - 
+artifacts feed - like github. 
+
+KPI rate - track progress
+
+cluster - many comp computing together
+
+Azure Kubernetes Service (AKS) deploy and maintien containers
+
+RTW (Real-Time Web) Release -  data is transmitted continuously between the client and server, not like in classic backend communication request-response model

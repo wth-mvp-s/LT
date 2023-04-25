@@ -1,0 +1,7 @@
+Apprenticeship: Leonardo's journey began when he became an apprentice in the workshop of the renowned artist Andrea del Verrocchio in Florence. Here, he honed his skills as a painter, sculptor, and engineer, learning from one of the most accomplished artists of the time. His talents were soon recognized, and his reputation as a skilled artist began to grow.
+
+Networking: While in Florence, Leonardo had the opportunity to interact with influential patrons, intellectuals, and artists, which helped him build connections and find support for his work. His time in Florence coincided with the rise of the powerful Medici family, who were known for their patronage of the arts.
+
+Artistic and Scientific Prowess: Leonardo's insatiable curiosity and his ability to excel in various fields, including painting, sculpture, anatomy, engineering, and architecture, set him apart from his contemporaries. His unique combination of artistic talent and scientific knowledge allowed him to create innovative works that captured the attention of patrons and the public.
+
+Commissions and Patrons: As his reputation grew, Leonardo began to receive commissions from important patrons, including Ludovico Sforza, the Duke of Milan, and the French king, Francis I. These patrons recognized his genius and provided him with the resources and opportunities to create some of his most famous works, such as "The Last Supper" and "Mona Lisa."

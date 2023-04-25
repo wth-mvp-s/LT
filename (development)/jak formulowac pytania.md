@@ -1,0 +1,1 @@
+definition, construction, design pattern, solved problem , alternatives, etra

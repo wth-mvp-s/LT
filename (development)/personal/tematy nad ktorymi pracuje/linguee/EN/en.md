@@ -1,0 +1,1 @@
+"Quaint" means charmingly old-fashioned or attractively unusual in a way that is reminiscent of the past. It is often used to describe something that is pleasantly unusual or quirky, but also has a sense of old-fashioned charm or elegance.

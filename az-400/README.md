@@ -92,6 +92,8 @@ RTW (Real-Time Web) Release -  data is transmitted continuously between the clie
 
 ad-hoc queries against the monitoring data
 
+runbook to Azure Automation.
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 chatGPT
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giwing stricly essential information

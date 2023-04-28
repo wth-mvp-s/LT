@@ -11,6 +11,8 @@
                   , max 3 repet, routine pompki, giant sets home, tractions
 
 # OnaEva
+
+      get laid, man. ... Rockwell John
 # Trumpet
 # Malowanie
 
@@ -48,7 +50,7 @@ Zeczy jakie mnie interesuja, nie mozna ich kupic.
 - delonghi, ekspress - to nie jest twoja pasja
 - Chile to nie jestem ja
 - zegarek seiko, to nie jest moja pasja, pareil pour emporio Armani. - to nie jest moja pasja
-
+- Vancouver - to nie jestes ty malarz
 ##      moje marzenia 
 
 - Zdecydowac sie na perfekcjonowanie czegos. 

@@ -7,3 +7,5 @@ Trace na przedstawianbiu sie, wychodze na niepewnego siebie.
 a robie wiecej niz inni, 
 
 = powazny problem 
+
+jak byc happy 

@@ -98,6 +98,12 @@ runbook to Azure Automation.
 chatGPT
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giwing stricly essential information
 
-todo: 7 do poprawki poprawy i sprawdzenia
+todo: 
+- 7 do poprawki poprawy i sprawdzenia
+- 5 testow dziennie
 
 currentlu slider 10 (2604.1447)
+currentlu slider 15, with score 14 (2604.1447) {codziennie przeanalizowac test i szukac zlych pytan, jakie wyciagnac do druku, i jakie polepszyc}
+currently NO slider, 14 score REQUIRED for each (2804.1020){codziennie przeanalizowac test i szukac zlych pytan, jakie wyciagnac do druku, i jakie polepszyc}
+
+red black deployment

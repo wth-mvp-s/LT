@@ -1,5 +1,41 @@
 analiza, Why, koncowy efekt
 
+# Teal Swan, why I always meet loosers
+
+    dom jaki byl
+        chore
+        wykorzystujace
+        niezrownowazone
+            kryzys
+            unikanie atakow ojca
+            zawsze bedzie mial pretensje
+            on zawsze najwazniejszy
+            swoj wlasny swiat
+                uciekam w gry, fantazje, ksiazki, pasje, rozwinalem wlasny swiat
+            
+
+    not what love feel like
+        Dom/ milosc
+            - pretensje
+            - brak szacunku
+            - wylgarne odzywki, dogryzanie, szczekanie
+            - wybuchy
+            - brak wolnosci, niewolnictwo, ograniczenia, izolacja przyjaciol i rodziny, kajdany socjalne
+            - samolubstwo
+            - jest najwazniejszy na swiecie
+            - nie licze sie
+
+        podsumowanie zlych cech partnerek : 
+            Lidka - pranie mozgu, felt lonely
+            Diane - bipolaire
+            Fabienne - bipolarnosc, wlasny swiat, felt lonely
+            1m Gosia - manipulacja
+            1m Gabrysia - brak wartosci
+            Jossy - brak wartosci
+            Karolina - niezrownowazona
+            Xenia - nerwowa
+
+
 
 # co
 pierzsze pytanie co. 

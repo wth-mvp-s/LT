@@ -1,3 +1,5 @@
+# wydatki 
+- La Roche Posay, effaclar Serum ultra concentre - 25.79€
 # spytaj
 - im wiecej kremow, tym czuje skore bardziej sucha
 - jak naprawic te pory na skorze, jak je zamknac

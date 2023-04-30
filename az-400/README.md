@@ -80,6 +80,8 @@ kubernates - Docker is like a single Git repository with one project, while Kube
     Tiller: Helm's server-side for deploying charts
         - When you run the helm install command, Helm sends the chart to Tiller, which then interprets the chart and creates the necessary resources on the Kubernetes cluster. 
 
+feed {nourish}- term used to describe a location where packages can be stored and made available to others. 
+
 Azure Container Registry: cloud-based container storage
 
 retention -  time that data and artifacts are kept in a system or storage location. 
@@ -138,6 +140,13 @@ jobs
         Notification tasks: Send emails, messages on build status, failures.
         Environment tasks: Provision or configure virtual machines, databases, or other infrastructure.
 
+service hook is a mechanism that allows one system to receive notifications from another system. 
+
+git gc - garbage collector
+
+how doest it work azure artifact feed
+
+GitFlow as a workflow strategy.
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 chatGPT
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information
@@ -145,3 +154,12 @@ chatGPT
 
 
 
+
+
+error check 
+
+`You need to recommend a solution for continuous inspection of the company's code base to locate common code patterns that are known to be problematic.
+
+sonar cloud or sonar cube ? 
+
+delete to do when new question, becouse i can see old one, when new q

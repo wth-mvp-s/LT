@@ -12,3 +12,5 @@ Laconic
 Curt
 Terse
 Compendious
+
+ad-hoc :: for this

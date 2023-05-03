@@ -116,7 +116,7 @@ reports and feedback
         Jenkins: CI/CD, not focused on feedback/crash reports.
         Azure App Insights: monitoring, not beta release/feedback.
 
-self hosted agent - jobs
+self hosted agent - programs running tasks on your server.runs jobs conf by CLI, used for controlled access, deployment, and management of private NuGet 
 
 jobs 
     Self-hosted:
@@ -159,6 +159,12 @@ GitFlow as a workflow strategy.{master branch, dev,feat, release, hotfix},more c
         Etymology: Give minimum permission needed.
 
         Employee B in HR, access only HR files. No extra access. Context: Protect sensitive info, prevent data leaks, improve security.
+
+
+Add a devDependencies section to Package-lock.json.
+
+node configuration
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 chatGPT
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information

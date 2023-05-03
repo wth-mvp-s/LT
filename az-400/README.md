@@ -104,9 +104,6 @@ runbook to Azure Automation.
     Azure Automation - automate tasks. 
     Runbooks - {recipies}sets of scripts that automate a specific task, and you can use Azure Automation to create, schedule, and manage runbooks.
 
-todo: 
-- 7 do poprawki poprawy i sprawdzenia #### 00325:: NIE SKONCZONE
-
 red black deployment - updating software with zero downtime by creating two identical environments and switching between them.
 
 ANALISIS: 
@@ -141,29 +138,27 @@ jobs
         Environment tasks: Provision or configure virtual machines, databases, or other infrastructure.
 
 service hook is a mechanism that allows one system to receive notifications from another system. 
+        
+    Hooks: Connect event to action. Example: New code pushed to GitHub (event), trigger build system (action). Hooks link event with specific action.
 
 git gc - garbage collector
 
-how doest it work azure artifact feed
 
-GitFlow as a workflow strategy.
+GitFlow as a workflow strategy.{master branch, dev,feat, release, hotfix},more complex than simpler workflows like GitHub Flow or GitLab Flow. 
 
- the SHA-based hashes
+    GitFlow: Master stable, Develop for work, Feature for new stuff, Release prepare, Hotfix fix urgent. Complex, structured.
+
+    GitHub Flow: Master stable, Feature for work, merge to Master, deploy. Simple, fast.
+
+    GitLab Flow: Master stable, Feature for new stuff, Environment for specific cases. Flexible, moderate complex.
+
+ the SHA-based hashes - Unique IDs for Git commits, based on content. Secure, hard to change.
  
-  The solution must use the principle of least privilege.
+  the principle of least privilege. - "Least": Smallest, minimum.
+    "Privilege": Special access, permission.
+        Etymology: Give minimum permission needed.
+
+        Employee B in HR, access only HR files. No extra access. Context: Protect sensitive info, prevent data leaks, improve security.
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 chatGPT
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information
-
-
-
-
-
-
-error check 
-
-`You need to recommend a solution for continuous inspection of the company's code base to locate common code patterns that are known to be problematic.
-
-sonar cloud or sonar cube ? 
-
-delete to do when new question, becouse i can see old one, when new q

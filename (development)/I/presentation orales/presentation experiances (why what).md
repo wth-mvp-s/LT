@@ -8,8 +8,9 @@
                                     devops:
                                         pipelines 
                                             automatisation  
-                                        lint
-                                            stabilité des environments
+                                        *lint
+                                            stabilité des environments, meme avec ngrx en place nous avons eu le moments 
+                                                où application nù'était pas stabilisé 
                                     normes
                                             charte graphique    
 ##                              Scrum

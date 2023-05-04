@@ -179,6 +179,9 @@ node configuration
 
 `Solution: Create two standalone templates, each of which will deploy the resources in its respective group.
 //
+   Add a devDependencies section to Package-lock.json.
+          
+//
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 chatGPT
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information

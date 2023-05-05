@@ -1,3 +1,5 @@
+7 to recorrect 
+
 2 tools for checking security, licenses in code before deployment. Not deployment tools, but help prepare.
  
      deployment gate {brama pre post validation}-

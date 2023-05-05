@@ -1,5 +1,13 @@
 to powinien byc glownie pamietnik jak ponizej 
 
+# cena obrazu : 
+    3 pedzelki 
+    5 malych tubek farby
+    1 plotno
+    cena wysylki
+
+
+
 # idee
 1. po imprezie zdjecia louvre, eiffel, sacre coeur, etc, 3h du mat. leve du soleil, pour les theme de toiles
 
@@ -17,8 +25,8 @@ Co ?
 
 # materiels: 
     pinceaux: 
-        Lefranc & Bourgeois : fr
-        Winsor & Newton : 
+        Lefranc & Bourgeois : fr (fr en chine)
+        Winsor & Newton : 1832 En
         Daler Rowney : 
         Princeton : us
         Royal & Langnickel : abordable

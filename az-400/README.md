@@ -165,6 +165,23 @@ Add a devDependencies section to Package-lock.json.
 
 node configuration
 
+
+//
+`You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources:
+
+`✑ Two resource groups
+
+`✑ Four Azure virtual machines in one resource group
+
+`✑ Two Azure SQL databases in other resource group
+
+`You need to recommend a solution to deploy the resources.
+
+`Solution: Create two standalone templates, each of which will deploy the resources in its respective group.
+//
+   Add a devDependencies section to Package-lock.json.
+          
+//
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 chatGPT
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information

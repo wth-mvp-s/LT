@@ -43,10 +43,14 @@ Co ?
         - Raphael Textura 8-16 synthetic super heavy body paint 870
         - Dailey Rowney graduate 4-8
 
-    plutna
+        ceny : zanotowac...
+#   plutna
         rozmiary jakie mnie interesuja ? 
+        6F, 41x33
+        Lot 7 chassis, coton, 6F, 22.99e	
 
-    couleurs
+#   couleurs
+        akryle, ceny, na jeden obraz. 5 tubek, 
 
     	
 # MAGASIN : 

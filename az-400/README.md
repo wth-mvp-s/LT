@@ -184,6 +184,16 @@ node configuration
    Add a devDependencies section to Package-lock.json.
           
 //
+burnup widget : 
+lead time 
+cycle time
+//
+
+`Solution: You implement a pull request strategy that uses a three-way merge.
+//
+a docker registry
+
+assambla subversion
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 chatGPT
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information

@@ -94,4 +94,8 @@ Siebie.
 ## Co jest dla mnie najwazniejsze w zyciu osobistym?
 - Byc soba. 
 
+## PLAN B
+- Indie, Afrique du Sud
+- znawca sztuki
+
 <!--"Pensees dorees" lub "Pensees positives".-->

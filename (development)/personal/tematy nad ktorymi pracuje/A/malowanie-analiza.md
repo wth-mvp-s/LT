@@ -53,6 +53,9 @@ Co ?
         akryle, ceny, na jeden obraz. 5 tubek, 
          cadmium red,
          ultramarine blue, 
+#   dessin 
+        olowek BIC matic 0.7 HB
+        
 #   TV shows
         Bob Ross' TV show 
         The Joy of Painting.

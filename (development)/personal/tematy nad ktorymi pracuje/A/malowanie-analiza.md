@@ -51,6 +51,11 @@ Co ?
 
 #   couleurs
         akryle, ceny, na jeden obraz. 5 tubek, 
+         cadmium red,
+         ultramarine blue, 
+#   TV shows
+        Bob Ross' TV show 
+        The Joy of Painting.
 
     	
 # MAGASIN : 

@@ -1,0 +1,1 @@
+w tym przypadku select jest na stronie w formie obrazka, nalezy przepisac recznie odpoweidzi, jak pokazano w pliku 003.md

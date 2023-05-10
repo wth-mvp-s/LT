@@ -1,4 +1,3 @@
-7 to recorrect 
 
 2 tools for checking security, licenses in code before deployment. Not deployment tools, but help prepare.
  
@@ -163,24 +162,8 @@ GitFlow as a workflow strategy.{master branch, dev,feat, release, hotfix},more c
         Employee B in HR, access only HR files. No extra access. Context: Protect sensitive info, prevent data leaks, improve security.
 
 
-Add a devDependencies section to Package-lock.json.
-
-node configuration
-
-
-//
-`You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources:
-
-`✑ Two resource groups
-
-`✑ Four Azure virtual machines in one resource group
-
-`✑ Two Azure SQL databases in other resource group
-
-`You need to recommend a solution to deploy the resources.
-
-`Solution: Create two standalone templates, each of which will deploy the resources in its respective group.
-//
+node configuration - setup your Node.js env, 
+    npm init -> package.json
    
 Package-lock.json.
           If you add a new package with npm install <package> or npm install --save-dev <package>, npm adds that package to package-lock.json with its exact version.

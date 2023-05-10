@@ -181,19 +181,24 @@ node configuration
 
 `Solution: Create two standalone templates, each of which will deploy the resources in its respective group.
 //
-   Add a devDependencies section to Package-lock.json.
-          
-//
+   
+Package-lock.json.
+          If you add a new package with npm install <package> or npm install --save-dev <package>, npm adds that package to package-lock.json with its exact version.
+
+        If package-lock.json and package.json are out of sync (like if package.json changes but package-lock.json doesn't), npm install updates package-lock.json to match package.json.
+
 burnup widget : 
-lead time 
-cycle time
-//
+    lead time - time from request to delivery.
+        Negative feedback - not always clear start point, can be manipulated.
+        Critics - not whole story, need other metrics too.
+    cycle time -  start when work begins, end when done.
 
-`Solution: You implement a pull request strategy that uses a three-way merge.
-//
-a docker registry
+three-way merge -  1. base version, 2. your changes, 3. team's changes. Merge all.
 
-assambla subversion
+a docker registry - storage step in the pipeline
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-chatGPT
+
+definition, construction, problem solving, design pattern, alternative, anecdotes, common negative feedback and critics, 
+
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information

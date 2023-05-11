@@ -1,0 +1,38 @@
+
+
+
+
+3
+`Your company has an Azure subscription.
+//
+<<<<<<< HEAD
+=======
+
+
+`You have an Azure web app named Webapp1.
+
+`You need to use an Azure Monitor query to create a report that details the top 10 pages of Webapp1 that failed.
+
+`How should you complete the query?
+//
+
+
+
+`You are configuring Azure DevOps build pipelines.
+
+`You plan to use hosted build agents.
+
+`Which build agent pool should you use to compile each application type? To answer, drag the appropriate build agent pools to the correct application types. Each build agent pool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+//
+`You have a GitHub repository that contains the source code for an app named App1.
+
+`
+
+`You need to create process documentation for App1. The solution must include a diagram that displays the relationships between the phases of App1 as shown in the following exhibit.
+
+`
+
+`How should you complete the markdown code? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+//
+>>>>>>> 7e871c91 (1105.0920)

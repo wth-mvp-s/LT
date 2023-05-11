@@ -184,4 +184,8 @@ a docker registry - storage step in the pipeline
 
 definition, construction, problem solving, design pattern, alternative, anecdotes, common negative feedback and critics, 
 
+
+Azure App Configuration
+          
+          
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information

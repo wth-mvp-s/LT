@@ -20,7 +20,7 @@ dalej zwany "Zleceniobiorcą"
 
 §1. Przedmiot umowy
 
-1.1. Zleceniobiorca zobowiązuje się do wykonania dla Zleceniodawcy usług opisanych szczegółowo w załączniku do niniejszej umowy (dalej zwanych "Usługami") (mowa w pliku uslugi.md).
+1.1. Zleceniobiorca zobowiązuje się do wykonanie transkrypcji pytan i odpowiedzi testu DP-203 : Data Engineering, opis w załączniku do niniejszej umowy (dalej zwanych "Usługami").
 
 1.2. Zleceniodawca zobowiązuje się do zapłaty wynagrodzenia za wykonane Usługi na warunkach określonych w niniejszej umowie.
 

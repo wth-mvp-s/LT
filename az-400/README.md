@@ -180,6 +180,18 @@ three-way merge -  1. base version, 2. your changes, 3. team's changes. Merge al
 
 a docker registry - storage step in the pipeline
 
+adaptive sampling - 
+    When Adaptive Sampling is enabled, it automatically adjusts the volume of telemetry sent from your app depending on the amount of traffic. It does this by only sending a fraction of the events while still keeping a representative sample of the data.
+
+    However, if you disable Adaptive Sampling, you might be doing so to capture all data without any sampling. This could lead to more storage costs, as all telemetry data would be sent to Application Insights, without any sampling to limit the volume of data.
+        C & E
+            Disable Adaptive Sampling and use Fixed Rate Sampling instead:
+            "Fixed-rate sampling reduces the volume of telemetry sent from both your ASP.NET or ASP.NET Core or Java server and from your users' browsers. You set the rate. The client and server will synchronize their sampling so that, in Search, you can navigate between related page views and requests."
+            https://docs.microsoft.com/en-us/azure/azure-monitor/app/sampling
+
+Azure Monitor , 
+    can have action group
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 definition, construction, problem solving, design pattern, alternative, anecdotes, common negative feedback and critics, 

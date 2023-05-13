@@ -12,6 +12,7 @@
 
 # OnaEva
 
+nie chce k, chce X
       get laid, man. ... Rockwell John
 # Trumpet
 # Malowanie

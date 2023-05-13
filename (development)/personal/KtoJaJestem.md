@@ -18,12 +18,12 @@
      - malarstwo
      - lubie ludzi wyjatkowych i inteligentnych 
      - Eviter une consomation de vie, magic the gathering des experiances. 
-     - Comme dans le judaisme, la petite boite, reflechir et agit. 
+     - Comme dans le judaisme, la petite boite, reflechir et agir. 
 
 
 # Kochaj sie
      Wypoczecie
-Musisz byc w najlepszej swojej formie, bo jestes na misji Interstella, od tego wszystko zalezy. 
+Musisz byc w najlepszej swojej formie, bo jestes na misji Interstella
 
 
 ##      	Jak o siebie dbac. porownuj to do geekvape. 

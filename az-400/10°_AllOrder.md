@@ -103,11 +103,12 @@
 `Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 `Select and Place:
 
-- [2] Run helm init.
-- [-] Run az aks install-connector.
-- [0] Create a YAML file.
+- [-] Run helm init.
+- [0] Run az aks install-connector.
+- [1] Create a YAML file.
 - [-] Run az role assignement create
-- [1] Run kubect1 apply.
+- [2] Run kubect1 apply.
+
 
 
 #### 00142::
@@ -188,7 +189,42 @@
 - [1] Visual Studio Build
 - [0] Prepare Analysis Configuration
 
+                 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 
 #### 00168::You need to find and isolate shared code. The shared code will be maintained in a series of packages.
 `Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 

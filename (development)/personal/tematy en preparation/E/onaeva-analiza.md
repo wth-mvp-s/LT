@@ -78,7 +78,7 @@ pierzsze pytanie co.
 
 3+ - galeries, musees, 
 - spectavles, theatre, concerts
-- unikac miejsc dla hipsterow, gejow, turystow, 
+- unikac miejsc dla hipsterow, gejow, turystow
 - przedzial czasowy 16-20
 - miejsca platne, nie dla chomerow, looserow, nie trac czasu na looserow, 
 

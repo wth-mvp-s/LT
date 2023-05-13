@@ -71,6 +71,9 @@ kubernates - Docker is like a single Git repository with one project, while Kube
 
 
     helm package - (like npm) use chart,  package manager for Kubernetes,  collection of Kubernetes resources that are packaged together for deployment.
+        A "Helm package" is a Helm Chart that has been packaged into a versioned .tgz archive for distribution. The chart is a collection of files that describe a related set of Kubernetes resources.
+
+        To create a Helm package, you define your application structure in a Chart.yaml file and templates, then use the command helm package to package it. This creates a .tgz file which can be distributed and installed on a Kubernetes cluster using helm install.
 
     Chart: visual representation of data
         Chart: config files, describing how deploy
@@ -118,7 +121,7 @@ reports and feedback
         Azure App Insights: monitoring, not beta release/feedback.
 
 self hosted agent - programs running tasks on your server.runs jobs conf by CLI, used for controlled access, deployment, and management of private NuGet 
-
+                    handle tasks : build, test, deployment
 jobs 
     Self-hosted:
         Advantages: More control, custom environment, potentially cheaper.
@@ -192,12 +195,55 @@ adaptive sampling -
 Azure Monitor , 
     can have action group
 
+OWASP ZAP - downloadable, with provided url you attack to check for finding vulnerabilities in web apps
+
+Exabeam - AI ML tool to Finds security threats
+
+
+
+ a Docker registry
+
+    for     
+
+                `You have a pipeline named Pipeline1 in Azure Pipelines.
+
+                `
+
+                `You need to create a service connection to enable Pipeline1 to download a public container image.
+
+                `
+
+                `Which type of service connection should you create?
+
+ Enable self-hosted build agents.
+    for 
+            `You have an Azure solution that contains a build pipeline in Azure Pipelines.
+
+            `You experience intermittent delays before the build pipeline starts.
+
+            `You need to reduce the time it takes to start the build pipeline.
+
+            `What should you do?
+
+Creates a service hook subscription.
+          
+          for 
+                    
+            `You have a build pipeline in Azure Pipelines.
+
+            `You create a Slack App Integration.
+
+            `You need to send build notifications to a Slack channel named #Development.
+
+            `What should you do first?
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
+doublon(jak zadawac pytania in root)
 definition, construction, problem solving, design pattern, alternative, anecdotes, common negative feedback and critics, 
-
-
-Azure App Configuration
           
           
 .  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+for given questions check if my given order (0,1,2 etc )is chossed well , if not, end if not only, show the corrections. thx

@@ -41,3 +41,5 @@ do poprawy :
 `You need to prepare the database for the deployment.
 
 `How should you format the export?
+
+B (schema + data = BACPAC)

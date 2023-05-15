@@ -33,4 +33,11 @@ Azure Monitor :
             So, depending on the precise interpretation of the requirements, either approach could be valid. It would be best to clarify these requirements to ensure the most appropriate configuration.
 
 
+do poprawy : 
 
+
+`You plan to deploy a new database environment. The solution must meet the technical requirements.
+
+`You need to prepare the database for the deployment.
+
+`How should you format the export?

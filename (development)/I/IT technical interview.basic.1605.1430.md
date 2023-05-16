@@ -1,0 +1,67 @@
+Fundamental Questions (Test basic knowledge and understanding)
+
+- Can you explain what an IP address is?
+    
+    [Internet Protocol], is unique device id on the network
+        - internet browsing
+        - email communication
+        - local network communication
+
+    IPv4 - FOUR sets of number, separated by dots
+        192.0.2.53 (0-255)
+
+        total number of possible IPv4 addresses, 256^4
+
+
+    IPv6 - EIGHT sets of numbers seperated by colons
+        2001:0db8:85a3:0000:0000:8a2e:0370:7334, 16bit value x 8 = 128bit
+
+#        the "6" in "IPv6" primarily denotes the version of the protocol rather than the number of sets.
+    
+            estimated number of atoms on Earth (1.33 x 10^50) is significantly smaller than the number of possible IPv6 addresses.
+
+            stars 20^24 smaller than ipv6
+
+    int - 32bit value, -2,147,483,648 to 2,147,483,647 two billion
+
+What are the differences between HTTP and HTTPS?
+What is the purpose of DNS in a network?
+Can you explain the differences between TCP and UDP?
+What do you understand by the term 'cloud computing'?
+Intermediate Questions (Test ability to apply knowledge)
+
+How would you handle a situation where a server is running slowly?
+Can you explain how a VPN works and why it might be used?
+What steps would you take to secure a server?
+What is load balancing, and why is it important?
+Can you explain how virtualization works?
+Advanced Questions (Test in-depth knowledge and expertise)
+
+Can you describe a situation where you've had to troubleshoot a network problem?
+Can you explain what happens when you type a URL into a browser?
+How would you set up a scalable and reliable database system?
+How would you deal with a DDOS attack?
+What experience do you have with managing and implementing cybersecurity measures?
+Expert Questions (Test mastery and understanding of nuances)
+
+Can you explain how containerization differs from virtualization and the advantages it offers?
+What steps would you take to diagnose and fix a performance issue in a cloud environment?
+How would you handle a data breach?
+How would you design a disaster recovery plan for an IT infrastructure?
+Can you discuss some of the limitations and challenges of using microservices architecture?
+
+# How I shouden been start preparation of Microsoft Certification (4next time notes:)
+
+- what is az400 all about ? 
+    tools like Azure DevOps, Git, Jenkins, and Azure Resource Manager.
+    area like 
+        continuous integration, merging code 
+        continuous delivery, automatic deployment
+        infrastructure as code, provisioning infrastructure
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+definition, construction, problem solving, design pattern, alternative, anecdotes, common negative feedback and critics, 
+          
+          
+.  answer in a way to simplyfy the answer, not worrying about orthographe, in shortest way possible , using simplified words, and minimum number of words, required to understand but not for correct english, answer me , giving stricly essential information

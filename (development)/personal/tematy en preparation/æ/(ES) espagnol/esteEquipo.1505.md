@@ -25,3 +25,16 @@ finalizando::
 este equipo::
 escritorio
 imagenes
+cerpata::
+connectar::
+en linea::
+escribiendo::
+toca para voluter a la Ilamo a da
+cambiar::
+pago::
+trabajo:: 
+mas 
+mas perfilles:: 
+cerrar::
+pestana:: 
+conectar::

@@ -18,3 +18,10 @@ mostrar los propositos
 enviar::
 quiere::
 lunes::
+activo::
+superado::overcome, pass
+ahora no::
+finalizando::
+este equipo::
+escritorio
+imagenes

@@ -1,106 +1,75 @@
-# Zlote mysli. [LB1]
+# Zlote mysli.
 
 ## Co jest dla mnie najwazniejsze w zyciu?
+coherence
+nie grac 
 
-Zyc. Byc soba. Nigdy nie grac. 
 ## Czego najbardziej boje sie w zyciu?
-Niczego sie nie boje. 
+niczego
 
 ## 1. Co chce osiagnac w zyciu?
-Miec rodzine, miec strone ktora generuje kase. zarobic z obrazow na wycieczke do Afryki
+famille
 
 ## 2. Co jest moim marzeniem?
-
-- Moc miec psa. 
-- zlowic lososia na muche.
-- miec portfolio obrazow, strone
+sell painting for 5K
 
 ## Jakie sa moje najwazniejsze wartosci?
-
-- Bog
-- Wiara, 
-- skromnosc. 
-- Milosc. 
+Bog
 
 ## Czego najbardziej zaluje w zyciu?
-
-- Walczenia o prace w grafice, stawiania wszystkiego na kariere zawodowa bez jednoczesnie kochania zawodu jaki wykonywalem. 
-- siedzenia z kims w niczym 
+loosing time
 
 ## Co sprawia mi najwiecej radosci?
-
-- Painture, 
-- musique, (trompette)
-- nature, (peche, bonsai)
-- les gens les rencontres
-- Inteligence, beautes de femmes
+Painture
+Inteligence
 
 ## 3. Co jest dla mnie najwazniejsze w zwiazku ?
-
-Piekna osoba z ktora bede na zawsze
+bo for ever avec 
 
 ## 4. Co jest dla mnie najwazniejsze w pracy?
-- Przyszlosc ? wlasny projekt ktory bedzie pracowal na mnie. moja strona z portretami
-    `tworzenie projektu jaki bedzie mial znaczenie, ( upload images)  `
-- Mozliwosc podrozowania ? 
+vision
 
 ## Jakie sa moje najwazniejsze relacje z innymi ludzmi?
-
-- Z mama, 
-- z przyjaciolmi (potrzebuje przyjaciela) Irena, Damien
+prawdziwe przyjaznie
 
 ## Czego nie zrobilbym nigdy dla pieniedzy?
-
-- Wprowadzil najblizszych w niebezpieczenstwo
-- stracil ostatnie 13 lat jakie mi zostaly na walczenie o kase
+loose time
 
 ## Jakie sa moje najwieksze osiagniecia?
-
-- Beaux Art. 
-- Zmiana zawodu na programiste. jak dziekan, jak ojciec Elize
-- Podroze autostopem. zero limitow. 
-- Odnaleznienie sie. (Marseille, Izrael)
+obraz
+being focused
 
 ## Jakie sa moje najwieksze porazki?
+bad presentation
+loosing time
 
-- Nie wiedzenie czego chce. zycie tak przez tyle lat, fotografowanie ludzi, dziewczyn. 
-- iscie na latwizne. seksing 
-- Bladzenie przez ten caly czas I nie bycie autentycznym. 
-
->>>>>>>>>>>>> te wszystkie certyfikaty, a zle przedstawiam sie jak opowiadam o swoim doswiadzceniu
->>>>>>>>>>>>>
-
-## Co jest dla mnie najwa?niejsze w zyciu rodzinnym?
-
-- milosc, do zycia, do siebie. 
+## Co jest dla mnie najwazniejsze w zyciu rodzinnym?
+trust
 
 ## Co jest dla mnie najwazniejsze w zyciu duchowym?
-
-- uratowac siebie. korzystac, i wykorzystac talenty jakie mam (dzieki obrazom.)
-- Odpowiedziec na prosbe zostawiona u stup raju. Zrobic cos ze swoim zyciem. Osiagnac sukces. 
+talents
+west wall
 
 ## Co jest dla mnie najwazniejsze w zyciu zawodowym?
-- zeby to bylo dla mnie a nie dla firmy. polaczyc to z pasjami, sprzedaz obrazow web site. 
-- moc pracowac z NgRx i RxJS
-- Zmiany ekspertyzy - co praca to inny program.- Nie robic rzeczy tymczasowych. 
-- nie robic rzeczy bez wizji konca (certyficats az900, dp900, AWS, az400 etc, 3dMax, Mycie okien. Praca na wykonczenowce)
+benefit myself
+NgRx i RxJS
+Nie robic rzeczy tymczasowych. 
+nie robic rzeczy bez wizji konca
 
 ## Jakie sa moje najwieksze leki i obawy?
 
-- tracenie czesu, energi w kierunku ktory mnie nie daje zadnych benefices, az400 zero rekompensaty
+loosing time
 
 ## Czego pragne najbardziej w zyciu?
 
-Czegos eternelle, pieknego. Sztuki, komplexite. Inteligencji, wrazliwosci. Autentycznosci. 
-miec rodzine
+things eternelle
 
-## Czego najbardziej boje sie stracic w ?yciu?
-
-Siebie. 
+## Czego najbardziej boje sie stracic w zyciu?
+coherence
 
 ## Co jest dla mnie najwazniejsze w zyciu osobistym?
-- Byc soba. 
+coherence
 
 ## PLAN B
-- Indie, Afrique du Sud
-- znawca sztuki
+atelier de la peinture
+

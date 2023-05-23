@@ -1,4 +1,13 @@
-[Hier 18:25] Téo BOURDAIS
+# ich pytania
+czy nie przeszkadza mi spedzac czas na spotkaniach 
+
+## nie spytalem
+jaki to etap? 
+co teraz, kiedy retour? 
+
+kogo szukacie? 
+
+# [Hier 18:25] Téo BOURDAIS
 
 
 

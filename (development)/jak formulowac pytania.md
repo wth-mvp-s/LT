@@ -1,3 +1,6 @@
+commonly known complains, problems , alternatives, design pattern, definition, alternatives, problem solving, limitations ? 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 definition, construction, design pattern, solved problem , alternatives, extra
 
 

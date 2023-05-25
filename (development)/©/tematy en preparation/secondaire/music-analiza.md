@@ -209,3 +209,12 @@ research
 
 
 
+# Dvorak
+
+      István Kertész: London
+
+      Rafael Kubelík: Czech
+
+      George Szell: Cleveland
+
+      Sir Charles Mackerras: 

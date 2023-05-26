@@ -1,2 +1,0 @@
-cantar, baber, vivir, 
-

@@ -1,5 +1,14 @@
-fromDevices.1705.1047
+# Windows
 
+this computer:: este equipo
+search:: buscar
+documents:: documentos
+downloads:: descargas
+music:: música
+images:: imágenes
+personal folder:: carpeta personal
+configuration:: configuración
+vaciar papelera de reciclaje
 start:: inicio
 shutdown:: apagado
 open:: abrir
@@ -11,7 +20,6 @@ reject all:: rechazar todas
 show purposes:: mostrar propósitos
 send:: enviar
 want:: querer
-Monday:: lunes
 active:: activo
 overcome, surpassed:: superado
 not now:: ahora no
@@ -31,7 +39,7 @@ more profiles:: más perfiles
 close:: cerrar
 tab:: pestaña
 connect:: conectar
-<<<<<<<< HEAD:(development)/personal/tematy en preparation/æ/(ES) espagnol/2.esteEquipo.1505.md
+
 unpin from quick access::desanclar del acceso rapid
 use link::utilizar enlace
 message::mensaje
@@ -44,35 +52,4 @@ new tab::nueva pestana
 which:: cual
 ::anade un titulo
 
-Want to stay signed in::Quiere mantener la sesión iniciada::
-Add a title and a time::Anade un titulo y una hora
-file::carpata
-password::contrasena
-united states::Estados Unidos
-calls::ilamadas
-state::estados
-english::ingles
-en anglais:: en ingles
-france::Francia
-en francais::en frances
-poland::polonia
-en polonais::en polonesa
-Wednesday::Miercoles
-tasks::tareas
-month::mas
-decline::rechazar
-# gmail
-::Habilita las notificaciones de escritorio para gmail
-::Aceptar
-::No, gracias
-::muy bien
-has leido todo tus mensajes de recibidos
-todo lo demas
-rachazar
-# web
-correo electronico o nombre de usuario
-recuerdame
-continuar con google
-buscar
-# scanner
-agragar paginas
+

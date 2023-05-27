@@ -1,2 +1,0 @@
-# scanner
-agragar paginas

@@ -6,3 +6,4 @@ nugget ::  pépite, Masse de métal natif, et principalement d'or.
 lump:: 1. a hard irregularly shaped piece (a lump of coal/ice/clay), 2. to force two different ideas or things together:: You can’t lump students of such different abilities together.
 induced::to persuade someone to do something, to cause something to happen
 invoked:: to call on something or someone, esp. God, for help
+commendable::deserving praise::The subject matter is necessarily complex, but the author makes a commendable effort to try to explain these complicated biological processes in simple language.

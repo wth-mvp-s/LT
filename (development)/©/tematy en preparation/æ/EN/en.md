@@ -7,3 +7,4 @@ lump:: 1. a hard irregularly shaped piece (a lump of coal/ice/clay), 2. to force
 induced::to persuade someone to do something, to cause something to happen
 invoked:: to call on something or someone, esp. God, for help
 commendable::deserving praise::The subject matter is necessarily complex, but the author makes a commendable effort to try to explain these complicated biological processes in simple language.
+bound ::tied with rope, cord, string; certain or extremely likely to happen

@@ -6,3 +6,4 @@
 has leido todo tus mensajes de recibidos
 todo lo demas
 rachazar
+y

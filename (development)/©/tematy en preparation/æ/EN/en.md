@@ -8,3 +8,7 @@ induced::to persuade someone to do something, to cause something to happen
 invoked:: to call on something or someone, esp. God, for help
 commendable::deserving praise::The subject matter is necessarily complex, but the author makes a commendable effort to try to explain these complicated biological processes in simple language.
 bound ::tied with rope, cord, string; certain or extremely likely to happen
+# dp203
+lane::uliczka, lane on highway
+skew:: krzywy, ukosny::not straight, to cause information or results to be changed:
+synapse::the point at which electrical signals move from one nerve cell to another

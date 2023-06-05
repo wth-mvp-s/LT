@@ -19,4 +19,5 @@ verknupfung:: shortcut
 verknup:: connect
 fung:: function
 eigenschaften:: characteristics
-fugen:: 
+fugen:: umiescic
+knup:: knuc cos

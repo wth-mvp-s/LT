@@ -16,3 +16,9 @@ hinzufügen::add
 weitere::more
 optionen::options
 beschreibung::description
+bear:: edit
+beiten:: work
+wieder::again
+kahrenden::coming
+folgen::consequences
+tragen::wear,carry

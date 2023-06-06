@@ -218,3 +218,6 @@ research
       George Szell: Cleveland
 
       Sir Charles Mackerras: 
+
+
+https://www.youtube.com/watch?v=tAc2KDNHEw4&ab_channel=BraydenOlson

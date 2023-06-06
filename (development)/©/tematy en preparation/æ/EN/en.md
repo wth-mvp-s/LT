@@ -12,3 +12,4 @@ bound ::tied with rope, cord, string; certain or extremely likely to happen
 lane::uliczka, lane on highway
 skew:: krzywy, ukosny::not straight, to cause information or results to be changed:
 synapse::the point at which electrical signals move from one nerve cell to another
+ostracized:: zakazany

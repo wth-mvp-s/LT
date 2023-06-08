@@ -1,4 +1,4 @@
-##   2°.0806.0941
+##   2°.0806.1956
 
 #### 0051::
 `You are building an Azure Stream Analytics job that queries reference data from a product catalog file. The file is updated daily.

@@ -1,4 +1,23 @@
 # topics dp203
+>>>>>>>>>>>>>>>>>>>>>>>>>>>
+0806.1127
+tumbling window
+worth to know - which trigger schoul be used - seperate file for this type of questions
+polybase to load data
+draw images order questiuons
+
+plik for this king of questions : `Which type of trigger should you use?
+
+rysunki tumbling azura data factory
+- azure databrick
+- azure stream analytics
+- azure synapse analytics
+- azure sql database
+
+
+>>>>>>>>>>>>>>>>>
+
+
 same but if it was to give the definition for a child 
 
 ChatGPT
@@ -55,3 +74,18 @@ Azure Data Lake Storage Gen2 account
 Apache Spark job
 DataFrame 
 data warehouse
+
+//
+surrogate key
+order point
+sql
+apache spark analysis
+dwu pourcentage metric
+purview
+
+
+partition in event hub, is a lane of stream, 32 par default
+
+ DBCC PDW_SHOWSPACEUSED:: space utilization statistics 
+
+ Azure Synapse Analytics::SQL Data Warehouse, massively parallel processing (MPP) cloud-based, scale-out, relational bdd

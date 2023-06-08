@@ -72,21 +72,12 @@
 `   PARTITION BY StateID
 For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
-<<<<<<< HEAD
 - [x] The query combines two streams of partitioned data.: Yes
 - [ ] The query combines two streams of partitioned data.: No
 - [x] The stream scheme key and count must match the output scheme.: Yes
 - [ ] The stream scheme key and count must match the output scheme.: No
 - [ ] Providing 60 streaming units will optimize the performance of the query.: Yes
 - [x] Providing 60 streaming units will optimize the performance of the query.: No
-=======
-- [ ] The query combines two streams of partitioned data.: Yes
-- [x] The query combines two streams of partitioned data.: No
-- [x] The stream scheme key and count must match the output scheme.: Yes
-- [ ] The stream scheme key and count must match the output scheme.: No
-- [x] Providing 60 streaming units will optimize the performance of the query.: Yes
-- [ ] Providing 60 streaming units will optimize the performance of the query.: No
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 
 #### 0053::
 `You are building a database in an Azure Synapse Analytics serverless SQL pool.
@@ -137,22 +128,14 @@ WITH
 `)
 
 #### 0055::
-<<<<<<< HEAD
 `You have an Azure subscription that contains an Azure Blob Storage account named storage1 and an Azure Synapse Analytics dedicated SQL pool named Pool1.
-=======
-`You have an Azure subscription that contains an Azure Blob Storage account named storage1 and an Azure Synapse Analytics dedicated SQL pool named
-Pool1.
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 `You need to store data in storage1. The data will be read by Pool1. The solution must meet the following requirements:
 `Enable Pool1 to skip columns and rows that are unnecessary in a query.
 `
 `✑ Automatically create column statistics.
 `✑ Minimize the size of files.
 `Which type of file should you use?
-<<<<<<< HEAD
 
-=======
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 - [ ] JSON
 - [x] Parquet
 - [ ] Avro
@@ -837,7 +820,6 @@ Pool1.
 `|---------------------|------------------|-----------------------------|data,truncation and including-|
 `|---------------------|------------------|-----------------------------|descriptive fields for inserts|
 `|---------------------|------------------|-----------------------------|-channel,device,and medium----|
-<<<<<<< HEAD
 `
 `You need to design the table storage for pool1. The solution must meet the following requirements:
 `✑ Maximize the performance of data loading operations to Staging.WebSessions.
@@ -856,38 +838,6 @@ Pool1.
 - [ ] Common.Data: Round-robin
 - [ ] Marketing.Web.Sessions: Round-robin
 - [ ] Staging.Web.Session: Replicated
-=======
-
-- [ ]
-`Common.Data: Hash
-`Marketing.Web.Sessions: Replicated
-`Staging.Web.Session: Round-robin
-
-- [ ]
-`Common.Data: Hash
-`Marketing.Web.Sessions: Round-robin
-`Staging.Web.Session: Replicated
-
-- [x]
-`Common.Data: Replicated
-`Marketing.Web.Sessions: Hash
-`Staging.Web.Session: Round-robin
-
-- [ ]
-`Common.Data: Replicated
-`Marketing.Web.Sessions: Round-robin
-`Staging.Web.Session: Hash
-
-- [ ]
-`Common.Data: Round-robin
-`Marketing.Web.Sessions: Hash
-`Staging.Web.Session: Replicated
-
-- [ ]
-`Common.Data: Round-robin
-`Marketing.Web.Sessions: Replicated
-`Staging.Web.Session: Hash
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 
 #### 0061::
 `You have an Azure Synapse Analytics dedicated SQL pool.
@@ -984,7 +934,6 @@ Pool1.
 - [x]  an IDENTITY column
 
 #### 0068::
-<<<<<<< HEAD
 `You have an Azure Data Lake Storage Gen2 account that contains a container named container1. 
 `You have an Azure Synapse Analytics serverless SQL pool that contains a native external table named dbo.Table1. The source data for dbo.Table1 is stored in container1. 
 `The folder structure of container1 is shown in the following exhibit.
@@ -998,21 +947,12 @@ Pool1.
 `
 `The external data source is defined by using the following statement.
 `
-=======
-`                     |/floder1|
-`|mydata.csv|  |/folder2|   |/.folder3|  |_mydata4.csv| 
-`            |mydata2.csv|  |mydata3.csv|
-`The external data source is defined by using the following statement.
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 `CREATE EXTERNAL DATA SOURCE DataLake
 `WITH
 `(  LOCATION = ‘https: //mydatalake.dfs.core.windows.net/container1/folder1/***
 `   ,CREDENTIAL = DataLakeCred
 `);
-<<<<<<< HEAD
 `For each of the following statements, select Yes or No.
-=======
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 
 - [x] When selecting all the rows in dbo.Table1, data from the mydata2.csv file will be returned.: Yes
 - [ ] When selecting all the rows in dbo.Table1, data from the mydata2.csv file will be returned.: No
@@ -1121,15 +1061,9 @@ Pool1.
 `You need to create the tables. The solution must maximize query performance.
 `
 `How should you complete the script?
-<<<<<<< HEAD
 
 - [x] 
 `CREATE TABLE [dbo].[Sales]
-=======
-`
-`CREATE TABLE [dbo].[Sales]
-`
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 `(
 `   [orderdate] date NOT NULL
 `,  [Customertd] int NOT NULL
@@ -1137,26 +1071,12 @@ Pool1.
 `,  [Total] money NOT NULL
 `)
 `WITH
-<<<<<<< HEAD
 `(
 `      DISTRIBUTION = HASH([Customerld])
 `
 `   CLUSTERED COLUMNSTORE INDEX
 `)
 `
-=======
-`
-`(
-    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-- [ ] DISTRIBUTION = HASH([Customerld])
-- [ ] DISTRIBUTION = HASH([OrderDate])
-- [ ] DISTRIBUTION = REPLICATE
-- [ ] DISTRIBUTION = ROUND_ROBIN
-
-`   CLUSTERED COLUMNSTORE INDEX
-`)
-
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 `CREATE TABLE [dbo] . [Country]
 `(
 `   [CountryId] int NOT NULL
@@ -1164,7 +1084,6 @@ Pool1.
 `)
 `WITH
 `(
-<<<<<<< HEAD
 `      DISTRIBUTION = REPLICATE
 `   CLUSTERED COLUMNSTORE INDEX 
 
@@ -1245,14 +1164,6 @@ Pool1.
 `(
 `      DISTRIBUTION = ROUND_ROBIN
 `   CLUSTERED COLUMNSTORE INDEX 
-=======
-- [ ] DISTRIBUTION = HASH([Customerld])
-- [ ] DISTRIBUTION = HASH([OrderDate])
-- [ ] DISTRIBUTION = REPLICATE
-- [ ] DISTRIBUTION = ROUND_ROBIN
-`   CLUSTERED COLUMNSTORE INDEX 
-`)
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 
 #### 0074::
 `You have an Azure subscription that contains an Azure Data Lake Storage Gen2 account named account1 and an Azure Synapse Analytics workspace named workspace1.
@@ -1261,25 +1172,17 @@ Pool1.
 `
 `How should you configure the external table?
 
-<<<<<<< HEAD
 - [x] Use a native external table and authenticate by using a shared access signature (SAS).
 - [ ] Use a native external table and authenticate by using a storage account key.
 - [ ] Use an Apache Hadoop external table and authenticate by using a shared access signature (SAS).
 - [ ] 
 `Use an Apache Hadoop external table and authenticate by using a service principal in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra.
-=======
-- [X] Use a native external table and authenticate by using a shared access signature (SAS).
-- [ ]Use a native external table and authenticate by using a storage account key.
-- [ ] Use an Apache Hadoop external table and authenticate by using a shared access signature (SAS).
-- [ ] Use an Apache Hadoop external table and authenticate by using a service principal in Microsoft Azure Active Directory (Azure AD), part of Microsoft Entra.
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 
 #### 0075::
 `You have an Azure Synapse Analytics serverless SQL pool that contains a database named db1. The data model for db1 is shown in the following exhibit.
 `|DimGeography-|                            |Date---------|
 `|GeographyKey-|                            |DateKey------|
 `|City---------|                            |Date---------|
-<<<<<<< HEAD
 `|StateProvince|                 |----------|Month--------|
 `|Region-------|                 |          |Year---------|
 `|Country------|                 |          |Quarter------|
@@ -1288,34 +1191,17 @@ Pool1.
 `|CustomerKey--|---------|       |
 `|CustomerID---|         |       |          |ProductLine---|
 `|CustomerName-|         |       |          |ProductLineKey|
-=======
-`|StateProvince|                            |Month--------|
-`|Region-------|                            |Year---------|
-`|Country------|                            |Quarter------|
-`
-`|DimCustomer--|
-`|CustomerKey--|
-`|CustomerID---|                            |ProductLine---|
-`|CustomerName-|                            |ProductLineKey|
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 `|CustomerType-|     |FactOrders-----|      |ProductLine---|
 `|GeographyKey-|     |CustomerKey----|
 `                    |StoreKey-------|
 `|Dimstore-----|     |ProductKey-----|
 `|StoreKey-----|     |OrderDateKey---|      |Product-------|
 `|StorelD------|     |OrederNumber---|      |ProductKey----|
-<<<<<<< HEAD
 `|StoreName----|-----|OrderLineNumber|------|ProductID-----|
 `|StoreType----|     |Quantity-------|      |ProductName---|
 `|GeographyID--|     |Price----------|      |ProductNameID-|
 `
 `Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the exhibit.
-=======
-`|StoreName----|     |OrderLineNumber|      |ProductID-----|
-`|StoreType----|     |Quantity-------|      |ProductName---|
-`|GeographyID--|     |Price----------|      |ProductNameID-|
-
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 
 - [x] To convert the data model to a star schema,: join DimGeography and DimCustomer
 - [ ] To convert the data model to a star schema,: join DimGeography and FactOrders
@@ -1456,77 +1342,16 @@ Pool1.
 #### 0083::
 `You have an Azure Synapse Analytics serverless SQL pool.
 `
-<<<<<<< HEAD
 `You have an Azure Data Lake Storage account named adls1 that contains a public container named container1. 
 `The container1 container contains a folder named folder1.
-=======
-`You have an Azure Data Lake Storage account named adls1 that contains a public container named container1. The container1 container contains a folder named folder1.
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 `
 `You need to query the top 100 rows of all the CSV files in folder1.
 `
 `How should you complete the query?
-<<<<<<< HEAD
-=======
-- [ ]
-`SELECT TOP 1000 *
-`   FROM BULK
-` DATA_SOURCE`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
-
-- [ ]
-`SELECT TOP 1000 *
-`   FROM BULK
-` LOCATION`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
-
-- [ ]
-`SELECT TOP 1000 *
-`   FROM BULK
-` OPENROWSET`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
-
-- [ ]
-`SELECT TOP 1000 *
-`   FROM DATA_SOURCE
-` BULK`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
-
-- [ ]
-`SELECT TOP 1000 *
-`   FROM DATA_SOURCE
-` LOCATION`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
-
-- [ ]
-`SELECT TOP 1000 *
-`   FROM DATA_SOURCE
-` OPENROWSET`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
-
-- [ ]
-`SELECT TOP 1000 *
-`   FROM LOCATION
-` BULK`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
-
-- [ ]
-`SELECT TOP 1000 *
-`   FROM LOCATION
-` DATA_SOURCE`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
-
-- [ ]
-`SELECT TOP 1000 *
-`   FROM LOCATION
-` OPENROWSET`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 
 - [X]
 `SELECT TOP 1000 *
 `   FROM OPENROWSET
-<<<<<<< HEAD
 ` BULK"https://adlsi.dfs.core. windows .net/container1/folder1/*.csv",
 `FORMAT = "CSV") AS rows
 
@@ -1584,32 +1409,18 @@ Pool1.
 ` OPENROWSET"https://adlsi.dfs.core. windows .net/container1/folder1/*.csv",
 `FORMAT = "CSV") AS rows
 
-=======
-` BULK`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 
 - [ ]
 `SELECT TOP 1000 *
 `   FROM OPENROWSET
-<<<<<<< HEAD
 ` DATA_SOURCE"https://adlsi.dfs.core. windows .net/container1/folder1/*.csv",
 `FORMAT = "CSV") AS rows
-=======
-` DATA_SOURCE`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 
 - [ ]
 `SELECT TOP 1000 *
 `   FROM OPENROWSET
-<<<<<<< HEAD
 ` LOCATION"https://adlsi.dfs.core. windows .net/container1/folder1/*.csv",
 `FORMAT = "CSV") AS rows
-=======
-` LOCATION`https://adlsi.dfs.core. windows .net/containeri/folderi/*.csv',
-`FORMAT = `CSV`) AS rows
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
  
 #### 0084::
 `You have an Azure Synapse Analytics workspace named WS1 that contains an Apache Spark pool named Pool1.
@@ -1645,11 +1456,7 @@ Question Set 2
 - [ ] Implement event ordering.
 - [ ] Implement Azure Stream Analytics user-defined functions (UDF).
 - [x] Implement query parallelization by partitioning the data output.
-<<<<<<< HEAD
 - [ ] Scale the SU count for the job up.
-=======
-- [x] Scale the SU count for the job up.
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 - [ ] Scale the SU count for the job down.
 - [x] Implement query parallelization by partitioning the data input.
 
@@ -1856,7 +1663,6 @@ Question Set 2
 #### 006::
 `You have an Azure Data Factory instance that contains two pipelines named Pipeline1 and Pipeline2.
 `Pipeline1 has the activities shown in the following exhibit.
-<<<<<<< HEAD
 `|Stored procedure--|           |Set variable----|
 `|Stored procedure1-|-----------|(X)Set variable1|
 `
@@ -1867,15 +1673,6 @@ Question Set 2
 `You execute Pipeline2, and Stored procedure1 in Pipeline1 fails.
 `What is the status of the pipeline runs?
 
-=======
-`|Stored procedure--|           |(X)Set variable-|
-`|Stored procedure1-|           |(X)Set variable1|
-`Pipeline2 has the activities shown in the following exhibit.
-`|Execute Pipeline--|           |(X)Set variable-|
-`|Execute Pipeline1-|           |(X)Set variable1|
-`You execute Pipeline2, and Stored procedure1 in Pipeline1 fails.
-`What is the status of the pipeline runs?
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 - [x] Pipeline1 and Pipeline2 succeeded.
 - [ ] Pipeline1 and Pipeline2 failed.
 - [ ] Pipeline1 succeeded and Pipeline2 failed.
@@ -2185,28 +1982,13 @@ Question Set 2
 `                       “RoomName”: “”,
 `                       “CustomerName”: “diamond”,
 `                       “UserName”: “XXXX@yahoo.com”
-<<<<<<< HEAD
 `           }},{
-=======
-`           }
-`       },
-`       {
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 `                   “customerInfo” {
 `                       “ProfileType”: “Novice”,
 `                       “RoomName”: “”,
 `                       “customerName”: “topaz”,
 `                       “UserName”: “XXXx@outlook.com”
-<<<<<<< HEAD
 `                   }}]}}}
-=======
-`                   }
-`               }
-`           ]
-`        }
-`   }       
-`}
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 `
 `You need to use the serverless SQL pool in WS1 to read the files.
 `How should you complete the Transact-SQL statement?
@@ -3242,10 +3024,7 @@ with (id varchar(5S0),
 `[SalesAmount] [money] NOT NULL,
 `[UnitPrice] [money] NULL)
 `WITH (CLUSTERED COLUMNSTORE INDEX)
-<<<<<<< HEAD
 
-=======
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 - [x] PARTITION ([OrderDateKey] RANGE RIGHT FOR VALUES
 - [ ] PARTITION ([OrderDateKey] RANGE LEFT FOR VALUES
 - [ ] (20090101,20121231)
@@ -3266,12 +3045,8 @@ You have a table that was created by using the following Transact-SQL statement.
 `[RowUpdatedDateTime] [datetime] NOT NULL,
 `[ETLAuditID] [int] NOT NULL
 `)
-<<<<<<< HEAD
 `Which two columns should you add to the table?
 
-=======
-`Which two columns should you add to the table? Each correct answer presents part of the solution.
->>>>>>> f1a01e20eb91ca99fc62b1676ccab82603e0ab74
 - [ ] [EffectiveStartDate] [datetime] NOT NULL,
 - [x] [CurrentProductCategory] [nvarchar] (100) NOT NULL,
 - [ ] [EffectiveEndDate] [datetime] NULL,

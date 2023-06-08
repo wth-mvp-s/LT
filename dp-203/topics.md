@@ -9,6 +9,9 @@ draw images order questiuons
 plik for this king of questions : `Which type of trigger should you use?
 
 rysunki tumbling azura data factory
+- azure databrick
+- azure stream analytics
+- azure synapse analytics
 - azure sql database
 
 

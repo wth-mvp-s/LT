@@ -76,8 +76,8 @@ For each of the following statements, select Yes if the statement is true. Other
 - [ ] The query combines two streams of partitioned data.: No
 - [x] The stream scheme key and count must match the output scheme.: Yes
 - [ ] The stream scheme key and count must match the output scheme.: No
-- [x] Providing 60 streaming units will optimize the performance of the query.: Yes
-- [ ] Providing 60 streaming units will optimize the performance of the query.: No
+- [ ] Providing 60 streaming units will optimize the performance of the query.: Yes
+- [x] Providing 60 streaming units will optimize the performance of the query.: No
 
 #### 0053::
 `You are building a database in an Azure Synapse Analytics serverless SQL pool.
@@ -826,35 +826,18 @@ WITH
 `✑ Minimize query times for reporting queries against the dimensional model.
 `Which type of table distribution should you use for each table?
 
-- [ ]
-`Common.Data: Hash
-`Marketing.Web.Sessions: Replicated
-`Staging.Web.Session: Round-robin
+- [x] Common.Data: Replicated
+- [x] Marketing.Web.Sessions: Hash
+- [x] Staging.Web.Session: Round-robin
 
-- [ ]
-`Common.Data: Hash
-`Marketing.Web.Sessions: Round-robin
-`Staging.Web.Session: Replicated
+- [ ] Common.Data: Hash
+- [ ] Marketing.Web.Sessions: Replicated 
+- [ ] Staging.Web.Session: Hash
 
-- [x]
-`Common.Data: Replicated
-`Marketing.Web.Sessions: Hash
-`Staging.Web.Session: Round-robin
 
-- [ ]
-`Common.Data: Replicated
-`Marketing.Web.Sessions: Round-robin
-`Staging.Web.Session: Hash
-
-- [ ]
-`Common.Data: Round-robin
-`Marketing.Web.Sessions: Hash
-`Staging.Web.Session: Replicated
-
-- [ ]
-`Common.Data: Round-robin
-`Marketing.Web.Sessions: Replicated
-`Staging.Web.Session: Hash
+- [ ] Common.Data: Round-robin
+- [ ] Marketing.Web.Sessions: Round-robin
+- [ ] Staging.Web.Session: Replicated
 
 #### 0061::
 `You have an Azure Synapse Analytics dedicated SQL pool.

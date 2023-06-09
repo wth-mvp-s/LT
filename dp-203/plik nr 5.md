@@ -650,6 +650,7 @@ Topic 4
 `A user reports that queries against the pool take longer than expected to complete. You determine that the issue relates to queried columnstore segments.
 `You need to add monitoring to the underlying storage to help diagnose the issue.
 `Which two metrics should you monitor? 
+
 - [ ] Snapshot Storage Size
 - [x] Cache used percentage
 - [ ] DWU Limit
@@ -661,6 +662,7 @@ Topic 4
 `Users do not report performance changes for infrequently used queries.
 `You need to monitor resource utilization to determine the source of the performance issues.
 `Which metric should you monitor?
+
 - [ ] DWU percentage
 - [x] Cache hit percentage
 - [ ] DWU limit
@@ -690,6 +692,7 @@ Topic 4
 `Files with an invalid schema cause errors to occur.
 `You need to monitor for an invalid schema error.
 `For which error should you monitor?
+
 - [ ] EXTERNAL TABLE access failed due to internal error: 'Java exception raised on call to HdfsBridge_Connect: Error [com.microsoft.polybase.client.KerberosSecureLogin] occurred while accessing external file.'
 - [x] Cannot execute the query "Remote Query" against OLE DB provider "SQLNCLI11" for linked server "(null)". Query aborted- the maximum reject threshold (0 rows) was reached while reading from an external source: 1 rows rejected out of total 1 rows processed.
 - [ ] EXTERNAL TABLE access failed due to internal error: 'Java exception raised on call to HdfsBridge_Connect: Error [Unable to instantiate LoginClass] occurred while accessing external file.'
@@ -745,12 +748,13 @@ Topic 4
 
 #### 0022::
 `You have an Azure Data Factory pipeline that has the activities shown in the following exhibit.
-`               |Set variable----|       |Stored procedure-|
-`               |(X)Set varialbe1|       |Stored procedure1|
-`|Web-|
-`|Web1|
-`               |Set variable----|
+`        ________|Set variable----|~~~~~~~|Stored procedure-|
+`       /        |(X)Set varialbe1|       |Stored procedure1|
+`|Web-|/
+`|Web1|\
+`       \_______|Set variable----|
 `               |(X)Set variable2|
+`
 `Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
 - [ ] Stored procedure! will execute Web1 and Set variable1 complete

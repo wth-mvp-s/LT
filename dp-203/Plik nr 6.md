@@ -1,7 +1,6 @@
 ##   6°_0906.1538
 
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>brakuje pytan
 #### 0023::
 `You have several Azure Data Factory pipelines that contain a mix of the following types of activities:
 `✑ Wrangling data flow

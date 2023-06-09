@@ -1,5 +1,7 @@
-##   6°_0906.1212
+##   6°_0906.1538
 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>brakuje pytan
 #### 0023::
 `You have several Azure Data Factory pipelines that contain a mix of the following types of activities:
 `✑ Wrangling data flow
@@ -242,7 +244,7 @@
 - [ ] Azure Data Lake Storage
 - [x] Azure Databricks
 
-#### 0041::
+#### 0041[a demander chatGPT]::
 `You have an Azure Synapse Analytics dedicated SQL pool.
 `
 `You need to monitor the database for long-running queries and identify which queries are waiting on resources.
@@ -320,54 +322,78 @@
 `You need to ensure that you can identify trends in queue times across the pipeline executions and activities The solution must minimize administrative effort.
 `
 `How should you configure the Diagnostic settings for DF1? 
-- [ ] Collect: Pipeline acitivity runs log
-- [x] Collect: Pipeline runs log
+- [x] Collect: Pipeline acitivity runs log
+- [ ] Collect: Pipeline runs log
 - [ ] Collect: Trigger runs log
 - [ ] Send to: Event hub
 - [x] Send to: Log Analytics workspace
 - [ ] Send to: storage account
 
-Topic 5
+
+
+#### 0047 New::
+`You manage an enterprise data warehouse in Azure Synapse Analytics.
+`
+`Users report slow performance when they run commonly used queries. Users do not report performance changes for infrequently used queries.
+`
+`You need to monitor resource utilization to determine the source of the performance issues.
+`
+`Which metric should you monitor?
+
+- [ ] DWU percentage
+- [x] Cache hit percentage
+- [ ] Data Warehouse Units (DWU) used
+- [ ] Data IO percentage
+
+
 #### 001::
 `You need to design a data storage structure for the product sales transactions. The solution must meet the sales transaction dataset requirements.
 `What should you include in the solution?
+`
+`   - You estimate that combining all product sales transactions into a company-wide sales transactions dataset will result in a single table that contains 5 billion rows, with one row per transaction.
+`   - Most queries targeting the sales transactions data will be used to identify which products were sold in retail stores and which products were sold online during different time periods. 
+`   - Sales transaction data that is older than three years will be removed monthly.
+`
+`   Planned Changes -
+`       Load the sales transaction dataset to Azure Synapse Analytics.
+`       Sales Transaction Dataset Requirements:
+`       Partition data that contains sales transaction records. Partitions must be designed to provide efficient loads by month. Boundary values must belong to the partition on the right.
+`       Ensure that queries joining and filtering sales transaction records based on product ID complete as quickly as possible.
+`       Implement a surrogate key to account for changes to the retail store addresses.
+`       Ensure that data storage costs and performance are predictable.
+`       Minimize how long it takes to remove old records.
+
 - [x] Table type to store the product sales transactions: Hash
 - [ ] Table type to store the product sales transactions: Round-robin
 - [ ] Table type to store the product sales transactions: Replicated 
 - [ ] When creating the table for sales transactions: Configure a clustered index. 
-- [ ] When creating the table for sales transactions: Set the distribution column to product ID.
-- [x] When creating the table for sales transactions: Set the distribution column to the sales date.
+- [x] When creating the table for sales transactions: Set the distribution column to product ID.
+- [ ] When creating the table for sales transactions: Set the distribution column to the sales date.
 
 #### 002::
 `You need to ensure that the Twitter feed data can be analyzed in the dedicated SQL pool. The solution must meet the customer sentiment analytics requirements.
 `Which three Transact-SQL DDL commands should you run in sequence?
-- [1] CREATE EXTERNAL DATA SOURCE
-- [-] CREATE EXTERNAL FILE FORMAT
-- [2] CREATE EXTERNAL TABLE
-- [-] CREATE EXTERNAL TABLE AS SELECT
-- [0] CREATE DATABASE SCOPED CREDENTIAL
+- [0] CREATE EXTERNAL DATA SOURCE
+- [1] CREATE EXTERNAL FILE FORMAT
+- [2] CREATE EXTERNAL TABLE AS SELECT
+- [-] CREATE DATABASE SCOPED CREDENTIAL
+- [-] CREATE EXTERNAL TABLE
 
 #### 003::
 `You need to design the partitions for the product sales transactions. The solution must meet the sales transaction dataset requirements.
 `What should you include in the solution?
 - [x] 
-`Partition product sales
-`transaction data by: Sales date
+`Partition product sales transaction data by: Sales date
 - [ ] 
-`Partition product sales
-`transaction data by: Product ID
+`Partition product sales transaction data by: Product ID
 - [ ] 
-`Partition product sales
-`transaction data by: Promotion ID
+`Partition product sales transaction data by: Promotion ID
 - [x]
-`Store product sales
-`transactions data in: An Azure Synapse Analytics dedicated SQL pool
+`Store product sales transactions data in: An Azure Synapse Analytics dedicated SQL pool
 - [ ]
-`Store product sales
-`transactions data in: An Azure Synapse Analytics serveriess SQL pool
+`Store product sales transactions data in: An Azure Synapse Analytics serveriess SQL pool
 - [ ]
-`Store product sales
-`transactions data in: An Azure Data Lake Storage Gen2 account linked to an Azure Synapse Analytics workspace
+`Store product sales transactions data in: An Azure Data Lake Storage Gen2 account linked to an Azure Synapse Analytics workspace
 
 #### 004::
 `You need to implement the surrogate key for the retail store table. The solution must meet the sales transaction dataset requirements.
@@ -441,20 +467,17 @@ Topic 5
 - [3] Merge changes
 - [4] Publish changes
 
-Topic 8
 #### 001::
 `You need to design a data ingestion and storage solution for the Twitter feeds. The solution must meet the customer sentiment analytics requirements.
 `What should you include in the solution?
 
 - [x]
-`To increase the throughput of ingesting
-`                       the Twitter feeds: Configure Event Hubs partitions
+`To increase the throughput of ingesting the Twitter feeds: Configure Event Hubs partitions
 - [ ]
-`To increase the throughput of ingesting
-`                       the Twitter feeds: Enable Auto-Inlate in Event Hubs.
+`To increase the throughput of ingesting the Twitter feeds: Enable Auto-Inlate in Event Hubs.
 - [ ]
-`To increase the throughput of ingesting
-`                       the Twitter feeds: Use Event Hubs Dedicated.
+`To increase the throughput of ingesting the Twitter feeds: Use Event Hubs Dedicated.
+
 - [x] To store the Twitter feed data, use: An Azure Data Lake Storage Gen2 account
 - [ ] To store the Twitter feed data, use: An Azure Databricks high concurrency cluster
 - [ ] To store the Twitter feed data, use: An Azure General-purpose v2 storage account in the Premium tier
@@ -494,6 +517,16 @@ Topic 8
 
 
 #### Plik7°.300-308::
+Requirements -
+    Business Goals -
+        See inventory levels across the stores. Data must be updated as close to real time as possible.
+    
+    Technical Requirements -
+        Use platform as a service (PaaS) offerings whenever possible and avoid having to provision virtual machines that must be managed by Litware.
+    
+    Planned Environment -
+        The application development team will create an Azure event hub to receive real-time sales data, including store number, date, time, product ID, customer loyalty number, price, and discount amount, from the point of sale (POS) system and output the data to data storage in Azure.
+
 `What should you do to improve high availability of the real-time data processing solution?
 `
 

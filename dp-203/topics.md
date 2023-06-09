@@ -114,3 +114,7 @@ DBCC CHECKALLOC - SQL Server cmd, to checks disk space allocation structures
 
 dedicated SQL pool = distributed
 built-in = on-demand or serverless
+
+Dynamic Management Views (DMVs) build in SQLServer, Performance Metrics, Index Usage Statistics, Session and Connection Information
+
+A surrogate key - unique barcode for the book in the library 

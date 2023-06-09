@@ -50,7 +50,7 @@
 - [x] an error
 - [ ] a null value
 
-#### 003::
+#### 003 confirmed::
 `You have a table named SalesFact in an enterprise data warehouse in Azure Synapse Analytics. SalesFact contains sales data from the past 36 months and has the following characteristics:
 `✑ Is partitioned by month
 `✑ Contains one billion rows
@@ -895,11 +895,11 @@
 `You need to build a solution to ensure that users can query specific files in an Azure Data Lake Storage Gen2 account from an Azure Synapse Analytics serverless SQL pool.
 `Which three actions should you perform in sequence?
 
-- [1] Create an external file format object
 - [0] Create an external data source
+- [1] Create an external file format object
+- [2] Create an external table
 - [-] Create a query that uses Create Table as Select
 - [-] Create a table
-- [2] Create an external table
 
 #### 0042::
 `You are designing a data mart for the human resources (HR) department at your company. The data mart will contain employee information and employee transactions.
@@ -939,17 +939,17 @@
 `You need to skip the header row when you import the files into the data warehouse. Before building the loading pattern, you need to prepare the required database objects in Azure Synapse Analytics.
 `Which three actions should you perform in sequence?
 
-- [-] 
-`Create a database scoped credential that uses Azure Active Directory Application and a Service Principal Key
 - [0]
 `Create an external data source that uses the abfs location
+- [1] 
+`Create an external file format and set the
+`First_Row option
 - [2] 
 `Use CREATE EXTERNAL TABLE AS SELECT
 `(CETAS) and configure the reject options to
 `specify reject values or percentages
-- [1] 
-`Create an external file format and set the
-`First_Row option
+- [-] 
+`Create a database scoped credential that uses Azure Active Directory Application and a Service Principal Key
 
 
 #### 0045::

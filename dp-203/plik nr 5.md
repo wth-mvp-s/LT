@@ -219,22 +219,22 @@ Which authentication solution or solutions should you include in the recommendat
 `You have an Azure data factory.
 `You need to ensure that pipeline-run data is retained for 120 days. The solution must ensure that you can query the data by using the Kusto query language.
 `Which four actions should you perform in sequence?
-- [-] 
-`Select the PipelineRuns category.
-- [1] 
-`Create a Log Analytics workspace that
-`has Data Retention set to 120 days.
-- [-] 
-`Stream to an Azure event hub.
 - [0] 
 `Create an Azure Storage account that
 `has a lifecycle policy.
+- [1] 
+`Create a Log Analytics workspace that
+`has Data Retention set to 120 days.
 - [2] 
 `From the Azure portal, add a
 `diagnostic setting.
 - [3] 
 `Send the data to a Log Analytics
 `workspace.
+- [-] 
+`Select the PipelineRuns category.
+- [-] 
+`Stream to an Azure event hub.
 - [-] 
 `Select the TriggerRuns category.
 

@@ -113,10 +113,10 @@
 `✑ A service principal
 `In which order should you perform the actions? 
 - [0] Mount the Data Lake Storage onto DBFS.
-- [4] Write the results to a table in Azure Synapse.
-- [3] Specify a temporary folder to stage the data.
 - [1] Read the file into a data frame.
 - [2] Perform transformations on the data frame.
+- [3] Specify a temporary folder to stage the data.
+- [4] Write the results to a table in Azure Synapse.
 
 #### 0078::
 `You have an Azure data factory named ADF1.
@@ -135,12 +135,12 @@
 `In workspace1, you complete testing of pipeline1.
 `You need to schedule pipeline1 to run daily at 6 AM.
 `Which four actions should you perform in sequence?
-- [-] Create a new branch in Repo.
-- [2] Merge the changes from branch into main.
-- [1] Associate the schedule trigger with pipelined.
-- [-] Switch to Synapse live mode.
 - [0] Create a schedule trigger.
+- [1] Associate the schedule trigger with pipelined.
+- [2] Merge the changes from branch into main.
 - [3] Publish the contents of main.
+- [-] Create a new branch in Repo.
+- [-] Switch to Synapse live mode.
 
 #### 0080::
 `You have an Azure subscription that contains an Azure Synapse Analytics dedicated SQL pool named Pool1 and an Azure Data Lake Storage account named storage1. Storage1 requires secure transfers.
@@ -479,12 +479,12 @@
 `• All development must be performed in a feature branch.
 `
 `Which four actions should you perform in sequence in Synapse Studio?
+- [0] Configure a code repository and select Repo 1.
+- [1] Create a new branch.
+- [2] Create pipeline artifacts and save them in the new branch.
+- [3] Create a pull request to merge the contests of the main branch into the new branch.
 - [-] Create pipeline artifacts and save them in the main branch.
 - [-] Set the main branch as the collaboration branch.
-- [3] Create a pull request to merge the contests of the main branch into the new branch.
-- [2] Create pipeline artifacts and save them in the new branch.
-- [1] Create a new branch.
-- [0] Configure a code repository and select Repo 1.
 
 #### 0096::
 `You have an Azure subscription that contains an Azure SQL database named DB1 and a storage account named storage1. The storage1 account contains a file named File1.txt. File1.txt contains the names of selected tables in DB1.
@@ -1012,20 +1012,20 @@
 `Create a pull request: Feature
 `Publish the changes: Publish
 
-Topic 3
+
 #### 001::
 `You have an Azure Active Directory (Azure AD) tenant that contains a security group named Group1. You have an Azure Synapse Analytics dedicated SQL pool named dw1 that contains a schema named schema1.
 `You need to grant Group1 read-only permissions to all the tables and views in schema1. The solution must use the principle of least privilege.
 `Which three actions should you perform in sequence?
+- [0] Create a database user in dwi that represents Group1
+`and uses the FROM EXTERNAL PROVIDER clause.
 - [1] Create a database role named Rolel and grant Rolel
 `SELECT permissions to schemal.
+- [2] Assign Rolel to the Group1 database user.
 - [-] Create a database role named Rolel and grant Rolel
 `SELECT permission to dw1
 - [-] Assign the Azure role-based access control (Azure
 `RBAC) Reader role for dw1 to Group1.
-- [0] Create a database user in dwi that represents Group1
-`and uses the FROM EXTERNAL PROVIDER clause.
-- [2] Assign Rolel to the Group1 database user.
 
 #### 002::
 `You have an Azure subscription that contains a logical Microsoft SQL server named Server1. Server1 hosts an Azure Synapse Analytics SQL dedicated pool named Pool1.
@@ -1157,11 +1157,11 @@ Topic 3
 `You have an Azure Synapse Analytics SQL pool named Pool1 on a logical Microsoft SQL server named Server1.
 `You need to implement Transparent Data Encryption (TDE) on Pool1 by using a custom key named key1.
 `Which five actions should you perform in sequence?
-- [4] Enable TDE on Pool1.
 - [0] Assign a managed identity to Server1.
-- [3] Configure key1 as the TDE protector for Server1.
-- [2] Add key1 to the Azure key vault
 - [1] Create an Azure key Vault and grant the managed identity permissions to the key vault
+- [2] Add key1 to the Azure key vault
+- [3] Configure key1 as the TDE protector for Server1.
+- [4] Enable TDE on Pool1.
 
 #### 0011::
 `You have a data warehouse in Azure Synapse Analytics.

@@ -212,13 +212,13 @@
 `✑ A service principal
 `Which five actions should you perform in sequence next in is Databricks notebook?
 - [0] Mount the Data Lake Storage onto DBF:
+- [1] Read the file into a data frame.
+- [2] Perform transformations on the data frame.
+- [3] Specify a temporary folder to stage the data.
 - [4] Write the results to a table in Azure Synapse.
 - [-] Perform transformations on the file.
-- [3] Specify a temporary folder to stage the data.
 - [-] Write the results to Data Lake Storage.
-- [1] Read the file into a data frame.
 - [-] Drop the data frame.
-- [2] Perform transformations on the data frame.
 
 #### 0022::
 

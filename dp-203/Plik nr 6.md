@@ -370,8 +370,13 @@
 - [ ] When creating the table for sales transactions: Set the distribution column to the sales date.
 
 #### 002::
+`Contoso wants to use Azure Synapse Analytics to analyze Twitter feeds to assess customer sentiments about products.
+`The company wants to use PolyBase in an Azure Synapse Analytics dedicated SQL pool to query the content of the data records that host the Twitter feeds.
+`Twitter feeds are stored in Azure Storage by using Event Hubs Capture. The feeds are converted into Parquet files.
+`
 `You need to ensure that the Twitter feed data can be analyzed in the dedicated SQL pool. The solution must meet the customer sentiment analytics requirements.
 `Which three Transact-SQL DDL commands should you run in sequence?
+
 - [0] CREATE EXTERNAL DATA SOURCE
 - [1] CREATE EXTERNAL FILE FORMAT
 - [2] CREATE EXTERNAL TABLE AS SELECT
@@ -458,6 +463,9 @@
 
 
 #### 001 Topic 7 ::
+`Contoso identifies a need for data integration. The existing SSIS packages are to be used to ingest on-premises data into datasets stored in a dedicated SQL pool of  Azure Synapse Analytics and transform the data.
+`Contoso wants to identify a process to ensure that changes to the ingestion and transformation activities can be version-controlled and developed independently by multiple data engineers.
+`
 `You need to implement versioned changes to the integration pipelines. The solution must meet the data integration requirements.
 `In which order should you perform the actions?
 - [0] Create a repository and a main branch

@@ -380,6 +380,18 @@ Topic 5
 #### 005::
 `You need to design an analytical storage solution for the transactional data. The solution must meet the sales transaction dataset requirements.
 `What should you include in the solution? 
+`
+`Planned Changes -
+`   - Partition data that contains sales transaction records. Partitions must be designed to provide efficient loads by month. Boundary values must belong to the partition on the right.
+`   - Ensure that queries joining and filtering sales transaction records based on product ID complete as quickly as possible.
+`   - Implement a surrogate key to account for changes to the retail store addresses.
+`   - Ensure that data storage costs and performance are predictable.
+`   - Minimize how long it takes to remove old records.
+`   
+`Transactional Data -
+`   - You plan to create a retail store table that will contain the address of each retail store. The table will be   approximately 2 MB. Queries for retail store sales will include the retail store addresses.
+`   - You plan to create a promotional table that will contain a promotion ID. The promotion ID will be associated to specific product. The product will be identified by a product ID. The table will be approximately 200 GB.
+
 - [ ] Table type to store retail store data: Hash
 - [ ] Table type to store retail store data: Replicated
 - [x] Table type to store retail store data: Round-robin

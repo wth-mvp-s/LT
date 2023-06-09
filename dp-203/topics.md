@@ -14,6 +14,9 @@ rysunki tumbling azura data factory
 - azure synapse analytics
 - azure sql database
 
+>>>>>>>>>>>>>>><<<<0906.1002>>>>
+
+- 
 
 >>>>>>>>>>>>>>>>>
 
@@ -89,3 +92,25 @@ partition in event hub, is a lane of stream, 32 par default
  DBCC PDW_SHOWSPACEUSED:: space utilization statistics 
 
  Azure Synapse Analytics::SQL Data Warehouse, massively parallel processing (MPP) cloud-based, scale-out, relational bdd
+
+ # TABLE TYPE: 
+    Replicated table - for small dimension tables,  used frequently in join operations. 
+        fully copied to each compute node, and therefore are best suited 
+        (Retail Store Data: Given that the retail store table is relatively small (approximately 2MB), )
+
+    Hash table - Hash distributed tables in Azure Synapse Analytics distribute the rows according to a hash function on a specified column, which provides for distributed joins and group by operations, and it is ideal for large fact tables. (Promotional Data: Considering the size of the promotional data table (200 GB))
+
+    round-robin - : transient data, quick load, or No clear distribution key or data evenly distributed across all compute nodes for balance but no obvious column to choose for hash distribution, round-robin is an appropriate choice.
+
+        Small or medium sized tables: For smaller tables where the overhead of managing the hash function isn't worth the potential performance gain, round-robin distribution can be beneficial.
+
+# Commands
+sys.dm_pdw_nodes_db_partition_stats - can be used to evaluate data skew. returns statistics
+    - hes to be run in the context of a dedicated SQL pool.
+DBCC CHECKALLOC - SQL Server cmd, to checks disk space allocation structures
+                - does not provide information about data distribution in Synapse Analytics.
+                - cannot be run on the built-in pool in Synapse Studio.
+
+
+dedicated SQL pool = distributed
+built-in = on-demand or serverless

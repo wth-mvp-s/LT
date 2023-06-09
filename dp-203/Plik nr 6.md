@@ -393,8 +393,8 @@ Topic 5
 `   - You plan to create a promotional table that will contain a promotion ID. The promotion ID will be associated to specific product. The product will be identified by a product ID. The table will be approximately 200 GB.
 
 - [ ] Table type to store retail store data: Hash
-- [ ] Table type to store retail store data: Replicated
-- [x] Table type to store retail store data: Round-robin
+- [x] Table type to store retail store data: Replicated
+- [ ] Table type to store retail store data: Round-robin
 - [x] Table type to store promotional data: Hash
 - [ ] Table type to store promotional data: Replicated
 - [ ] Table type to store promotional data: Round-robin

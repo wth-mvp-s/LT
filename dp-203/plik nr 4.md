@@ -1,4 +1,4 @@
-##   4°_150-200
+##   4°.1006.1118
 
 #### 0067::
 `You use Azure Stream Analytics to receive Twitter data from Azure Event Hubs and to output the data to an Azure Blob storage account.
@@ -332,8 +332,8 @@
 `You need to create the Databricks clusters for the workloads.
 `Solution: You create a Standard cluster for each data scientist, a High Concurrency cluster for the data engineers, and a High Concurrency cluster for the jobs.
 `Does this meet the goal?
-- [ ] Yes
-- [x] No
+- [x] Yes
+- [ ] No
 
 #### 0089::
 `You are designing a folder structure for the files in an Azure Data Lake Storage Gen2 account. The account has one container that contains three years of data.

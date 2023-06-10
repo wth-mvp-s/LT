@@ -118,3 +118,21 @@ built-in = on-demand or serverless
 Dynamic Management Views (DMVs) build in SQLServer, Performance Metrics, Index Usage Statistics, Session and Connection Information
 
 A surrogate key - unique barcode for the book in the library 
+
+Azure Stream Analytics offers different types of windowing functions: 
+    Sliding Window: result for every content window changes.
+    Session Window: 
+    Hopping Window: overlaps, hops by a fixed duration.
+    Tumbling Window: each counted once, many fixed-sized, non-overlapping
+        tumbling, falling over uncontrolably
+
+    overlapping - falling in more then one windows
+
+Azure Stream Analytics - designed to analyze streaming data in real time. 
+        integrates seamlessly - Azure IoT Hub & Synapse
+
+Azure Synapse Analytics
+    Sensitivity classifications - audit access to Personally Identifiable Information (PII). 
+    data masking - hiding the actual data values from certain users.
+    
+

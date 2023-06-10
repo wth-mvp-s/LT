@@ -13,3 +13,5 @@ lane::uliczka, lane on highway
 skew:: krzywy, ukosny::not straight, to cause information or results to be changed:
 synapse::the point at which electrical signals move from one nerve cell to another
 ostracized:: zakazany
+# youtube
+distortion::a change to the original or natural shape of something

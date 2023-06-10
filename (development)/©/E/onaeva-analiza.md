@@ -1,6 +1,29 @@
 analiza, Why, koncowy efekt
 
-# Teal Swan, why I always meet loosers
+# Teal Swan, 
+## inside out
+    AK: szczescie jest w nas ? czy w innych ludziach ? 
+        granie na trambce - dla dziewczyn
+        malowanie, bycie slawnym, malarzem - dla dziewczyn
+        silownia - zeby sie podobac 
+        cos osiagnac - czy to jest dla Ciebie ? 
+###        FAKE PERSONALITY 
+            parents, society tells you whats acceptable, what's anapprouved makes you feel vulnerable, your personality what makes you safe, you are hiding even from yourself what's not acceptable. 
+                ex. rid out of spontanity, being fun, rid of relaxation, 
+                self estim derived from being hard worker, 
+                solution, do things that comes easy for you. 
+                element disowned more then possible to end distortion. 
+                    solution youtube part work
+###         ENLIGHTMENT
+            shortcut love yourself
+            Whta someone who love themself do ? 
+            365 jours agenda - I love myself. 
+            If you are stuggling, it's becouse you don't live your life like someone who love himself. 
+            It takes guts, to follow intuition. 
+            365 days love sound. 
+            ONE OF THE MOST DIFFICULT PROCESS YOU CAN DO. 
+            
+## why I always meet loosers
 
     dom jaki byl
         chore

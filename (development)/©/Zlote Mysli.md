@@ -24,20 +24,21 @@ Painture
 Inteligence
 
 ## 3. Co jest dla mnie najwazniejsze w zwiazku ?
-bo for ever avec 
+knowing that I love for ever, be for ever avec 
 
 ## 4. Co jest dla mnie najwazniejsze w pracy?
-vision
+vision, coherence: muscu vs art vs trompet vs zona vs informatique
 
 ## Jakie sa moje najwazniejsze relacje z innymi ludzmi?
-prawdziwe przyjaznie
+prawdziwe przyjaznie : ludzie ktorzy cos dla mnie robia, ktorzy sie odzywaja
 
 ## Czego nie zrobilbym nigdy dla pieniedzy?
-loose time
+loose time, change myself, 
 
 ## Jakie sa moje najwieksze osiagniecia?
 obraz
 being focused
+programmation
 
 ## Jakie sa moje najwieksze porazki?
 bad presentation
@@ -47,21 +48,17 @@ loosing time
 trust
 
 ## Co jest dla mnie najwazniejsze w zyciu duchowym?
-talents
 west wall
 
 ## Co jest dla mnie najwazniejsze w zyciu zawodowym?
 benefit myself
-NgRx i RxJS
 Nie robic rzeczy tymczasowych. 
 nie robic rzeczy bez wizji konca
 
 ## Jakie sa moje najwieksze leki i obawy?
-
 loosing time
 
 ## Czego pragne najbardziej w zyciu?
-
 things eternelle
 
 ## Czego najbardziej boje sie stracic w zyciu?
@@ -73,3 +70,4 @@ coherence
 ## PLAN B
 atelier de la peinture
 
+# jak mnie widza ludzie, T'AS PEUR DE RIEN...

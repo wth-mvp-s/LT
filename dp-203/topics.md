@@ -91,7 +91,14 @@ partition in event hub, is a lane of stream, 32 par default
 
  DBCC PDW_SHOWSPACEUSED:: space utilization statistics 
 
- Azure Synapse Analytics::SQL Data Warehouse, massively parallel processing (MPP) cloud-based, scale-out, relational bdd
+ # Azure Synapse Analytics
+    known as SQL Data Warehouse
+    parallel bdd sql 
+    data distribution types : 
+        round robin - evenly 
+        hash - best perf for join, aggregation
+        replicate - on each compute node, full copy. for dimension table in star schema
+    fact - infos about events like renting 
 
  # TABLE TYPE: 
     Replicated table - for small dimension tables,  used frequently in join operations. 
@@ -135,4 +142,5 @@ Azure Synapse Analytics
     Sensitivity classifications - audit access to Personally Identifiable Information (PII). 
     data masking - hiding the actual data values from certain users.
     
-
+## abreviation
+ACL - access control lists

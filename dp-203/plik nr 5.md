@@ -757,9 +757,9 @@ Topic 4
 `
 `Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
-- [ ] Stored procedure! will execute Web1 and Set variable1 complete
-- [ ] Stored procedure! will execute Web1 and Set variable1 fail
-- [x] Stored procedure! will execute Web1 and Set variable1 succeed
+- [ ] Stored procedure1 will execute Web1 and Set variable1 complete
+- [ ] Stored procedure1 will execute Web1 and Set variable1 fail
+- [x] Stored procedure1 will execute Web1 and Set variable1 succeed
 - [ ] If Web1 fails and Set variable2 succeeds, the pipeline status wil be Canceled
 - [x] If Web1 fails and Set variable2 succeeds, the pipeline status wil be Failed
 - [ ] If Web1 fails and Set variable2 succeeds, the pipeline status wil be Succeeded

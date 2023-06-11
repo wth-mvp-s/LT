@@ -1,7 +1,6 @@
-##   5°.0706.1028
+##   5°.1106.1803
 
 #### 0012::
-`Question #12Topic 3
 `You are designing a streaming data solution that will ingest variable volumes of data.
 `You need to ensure that you can change the partition count after creation.
 `Which service should you use to ingest the data?
@@ -111,6 +110,7 @@
 `You have an Azure Synapse Analytics SQL pool named Pool1. In Azure Active Directory (Azure AD), you have a security group named Group1.
 `You need to control the access of Group1 to specific columns and rows in a table in Pool1.
 `Which Transact-SQL commands should you use?
+
 - [ ] To control access to the columns: CREATE CRYPTOGRAPHIC PROVIDER
 - [ ] To control access to the columns: CREATE PARTITION FUNCTION
 - [ ] To control access to the columns: CREATE SECURITY POLICY
@@ -204,8 +204,9 @@
 
 #### 0026::
 `You have an Azure subscription that is linked to a hybrid Azure Active Directory (Azure AD) tenant. The subscription contains an Azure Synapse Analytics SQL pool named Pool1.
-You need to recommend an authentication solution for Pool1. The solution must support multi-factor authentication (MFA) and database-level authentication.
-Which authentication solution or solutions should you include in the recommendation?
+`You need to recommend an authentication solution for Pool1. The solution must support multi-factor authentication (MFA) and database-level authentication.
+`Which authentication solution or solutions should you include in the recommendation?
+
 - [x] MFA: Azure AD authentication
 - [ ] MFA: Microsoft SQL Server authentication
 - [ ] MFA: Passwordless authentication

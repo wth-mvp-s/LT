@@ -1,4 +1,4 @@
-##   3°.0806.1131
+##   3°.1106.1803
 
 #### 0017::
 `You are designing an Azure Stream Analytics solution that will analyze Twitter data.
@@ -116,7 +116,8 @@
 - [ ]  Add a select transformation to select only the rows that will cause truncation errors.
 
 #### 0020::
-`You need to create an Azure Data Factory pipeline to process data for the following three departments at your company: Ecommerce, retail, and wholesale. The solution must ensure that data can also be processed for the entire company.
+`You need to create an Azure Data Factory pipeline to process data for the following three departments at your company: Ecommerce, retail, and wholesale. 
+`The solution must ensure that data can also be processed for the entire company.
 `How should you complete the Data Factory data flow script?
 
 - [x]
@@ -134,7 +135,7 @@
 `                  dept=='ecommerce', dept=='retail',
 `                   dept=='wholesale'
 `   ) ~> SplitByDept@ ( dept=='ecommerce', dept==
-                       'wholesale', dept=='retail')
+`                       'wholesale', dept=='retail')
                 
 - [ ]
 `CleanData
@@ -165,7 +166,7 @@
 `   split(
 `           all, ecommerce, retail, wholesale
 `                  dept=='ecommerce', dept==
-                   'wholesale', dept=='retail'
+`                   'wholesale', dept=='retail'
 `   ) ~> SplitByDept@ (dept=='ecommerce', dept=='retail',
 `                     dept=='wholesale )
 
@@ -174,7 +175,7 @@
 `   split(
 `           all, ecommerce, retail, wholesale
 `                  dept=='ecommerce', dept==
-                   'wholesale', dept=='retail'
+`                   'wholesale', dept=='retail'
 `   ) ~> SplitByDept@ ( disjoint: false)
 
 - [ ]
@@ -182,7 +183,7 @@
 `   split(
 `           all, ecommerce, retail, wholesale
 `                  dept=='ecommerce', dept==
-                   'wholesale', dept=='retail'
+`                   'wholesale', dept=='retail'
 `   ) ~> SplitByDept@ ( disjoint: true)
 
 - [ ]
@@ -190,7 +191,7 @@
 `   split(
 `           all, ecommerce, retail, wholesale
 `                  dept=='ecommerce', dept==
-                   'wholesale', dept=='retail'
+`                   'wholesale', dept=='retail'
 `   ) ~> SplitByDept@ ( ecommerce, retail, wholesale, all)
 
 - [ ]
@@ -201,7 +202,7 @@
 `                       dept=='ecommerce', dept=='retail',
 `                     dept=='wholesale
 `   ) ~> SplitByDept@ (dept=='ecommerce', dept==
-                      'wholesale', dept=='retail')
+`                      'wholesale', dept=='retail')
 
 #### 0021::
 `You have an Azure Data Lake Storage Gen2 account that contains a JSON file for customers. The file contains two attributes named FirstName and LastName.
@@ -225,7 +226,7 @@
 `You build an Azure Data Factory pipeline to move data from an Azure Data Lake Storage Gen2 container to a database in an Azure Synapse Analytics dedicated
 `SQL pool.
 `Data in the container is stored in the following folder structure.
-/in/{YYYY}/{MM}/{DD}/{HH}/{mm}
+`/in/{YYYY}/{MM}/{DD}/{HH}/{mm}
 `The earliest folder is /in/2021/01/01/00/00. The latest folder is /in/2021/01/15/01/45.
 `You need to configure a pipeline trigger to meet the following requirements:
 `✑ Existing data must be loaded.
@@ -424,24 +425,24 @@
 #### 0035::
 `You have a self-hosted integration runtime in Azure Data Factory.
 `The current status of the integration runtime has the following configurations:
-`✑ Status: Running
-`✑ Type: Self-Hosted
-`✑ Version: 4.4.7292.1
-`✑ Running / Registered Node(s): 1/1
-`✑ High Availability Enabled: False
-`✑ Linked Count: 0
-`✑ Queue Length: 0
-`✑ Average Queue Duration. 0.00s
+`   ✑ Status: Running
+`   ✑ Type: Self-Hosted
+`   ✑ Version: 4.4.7292.1
+`   ✑ Running / Registered Node(s): 1/1
+`   ✑ High Availability Enabled: False
+`   ✑ Linked Count: 0
+`   ✑ Queue Length: 0
+`   ✑ Average Queue Duration. 0.00s
 `The integration runtime has the following node details:
-`✑ Name: X-M
-`✑ Status: Running
-`✑ Version: 4.4.7292.1
-`✑ Available Memory: 7697MB
-`✑ CPU Utilization: 6%
-`✑ Network (In/Out): 1.21KBps/0.83KBps
-`✑ Concurrent Jobs (Running/Limit): 2/14
-`✑ Role: Dispatcher/Worker
-`✑ Credential Status: In Sync
+`   ✑ Name: X-M
+`   ✑ Status: Running
+`   ✑ Version: 4.4.7292.1
+`   ✑ Available Memory: 7697MB
+`   ✑ CPU Utilization: 6%
+`   ✑ Network (In/Out): 1.21KBps/0.83KBps
+`   ✑ Concurrent Jobs (Running/Limit): 2/14
+`   ✑ Role: Dispatcher/Worker
+`   ✑ Credential Status: In Sync
 `Use the drop-down menus to select the answer choice that completes each statement based on the information presented.
 
 - [x]
@@ -546,30 +547,24 @@
 `Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
 
 - [x] 
-`Azure Resource Manager (ARM) templates for the pipeline assets are
-`                                        stored in adf_publish
+`Azure Resource Manager (ARM) templates for the pipeline assets are stored in adf_publish
 
 
 - [ ] 
-`Azure Resource Manager (ARM) templates for the pipeline assets are
-`                                        stored in main
+`Azure Resource Manager (ARM) templates for the pipeline assets are stored in main
 
 - [ ] 
-`Azure Resource Manager (ARM) templates for the pipeline assets are
-`                                        stored in Parameterization template
+`Azure Resource Manager (ARM) templates for the pipeline assets are stored in Parameterization template
 
 
 - [ ] 
-`A Data Factory Azure Resource Manager (ARM) template named
-`              Contososales can be found in /contososales
+`A Data Factory Azure Resource Manager (ARM) template named Contososales can be found in /contososales
 
 - [x] 
-`A Data Factory Azure Resource Manager (ARM) template named
-`              Contososales can be found in /dwh_batchet/adf_publish/contososales
+`A Data Factory Azure Resource Manager (ARM) template named Contososales can be found in /dwh_batchet/adf_publish/contososales
 
 - [ ] 
-`A Data Factory Azure Resource Manager (ARM) template named
-`              Contososales can be found in /main
+`A Data Factory Azure Resource Manager (ARM) template named Contososales can be found in /main
 
 #### 0041::
 `You are designing an Azure Stream Analytics solution that receives instant messaging data from an Azure Event Hub.

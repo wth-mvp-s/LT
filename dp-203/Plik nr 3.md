@@ -1,4 +1,4 @@
-##   3°.1106.1803
+##   3°.1206.1713
 
 #### 0017::
 `You are designing an Azure Stream Analytics solution that will analyze Twitter data.
@@ -222,7 +222,6 @@
 - [-] Drop the data frame.
 
 #### 0022::
-
 `You build an Azure Data Factory pipeline to move data from an Azure Data Lake Storage Gen2 container to a database in an Azure Synapse Analytics dedicated
 `SQL pool.
 `Data in the container is stored in the following folder structure.
@@ -312,7 +311,7 @@
 - [x] HubB: Stream
 - [ ] HubB: Reference
 - [ ] Database1: Stream
-- [x] Database2: Reference
+- [x] Database1: Reference
 
 #### 0027::
 `You have an Azure Stream Analytics job that receives clickstream data from an Azure event hub.
@@ -509,14 +508,13 @@
 - [ ] No
 
 #### 0038::
-
 `You are designing an Azure Stream Analytics solution that will analyze Twitter data.
 `You need to count the tweets in each 10-second window. 
 `The solution must ensure that each tweet is counted only once.
 `Solution: You use a session window that uses a timeout size of 10 seconds.
 `Does this meet the goal?
-- [x] Yes
-- [ ] No
+- [ ] Yes
+- [x] No
 
 #### 0039:
 `You use Azure Stream Analytics to receive data from Azure Event Hubs and to output the data to an Azure Blob Storage account.

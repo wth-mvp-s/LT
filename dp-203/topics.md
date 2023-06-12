@@ -1,6 +1,5 @@
 # topics dp203
->>>>>>>>>>>>>>>>>>>>>>>>>>>
-0806.1127
+
 tumbling window
 worth to know - which trigger schoul be used - seperate file for this type of questions
 polybase to load data
@@ -10,16 +9,16 @@ plik for this king of questions : `Which type of trigger should you use?
 
 rysunki tumbling azura data factory
 - azure databrick
+        Sink to Azure Queue storage: To persist the events in the table for use in      incremental load pipeline jobs in Azure Databricks while minimizing storage costs and incremental load times
 - azure stream analytics
 - azure synapse analytics
 - azure sql database
 
->>>>>>>>>>>>>>><<<<0906.1002>>>>
+# Incremental load
+    refers to the process of updating a target system with only the changes or new data since the last load, rather than reloading the entire dataset. 
 
-- 
-
->>>>>>>>>>>>>>>>>
-
+# Flatten hierarchy
+    copy behavior, you ensure that the data from the source files is copied to the sink files without retaining the original folder hierarchy. This helps in minimizing read times as it avoids unnecessary directory traversal during batch processing.
 
 same but if it was to give the definition for a child 
 
@@ -110,6 +109,14 @@ partition in event hub, is a lane of stream, 32 par default
     round-robin - : transient data, quick load, or No clear distribution key or data evenly distributed across all compute nodes for balance but no obvious column to choose for hash distribution, round-robin is an appropriate choice.
 
         Small or medium sized tables: For smaller tables where the overhead of managing the hash function isn't worth the potential performance gain, round-robin distribution can be beneficial.
+# index choice 
+    Nonclustered Columnstore: Best for large tables and analytical queries involving aggregations and filtering on specific columns.
+
+    Clustered Columnstore: Ideal for LARGE FACT TABLES in data warehousing scenarios, offering high compression and excellent performance for analytical workloads.
+
+    Nonclustered: Improves query performance for specific queries involving filtering or joining on specific columns.
+
+    Clustered: Determines the physical order of data in a table, useful when frequently querying or sorting data based on a specific column.
 
 # Commands
 sys.dm_pdw_nodes_db_partition_stats - can be used to evaluate data skew. returns statistics
@@ -117,20 +124,27 @@ sys.dm_pdw_nodes_db_partition_stats - can be used to evaluate data skew. returns
 DBCC CHECKALLOC - SQL Server cmd, to checks disk space allocation structures
                 - does not provide information about data distribution in Synapse Analytics.
                 - cannot be run on the built-in pool in Synapse Studio.
-
+sys.dm_pdw_nodes_tran_database_transactions 
+    you can identify transactions that have been rolled back and investigate any issues or performance problems associated with them.
 
 dedicated SQL pool = distributed
 built-in = on-demand or serverless
 
-Dynamic Management Views (DMVs) build in SQLServer, Performance Metrics, Index Usage Statistics, Session and Connection Information
+
+Dynamic Management Views (DMVs) 
+    build in SQLServer, Performance Metrics, Index Usage Statistics, Session and Connection Information
 
 A surrogate key - unique barcode for the book in the library 
 
-Azure Stream Analytics offers different types of windowing functions: 
+#   Windows
+    Azure Stream Analytics offers different types of windowing functions: 
     Sliding Window: result for every content window changes.
-    Session Window: 
-    Hopping Window: overlaps, hops by a fixed duration.
+    
+    Session Window: group events together based on a defined session timeout, which detects gaps in the event stream. It combines events that occur within a specified timeout into a single session. 
+
+    Hopping Window: overlaps, allows you to define a fixed size and a hop size. 
     Tumbling Window: each counted once, many fixed-sized, non-overlapping
+                        segments the data into non-overlapping fixed-size windows, and each tweet will be counted only once within its corresponding 10-second window.
         tumbling, falling over uncontrolably
 
     overlapping - falling in more then one windows
@@ -142,5 +156,10 @@ Azure Synapse Analytics
     Sensitivity classifications - audit access to Personally Identifiable Information (PII). 
     data masking - hiding the actual data values from certain users.
     
+    Get Metadata - activity in an Azure Synapse Analytics pipeline
+        is used to retrieve metadata about files, such as file size, file type, or file modified date. It does not perform any data transformation or enable adding additional columns to a table.
+
+
 ## abreviation
 ACL - access control lists
+

@@ -803,23 +803,25 @@ WITH
 `You have an Azure subscription.
 `You plan to build a data warehouse in an Azure Synapse Analytics dedicated SQL pool named pool1 that will contain staging tables and a dimensional model.
 `Pool1 will contain the following tables.
-`|Name-----------------|Number of rows---|Update frequency--------------|Description-------------------|
-`|Common.date----------|7,300------------|New rows----------------------|-Contains one row per date----|
-`|---------------------|-----------------|Inserted yearly---------------|for the last 20 years---------|
-`|---------------------|-----------------|------------------------------|-Contains columns named-------|
-`|---------------------|-----------------|------------------------------|Year, month, quarter and------|
-`|---------------------|-----------------|------------------------------|isWeekend---------------------|
-`|Marketing.WebSessions|1,500,500,000----|Hourly inserts and updates----|Fact table that contains------|
-`|---------------------|------------------|-----------------------------|counts of and updates---------|
-`|---------------------|------------------|-----------------------------|sessions and page views-------|
-`|---------------------|------------------|-----------------------------|inlcuding foreign key values--|
-`|---------------------|------------------|-----------------------------|for date,hannel,device and----|
-`|---------------------|------------------|-----------------------------|medium------------------------|
-`|Staging.WebSessions--|300,000-----------|Hourly truncation and inserts|------------------------------|
-`|---------------------|------------------|-----------------------------|Staging table for web session-|
-`|---------------------|------------------|-----------------------------|data,truncation and including-|
-`|---------------------|------------------|-----------------------------|descriptive fields for inserts|
-`|---------------------|------------------|-----------------------------|-channel,device,and medium----|
+`|Name-----------------|Number of rows---|Update frequency|Description-------------------|
+`|Common.date----------|7,300------------|New rows--------|-Contains one row per date----|
+`|---------------------|-----------------|Inserted yearly-|for the last 20 years---------|
+`|---------------------|-----------------|----------------|-Contains columns named-------|
+`|---------------------|-----------------|----------------|Year, month, quarter and------|
+`|---------------------|-----------------|----------------|isWeekend---------------------|
+`|---------------------------------------------------------------------------------------|
+`|Marketing.WebSessions|1,500,500,000----|Hourly inserts--|Fact table that contains------|
+`|---------------------|------------------| and updates---|counts of and updates---------|
+`|---------------------|------------------|---------------|sessions and page views-------|
+`|---------------------|------------------|---------------|inlcuding foreign key values--|
+`|---------------------|------------------|---------------|for date,hannel,device and----|
+`|---------------------|------------------|---------------|medium------------------------|
+`|---------------------------------------------------------------------------------------|
+`|Staging.WebSessions--|300,000-----|Hourly truncation |---------------------------|
+`|---------------------|------------|and inserts-------|Staging table for web session-|
+`|---------------------|------------|------------------|data,truncation and including-|
+`|---------------------|------------|------------------|descriptive fields for inserts|
+`|---------------------|------------|------------------|-channel,device,and medium----|
 `
 `You need to design the table storage for pool1. The solution must meet the following requirements:
 `✑ Maximize the performance of data loading operations to Staging.WebSessions.
@@ -1335,7 +1337,7 @@ WITH
 - [ ] Detect whether the data of a given customer has changed in the DimCustomer table: Aggregate
 - [x] Detect whether the data of a given customer has changed in the DimCustomer table: Derived column
 - [ ] Detect whether the data of a given customer has changed in the DimCustomer table: Surogate key
-- [x] Perform an upsert to the DimCustomer table: After row
+- [x] Perform an upsert to the DimCustomer table: Alter row
 - [ ] Perform an upsert to the DimCustomer table: Assert
 - [ ] Perform an upsert to the DimCustomer table: Cast
 
@@ -1673,10 +1675,10 @@ Question Set 2
 `You execute Pipeline2, and Stored procedure1 in Pipeline1 fails.
 `What is the status of the pipeline runs?
 
-- [x] Pipeline1 and Pipeline2 succeeded.
+- [ ] Pipeline1 and Pipeline2 succeeded.
 - [ ] Pipeline1 and Pipeline2 failed.
 - [ ] Pipeline1 succeeded and Pipeline2 failed.
-- [ ] Pipeline1 failed and Pipeline2 succeeded.
+- [x] Pipeline1 failed and Pipeline2 succeeded.
 
 #### 007::
 `A company plans to use Platform-as-a-Service (PaaS) to create the new data pipeline process. The process must meet the following requirements:
@@ -2405,6 +2407,7 @@ Question Set 2
 
 #### 0010::
 `You have an Apache Spark DataFrame named temperatures. A sample of the data is shown in the following table.
+`
 `|Date------|Temp|
 `|...-------|...-|
 `|18-01-2021|3---|
@@ -2412,11 +2415,14 @@ Question Set 2
 `|20-01-2021|2---|
 `|21-01-2021|2---|
 `|...-------|...-|
+`
 `You need to produce the following table by using a Spark SQL query.
+`
 `|Year|JAN|FEB|MAR|APR|MAY|
 `|2019|2.3|4.1|5.2|7.6|9.2|
 `|2020|2.4|4.2|4.9|7.8|9.1|
 `|2021|2.6|5.3|3.4|7.9|9.5|
+`
 `How should you complete the query?
 
 - [x]

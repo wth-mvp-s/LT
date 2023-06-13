@@ -1,4 +1,4 @@
-##   2°.0806.1956
+##   2°.1306.1747
 
 #### 0051::
 `You are building an Azure Stream Analytics job that queries reference data from a product catalog file. The file is updated daily.
@@ -56,7 +56,7 @@
 `   FROM inputi
 `   PARTITION BY StateID
 `   INTO 10),
-
+`
 `step2 AS (SELECT *
 `   FROM input2
 `   PARTITION BY StateID
@@ -70,7 +70,7 @@
 `SELECT * INTO output
 `   FROM step2
 `   PARTITION BY StateID
-For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+`For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
 - [x] The query combines two streams of partitioned data.: Yes
 - [ ] The query combines two streams of partitioned data.: No
@@ -1349,7 +1349,7 @@ WITH
 `
 `How should you complete the query?
 
-- [X]
+- [x]
 `SELECT TOP 1000 *
 `   FROM OPENROWSET
 ` BULK"https://adlsi.dfs.core. windows .net/container1/folder1/*.csv",
@@ -1699,6 +1699,7 @@ Question Set 2
 `✑ Provide support for structured streaming.
 `You need to build the data integration pipeline.
 `Which technologies should you use?
+
 - [ ] Ingest: Logic Apps
 - [x] Ingest: Azure Data Factory
 - [ ] Ingest: Azure Automation
@@ -2005,11 +2006,8 @@ Question Set 2
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2037,11 +2035,10 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`
+`)
+`
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2069,11 +2066,9 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2101,11 +2096,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2133,11 +2125,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2165,11 +2154,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2197,11 +2183,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2229,11 +2212,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2261,11 +2241,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2293,11 +2270,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2325,11 +2299,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2357,11 +2328,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2389,11 +2357,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -2421,11 +2386,8 @@ with (id varchar(5S0),
 `   rowterminator = '0x0b'
 `)
 `with (id varchar(50),
-   
-
-)
-
-with (id varchar(5S0),
+`)
+`with (id varchar(5S0),
 `   contextdateventTime varchar(S0) '$.context.data.eventTime',
 `   contextdatasamplingRate varchar(50) '$.context.data.samplingRate',
 `   contextdataisSynthetic varchar(50) '$.context.data.isSynthetic'.
@@ -3008,11 +2970,14 @@ with (id varchar(5S0),
 - [ ] Azure SQL Database
 
 #### 0014::
-`You have an enterprise data warehouse in Azure Synapse Analytics that contains a table named FactOnlineSales. The table contains data from the start of 2009 to the end of 2012.
+`You have an enterprise data warehouse in Azure Synapse Analytics that contains a table named FactOnlineSales. 
+`The table contains data from the start of 2009 to the end of 2012.
 `You need to improve the performance of queries against FactOnlineSales by using table partitions. The solution must meet the following requirements:
 `✑ Create four partitions based on the order date.
 `✑ Ensure that each partition contains all the orders placed during a given calendar year.
 `How should you complete the T-SQL command?
+
+- [x] 
 `CREATE TABLE [dbo] .FactOnlineSales
 `([OnlineSalesKey] [int] NOT NULL,
 `[OrderDateKey] [datetime] NOT NULL,
@@ -3024,12 +2989,85 @@ with (id varchar(5S0),
 `[SalesAmount] [money] NOT NULL,
 `[UnitPrice] [money] NULL)
 `WITH (CLUSTERED COLUMNSTORE INDEX)
+`PARTITION ([OrderDateKey] RANGE RIGHT FOR VALUES
+`(20100101,20110101,20120101)
 
-- [x] PARTITION ([OrderDateKey] RANGE RIGHT FOR VALUES
-- [ ] PARTITION ([OrderDateKey] RANGE LEFT FOR VALUES
-- [ ] (20090101,20121231)
-- [x] (20100101,20110101,20120101)
-- [ ] (20090101 ,20100101,20110101,20120101)
+- [ ] 
+`CREATE TABLE [dbo] .FactOnlineSales
+`([OnlineSalesKey] [int] NOT NULL,
+`[OrderDateKey] [datetime] NOT NULL,
+`[StoreKey] [int] NOT NULL,
+`[ProductKey] [int] NOT NULL,
+`[CustomerKey] [int] NOT NULL,
+`[SalesOrderNumber] [nvarchar] (20) NOT NULL,
+`[SalesQuantity] [int] NOT NULL,
+`[SalesAmount] [money] NOT NULL,
+`[UnitPrice] [money] NULL)
+`WITH (CLUSTERED COLUMNSTORE INDEX)
+`PARTITION ([OrderDateKey] RANGE LEFT FOR VALUES
+`(20100101,20110101,20120101)
+
+
+- [ ] 
+`CREATE TABLE [dbo] .FactOnlineSales
+`([OnlineSalesKey] [int] NOT NULL,
+`[OrderDateKey] [datetime] NOT NULL,
+`[StoreKey] [int] NOT NULL,
+`[ProductKey] [int] NOT NULL,
+`[CustomerKey] [int] NOT NULL,
+`[SalesOrderNumber] [nvarchar] (20) NOT NULL,
+`[SalesQuantity] [int] NOT NULL,
+`[SalesAmount] [money] NOT NULL,
+`[UnitPrice] [money] NULL)
+`WITH (CLUSTERED COLUMNSTORE INDEX)
+`PARTITION ([OrderDateKey] RANGE RIGHT FOR VALUES
+`(20090101 ,20100101,20110101,20120101)
+
+- [ ] 
+`CREATE TABLE [dbo] .FactOnlineSales
+`([OnlineSalesKey] [int] NOT NULL,
+`[OrderDateKey] [datetime] NOT NULL,
+`[StoreKey] [int] NOT NULL,
+`[ProductKey] [int] NOT NULL,
+`[CustomerKey] [int] NOT NULL,
+`[SalesOrderNumber] [nvarchar] (20) NOT NULL,
+`[SalesQuantity] [int] NOT NULL,
+`[SalesAmount] [money] NOT NULL,
+`[UnitPrice] [money] NULL)
+`WITH (CLUSTERED COLUMNSTORE INDEX)
+`PARTITION ([OrderDateKey] RANGE LEFT FOR VALUES
+`(20090101 ,20100101,20110101,20120101)
+
+
+- [ ] 
+`CREATE TABLE [dbo] .FactOnlineSales
+`([OnlineSalesKey] [int] NOT NULL,
+`[OrderDateKey] [datetime] NOT NULL,
+`[StoreKey] [int] NOT NULL,
+`[ProductKey] [int] NOT NULL,
+`[CustomerKey] [int] NOT NULL,
+`[SalesOrderNumber] [nvarchar] (20) NOT NULL,
+`[SalesQuantity] [int] NOT NULL,
+`[SalesAmount] [money] NOT NULL,
+`[UnitPrice] [money] NULL)
+`WITH (CLUSTERED COLUMNSTORE INDEX)
+`PARTITION ([OrderDateKey] RANGE RIGHT FOR VALUES
+`(20090101,20121231)
+
+- [ ] 
+`CREATE TABLE [dbo] .FactOnlineSales
+`([OnlineSalesKey] [int] NOT NULL,
+`[OrderDateKey] [datetime] NOT NULL,
+`[StoreKey] [int] NOT NULL,
+`[ProductKey] [int] NOT NULL,
+`[CustomerKey] [int] NOT NULL,
+`[SalesOrderNumber] [nvarchar] (20) NOT NULL,
+`[SalesQuantity] [int] NOT NULL,
+`[SalesAmount] [money] NOT NULL,
+`[UnitPrice] [money] NULL)
+`WITH (CLUSTERED COLUMNSTORE INDEX)
+`PARTITION ([OrderDateKey] RANGE LEFT FOR VALUES
+`(20090101,20121231)
 
 #### 0015:: 
 `You need to implement a Type 3 slowly changing dimension (SCD) for product category data in an Azure Synapse Analytics dedicated SQL pool.

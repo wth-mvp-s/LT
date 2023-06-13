@@ -1,4 +1,4 @@
-##   5°.1106.1803
+##   5°.1306.1808
 
 #### 0012::
 `You are designing a streaming data solution that will ingest variable volumes of data.
@@ -259,6 +259,12 @@
 `contrainer1: Execute
 `directory1: Execute
 `file1: Write
+
+
+- [ ]
+`contrainer1: Write
+`directory1: Write
+`file1: Execute
 
 - [ ]
 `contrainer1: Read

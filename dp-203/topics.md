@@ -191,3 +191,5 @@ upsert - "update" OR "insert".
     Insert a new record if it doesn't exist, or
     Update the existing record if it already exists.
 assert - zapewniac, defendre
+Truncation::adjust data to column size, and dispose it between them if necessary
+sink :: destination, target

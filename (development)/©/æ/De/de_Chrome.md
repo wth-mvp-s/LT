@@ -13,3 +13,4 @@ verknupfung::shortcut
 mit::with
 oder::or
 eingeben::input
+ubrig::left over

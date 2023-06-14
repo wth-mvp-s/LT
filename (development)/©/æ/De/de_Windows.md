@@ -21,3 +21,5 @@ fung:: function
 eigenschaften:: characteristics
 fugen:: umiescic
 knup:: knuc cos
+jetzt neu starten:: restart now
+wird::becomes

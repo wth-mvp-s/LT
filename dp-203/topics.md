@@ -168,6 +168,10 @@ A surrogate key - unique barcode for the book in the library
     Session Window: group events together based on a defined session timeout, which detects gaps in the event stream. It combines events that occur within a specified timeout into a single session. 
 
     Hopping Window: overlaps, allows you to define a fixed size and a hop size. 
+                        In your use case, you need to ensure that whenever a vehicle's GPS position is outside the expected area, an alert message is processed within 30 seconds. The continuous and possibly overlapping checks of a Hopping window would serve your purpose better by preventing the loss of an alert if it falls on the boundary of a window.
+
+                        With a Tumbling window, if a GPS position update is received just after a window's end, the alert will only be processed in the next window, potentially delaying the alert beyond your 30-second limit. With a Hopping window, the overlapping window ensures such edge cases are included and processed promptly. Hence, Hopping window is a more suitable choice for your scenario.
+
     Tumbling Window: each counted once, many fixed-sized, non-overlapping
                         segments the data into non-overlapping fixed-size windows, and each tweet will be counted only once within its corresponding 10-second window.
         tumbling, falling over uncontrolably

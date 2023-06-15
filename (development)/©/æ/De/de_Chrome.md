@@ -17,3 +17,5 @@ ubrig::left over
 speichen::
 fertig::complete
 entfemen::remove
+speichern::save
+abbrachen::cancel

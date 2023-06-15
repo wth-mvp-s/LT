@@ -14,3 +14,6 @@ mit::with
 oder::or
 eingeben::input
 ubrig::left over
+speichen::
+fertig::complete
+entfemen::remove

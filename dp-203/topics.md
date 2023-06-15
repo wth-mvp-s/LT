@@ -144,6 +144,20 @@ partition in event hub, is a lane of stream, 32 par default
     Clustered: Determines the physical order of data in a table, useful when frequently querying or sorting data based on a specific column.
 
 # Commands
+    built-in pool = serverless 
+                    (not on premise)
+        
+     dedicated SQL pool = data is distributed, parallel processing.
+
+    command DBCC PDW_SHOWSPACEUSED and the dynamic management view sys.dm_pdw_nodes_db_partition_stats are specific to DEDICATED SQL pools, and they provide information about the data distribution and storage in the pool, which is related to the architecture of the dedicated SQL pool. Using these commands on the built-in pool won't work because the built-in pool doesn't distribute data across distributions in the same way.
+
+    When deciding whether to connect to the built-in pool or a dedicated SQL pool, you should consider the type of operation you want to perform and the pool's architecture. 
+    
+    CONNECT TO A DEDICATED SQL POOL WHEN YOU NEED TO WORK WITH THE DISTRIBUTED DATA, 
+        such as when you want to check the data skew. 
+        
+    CONNECT TO THE BUILT-IN POOL FOR AD-HOC QUERIES OR WHEN YOU DON'T NEED TO DEAL WITH DISTRIBUTED DATA.
+
 sys.dm_pdw_nodes_db_partition_stats - can be used to evaluate data skew. returns statistics
     - hes to be run in the context of a dedicated SQL pool.
 DBCC CHECKALLOC - SQL Server cmd, to checks disk space allocation structures

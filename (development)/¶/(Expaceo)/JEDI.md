@@ -1,5 +1,11 @@
 
 
+
+# je propose first rule of JEDI, 
+screen shot from layer bramka , 
+
+
+# pivot
 pineapple vs croissant
 
 both 460 kcal

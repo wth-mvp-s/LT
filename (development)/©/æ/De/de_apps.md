@@ -1,9 +1,9 @@
 # de_apps
 
 schliessen::close
-zu
-uber
-ubertragende
-fehlgesaschlegene
-erfolgreiche
-datei
+zu::tu
+uber::over
+ubertragende::transfering
+fehlgesaschlegene::failed
+erfolgreiche::successful
+datei::file

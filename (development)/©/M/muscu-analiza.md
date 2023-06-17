@@ -1,3 +1,11 @@
+# PROBLEMS
+    stabilizacja biodra, skakanka
+    rollers
+    elastique jambes
+# a voir 
+Google: chess muscle exercicves
+ćwiczeniem wielostawowym
+
 ## Lista wszystkich cwiczen 
 
 Exercises / chest / muscle
@@ -32,7 +40,7 @@ baton muscu bon ?
 FIBRE desavantage
 gateau sans glucide ni sucre
 
-muscu 
+# ZAKUPY
     CREATINE
             The production of creatine monohydrate is a relatively straightforward process for laboratories and companies with the necessary equipment and expertise. It is indeed basic chemistry and not an extraordinary process.
 
@@ -52,10 +60,20 @@ muscu
         kurwy Creapure Nutripure 16.14 /50 porc, PoS 0.32
         kurwy Optigura 73porcje PoS 0.24
 
+    BCAA
+            amazon.fr
+            24.89€ / 374 g ON, Optimum Nutrition Gold Standard
+            25.95€ / 390g PRO ON
+            24.69€ / 400g nu3
+            26.49€ / 600g 
+
+            fitnessPark St Cloud
+            27.90€ Biotech 360g 
+    
+            ON 29.90€, PoS 1.06€
+            Xellerek PoS 0.19 nie mam zmeczenia na silowni, moge skasowac
+            
     BCAA DELETE!
             for fatigue reduction and immune support
             The production of branched-chain amino acids (BCAAs) – leucine, isoleucine, and valine – can be considered a relatively straightforward process for laboratories and companies with the necessary equipment and expertise. Similar to creatine monohydrate, the production of BCAAs involves basic chemistry.
 
-            ON 29.90€, PoS 1.06€
-            Xellerek PoS 0.19 nie mam zmeczenia na silowni, moge skasowac
-            

@@ -211,3 +211,8 @@ upsert - "update" OR "insert".
 assert - zapewniac, defendre
 Truncation::adjust data to column size, and dispose it between them if necessary
 sink :: destination, target
+
+//
+
+please provide explanation, why if correct, this was the correct choice, 
+ explaining meaning of other options too

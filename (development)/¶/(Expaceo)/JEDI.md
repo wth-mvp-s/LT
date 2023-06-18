@@ -25,3 +25,9 @@ Which Spark SQL function should you use?
 B. filter
 C. coalesce
 D. extract
+
+# philosophie
+    beneficier de se negatifs
+        canal carpien vs keyboard shortcut 
+        VC Ctrl + shift + P 
+        config VC Search / .js 

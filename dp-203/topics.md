@@ -213,6 +213,29 @@ Truncation::adjust data to column size, and dispose it between them if necessary
 sink :: destination, target
 
 //
-
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 please provide explanation, why if correct, this was the correct choice, 
  explaining meaning of other options too
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+which fragment from the question indicate the choosen answer is correct if is correct 
+
+# cost
+
+1.0050
+ the goal now is to enhance workspace security and business continuity capabilities. The Premium tier for Azure Databricks offers advanced security features, such as role-based access control, as well as enhanced business continuity features. 
+
+    Enhanced Security:
+
+        Role-Based Access Control (RBAC): This allows you to set granular permissions at the workspace level, notebook level, and cluster level, providing more control over who can access and perform operations in your Databricks environment. This is only available in the Premium tier.
+
+        Audit Logs: Premium tier provides access to audit logs, which allows you to monitor activities within your Databricks workspace. Audit logs record details about workspace activities, like who created or modified a cluster, notebook, job, and so on. This can help you keep track of changes and investigate potential security incidents.
+
+        Private Link: This is a feature that helps to isolate your Databricks workspace from public internet. It provides secure and private connectivity between your Databricks workspace and your Azure Virtual Network (VNet), ensuring your data is not exposed to the public internet. This feature is only available in the Premium tier.
+
+    Enhanced Business Continuity:
+
+        High Concurrency Clusters: Premium tier supports high concurrency clusters which can handle numerous simultaneous users and jobs without interference. This can be important for business continuity because it allows many users to work simultaneously without affecting each other's work.
+
+        Databricks Runtime for Machine Learning (ML): This is a preconfigured Databricks runtime environment that contains multiple popular machine learning libraries. This can enable faster development and deployment of ML models, and help ensure that your analytics operations continue smoothly.
+
+        Jobs ACLs: This feature allows you to control who can view, edit, and execute jobs. This not only enhances security but also provides control over the execution of jobs, which is critical for business continuity.

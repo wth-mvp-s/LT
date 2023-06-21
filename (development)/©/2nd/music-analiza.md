@@ -1,4 +1,6 @@
 ###### perelki 
+- November Forbidden City Concert - with Danill Trifonov, STAGE +
+      Mari Samuelsen – Max Richter: November (Live from the Forbidden City, Beijing / 2018)
 
 - Concert for Planet Earth, Marsalis
 

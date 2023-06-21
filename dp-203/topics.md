@@ -143,6 +143,7 @@ partition in event hub, is a lane of stream, 32 par default
 
     Clustered: Determines the physical order of data in a table, useful when frequently querying or sorting data based on a specific column.
 
+#  dynamic management view
 # Commands
     built-in pool = serverless 
                     (not on premise)
@@ -158,8 +159,14 @@ partition in event hub, is a lane of stream, 32 par default
         
     CONNECT TO THE BUILT-IN POOL FOR AD-HOC QUERIES OR WHEN YOU DON'T NEED TO DEAL WITH DISTRIBUTED DATA.
 
-sys.dm_pdw_nodes_db_partition_stats - can be used to evaluate data skew. returns statistics
-    - hes to be run in the context of a dedicated SQL pool.
+sys.dm_pdw_nodes_db_partition_stats
+    - can be used to evaluate data skew. returns statistics
+    - can to be run in the context of a dedicated SQL pool.
+
+sys.dm_pdw_node_status
+    health status of the nodes in a Synapse SQL data warehouse. 
+    useful for monitoring and diagnostics of the SQL data warehouse nodes, it doesn't provide specific information about data skew in a table. 
+
 DBCC CHECKALLOC - SQL Server cmd, to checks disk space allocation structures
                 - does not provide information about data distribution in Synapse Analytics.
                 - cannot be run on the built-in pool in Synapse Studio.
@@ -211,6 +218,7 @@ upsert - "update" OR "insert".
 assert - zapewniac, defendre
 Truncation::adjust data to column size, and dispose it between them if necessary
 sink :: destination, target
+star schema :: 
 
 //
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -114,3 +114,4 @@ Geo-redundant storage (GRS): This is similar to RA-GRS in that it replicates you
 Zone-redundant storage (ZRS): ZRS replicates your data across multiple datacenters in the same region (or across regions in some cases). However, if an entire region experiences an outage (which is the scenario specified in the question), ZRS wouldn't ensure that the data is available for read workloads in a secondary region.
 
 Locally-redundant storage (LRS): LRS replicates your data within the same data center. It doesn't replicate the data to another region, so it wouldn't help if an outage occurs in the primary region.
+

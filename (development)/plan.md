@@ -1,4 +1,4 @@
-
+_ici analiza,  pamietnik agenda, reszta gdrive
 
 
 

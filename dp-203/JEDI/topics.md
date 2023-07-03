@@ -247,3 +247,5 @@ which fragment from the question indicate the choosen answer is correct if is co
         Databricks Runtime for Machine Learning (ML): This is a preconfigured Databricks runtime environment that contains multiple popular machine learning libraries. This can enable faster development and deployment of ML models, and help ensure that your analytics operations continue smoothly.
 
         Jobs ACLs: This feature allows you to control who can view, edit, and execute jobs. This not only enhances security but also provides control over the execution of jobs, which is critical for business continuity.
+
+        dans un sommaire, qui concerne la presentation au sujet de dp-203, ou je commence par parler de certif, et quel benefice de le faire pour un dev, puis je list des services, je me concentre sur 4 le plus important pour moi, puis je list quelques notions technique important , puis je liste les concepts equivalent dans mon metier, a la fin, que ce que je peux dire, pour resumer et finir, de maniere drole, en restant dans lunivers marvel , etc , 

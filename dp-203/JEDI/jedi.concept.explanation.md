@@ -1,22 +1,3 @@
-# Azure Cosmos DB
-    globally distributed, 
-    multi-model database service
-        does not serve as a reference data source
-
-# Azure IoT Hub
-    central message hub between IoT vs devices it manages
-        does not serve as a reference data source.
-# Azure Blob Storage 
->>>     Reference data is stored in Azure Blob Storage 
-            used to perform lookups or join data to the incoming events
-                This feature is used in scenarios where the incoming data stream needs to be augmented or looked up against a static dataset.
->>> JEDI when speaking about tools and service
->>> why would you need one or another 
-# Azure Stream Analytics
->>>     supports SQL-like language for transformation
-# Azure Databricks
->>>     built-in support for Java (and Scala, Python, R, and SQL)
-            You are planning a solution to aggregate streaming data that   originates in Apache Kafka and is output to Azure Data Lake Storage Gen2. The developers who will implement the stream processing solution use Java.
 
 
 #   IMPORTANT CONCEPTS

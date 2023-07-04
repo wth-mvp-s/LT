@@ -14,7 +14,9 @@ Parce que quand il s'agit de data, Mario sait qu'il doit descendre dans les tuya
 
 Parce que quand Mario voit un nuage, il cherche à y sauter dessus pour aller plus loin, alors que Harry Potter regarde simplement à travers le Choixpeau magique!"
 
+# Why did Groot decide to take the Microsoft DP-203 exam?
 
+Because every time he tried to manage a database, all he could say was "I am Groot," but he wanted to say "I am Group By!"
 
 
 data engineering 

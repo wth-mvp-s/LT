@@ -6,7 +6,6 @@ INDEXING
     CLUSTERED COLUMNSTORE
     NONCLUSTERED
     CLUSTERED
->> CHECK IF TEH SAME DISTRIBUTION, TABLE TYPE 
     ROUND-ROBIN
     HASH
     REPLICATE
@@ -29,26 +28,6 @@ CHOOSING MOST SUITABLE TOOL FOR TRANSFORMING DATA
         ALTERROW
 DATA REDUNDENCY
 
-#### 0033::
-`You are designing a monitoring solution for a fleet of 500 vehicles. Each vehicle has a GPS tracking device that sends data to an Azure event hub once per minute.
-`You have a CSV file in an Azure Data Lake Storage Gen2 container. The file maintains the expected geographical area in which each vehicle should be.
-`You need to ensure that when a GPS position is outside the expected area, a message is added to another event hub for processing within 30 seconds. The solution must minimize cost.
-`What should you include in the solution?
-`::
-`Hopping window hops forward in time by a fixed period. This means that if you have a Hopping window size of one minute, and it hops every 30 seconds, it can cover the events within the desired 30 seconds time frame, ensuring a quicker response to the event.
-
-- [ ] Service: An Azure Synapse Analytics Apache Spark pool
-- [ ] Service: An Azure Synapse Analytics serverless SQL pool
-- [ ] Service: Azure Data Factory
-- [x] Service: Azure Stream Analitycs
-- [x] Window: Hopping
-- [ ] Window: No window
-- [ ] Window: Session
-- [ ] Window: Tumbling
-- [ ] Analisys type: Event pattert matching
-- [ ] Analisys type: Lagged record comparison
-- [x] Analisys type: Point within polygon
-- [ ] Analisys type: Polygon overlap
 
 
 # when to use premium pricing tier

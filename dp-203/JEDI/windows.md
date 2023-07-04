@@ -1,0 +1,3 @@
+In the context of data processing, windowing refers to splitting a stream of data into smaller, manageable batches or chunks. It is a strategy used primarily in stream processing, where you are dealing with continuous, unbounded streams of data. A "tumbling window" is a type of windowing operation where each window is distinct and does not overlap with others.
+
+. In web development, developers might batch API calls to reduce the number of server requests and improve the performance of their applications.

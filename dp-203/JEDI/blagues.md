@@ -1,3 +1,9 @@
+# Pourquoi est-ce que Mario ne peut pas se souvenir de son code PIN ?
+
+Parce qu'à la place des chiffres, il essaie toujours de mettre "1-Up, 2-Up, B, A" pour débloquer son compte bancaire !
+
+
+
 # "Pourquoi est-ce que Mario, le plombier de Nintendo, pourrait être un meilleur data scientist que Harry Potter?
 
 Parce que quand il s'agit de data, Mario sait qu'il doit descendre dans les tuyaux pour comprendre ce qui se passe, tandis que Harry Potter ne fait que jeter des sorts et espère que les choses se passent bien!"

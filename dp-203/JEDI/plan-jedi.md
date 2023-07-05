@@ -1,4 +1,59 @@
 
+na potrzeby tej prezentacji, nauczylem sie kilku slow po rosujsku.: 
+
+
+Zaczynamy, 
+zaczniemy od omowienia tematow poruszonych w tej prezentacji. 
+
+# 1.Sommaire
+- Przedewszystkim chcialbym sie podzielic moim doswiadczeniem zrobienia certyfikatu dp203, 
+    co mnie to nauczylo o zawodzie inzynierow danych. 
+    oraz jakie korzysci wynikaja dla mnie jako inzyniera consultanta z tego doswiadczenia
+- Nastepnie rzucimy okiem na rozne servisy jakie sa dostepne do pracy z danymi, o jakich jest mowa w certyfikacie
+    omowimy kilka z nich, ktore wydawaly mi sie najbardziej interesujace. 
+- kolejny punkt dotyczyc bedzie zawodu data engineer, 
+    - postaram sie podsumowac zlozony temat obszaru ich prac, zlozonosc zagadnien jakie sa do wziecia pod uwage, wybory, parametry etc. 
+- bede chcial nastepnie skoncentrowac sie na 3 aspektach ktore sa bezposrednio dotycza pracy developerow. perf, securite, services premium
+
+
+
+
+# wybór tematów
+
+    szeroki zakres zarządzania bazami danych i bezpieczeństwem danych
+        zainteresuje programistów i inżynierów danych.
+
+        Maskowanie danych, Transparentne szyfrowanie, Bezpieczeństwo na poziomie kolumn
+            kluczowe koncepcje w dziedzinie bezpieczeństwa i prywatności danych. Są one szczególnie istotne w kontekście rosnących obaw o prywatność i regulacje dotyczące ochrony danych na całym świecie, takie jak RODO i CCPA.
+
+        Indeks, Partycja, Dystrybucja: 
+            Te tematy dotyczą dostrojenia wydajności bazy danych i skalowania, które są kluczowe dla aplikacji intensywnie korzystających z danych. 
+                stosowne dla publiczności zainteresowanej projektowaniem i zarządzaniem efektywnymi i skalowalnymi systemami baz danych.
+
+        Demo Redundancji: zapewniającym niezawodność, dostępność i odzyskiwanie danych, centralne dla budowania solidnych systemów.
+
+        Przypadek użycia poziomu premium: Wyjaśnienie kiedy i dlaczego poziom premium może być konieczny, 
+            cenna wskazówka dla członków publiczności, którzy mogą podejmować decyzje o alokacji zasobów i zarządzaniu kosztami dla swoich organizacji.
+
+        SQL, Pivot: Demonstracja operacji SQL, zwłaszcza skomplikowanych operacji, takich jak pivot, 
+            cenna dla publiczności programistów. 
+            Zrozumienie operacji SQL na głębszym poziomie może im pomóc optymalizować zapytania do bazy danych i zwiększyć efektywność.
+
+## Oprócz tych tematów, oto kilka dodatkowych pomysłów:
+
+    Typy baz danych (Relacyjne, NoSQL, NewSQL): Omówienie różnych typów baz danych może pomóc publiczności zrozumieć, które z nich mogą być najlepsze dla ich konkretnych przypadków użycia.
+
+    Replikacja danych i sharding: Są to również kluczowe elementy zapewniające dostępność danych i skalowalność systemu.
+
+    Kontrola współbieżności: Ten temat jest kluczowy w środowiskach baz danych wieloużytkownikowych, zapewniając integralność danych i efektywność systemu.
+
+    Normalizacja/Denormalizacja bazy danych: Te techniki projektowania mogą pomóc optymalizować strukturę bazy danych dla różnych przypadków użycia.
+
+    Proces ETL: Jeśli Twoja publiczność pracuje z dużymi ilościami danych, zrozumienie procesów ETL (Extract, Transform, Load) jest kluczowe.
+
+
+
+
 # 4 l'apprentissage transférable
     exploration de domaines en dehors de votre domaine d'expertise actuel, ce qui peut stimuler la créativité, l'innovation et la croissance personnelle.
 
@@ -164,6 +219,18 @@ Databricks, Stream Analytics, and Data Factory, work on top of the data lake to 
 
 # observable
 
-# 18 win-win 
-    En conclusion, je dirais que l'apprentissage pour la certification DP-203, permet d’explorer l'avenir de l'informatique, chaque service, chaque notion que nous avons abordée est comme un coup d'œil sur les nouvelles frontières de notre domaine. 
+# zakonczenie
+
+    tematy, takie jak certyfikaty, kiedy sie o nich mysli po raz pierwszy 
+    odnosi sie wrazenie ze jest to ogrom pracy nie do pokonania. 
+
+    Pamietam kiedy zdawalem moj pierwszy certyfikat az900 rok temu, 
+    panika i stres byly ogromne. 
+
+    dzisiaj wiem ze dzieki ciezkiej pracy, stalemu powtarzaniu, jest mozliwe przygotowanie sie do kazdego egzaminu.
+    Obecnie moj cel jest zastosowac te narzedzia do zapamietywania, do przygotowania sie do spotkan z klientami, 
+    majac nadzieje ze resultat bedzie rownie imponujacy jak ilosc punktow z dp203 
+
+
+    
 

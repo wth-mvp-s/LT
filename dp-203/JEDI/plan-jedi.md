@@ -352,7 +352,9 @@ stosowane razem, wzajemnie uzupełniają się, aby poprawić ogólną wydajnoś�
 ex. 
     dystrybucja danych pomiędzy nodes redukuje ruch danych i umożliwia równoległe przetwarzanie, 
     
-    indeksów tworzenie na konkretnych kolumnach dalszo optymalizuje wydajność zapytań w obrębie każdej partycji. 
+    25 eleves dans une classe, 5 classe, 5 annees
+
+    indeksów dla kazdej partycji poprawiaja mozlkiwosc optymizacji dla kazdej partycji. 
     
     Partycjonowanie może być używane do logicznego organizowania danych w zarządzalne jednostki, które można następnie dystrybuować i indeksować dla efektywnego przetwarzania.
     

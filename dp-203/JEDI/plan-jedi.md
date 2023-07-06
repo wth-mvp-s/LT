@@ -1,20 +1,43 @@
+ostatni owiec, udalo mi sie otrzymac certyfikat dp203.
+et pour parler de cette experiance, pour partager mon experiance, aujourd'hu cette presentation, 
 
-na potrzeby tej prezentacji, nauczylem sie kilku slow po rosujsku.: 
+je pense que les echec j'en ai besoin aussi, sont precieux, 
+il faut savoir tomber quand on rulle vite, quand on fait les circuit, 
 
+
+na potrzeby tej prezentacji, nauczylem sie jednego zdania po Rosyjsku
+: 
+mademoiselle Olga, Puoviez vous m'aider repondre a cette questions, sil vous plait ? 
+
+ПАНИЕНКО ОЛЬГА, НЕ МОГЛИ БЫ ВЫ ПОМОЧЬ МНЕ ОТВЕТИТЬ НА ЭТОТ ВОПРОС, ПОЖАЛУЙСТА ?
+
+паниенко Ольга,                     Paniejenko Olga
+не могли бы вы помочь мне ответить на этот вопрос, nie mŁAgli by wy     
+                                pomoĆ mnie oTWIEćIEć NA ETAt-WAPROS
+
+пожалуйста? PAŻAŁUSTA
+
+Paniejenko Olga, nie mŁAgli by wy pomoĆ mnie 
+
+oTWIEćIEć NA eTAd-WAPROS, PAżŻAŁ-USTA
 
 # 1.Sommaire
 - Zaczne od tego ze opowiem o moim doswiadczeniem zrobienia certyfikatu dp203, 
-    jak sobie z tym poradzilem,  
-    jakie wrazenia, etc
+    - jak sobie z tym poradzilem,  
+    - jakie wrazenia, etc
 
 
--  Nastepnie rzucimy okiem na rozne servisy jakie sa dostepne do pracy z danymi, o jakich jest mowa w certyfikacie
-    wybralem 4 z nich, ktore wydawaly mi sie najbardziej interesujace. 
+-  Nastepnie rzucimy okiem na rozne servisy 
+jakie sa dostepne do pracy z danymi,
+o jakich jest mowa w certyfikacie
 
-    na ich przykladzie przytocze dwa przyklady z zycia wziete, biorac jako przyklad wymyslone przezemnie zapotrzebowanie firmy takiej jak Uber. aby pokazac jak te servisy ze soba wspolpracuja
+wybralem 4 z nich, ktore wydawaly mi sie najbardziej interesujace. 
+
+na ich przykladzie przytocze dwa przyklady z zycia wziete, biorac jako przyklad wymyslone przezemnie zapotrzebowanie firmy takiej jak Uber. aby pokazac jak te servisy ze soba wspolpracuja
 
 - Kolejny punkt bedzie dotyczyl zawodu data engineer,
-    sa complexite, les nomres des parametre a prendre en compte etc. 
+    de sa complexite, 
+    de nomreus  parametre a prendre en compte etc. 
      zauwazam 3 aspekty ktore sa bezposrednio podobne w zawodzie developerow, 
         - perf, 
         - securite, 
@@ -25,12 +48,9 @@ na potrzeby tej prezentacji, nauczylem sie kilku slow po rosujsku.:
         - partition
         - distribution
 
+        ces concepts pour les services qui travail sur le grand volume de data sont essentiel 
+
 et a chaque fois how it translate on sql bdd, for developer profit
-
-# wybór tematów
-
-        Indeks, Partycja, Dystrybucja: 
-            Te tematy dotyczą dostrojenia wydajności bazy danych i skalowania, które są kluczowe dla aplikacji intensywnie korzystających z danych. 
 
 
 

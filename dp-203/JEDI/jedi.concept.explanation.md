@@ -1,53 +1,6 @@
 
 
 #   IMPORTANT CONCEPTS
-##      PARTITION
-            Partitioning in the context of databases is a technique that divides a large database or table into smaller, more manageable parts called partitions. Each partition can be managed and accessed independently. This division is typically based on different characteristics of the data, such as the date a record was created (time-based partitioning), geographical location (list partitioning), or a range of values in a column (range partitioning).
-
-        Here are some key benefits of partitioning:
-
-            Improved Query Performance: Since each partition is smaller than the whole database, queries that only need to access certain partitions can run faster because they have less data to scan.
-
-            Manageability: By partitioning a large table into smaller ones, tasks such as backups, indexing, and updates can be performed on individual partitions rather than the entire table, making these operations faster and less likely to impact overall system performance.
-
-            Availability: If a problem or a failure affects a specific partition, the other partitions can remain online and accessible, limiting the impact of the issue.
-
-            For example, in the context of your previous question, a sales data table could be partitioned by month, with each partition containing sales data for a particular month. At the beginning of each month, the oldest partition (containing data older than 36 months) could be quickly removed to keep the data within a 36-month window.
-
-            It's important to note that the choice to partition data should be carefully considered, as there are also costs and complexities associated with this strategy. It's best suited for large databases where the benefits of partitioning would outweigh these considerations.
-
-##  DISTRIBUTION
-        In the context of databases, particularly distributed databases, data distribution refers to the way data is spread across different nodes or physical locations. It's a method of storing different pieces of data in different places to improve performance, availability, and resilience.
-
-        In Azure Synapse Analytics, distribution is used to determine how the rows of a table are spread across the distributions when the table is created. The distribution chosen can significantly impact query performance.
-
-        There are three types of distributions:
-
-            1. Round Robin Distribution:
-
-                Round Robin distribution distributes the rows evenly across all nodes, one after another.
-
-                Node 1: A, D, G
-                Node 2: B, E, H
-                Node 3: C, F
-            2. Hash Distributed:
-
-                Hash distribution distributes the rows based on the value of a hash function applied to a specific column (let's say a column that categorizes our data into three categories: Cat, Dog, Fish).
-
-                Node 1 (Cat): A, D, G
-                Node 2 (Dog): B, E, H
-                Node 3 (Fish): C, F
-            3. Replicate Distribution:
-
-                Replicate distribution creates a full copy of the table on every node.
-
-                Node 1: A, B, C, D, E, F, G, H
-                Node 2: A, B, C, D, E, F, G, H
-                Node 3: A, B, C, D, E, F, G, H
-
-
-
-
 
 # Azure Stream Analytics
     real-time analytics and complex event-processing engine

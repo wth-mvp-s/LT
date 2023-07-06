@@ -20,70 +20,7 @@ rysunki tumbling azura data factory
 # Flatten hierarchy
     copy behavior, you ensure that the data from the source files is copied to the sink files without retaining the original folder hierarchy. This helps in minimizing read times as it avoids unnecessary directory traversal during batch processing.
 
-same but if it was to give the definition for a child 
 
-ChatGPT
-Sure, I'll try to simplify the definitions:
-
-Azure Data Factory: It's like a big moving truck that can also sort your toys (data) while moving them.
-
-Pipeline Authoring Changes: It's like changing the steps in a game to make it more fun or easier to play.
-
-UX Authoring Canvas: It's like a digital drawing board where you design how a game (or app) will look and work.
-
-Azure Synapse Analytics serverless SQL pool: It's like a magic computer that can answer questions about lots of things (data) at once without needing to be always on.
-
-Azure Data Lake Storage Gen2 account: It's a huge toy box (storage) where you can put all kinds of toys (data) and find them easily when you need them.
-
-Apache Spark job: It's like a group of workers (computers) who can all work on a big puzzle (data) at the same time to solve it faster.
-
-DataFrame: It's like a big chart or table that helps you understand and organize information better.
-
-Data Warehouse: It's a giant library of facts (data) where you can go to learn things or answer questions.
-
-Microsoft Purview account.
-Databricks clusters
-SQL pool
-Azure Data Factory pipeline
-azure databrick
-a service principal
-dbfs
-data frame
-
-
-# //
-Azure Data Factory: Data integration service, enabling data movement and transformation.
-
-Pipeline Authoring Changes: Updates to pipeline structure, improving data workflow configuration.
-
-UX Authoring Canvas: User interface for pipeline design, enhancing user interaction and ease of use.
-
-Azure Synapse Analytics serverless SQL pool: On-demand data querying service, providing flexible, large-scale data analysis.
-
-Azure Data Lake Storage Gen2 account: Scalable data storage solution, facilitating big data analytics.
-
-Apache Spark job: Distributed data processing task, enabling high-speed data analytics.
-
-DataFrame: Tabular data structure, providing convenient data manipulation.
-
-Data Warehouse: Large-scale data storage system, facilitating data analysis and reporting.
-//
-azure data factory
-pipeline authoring changes
-UX Authoring canvas
-Azure Synapse Analytics serverless SQL pool
-Azure Data Lake Storage Gen2 account
-Apache Spark job
-DataFrame 
-data warehouse
-
-//
-surrogate key
-order point
-sql
-apache spark analysis
-dwu pourcentage metric
-purview
 
 
 partition in event hub, is a lane of stream, 32 par default
@@ -110,38 +47,7 @@ partition in event hub, is a lane of stream, 32 par default
     cast - convert column to a diff type
 
     alter row - upsert based on the comparison result
- # TABLE TYPE: 
-    Replicated table - for small dimension tables,  used frequently in join operations. 
-        fully copied to each compute node, and therefore are best suited 
-        (Retail Store Data: Given that the retail store table is relatively small (approximately 2MB), )
-
-
-            Common.Date: Replicated
-                Replicated tables are fully copied to each compute node in the system, ensuring that data can be queried locally, which provides great query performance.
-                Since the "Common.Date" table is small (only 7,300 rows) and is updated only once a year, the replicated distribution is a good choice. It allows fast joins with other tables and doesn't cause much network overhead because of the table's small size.
-
-
-    Hash table - Hash distributed tables in Azure Synapse Analytics distribute the rows according to a hash function on a specified column, which provides for distributed joins and group by operations, and it is ideal for large fact tables. (Promotional Data: Considering the size of the promotional data table (200 GB))
-
-            Marketing.WebSessions: Hash
-                Hash distributed tables distribute the rows according to the hash value of a single column, which is referred to as the "distribution column". Hash distribution is a good choice for large tables that are often joined with other tables on the distribution column, and can lead to significant performance improvements.
-                In this case, the "Marketing.WebSessions" table is large (1.5 billion rows) and is updated hourly. Hash distribution will help improve the query performance by allowing Synapse to perform the joins locally when queried with the distribution key.
-
-    round-robin - : transient data, quick load, or No clear distribution key or data evenly distributed across all compute nodes for balance but no obvious column to choose for hash distribution, round-robin is an appropriate choice.
-
-        Small or medium sized tables: For smaller tables where the overhead of managing the hash function isn't worth the potential performance gain, round-robin distribution can be beneficial.
-
-            Staging.WebSessions: Round-robin
-                Round-robin distributed tables distribute the data evenly across all the distributions, but without any regard to the values in the rows. This provides a quick way to load data into the table but might lead to slower query performance compared to hash-distributed tables, especially when joining on non-distribution columns.
-                Since the "Staging.WebSessions" table is used for staging and is truncated and filled every hour, round-robin distribution can maximize the performance of data loading operations as it ensures an even data distribution without needing to compute a hash value.
-# index choice 
-    Nonclustered Columnstore: Best for large tables and analytical queries involving aggregations and filtering on specific columns.
-
-    Clustered Columnstore: Ideal for LARGE FACT TABLES in data warehousing scenarios, offering high compression and excellent performance for analytical workloads.
-
-    Nonclustered: Improves query performance for specific queries involving filtering or joining on specific columns.
-
-    Clustered: Determines the physical order of data in a table, useful when frequently querying or sorting data based on a specific column.
+ 
 
 #  dynamic management view
 # Commands

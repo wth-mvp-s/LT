@@ -1,7 +1,6 @@
-# Pourquoi est-ce que Mario ne peut pas se souvenir de son code PIN ?
+# Pourquoi est-ce que le data engineer, Mario, n'arrive pas à se connecter à la base de données Azure ?
 
-Parce qu'à la place des chiffres, il essaie toujours de mettre "1-Up, 2-Up, B, A" pour débloquer son compte bancaire !
-
+Parce qu'à la place des bons identifiants, il essaie toujours d'entrer "1-Up, 2-Up, B, A" en espérant que cela débloquera les données !
 
 
 # "Pourquoi est-ce que Mario, le plombier de Nintendo, pourrait être un meilleur data scientist que Harry Potter?
@@ -19,6 +18,10 @@ Parce que quand il s'agit de data, Mario sait qu'il doit descendre dans les tuya
 # "Pourquoi Super Mario est-il plus prêt à adopter la technologie cloud que Harry Potter ?
 
 Parce que quand Mario voit un nuage, il cherche à y sauter dessus pour aller plus loin, alors que Harry Potter regarde simplement à travers le Choixpeau magique!"
+
+# Why did Harry Potter decide to become a Data Engineer?"
+
+"Because he heard about a platform even more magical than 9 and 3/4 - Azure Data Platform!"
 
 # Why did Groot decide to take the Microsoft DP-203 exam?
 

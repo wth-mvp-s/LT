@@ -2,67 +2,50 @@
 na potrzeby tej prezentacji, nauczylem sie kilku slow po rosujsku.: 
 
 
-Zaczynamy, 
-zaczniemy od omowienia tematow poruszonych w tej prezentacji. 
-
 # 1.Sommaire
-- Przedewszystkim chcialbym sie podzielic moim doswiadczeniem zrobienia certyfikatu dp203, 
-    co mnie to nauczylo o zawodzie inzynierow danych. 
-    oraz jakie korzysci wynikaja dla mnie jako inzyniera consultanta z tego doswiadczenia
-- Nastepnie rzucimy okiem na rozne servisy jakie sa dostepne do pracy z danymi, o jakich jest mowa w certyfikacie
-    omowimy kilka z nich, ktore wydawaly mi sie najbardziej interesujace. 
-- kolejny punkt dotyczyc bedzie zawodu data engineer, 
-    - postaram sie podsumowac zlozony temat obszaru ich prac, zlozonosc zagadnien jakie sa do wziecia pod uwage, wybory, parametry etc. 
-- bede chcial nastepnie skoncentrowac sie na 3 aspektach ktore sa bezposrednio dotycza pracy developerow. perf, securite, services premium
+- Zaczne od tego ze opowiem o moim doswiadczeniem zrobienia certyfikatu dp203, 
+    jak sobie z tym poradzilem,  
+    jakie wrazenia, etc
 
 
+-  Nastepnie rzucimy okiem na rozne servisy jakie sa dostepne do pracy z danymi, o jakich jest mowa w certyfikacie
+    wybralem 4 z nich, ktore wydawaly mi sie najbardziej interesujace. 
 
+    na ich przykladzie przytocze dwa przyklady z zycia wziete, biorac jako przyklad wymyslone przezemnie zapotrzebowanie firmy takiej jak Uber. aby pokazac jak te servisy ze soba wspolpracuja
+
+- Kolejny punkt bedzie dotyczyl zawodu data engineer,
+    sa complexite, les nomres des parametre a prendre en compte etc. 
+     zauwazam 3 aspekty ktore sa bezposrednio podobne w zawodzie developerow, 
+        - perf, 
+        - securite, 
+        - services premium, 
+    ale     aby pokazac dp-203 de maniere generale, et garder  big picture, high level, nie bede omawial wszystkich tych aspektow, mais plotot      se concentrez sur des sujets qui sont plus uniques à la certification DP-203 ou à l'ingénierie des données par rapport à d'autres certifications. 
+
+        - index 
+        - partition
+        - distribution
+
+et a chaque fois how it translate on sql bdd, for developer profit
 
 # wybór tematów
 
-    szeroki zakres zarządzania bazami danych i bezpieczeństwem danych
-        zainteresuje programistów i inżynierów danych.
-
-        Maskowanie danych, Transparentne szyfrowanie, Bezpieczeństwo na poziomie kolumn
-            kluczowe koncepcje w dziedzinie bezpieczeństwa i prywatności danych. Są one szczególnie istotne w kontekście rosnących obaw o prywatność i regulacje dotyczące ochrony danych na całym świecie, takie jak RODO i CCPA.
-
         Indeks, Partycja, Dystrybucja: 
             Te tematy dotyczą dostrojenia wydajności bazy danych i skalowania, które są kluczowe dla aplikacji intensywnie korzystających z danych. 
-                stosowne dla publiczności zainteresowanej projektowaniem i zarządzaniem efektywnymi i skalowalnymi systemami baz danych.
-
-        Demo Redundancji: zapewniającym niezawodność, dostępność i odzyskiwanie danych, centralne dla budowania solidnych systemów.
-
-        Przypadek użycia poziomu premium: Wyjaśnienie kiedy i dlaczego poziom premium może być konieczny, 
-            cenna wskazówka dla członków publiczności, którzy mogą podejmować decyzje o alokacji zasobów i zarządzaniu kosztami dla swoich organizacji.
-
-        SQL, Pivot: Demonstracja operacji SQL, zwłaszcza skomplikowanych operacji, takich jak pivot, 
-            cenna dla publiczności programistów. 
-            Zrozumienie operacji SQL na głębszym poziomie może im pomóc optymalizować zapytania do bazy danych i zwiększyć efektywność.
-
-## Oprócz tych tematów, oto kilka dodatkowych pomysłów:
-
-    Typy baz danych (Relacyjne, NoSQL, NewSQL): Omówienie różnych typów baz danych może pomóc publiczności zrozumieć, które z nich mogą być najlepsze dla ich konkretnych przypadków użycia.
-
-    Replikacja danych i sharding: Są to również kluczowe elementy zapewniające dostępność danych i skalowalność systemu.
-
-    Kontrola współbieżności: Ten temat jest kluczowy w środowiskach baz danych wieloużytkownikowych, zapewniając integralność danych i efektywność systemu.
-
-    Normalizacja/Denormalizacja bazy danych: Te techniki projektowania mogą pomóc optymalizować strukturę bazy danych dla różnych przypadków użycia.
-
-    Proces ETL: Jeśli Twoja publiczność pracuje z dużymi ilościami danych, zrozumienie procesów ETL (Extract, Transform, Load) jest kluczowe.
 
 
-
-
-# 4 l'apprentissage transférable
-    exploration de domaines en dehors de votre domaine d'expertise actuel, ce qui peut stimuler la créativité, l'innovation et la croissance personnelle.
 
 # 5 data engineers
-    lister concept qu'ils prennes en compte
-
+        which service to use, not all of them support same languages, choosing Analisys type
+        type of trigger to use
+        copy behavior
+        Windows
+        costs
+        quel commands pour avoir information about the data distribution and storage
 
 # 6 which tools which concepts
 
+0607.2023.00h29
+..............TRANSLATE TO POLISH SIMPLIFIED
 # 7-10
     how Uber company, might leverage Azure Data Lake, Databricks, Data Factory, and Stream Analytics in their data infrastructure.
 
@@ -203,34 +186,139 @@ Databricks, Stream Analytics, and Data Factory, work on top of the data lake to 
         B. lower pipeline execution times
 >>      C. the ability to save without publishing
 >>      D. the ability to save pipelines that have validation issues        
+
 # index 
-    data distribuer
-    index here vs in sql server
-        def
-        demo
-        differences 
-    conclusion prendre en compte index when migrating bdd to another fournisseur
+    conclusion
+        prendre en compte index when migrating bdd to another - to jest lekcja jaka wyciagnalem 
 # partitioning
 
-    ciekawostki skew
-# securite
-    data masking 
-# when tier to use 
+obsluguja partycjonowanie danych : 
+                                    Azure Synapse Analytics, 
+                                    Azure SQL Database, 
+                                    Azure Cosmo DB, i 
+                                    Azure Table Storage
 
-# observable
+# distribution
 
+wiec dystrybucja to tak jak w Harym Poterze, kiedy studenci sa podzieleni na rozne domy, w szkole Witchcraft and Wizardry.
+
+    kazdy z domow odpowiada oddzielnej partycji, wedlug ktorej studenci sa podzieleni
+    - to pozwala na zorganizowanie studentowm i ich dzienne aktywnosci
+    - mozna sobie wyobrazic lekcje prowadzone dla calej szkoly jednoczesnie, to bylo by po proistu nie wykonalne :) 
+
+
+wiec zeby uproscic , dystrybucja to rozmieszczenie danych na wielu serverach w celu zapewnienia lepszych efektywniejszych operacji na wielkich ilosciach danych dzieki rownoleglemu i tanszemu przetwarzaniu 
+
+moze byc przeprowadzona na : 
+                            Azure Synapse Analytics, 
+                            Azure SQL Database, 
+                            Azure Cosmo DB, i 
+                            Azure Data Lake Storage
+
+    Przygotowujac strategie dystrybucji danych najwazniejsze: 
+    - typ operacji 
+    - rozmiar tablic 
+    - czestosc zmian danych 
+    - poslizgi w danych , nierownomiertne rozmieszczenie danych 
+    - relacje miedzy danymi
+
+    plusy 
+        - mozesz prace na danych rozdystrybuowac, wiele operacji rownolegle
+        - rowniez odpornosc na brak odpowiedz z jednego z nodes 
+>>      node = processing unit (hardware, VM, bdd instance, )
+            usually individual servers or VMs that work together to process data. 
+
+
+simple table distributed in three nodes.
+
+    Consider the following table:
+
+    Product ID  Product Category
+    1           Electronics
+    2           Books
+    3           Electronics
+    4           Clothes
+    5           Books
+    6           Clothes
+    7           Electronics
+    8           Clothes
+
+1. Round Robin Distribution:
+    Each row is distributed one after another across the nodes.
+
+    Node 1: Rows 1, 4, 7
+    Node 2: Rows 2, 5, 8
+    Node 3: Rows 3, 6
+
+2. Hash Distributed:
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> table use case example
+
+    Rows are distributed based on a hash function applied to a chosen column (Product Category in this case).
+
+    Node 1 (Electronics): Rows 1, 3, 7
+    Node 2 (Books): Rows 2, 5
+    Node 3 (Clothes): Rows 4, 6, 8
+
+3. Replicate Distribution:
+    Each node contains a full copy of the table.
+
+    Node 1: All Rows (1-8)
+    Node 2: All Rows (1-8)
+    Node 3: All Rows (1-8)
+
+    USE CASE 
+        query on small tables with joins 
+
+
+            Table 1: Dim_Product
+
+            lua
+            Copy code
+            | Product_ID | Product_Name  | Category     |
+            |------------|---------------|--------------|
+            | 1          | Laptop        | Electronics  |
+            | 2          | Shirt         | Clothing     |
+            | 3          | Book          | Books        |
+            Table 2: Dim_Location
+
+            sql
+            Copy code
+            | Location_ID | Location_Name | Region       |
+            |-------------|---------------|--------------|
+            | 1           | New York      | Northeast    |
+            | 2           | Los Angeles   | West Coast   |
+            | 3           | Chicago       | Midwest      |
+
+            In this example, both Dim_Product and Dim_Location are dimension tables that store static data related to products and locations. These tables are typically smaller in size compared to fact tables. Replicating them on each compute node provides the benefit of faster joins and queries without the need for data movement across nodes.
+
+# podsumowanie indexing, distribution and partitioning 
+stosowane razem, wzajemnie uzupełniają się, aby poprawić ogólną wydajność systemu danych. 
+
+ex. 
+    dystrybucja danych pomiędzy nodes redukuje ruch danych i umożliwia równoległe przetwarzanie, 
+    
+    indeksów tworzenie na konkretnych kolumnach dalszo optymalizuje wydajność zapytań w obrębie każdej partycji. 
+    
+    Partycjonowanie może być używane do logicznego organizowania danych w zarządzalne jednostki, które można następnie dystrybuować i indeksować dla efektywnego przetwarzania.
+    
 # zakonczenie
 
-    tematy, takie jak certyfikaty, kiedy sie o nich mysli po raz pierwszy 
-    odnosi sie wrazenie ze jest to ogrom pracy nie do pokonania. 
+Sprawililo mi przyjemność zdawanie tego egzaminu, czuć że z dnia na dzień pamiętam coraz lepiej odpowiedzi, oraz wchodzenie głębiej w te tematy, 
 
-    Pamietam kiedy zdawalem moj pierwszy certyfikat az900 rok temu, 
-    panika i stres byly ogromne. 
+Jednocześnie chciałbym powiedzieć że są rzeczy których żałuję, tematy których nie udało mi się zrozumieć, nie miałem czasu zgłębić 
+Tematów następujących.
 
-    dzisiaj wiem ze dzieki ciezkiej pracy, stalemu powtarzaniu, jest mozliwe przygotowanie sie do kazdego egzaminu.
-    Obecnie moj cel jest zastosowac te narzedzia do zapamietywania, do przygotowania sie do spotkan z klientami, 
-    majac nadzieje ze resultat bedzie rownie imponujacy jak ilosc punktow z dp203 
+Ponieważ doświadczenie przygotowania Jedi było sposobem na uporządkowanie tych wszystkich informacji, dziękuję maherowi za propozycje przygotowanie Jedi, tematy których nie udało mi się zrozumieć dzisiaj ciągle chciałbym przeanalizować, i opisać być może w artykule na blogu, 
 
+        Replikacja danych i sharding: Są to również kluczowe elementy zapewniające dostępność danych i skalowalność systemu.
+
+        Kontrola współbieżności: Ten temat jest kluczowy w środowiskach baz danych wieloużytkownikowych, zapewniając integralność danych i efektywność systemu.
+
+        Normalizacja/Denormalizacja bazy danych: Te techniki projektowania mogą pomóc optymalizować strukturę bazy danych dla różnych przypadków użycia.
+
+        Proces ETL: Jeśli Twoja publiczność pracuje z dużymi ilościami danych, zrozumienie procesów ETL (Extract, Transform, Load) jest kluczowe.
+
+Tymczasem główny naciskk położę na przygotowanie rozmów z klientami wykorzystując narzędzia jakie mogłem udoskonalić. 
 
     
 

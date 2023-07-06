@@ -44,20 +44,55 @@ et a chaque fois how it translate on sql bdd, for developer profit
 
 # 6 which tools which concepts
 
-0607.2023.00h29
-..............TRANSLATE TO POLISH SIMPLIFIED
+
 # 7-10
     how Uber company, might leverage Azure Data Lake, Databricks, Data Factory, and Stream Analytics in their data infrastructure.
 
-    Azure Data Lake: The raw data from all of Uber's rides worldwide is generated in vast volumes and at high speed. This data includes pickup and drop-off locations, ride durations, fare amounts, driver details, customer ratings, and more. It comes in different formats and can be structured (like SQL data from their app databases), semi-structured (like JSON data from their mobile apps), or unstructured (like driver support emails). All of this data can be dumped in its raw, unprocessed form into an Azure Data Lake, providing a single repository for all the company's data.
+>>  Azure Data Lake: 
+    Wiele danych z calego swiata jest generowanych w duzej ilosci i predkosci, 
+    - takie dane jak lokalizacja zamowionej taxi, 
+    - miejsce docelowe
+    - czas przejazdu, 
+    - cena przejazdu, 
+    - szczegoly kierowcy
+    - ocena pasazera przejazdu, ect. 
+    te dane przychodza w rozniej formie i moze byc : 
+        - danymi ze struktura like SQL data from their app databases) 
+        - czesciowo ze struktura = semi-structured (like JSON data from their mobile apps), 
+        - albo unstructured (like driver support emails)
+        
+    te wszystkie dane moga przyjsc w surowej formie raw, unprocessed form into an Azure Data Lake, 
+    
+    tworzac jedno miejsce dla wszystkich danych firmy 
 
-    Azure Data Factory: With data coming in from so many sources in various formats, Uber needs a way to ingest, cleanse, transform, and integrate all this data. Azure Data Factory can be used to create data pipelines that pull data from various sources, transform it as necessary (for instance, converting all timestamps to a single time zone), and load it into the data lake or directly into a data warehouse or analytics platform. For instance, it could be used to aggregate data on a daily basis, generating summary reports of the day's rides, earnings, etc.
+    
+>>  Azure Data Factory: 
+    kiedy te dane przychodz z wielu zrodel, w roznych formatach, Uber potrzebuje narzedzia do wchloniecia, oczyszczenia i integracji tych danych 
+    
+        Azure Data Factory moze byc wykorzystane do stworzenia DATA PIPELINES ktore ciagnie dane z wielu miejsc , zmnienia je, transportuje jesli taka jest potrzeba (for instance, converting all timestamps to a single time zone),
+        - i laduje je do data lake albo bezposrednio do data warehouse or analytics platform. 
+            ktore moglo by sumowac dane dzienne generujac dzienne raporty na temat 
+                dziennych przejazdow
+                dzeinnych zarobkow
 
-    Azure Databricks: Once the data is in the data lake, Uber might want to perform complex analytics tasks on it, like identifying ride patterns, predicting demand, or optimizing routes. Azure Databricks provides a powerful platform for these tasks. With its distributed computing capabilities, Databricks can process vast amounts of data quickly, and its collaborative notebooks provide a great environment for data scientists to develop, run, and share their analysis code.
+>>  Azure Databricks: 
+    kiedy juz te dane sa w data lake, Uber moglby przeprowadzic kompleksowa analize 
+        np. zidentyfikowac pattern prawidlowosci w przejazdach 
+            - przewidziec przyszle potrzeby
+            - zoptymizowac trasy 
+        
+        Azure Databricks dzieki przeliczeniowej mocy ktora jest rozdystrybuowana, moze przelknac wielka ilosc danych w szybkim tempie
 
-    Azure Stream Analytics: In addition to all the historical data stored in the data lake, Uber also has real-time data streaming in from ongoing rides. This includes GPS locations, ride statuses (requested, started, completed, cancelled), fare meters, etc. Azure Stream Analytics can process this streaming data in real time, allowing Uber to respond immediately to emerging situations. For instance, if Stream Analytics detects a sudden surge in ride requests in a certain area, Uber can respond by adjusting prices or alerting nearby drivers.
+>>  Azure Stream Analytics: 
+    poza tymi wszystkimi historycznymi danymi w data lake, Uber ma rowniez dzialajaca w czasie rzeczywistym analize danych na temat trwajacych przejazdow taksowek. 
+        np. lokalizacje GPS, 
+        - status przejazdu
+        - licznik przejazdu 
+        
+        Azure Stream Analytics pozwala miec dostep do tych danych pozwalajac Uberowi reagowac na nagle sytuacje. `
+            - np. jesli wykryta zostanie nagla duze zapotrzebowanie na przejazdy w pewnej okolicy, Uber moze dostosowac swoje ceny, dla taksowek oraz poinformowac pobliskich taksowkarzy. 
 
-
+dokonczyc................................................0607.0238
 ##  data lake 1st one
         use case scenario
             These companies operate in hundreds of cities globally, with millions of rides happening each day. Every ride generates data such as pick-up and drop-off locations, duration, distance, fare, ratings, and more. Then there's also data on driver details, vehicle information, customer profiles, traffic and map data, payment details, and so on.

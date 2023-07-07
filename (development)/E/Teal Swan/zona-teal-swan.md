@@ -1,5 +1,6 @@
 # Teal Swan, 
 
+###        Authenticity, Happy Life
 ###        FAKE PERSONALITY 
             parents, society tells you whats acceptable, what's anapprouved makes you feel vulnerable, your personality what makes you safe, you are hiding even from yourself what's not acceptable. 
                 ex. rid out of spontanity, being fun, rid of relaxation, 

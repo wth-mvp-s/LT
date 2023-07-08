@@ -1,6 +1,7 @@
 Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
 
 # t27
+    sob dreieck 3 W 
     peple do which respect themself, value their time, go back from city at 10, b girls trotinette Europ 
     
 # t24

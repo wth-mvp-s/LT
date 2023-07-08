@@ -2,11 +2,13 @@ Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by ex
 
 vision 
 
+###         perf
+###         securite
+###         service prime
+
 ## - czego chce 
     helikopter vs ferrari
     dynamics 
-        G
-        X
         Zidane
         Beckham    
 
@@ -14,11 +16,10 @@ vision
     dynamics
         L 
 
-## things I hate 
-    isc na latwizne L mavie 
-    followers, without personality, with the pourpouse to life they bought
-    people with no values, or there own values theyt imagined
-    idolatres
+## philosophy
+    isc na latwizne not first choice Lwaw Magp
+    hipsters, no religion no values 
     instagram, fb, etc
-    people complaining about orthographe but they speak only one language
+    complaining, no respect self
+
 

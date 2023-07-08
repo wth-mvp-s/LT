@@ -1,0 +1,90 @@
+traktuj czas jak pieniadz
+
+zawsze focus, coherence, to reach new reality new dimension    
+    wrazliwosc of work from,     lzy w oczach i drzacy glos
+    respect kochaj 
+    
+    when go hard take it easy
+    nie sluchaj innych zwierzat 
+    
+nie pekaj na robocie
+
+nie przebywac z looserami
+Eviter magic the gathering 
+la petite boite, reflechir to agir. 
+
+
+
+
+
+# Zlote mysli.
+
+## Co jest dla mnie najwazniejsze w zyciu?
+>>coherence
+>>nie grac 
+
+
+## 1. Co chce osiagnac w zyciu?
+famille
+
+## 2. Co jest moim marzeniem?
+sell painting for 5K
+
+## Czego najbardziej zaluje w zyciu?
+loosing time
+
+## Co sprawia mi najwiecej radosci?
+Painture
+Inteligence
+
+
+## 4. Co jest dla mnie najwazniejsze w pracy?
+vision
+
+## Jakie sa moje najwazniejsze relacje z innymi ludzmi?
+przyjaznie to ci co pamietaja 
+
+## Jakie sa moje najwieksze porazki?
+bad presentation
+loosing time
+
+## Co jest dla mnie najwazniejsze w zyciu duchowym?
+west wall
+
+## Co jest dla mnie najwazniejsze w zyciu zawodowym?
+benefit myself
+Nie robic rzeczy tymczasowych. 
+nie robic rzeczy bez wizji konca
+
+## Jakie sa moje najwieksze leki i obawy?
+loosing time
+
+## Czego pragne najbardziej w zyciu?
+don't loose my soul
+
+## Czego najbardziej boje sie stracic w zyciu?
+coherence
+
+## Co jest dla mnie najwazniejsze w zyciu osobistym?
+coherence
+
+## PLAN B
+payement
+
+
+
+
+
+Alpha (Α, α) and Omega (Ω, ω): In philosophy, these two letters are often used metaphorically to signify the beginning and the end, respectively, especially in religious or metaphysical discussions. They originate from the biblical phrase "I am the Alpha and the Omega," meaning God is eternal, spanning the beginning and end of time.
+
+Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ratio, a concept of perfect balance and beauty. It's also used in symbolic logic and philosophy of mind to denote "generic" or "unspecified" functions or actions.
+
+Psi (Ψ, ψ): This symbol is used in philosophy of mind, particularly in discussions around consciousness and psychology (which gets its name from the Greek word "psyche").
+
+Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
+
+Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by extension, it can be used philosophically to discuss concepts of totality, accumulation, or completeness.
+
+Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to represent a small quantity, approaching zero but never quite reaching it.
+
+Lambda (Λ, λ): In philosophy, lambda is often associated with the concept of anonymity, but it's also used in logic and computer science (lambda calculus).

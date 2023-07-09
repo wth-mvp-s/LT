@@ -3,7 +3,7 @@ traktuj czas jak pieniadz
 
 zawsze focus, coherence, to reach new reality new dimension    
     wrazliwosc of work from,     lzy w oczach i drzacy glos
-    respect kochaj 
+    respect
     
     when go hard take it easy
     nie sluchaj innych zwierzat 

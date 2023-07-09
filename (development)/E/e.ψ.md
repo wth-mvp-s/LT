@@ -3,12 +3,13 @@ Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ra
 # intentions Whys
       # mindset 
             I am out looking for my lady 
-      
+one shot, knowing when to not to shot      
 nie chce ferrari, chce helikopter
-      get laid, man. ... Rockwell John
+get laid, man. ... Rockwell John
 
-# nie pod nia byc soba
-    nie planowac / gdzie ona jest
+nie pod nia / gdzie ona jest
+
+
 
 # nie musisz czekac az bedziesz kims zeby kogos poznac ? 
     Manish

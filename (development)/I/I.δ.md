@@ -3,9 +3,9 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # T27 
     - co jest najwazniejsze na misji
 
-piątek 
-sob A M rest E dreieck2 void result null,stream Europe up
-niedz 
+piątek paresse unprepared dreieck2 22-empty ,stream Europe up
+sob A M rest E odeon alcazar Austerlitz penish 
+niedz 12÷
 
 #   T14
 telemetry

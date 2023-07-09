@@ -2,3 +2,5 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 
 # SES
     
+# keep mission
+    personalite cool 

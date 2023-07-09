@@ -7,11 +7,20 @@ vision =
             Maher share whom from to learn 
 
 
-## Zyc. 
+# How think Cedric
+            how not true
+                  TDE, purpose
+                  set statistic IO ON
+            stress test IQ estimation
+                  presentation digging index le plus disciminating possible
+            definition, level down
+                  + - b-tree
+                  niveau de moteur de la base
 
-###         perf
-###         securite
-###         service prime
+## Zyc. 
+      perf
+      securite
+      service prime
 
 Wszystko sprowadza sie do jednego, zyj pasje. wtedy zaczniesz zyc. 
 Zeczy jakie mnie interesuja, nie mozna ich kupic. 

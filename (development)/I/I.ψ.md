@@ -1,3 +1,4 @@
+# intentions Whys
 traktuj czas jak pieniadz
 
 zawsze focus, coherence, to reach new reality new dimension    

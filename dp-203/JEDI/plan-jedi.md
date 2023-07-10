@@ -1,4 +1,4 @@
-ostatni owiec, udalo mi sie otrzymac certyfikat dp203.
+ostatnio, udalo mi sie otrzymac certyfikat dp203.
 et pour parler de cette experiance, pour partager mon experiance, aujourd'hu cette presentation, 
 
 je pense que les echec j'en ai besoin aussi, sont precieux, 
@@ -33,15 +33,39 @@ o jakich jest mowa w certyfikacie
 
 wybralem 4 z nich, ktore wydawaly mi sie najbardziej interesujace. 
 
-na ich przykladzie przytocze dwa przyklady z zycia wziete, biorac jako przyklad wymyslone przezemnie zapotrzebowanie firmy takiej jak Uber. aby pokazac jak te servisy ze soba wspolpracuja
+na ich przykladzie przytocze przyklady z zycia wziety, biorac jako przyklad wymyslone przezemnie zapotrzebowanie firmy takiej jak Uber. aby pokazac jak te servisy ze soba wspolpracuja
 
 - Kolejny punkt bedzie dotyczyl zawodu data engineer,
     de sa complexite, 
     de nomreus  parametre a prendre en compte etc. 
+     kiedy analizowalem o co tak na prawde chodzi w inzynierii danych, 
      zauwazam 3 aspekty ktore sa bezposrednio podobne w zawodzie developerow, 
         - perf, 
         - securite, 
         - services premium, 
+
+        to jest podsumowanie bardzo binaire, na skroty, 
+            istnieje ogromna ilosc parametrow jaka w tym zawodzie nalezy wziac pod uwage, 
+            np. - jakie narzedzia azure wybrac stosownie do zapotrzebowania
+                nalezy wiedziec, ze nie kazde z nich potrafi wspolpracowac w tym samym zestawem jezykow, (to nalezy wziac pod uwage kiedy mamy urzyc skryptow napisanych w jezyku Java, aldo R)
+            OPTIMIZING FILES 
+            COPING BEHAVIOR
+                FLATTEN HIERARCHY
+            CHOOSING MOST SUITABLE TRIGGER, SCHEDULING
+            WINDOWS
+                HOPPING
+                TUMBLING
+                SESSION
+            CHOOSING MOST SUITABLE TOOL FOR TRANSFORMING DATA
+                DATA TOOLS ACTIONS
+                    AGGREGATE
+                    DERIVED COLUMN
+                    SURROGATE KEY
+                    ASSERT
+                    CAST
+                    ALTERROW
+            DATA REDUNDENCY
+
     ale     aby pokazac dp-203 de maniere generale, et garder  big picture, high level, nie bede omawial wszystkich tych aspektow, mais plotot      se concentrez sur des sujets qui sont plus uniques à la certification DP-203 ou à l'ingénierie des données par rapport à d'autres certifications. 
 
         - index 
@@ -112,137 +136,67 @@ et a chaque fois how it translate on sql bdd, for developer profit
         Azure Stream Analytics pozwala miec dostep do tych danych pozwalajac Uberowi reagowac na nagle sytuacje. `
             - np. jesli wykryta zostanie nagla duze zapotrzebowanie na przejazdy w pewnej okolicy, Uber moze dostosowac swoje ceny, dla taksowek oraz poinformowac pobliskich taksowkarzy. 
 
-dokonczyc................................................0607.0238
-##  data lake 1st one
-        use case scenario
-            These companies operate in hundreds of cities globally, with millions of rides happening each day. Every ride generates data such as pick-up and drop-off locations, duration, distance, fare, ratings, and more. Then there's also data on driver details, vehicle information, customer profiles, traffic and map data, payment details, and so on.
-
-            Let's say each ride generates about 10 kilobytes of data. If the company facilitates 10 million rides per day, that's 100 gigabytes of data generated daily.
-
-            In a year, this would add up to approximately 36.5 terabytes of data. And remember, this is a very simplified estimation - the actual data generated could be significantly higher when you consider all the other data types and sources.
-
-            Storing and processing this massive amount of data would be a challenge. However, a data lake could store all of this diverse, raw data. Then, with tools like Azure Databricks, the company could process and analyze the data for various purposes - optimizing routes, predicting demand, detecting fraudulent activity, improving customer experience, and so on.
-
-        When we say that Azure Databricks or similar services "work on top of" the data lake, we mean that these services use the data stored in the data lake as their input for processing, transformation, analysis, and so on.
-
-        This is based on the layered architecture of a typical big data solution. At the base layer, you have your storage - the data lake - where raw data is dumped in its original format. This could include all types of data - structured, semi-structured, or unstructured.
-
-        On top of this storage layer, you have the processing or compute layer. This is where services like Azure Databricks come in. Databricks uses the power of distributed computing to process this data. It reads data from the data lake, processes it, and can write the results back to the data lake or to some other destination.
-
-        In this context, "on top of" doesn't refer to a physical location but rather to the role of Databricks in the data architecture. It's a way of saying that Databricks relies on the data lake for its input data, and it operates on this data to produce its output. The "top" is the highest level in this stack, where data is prepared for end-users in the form that's most useful for them, which often involves services like Databricks for data processing and analysis.
-/////////////////////////////////////////////
-        Yes, that's correct. The data first arrives and is stored in its raw, unprocessed form in a data lake, such as Azure Data Lake Storage. This is an excellent system for storing large amounts of diverse data, as it does not require a predefined schema and can accommodate structured, semi-structured, and unstructured data.
-
-        After the data is stored in the data lake, services like Azure Databricks or HDInsight can be used to process and analyze it. These tools work on top of the data lake and use the power of distributed processing to handle large volumes of data.
-
-        During this processing phase:
-
-        Partitioning: The data can be partitioned, which means dividing the data into logical chunks based on a certain criteria to make the processing more efficient. For example, if you're analyzing data by date, the data can be partitioned by year so that each year's data is processed separately.
-
-        Distribution: In the context of distributed computing, data is distributed across a cluster of machines (nodes) to be processed in parallel. This significantly improves the performance of data processing tasks on large datasets.
-
-        Indexing: Traditional indexing as we know it from relational databases is not common in big data processing scenarios, mainly because the data is often too large and changes too frequently. However, you can still optimize data access. For example, with Apache Parquet, a columnar storage file format that is optimized for use with big data processing frameworks, data can be read more efficiently.
-
-        Remember that these steps are a part of the data processing and not the storage phase. The raw data in the data lake remains in its original form unless you replace or transform it after processing.
-//////////////////////////////////////////////////////////
-        A data lake, on the other hand, is a storage repository that can hold a large amount of raw data in its native format until it is needed. Data lakes can store structured, semi-structured, and unstructured data (like images, videos, social media posts, raw sensor data etc.). The structure of the data or schema is not defined when data is captured. This means you can store all of your data without having to know how or why you're going to use it in advance. This offers a lot more flexibility but can also make it more difficult to find, understand, and analyze the data.
-
-Databricks, Stream Analytics, and Data Factory, work on top of the data lake to ingest, process, analyze, and visualize data.
-
-        You have an Azure Data Lake Storage Gen2 account that contains a JSON file for customers. The file contains two attributes named FirstName and LastName.
-        You need to copy the data from the JSON file to an Azure Synapse Analytics table by using Azure Databricks. A new column must be created that concatenates the FirstName and LastName values.
-        You create the following components:
-        ✑ A destination table in Azure Synapse
-        ✑ An Azure Blob storage container
-        ✑ A service principal
-        In which order should you perform the actions? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
-        Select and Place:
-##  Stream Analytics
-    
-        `You are designing a monitoring solution for a fleet of 500 vehicles. Each vehicle has a GPS tracking device that sends data to an Azure event hub once per minute.
-        `You have a CSV file in an Azure Data Lake Storage Gen2 container. The file maintains the expected geographical area in which each vehicle should be.
-        `You need to ensure that when a GPS position is outside the expected area, a message is added to another event hub for processing within 30 seconds. The solution must minimize cost.
-        `What should you include in the solution?
-        `::
-        `Hopping window hops forward in time by a fixed period. This means that if you have a Hopping window size of one minute, and it hops every 30 seconds, it can cover the events within the desired 30 seconds time frame, ensuring a quicker response to the event.
-
-        - [ ] Service: An Azure Synapse Analytics Apache Spark pool
-        - [ ] Service: An Azure Synapse Analytics serverless SQL pool
-        - [ ] Service: Azure Data Factory
-        - [x] Service: Azure Stream Analitycs
-        - [x] Window: Hopping
-        - [ ] Window: No window
-        - [ ] Window: Session
-        - [ ] Window: Tumbling
-        - [ ] Analisys type: Event pattert matching
-        - [ ] Analisys type: Lagged record comparison
-        - [x] Analisys type: Point within polygon
-        - [ ] Analisys type: Polygon overlap
-
-##  Databrick
-    You have an Azure Data Lake Storage account that contains a staging zone.
-    You need to design a daily process to ingest incremental data from the staging zone, transform the data by executing an R script, and then insert the transformed data into a data warehouse in Azure Synapse Analytics.
-    Solution: You use an Azure Data Factory schedule trigger to execute a pipeline that executes an Azure Databricks notebook, and then inserts the data into the data warehouse.
-    Does this meet the goal?
-        A. Yes Most Voted
-
-    - A company plans to use Apache Spark analytics to analyze intrusion detection data.
-    - Litware employs business analysts who prefer to analyze data by using Microsoft Power BI, and data scientists who prefer analyzing data in Azure Databricks notebooks.
-    - You need to implement an Azure Databricks cluster that automatically connects to Azure Data Lake Storage Gen2 by using Azure Active Directory (Azure AD) integration.
-    How should you configure the new cluster? To answer, select the appropriate options in the answer area.
-        Box 1: Premium -
-        Credential passthrough requires an Azure Databricks Premium Plan
-        Box 2: Azure Data Lake Storage credential passthrough
-        You can access Azure Data Lake Storage using Azure Active Directory credential passthrough.
-        When you enable your cluster for Azure Data Lake Storage credential passthrough, commands that you run on that cluster can read and write data in Azure Data
-        Lake Storage without requiring you to configure service principal credentials for access to storage.
-        Reference:
-        https://docs.microsoft.com/en-us/azure/databricks/security/credential-passthrough/adls-passthrough
-    authentication methods
-        You use Azure Data Lake Storage Gen2 to store data that data scientists and data engineers will query by using Azure Databricks interactive notebooks. Users will have access only to the Data Lake Storage folders that relate to the projects on which they work.
-        You need to recommend which authentication methods to use for Databricks and Data Lake Storage to provide the users with the appropriate access.
-
-    You plan to create an Azure Databricks workspace that has a tiered structure. The workspace will contain the following three workloads:
-        ✑ A workload for data engineers who will use Python and SQL.
-        ✑ A workload for jobs that will run notebooks that use Python, Scala, and SQL.
-        ✑ A workload that data scientists will use to perform ad hoc analysis in Scala and R.
-        The enterprise architecture team at your company identifies the following standards for Databricks environments:
-        ✑ The data engineers must share a cluster.
-        ✑ The job cluster will be managed by using a request process whereby data scientists and data engineers provide packaged notebooks for deployment to the cluster.
-        ✑ All the data scientists must be assigned their own cluster that terminates automatically after 120 minutes of inactivity. Currently, there are three data scientists.
-        You need to create the Databricks clusters for the workloads.
-        Solution: You create a Standard cluster for each data scientist, a High Concurrency cluster for the data engineers, and a Standard cluster for the jobs.
-        Does this meet the goal?
-
-##  Data Factory
-        You have an Azure Data Factory pipeline named pipeline1 that is invoked by a tumbling window trigger named Trigger1. Trigger1 has a recurrence of 60 minutes.
-        You need to ensure that pipeline1 will execute only if the previous execution completes successfully.
-        How should you configure the self-dependency for Trigger1?
-        A. offset: "-00:01:00" size: "00:01:00"
-        B. offset: "01:00:00" size: "-01:00:00"
-        C. offset: "01:00:00" size: "01:00:00"
-        D. offset: "-01:00:00" size: "01:00:00"
-
-        You need to schedule an Azure Data Factory pipeline to execute when a new file arrives in an Azure Data Lake Storage Gen2 container.
-
-        Which type of trigger should you use?
-
-        storage event
-
->>        You use Azure Data Factory to create data pipelines.
-
-        You are evaluating whether to integrate Data Factory and GitHub for source and version control.
-
-        What are two advantages of the integration? Each correct answer presents a complete solution.
-
-        NOTE: Each correct selection is worth one point.
-
-        A. additional triggers
-        B. lower pipeline execution times
->>      C. the ability to save without publishing
->>      D. the ability to save pipelines that have validation issues        
-
 # index 
+
+
+INDEXING
+
+    specific choice of index type depends on the specific workload and usage patterns.
+
+
+    specifically designed for columnstore databases
+        
+        NONCLUSTERED COLUMNSTORE
+            index stores each column's data in a separate set of disk pages
+                
+            for 
+                best for large amounts of data and queries that perform aggregations across large datasets.
+
+            supported by
+                Azure Synapse Analytics (SQL Data Warehouse)
+                Azure SQL Database    
+        
+        
+        
+        CLUSTERED COLUMNSTORE
+              ideal for large fact tables 
+              
+              
+              Fact tables contain the quantitative or factual data about a business
+
+              Sale_ID	Product_ID	Time_ID	Customer_ID	Location_ID	Total_Sale	Quantity_Sold	Discount
+                1	1001	T1	C1	L1	$100	5	$10
+                2	1002	T2	C2	L2	$150	10	$20
+                3	1003	T3	C3	L3	$120	8	$15
+
+                                    for queries perform a full scan of all data. These indexes can offer high compression and performance benefits for such workloads.
+    
+            supported by
+                Azure Synapse Analytics (SQL Data Warehouse)
+                Azure SQL Database    
+
+    traditional row-based indexes
+        NONCLUSTERED
+            form of B-tree indexes
+
+            Improves query performance for specific queries involving filtering or joining on specific columns.
+
+        CLUSTERED
+            Determines the physical order of data in a table, useful when frequently querying or sorting data based on a specific column.
+
+
+# pour les dev
+
+    - on peux indexer tout, juste string and binary can be ineficient
+
+    in SQL server TEXT, NTEXT, IMAGE are not indexable, those types are deprecated, recommended to use VARCHAR(MAX), VARBINARY(MAX)
+
+        Trade-Offs: take up space, slow INSERT, UPDATE, DELETE, because the database server must keep the index updated. 
+
+Certain complex data types, like XML and spatial data types (GEOMETRY and GEOGRAPHY), have their own special types of indexes (XML indexes and spatial indexes, respectively).
+
+
+
     conclusion
         prendre en compte index when migrating bdd to another - to jest lekcja jaka wyciagnalem 
 # partitioning
@@ -306,20 +260,11 @@ simple table distributed in three nodes.
     Node 3: Rows 3, 6
 
 2. Hash Distributed:
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> table use case example
 
     Rows are distributed based on a hash function applied to a chosen column (Product Category in this case).
 
-    Node 1 (Electronics): Rows 1, 3, 7
-    Node 2 (Books): Rows 2, 5
-    Node 3 (Clothes): Rows 4, 6, 8
 
 3. Replicate Distribution:
-    Each node contains a full copy of the table.
-
-    Node 1: All Rows (1-8)
-    Node 2: All Rows (1-8)
-    Node 3: All Rows (1-8)
 
     USE CASE 
         query on small tables with joins 

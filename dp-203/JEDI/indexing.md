@@ -54,3 +54,8 @@ INDEXING
         Trade-Offs: take up space, slow INSERT, UPDATE, DELETE, because the database server must keep the index updated. 
 
 Certain complex data types, like XML and spatial data types (GEOMETRY and GEOGRAPHY), have their own special types of indexes (XML indexes and spatial indexes, respectively).
+
+
+ [20, 30]
+       /    |    \
+[10] [21, 25] [31, 40, 50]

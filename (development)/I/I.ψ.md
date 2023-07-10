@@ -13,7 +13,10 @@ nie pekaj na robocie
 nie przebywac z looserami
 Eviter magic the gathering 
 la petite boite, reflechir to agir. 
-
+respect time
+    index
+        SES 
+        count like said C
 
 
 

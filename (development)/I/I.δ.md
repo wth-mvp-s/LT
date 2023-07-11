@@ -1,9 +1,18 @@
 Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
 
+# t31
+    
+    Cartes à puces, Cryptographie Avancé, Programmation C++, bases, 
+
 # t30
 
     oop cracking resolve go
-    
+                oop
+            life hook
+            access
+            dependency injection
+
+            perf et securite    
 # t29 
     plans
         sorting searching
@@ -23,47 +32,30 @@ on projet(statut_projet_id);
                 the Library of Congress in the United States; Washington, 1800
                 170 million items, with more than 39.5 million cataloged books and other print materials in 470 languages. 
 
-# t28
+# t28 10-16.07.2023
 
-week 40h 
-    4h 
-    Practice (15 hours): This involves coding, problem-solving, learning new concepts, etc.     The focus should be on the technical requirements of the client.
+    20%coding
+        best practice SES  perf securite      
+            interceptor 
 
-        1h. Industry/Client Study (5 hours): SES SOPRA STERIA schould be - Understanding the client's industry, their business, their challenges, etc.
+    15%interview 
+        ng chewing questions
+            c functions
+            key words C#
             
-            oop
-            life hook
-            access
-            dependency injection
 
-            perf et securite
-                ng chewing questions
-                 interceptor 
-                c functions
+    5%article par week    
+        gitflow, organisations, menagement, pilotage de projets
 
-        1h. article par week    
-            gitflow, organisations, menagement, pilotage de projets
+    10%my app 
+        improvement ses 
+        tests, like i log time complexity
+                
+    10%Mock Interviews 
+        Storytelling Practice
+        en paralelle with gitflow experience SopraSteria
 
-        1h. my app improvement ses 
-
-    1h. - tests, like i log time coding interview
-            from tech to soft skills,
-
-        - CHEWING ON MU QUESTIONS: 
-            update, like md; what to tell on title
-            √
-            Angular : here is a list of important concepts to understand and 10 sample interview questions for each concept: 
-            
-    1h. Mock Interviews (5 hours): Practicing interview situations, including technical and behavioral questions.
-        Storytelling Practice: Teach them how to weave their skills and experiences into compelling stories. Storytelling is an effective way to engage listeners and make a memorable impression.
-            en paralelle with gitflow experience SopraSteria
-
-    0h Feedback/Assessment Session (2 hours): Weekly meetings with a mentor or supervisor to track progress, get feedback, and refine the study plan as needed.
-
-
-        like distribution, ease development and testing of individual features in isolation.
-
-            Efficient Collaboration, Parallel Developmentfro, Stability, Clear Release Management, Flexibility, Learning Curve
+    Feedback/Assessment Session (2 hours): Weekly meetings with a mentor or supervisor to track progress, get feedback, and refine the study plan as needed.
 
 
 # T27 

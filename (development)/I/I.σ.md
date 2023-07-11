@@ -8,7 +8,8 @@ vision =
                   JLA formations
 
 
-# How think Cedric
+
+# How to think
             how not true
                   TDE, purpose
                   set statistic IO ON

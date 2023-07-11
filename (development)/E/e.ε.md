@@ -2,6 +2,8 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 
     Grand Point Virgule , Par
         Jeremy Nadeau - Beaucoup trop
+    tetster *** une fois tout les 3 mois et * between 
+    tester chercher peniches/barconcept avec cette ambiance de bon resto 1 fois par mois pour les mois *
 
 ## jak szukac 
     

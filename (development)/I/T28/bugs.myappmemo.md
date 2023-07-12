@@ -1,0 +1,1 @@
+wczesniejsze zaznaczenie na qcm stale widoczne dla nowego pytania

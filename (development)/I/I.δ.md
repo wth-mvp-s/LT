@@ -1,5 +1,10 @@
 Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
 
+
+# t32
+    ARIA
+        https://angular.io/guide/accessibility
+>>>     contact...
 # t31
     
     Cartes à puces, Cryptographie Avancé, Programmation C++, bases, 
@@ -31,9 +36,19 @@ on projet(statut_projet_id);
             library example
                 the Library of Congress in the United States; Washington, 1800
                 170 million items, with more than 39.5 million cataloged books and other print materials in 470 languages. 
+>>>         contact...
+
+    time complexity concepts
+        amortized time complexity
+
+        LT
+            dynamic array (like an ArrayList in Java) or a linked list may be a better choice. While linked lists have a constant time complexity for insertions and deletions, accessing elements is slower than in arrays, as it's an O(n) operation.
+
+            The worst-case scenario for adding an element would be when using a data structure that doesn't support efficient insertions, like a sorted array (where you might need to shift all the other elements to maintain the sorted order) or certain types of trees that require a lot of rebalancing or reorganization when elements are added.
 
 # t28 10-16.07.2023
 
+    message Teo, 
     20%coding
         best practice SES  perf securite      
             interceptor 

@@ -1,5 +1,7 @@
 Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
 
+# 35
+    
 # t34
     SQL 
         data masking
@@ -51,7 +53,7 @@ on projet(statut_projet_id);
 
             The worst-case scenario for adding an element would be when using a data structure that doesn't support efficient insertions, like a sorted array (where you might need to shift all the other elements to maintain the sorted order) or certain types of trees that require a lot of rebalancing or reorganization when elements are added.
 
-# t28 [current] JUL axé [LD]
+# t28 [current] JULLY axé [LD]
 
     20%coding
         best practice

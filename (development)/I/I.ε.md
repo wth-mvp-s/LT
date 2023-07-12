@@ -2,5 +2,10 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 
 
 tweets 
-    Dictionary of IT Terms
-    A Dictionary of Computer Science
+    ok Computer Science Illuminated Nell Dale and John Lewis
+    ok Encyclopedia of Computer Science and Technology Harry Henderson
+    Encyclopedia of Information Technology Atlantic Publishers & Distributors
+    Dictionary of Computer and Internet Terms Douglas Downing
+    The Computer and Information Science and Technology Abbreviations and Acronyms Dictionary" David W. South
+    Webopedia's Data Formats and Their File Extensions" Webopedia
+    Oxford Dictionary of Computing Oxford University Press

@@ -5,6 +5,8 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t30
 # t29
 # t28
+    zanotuj inten
+        pozwoli ci zrozumis szukanie
 # t27
 
     sob plan dreieck 3 W 

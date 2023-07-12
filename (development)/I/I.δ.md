@@ -52,7 +52,7 @@ on projet(statut_projet_id);
     20%coding
         best practice
             interceptor 
-        perf securite      
+        perf securite      not unique par project, more to know implement, theory enough
 
     15%interview 
         ng chewing questions

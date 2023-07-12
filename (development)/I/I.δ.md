@@ -57,6 +57,8 @@ on projet(statut_projet_id);
 
     Feedback/Assessment Session (2 hours): Weekly meetings with a mentor or supervisor to track progress, get feedback, and refine the study plan as needed.
 
+    MyMemoApp
+        bug t28.001 poprzednie zaznaczenie ciagle widaczne
 
 # T27 
     - co jest najwazniejsze na misji

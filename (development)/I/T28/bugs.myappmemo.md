@@ -6,3 +6,4 @@ merge branch to main
     back
 
     add question while traveling
+    login show password uncrypted

@@ -1,6 +1,7 @@
 Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
 
-
+# t33
+    sort algorithms
 # t32
     ARIA
         https://angular.io/guide/accessibility
@@ -48,33 +49,27 @@ on projet(statut_projet_id);
 
 # t28 10-16.07.2023
 
-    message Teo, 
     20%coding
-        best practice SES  perf securite      
+        best practice
             interceptor 
+        perf securite      
 
     15%interview 
         ng chewing questions
             c functions
             key words C#
+            time complexity
+        Storytelling Practice
+        en paralelle with gitflow experience SopraSteria
             
 
     5%article par week    
         gitflow, organisations, menagement, pilotage de projets
 
-    10%my app 
-        improvement ses 
-        tests, like i log time complexity
-                
-    10%Mock Interviews 
-        Storytelling Practice
-        en paralelle with gitflow experience SopraSteria
+    code review
+        Feedback/Assessment Session (2 hours): Weekly meetings with a mentor or supervisor to track progress, get feedback, and refine the study plan as needed.
 
-    Feedback/Assessment Session (2 hours): Weekly meetings with a mentor or supervisor to track progress, get feedback, and refine the study plan as needed.
-
-    MyMemoApp
-        bug t28.001 poprzednie zaznaczenie ciagle widaczne
-
+    
 # T27 
     - co jest najwazniejsze na misji
 

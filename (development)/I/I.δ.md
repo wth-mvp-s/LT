@@ -47,7 +47,7 @@ on projet(statut_projet_id);
 
             The worst-case scenario for adding an element would be when using a data structure that doesn't support efficient insertions, like a sorted array (where you might need to shift all the other elements to maintain the sorted order) or certain types of trees that require a lot of rebalancing or reorganization when elements are added.
 
-# t28 10-16.07.2023
+# t28 [current]
 
     20%coding
         best practice

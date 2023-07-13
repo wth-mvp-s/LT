@@ -4,7 +4,7 @@ Kimoop
     how not true
 
 A
-    o types
+    object types
         ADT Abstract Data Type
             is a composite of data along with the definition of all legal operations that access it.
             

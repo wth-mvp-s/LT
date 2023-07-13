@@ -10,7 +10,9 @@ vision
     helikopter vs ferrari
     dynamics 
         Zidane
-        Beckham    
+        Beckham 
+    milosc do dzieci
+    
 
 ## - czego nie chce
     dynamics

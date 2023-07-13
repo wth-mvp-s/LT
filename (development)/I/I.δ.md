@@ -55,6 +55,13 @@ on projet(statut_projet_id);
 
 # t28 [current] JULLY axé [LD]
 
+    ask 
+        PIVOT vs postgreSQL workaround
+    nike
+        PIVOT, unsupported by MySQL 
+        AGG 
+        GROUP BY 
+
     20%coding
         best practice
             interceptor 

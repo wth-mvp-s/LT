@@ -12,7 +12,8 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 
     sob plan dreieck 3 W 
     peple do which respect themself, value their time, go back from city at 10, b girls trotinette Europ 
-    
+    to miejsce jest brudne, 10 pozno, 8-22 timeframe
+        emphatise with part sabotage    
 # t24
     dynamics 
         k Natalya ? 

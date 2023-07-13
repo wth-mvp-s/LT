@@ -3,27 +3,18 @@ Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by ex
 vision = 
 
       >>>
-      friends I need vs my business plan
-            Maher share whom from to learn 
+      friends business plan
+
                  
 # E
     search index sort
     low cardinal...
 # A
     ...
-
-# How to think
-            how not true
-                  TDE, purpose
-                  set statistic IO ON
-            stress test IQ estimation
-
-                  presentation digging index le plus disciminating possible
-            definition, level down
-                  + - b-tree
-                  niveau de moteur de la base
-
-            at the end of interview handshake, question rapport mission, intérêt confirmation
+# Expaceo 
+      collegues
+            Jean-Baptiste RAULIN
+            Téo BOURDAIS
 
 # mon offre next mission focus :
       what I bring to the table

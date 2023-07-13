@@ -51,5 +51,6 @@ Modularity
     When troubleshooting, individual modules can be viewed in a very isolated manner.
     Many improvements can be subsequently adopted via ADTs without the slightest change in all environment or application programs.
 
-
- C#, structs are inherently immutable (can't be changed after creation). 
+# struct
+- C#, structs are inherently immutable (can't be changed after creation). 
+- Grouping Related Data

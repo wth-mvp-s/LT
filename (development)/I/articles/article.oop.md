@@ -1,4 +1,4 @@
-oop 
+Kimoop 
     def
     problem solving 
     how not true
@@ -50,3 +50,6 @@ Modularity
     safe programming and easy exchange of program parts. 
     When troubleshooting, individual modules can be viewed in a very isolated manner.
     Many improvements can be subsequently adopted via ADTs without the slightest change in all environment or application programs.
+
+
+ C#, structs are inherently immutable (can't be changed after creation). 

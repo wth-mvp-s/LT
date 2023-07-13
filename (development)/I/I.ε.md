@@ -2,6 +2,9 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 
 
 tweets 
+     JLA formations panoramique, 
+
+
     ok Computer Science Illuminated Nell Dale and John Lewis
     ok Encyclopedia of Computer Science and Technology Harry Henderson
     Encyclopedia of Information Technology Atlantic Publishers & Distributors

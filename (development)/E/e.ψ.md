@@ -1,5 +1,8 @@
 Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ratio, a concept of perfect balance and beauty. It's also used in symbolic logic and philosophy of mind to denote "generic" or "unspecified" functions or actions.
 
+A
+      pute vs work from feelings 
+      
 # intentions Whys
       # mindset 
             I am out looking for my lady 

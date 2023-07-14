@@ -2,6 +2,7 @@ Gdzie juz osiagnalem obciazenie, z data
 przepisyuwac tu najwazniejsze co w  google agenda, 
 
 # t28
+    27,5kg pecs 1 rep, augmenter les reps
     
 # T24
     stabiliser hip 

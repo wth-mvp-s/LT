@@ -7,24 +7,13 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t29 
 # t28 [current]
 
-    20%coding
-        best practice
-            interceptor 
-        perf securite      not unique par project, more to know implement, theory enough
+moulinerEnContinue
+      drawing
+      looking for model photo sculptures louvre ...
+      galeries
+      expos
+      base, tutorial yt      
+      
+      selling openings
+            archive resultats 0 1 
 
-    15%interview 
-        ng chewing questions
-            c functions
-            key words C#
-            time complexity
-        Storytelling Practice
-        en paralelle with gitflow experience SopraSteria
-            
-
-    5%article par week    
-        gitflow, organisations, menagement, pilotage de projets
-
-    code review
-        Feedback/Assessment Session (2 hours): Weekly meetings with a mentor or supervisor to track progress, get feedback, and refine the study plan as needed.
-
-    

@@ -81,6 +81,22 @@ on projet(statut_projet_id);
 
     code review
         Feedback/Assessment Session (2 hours): Weekly meetings with a mentor or supervisor to track progress, get feedback, and refine the study plan as needed.
+    vision = 
+
+      >>>
+      friends business plan
+
+                 
+    Expaceo 
+        collegues
+            Jean-Baptiste RAULIN
+            Téo BOURDAIS
+
+    mon offre next mission focus :
+        what I bring to the table
+            palette de best practices de tout mes projets historique SES lister faire 50%/j
+            audit sécurité et perf 5%
+            signaler intérêt pour les services premium 
 
     
 # T27 

@@ -1,27 +1,11 @@
 Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by extension, it can be used philosophically to discuss concepts of totality, accumulation, or completeness.
 
-vision 
 
-###         perf
-###         securite
-###         service prime
+intentions
 
-## - czego chce 
-    helikopter vs ferrari
-    dynamics 
-        Zidane
-        Beckham 
-    milosc do dzieci
+milosc do dzieci
+dynamics king
     
 
-## - czego nie chce
-    dynamics
-        L 
-
-## philosophy
-    isc na latwizne not first choice Lwaw Magp
-    hipsters, no religion no values 
-    instagram, fb, etc
-    complaining, no respect self
 
 

@@ -1,6 +1,8 @@
 Gdzie juz osiagnalem obciazenie, z data 
 przepisyuwac tu najwazniejsze co w  google agenda, 
 
+# t28
+    
 # T24
     stabiliser hip 
     pecs 25kg 3 rep 

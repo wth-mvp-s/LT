@@ -1,2 +1,0 @@
-fitnesspark batiment
-    

@@ -10,3 +10,8 @@ Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by ex
                 wprowadzic routine kille abdos, tractions, biceps, triceps, pecs, plecy, 
     seans 2 MAX - pecs 
                 , max 3 repet, routine pompki, giant sets home, tractions
+
+    friends
+        st cloud batiment
+        
+    

@@ -4,7 +4,7 @@ Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by ex
 intentions
 
 milosc do dzieci
-dynamics king
+dynamic king
     
 
 

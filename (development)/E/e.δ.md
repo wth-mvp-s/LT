@@ -2,9 +2,13 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 
 
 # t31
-# t30
-# t29
-# t28
+# t30 Июль
+# t29 Июль
+# t28 Июль
+    tout ce que tu peux faire ce de continuer a chercher 
+    prepare dreieck
+    self prepare for timeframe
+
     Tina boxer roller path
     zanotuj intencje
         pozwoli ci zrozumiec szukanie

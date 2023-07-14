@@ -7,6 +7,8 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t29 
 # t28 [current]
 
+parties a travailler ?
+
 moulinerEnContinue
       drawing
       looking for model photo sculptures louvre ...

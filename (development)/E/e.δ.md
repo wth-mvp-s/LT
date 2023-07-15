@@ -5,13 +5,12 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t30 Июль
 # t29 Июль
 # t28 Июль
-    tout ce que tu peux faire ce de continuer a chercher 
-    prepare dreieck
-    self prepare for timeframe
+    tout ce que tu peux faire ce d'etre pret 
+    
+    be somewhere you like for timeframe
 
     Tina boxer roller path
-    zanotuj intencje
-        pozwoli ci zrozumiec szukanie
+    
 # t27
 
     sob plan dreieck 3 W 

@@ -3,6 +3,9 @@ Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ra
 
 
 # Politics
+    authenticity priority absolu
+    
+    
       dont spend time with loosers, false ami, hipsters, pd, tourists, no religion no values people
 
 # Learnt

@@ -2,13 +2,40 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 
 
 # t31
-# t30 Июль
-# t29 Июль
-# t28 Июль
+# t30 Июль ▲ 
+# t29 Июль ▲ Luxembourg, Saint-Placide, and Notre-Dame-des-Champs.
+# t28 Июль ▲ Austerlitz, St. Lazare, lost, ganguette
+problemes
+    Paris wszystko pod turystow i hipsterow, zlodziejstwo, brak autentycznych miejsc, 
+        how not true 
+            Mamma Primo
+
+
+        Galerie Documents 15, 
+        La Galerie d'Architecture
+        Galerie La Forest Divonne
+        
+        Jardin du Luxembourg
+
+        restaurant Alliance
+        Le Comptoir du Relais
+
+        
+        This area is a well-known Horeca zone in Paris
+        . These establishments cater to a more mature and upscale clientele than the hipster crowd, which fits well with your criteria.
+
+            find  me a bermuda triangle,     what i call a place like between alma, george 5 and roosevelt, where i was exploring paris by researching small area by the idea from details to global 
+            include in research the criteria listed bellow: 
+                    south on paris
+                    the galeries,
+                    close to park
+                    with restaurant one or two stars michelin stricly in between a perimeter
+                    no hipsters
+                    horeca zone 
+            
     tout ce que tu peux faire ce d'etre pret 
     
-    be somewhere you like for timeframe
-
+    rencontres:
     Tina boxer roller path
     
 # t27

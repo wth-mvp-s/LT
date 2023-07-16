@@ -3,15 +3,13 @@ Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ra
 A
       pute vs work from feelings 
       
-      one shot, knowing when to not to shot      
-      nie chce ferrari, chce helikopter
-      get laid, man. ... Rockwell John, 
+      ginguette malheureux, concert happy, go with values
+
 # intentions Whys
 
-      man need a woman 
-      to complete me, to form a familly, 
-      to build a future, 
-      together share and enhance
+       need a woman 
+       to form a familly, future, 
+      together enhance
       becouse it is better then whores
       high end sofisticated with feelings
 

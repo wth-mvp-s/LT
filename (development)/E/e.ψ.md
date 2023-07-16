@@ -1,22 +1,26 @@
 Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ratio, a concept of perfect balance and beauty. It's also used in symbolic logic and philosophy of mind to denote "generic" or "unspecified" functions or actions.
 
-A
+
+
+# Politics
+      dont spend time with loosers, false ami, hipsters, pd, tourists, no religion no values people
+
+# Learnt
+      A
       pute vs work from feelings 
-      ginguette malheureux, concert happy, go with values
+      ginguette makes me sad, concert happy, go with values
 
 # intentions Whys
-
-       need a woman 
        enhance future, 
       
 
 # coherence
       she decide.       /     me king what I am looking for
  
-      guangette         vs    galeries, 
+      guangette alc     vs    galeries, 
       boite d n               sztuka, muzyka, etc. 
       bar                     dreieck, exploring resting
-      payer pour entre        feel well ***, plaisir de bon resto ou on est agreablement traite
+      payer pour entrer       feel well ***, plaisir de bon resto ou on est agreablement traite
       tiring                  pleasure for resting
 
 
@@ -37,3 +41,4 @@ A
     rosa bonheur----|versaille, W
     
     tinder----------|mammi primo
+

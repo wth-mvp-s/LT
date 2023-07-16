@@ -5,6 +5,13 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t30 Июль ▲ 
 # t29 Июль ▲ Luxembourg, Saint-Placide, and Notre-Dame-des-Champs.
 # t28 Июль ▲ Austerlitz, St. Lazare, lost, ganguette
+errors notuj
+    Reuil - nie szukalem pod portret 
+    
+  courir paris 
+        abandonner mes idee dreieck 1 pas rebondi
+        drawing moyen de commencer une conversation, opera singer pas de carnet de croquis
+        nie musisz placic zeby byc w resto ***
 problemes
     Paris wszystko pod turystow i hipsterow, zlodziejstwo, brak autentycznych miejsc, 
         how not true 

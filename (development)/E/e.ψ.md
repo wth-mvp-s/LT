@@ -14,11 +14,12 @@ A
       high end sofisticated with feelings
 
 # coherence
-      nie pod nia       /     nie gdzie ona jest, ale tam gdzie robie swoje rzeczy
+      she decide.       /     me king
+ 
       guangette         vs    galeries, 
       boite d n               sztuka, muzyka, etc. 
       bar                     dreieck, exploring 
-      payer pour entre        like buillon, plaisir de bon resto ou on est agreablement traite
+      payer pour entre        feel well like buillon, plaisir de bon resto ou on est agreablement traite
       tiring                  pleasure for resting
 
 
@@ -35,8 +36,8 @@ A
 ## 
     coward----------|do what you really want
     ----------------|-----------------------
-    merle moquer----|W
-    ovs-------------|plaza Malaga
+    Dial------------|?
+    
     rosa bonheur----|
-    clubs-----------|
-    apps------------|
+    
+    tinder----------|

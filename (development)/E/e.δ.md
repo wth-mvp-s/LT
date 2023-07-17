@@ -3,13 +3,18 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 pamietnik 
 
 # t31
-# t30 Июль 
-# t29 Июль ▲ 
+# t30 
+# t29 [current]
+PLAN
+Set clear intentions: Create a vision for what you want to achieve. 
+This could be anything from visiting one good gallery per week to having showing a portrait for a new potential client. 
+Having clear goals can make it easier to dedicate time to your work.
+    
 
-# t28 Июль ▲ 
+# t28 
     Austerlitz, St. Lazare, lost, ganguette (    za duzo biegania, brak autentycznosci) 2-
     Reuil
-    Mamma Primo, concert         (opera singer pas de carnet de croquis)
+    Mamma Primo, concert         (opera singer pas de carnet de croquis) 5-
     skate,     Tina boxer roller path
     
 # t27

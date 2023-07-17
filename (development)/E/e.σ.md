@@ -10,6 +10,7 @@ DLACZEGO NIE MA ZADNYCH RESULTATOW ?
     BYLE JAKIE BRANIE MNIE NIE INTERESUJE, 
     
 ▲ 
+    use this time to search for galeries
         temporally closed - belleville, pyrenees, buttes chaumont
         galerie templon - rambuteau, Arts et metier, Reamur Sebastopol
         Luxembourg, Saint-Placide, and Notre-Dame-des-Champs.

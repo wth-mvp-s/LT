@@ -8,3 +8,4 @@ amv                 envoye
 hemos               envoye
 la mediatheque      envoye
 boursorama          envoye
+bnp                 envoyé

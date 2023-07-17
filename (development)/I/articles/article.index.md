@@ -10,6 +10,13 @@ In SQL Server two type of B-tree (clustered and non clustered)
 
     For a non-clustered index, the leaf nodes of the B+ tree do not contain the data rows themselves. Instead, they contain the index keys and pointers to the data rows. This means that you can have multiple non-clustered indexes per table, each with a different key. However, because there's an extra level of indirection (the pointer), accessing data through a non-clustered index can be slightly less efficient than accessing it through a clustered index.
 
+B minus tree
+    The B-minus tree, on the other hand, is a variation of the B tree where non-leaf nodes only contain pointers to child nodes, and the key values are stored only in the leaf nodes. It is a different structure than the B+ tree used for clustered indexes.
+
+     In a B- tree, non-leaf nodes do not contain key values, only pointers to child nodes.
+
+        The B- tree is typically used in scenarios where there are strict memory limitations and a small number of keys per node. It is more suitable for in-memory data structures or scenarios where the tree needs to be stored entirely in memory.
+
 - Columnstore Indexes: Columnstore indexes store data in a column-wise format, unlike traditional rowstore indexes. This type of index is designed for data warehousing workloads where queries often involve aggregates computed over large amounts of data.
 - Full-text Indexes: Full-text indexes in SQL Server support complex word-processing operations for a text query, such as word inflection, thesaurus and noise words, or word proximity. They are useful for queries that perform linguistic searches on text data.
 - Spatial Indexes: SQL Server supports spatial indexes for spatial data, which can be used to optimize queries involving spatial data.

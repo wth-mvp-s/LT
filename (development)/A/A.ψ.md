@@ -1,3 +1,5 @@
+Psi (Ψ, ψ): This symbol is used in philosophy of mind, particularly in discussions around consciousness and psychology (which gets its name from the Greek word "psyche")..
+
 # intentions Whys
 traktuj czas jak pieniadz
 

@@ -1,6 +1,6 @@
-                    1707.2023
+                    1707.2023           correct confirmé
 Vital               envoye
-impots              envoye    
+impots              envoye              ok
 Swile               site ok
 fitness Park        impossible
 navigo              impossible

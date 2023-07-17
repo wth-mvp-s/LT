@@ -1,7 +1,12 @@
 Psi (Ψ, ψ): This symbol is used in philosophy of mind, particularly in discussions around consciousness and psychology (which gets its name from the Greek word "psyche")..
 
 # intentions Whys
-traktuj czas jak pieniadz
+
+# traktuj czas jak pieniadz
+
+# short-term goals
+
+# long-term goals
 
 zawsze focus, coherence, to reach new reality new dimension    
     wrazliwosc of work from,     lzy w oczach i drzacy glos

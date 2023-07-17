@@ -1,3 +1,5 @@
+
+
 # intentions Whys
 traktuj czas jak pieniadz
 

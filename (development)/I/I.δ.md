@@ -65,6 +65,7 @@ Having clear goals can make it easier to dedicate time to your work.
 
         best practice 
             error handling
+        daily 2 tests QCM
 # t28 
 
     ask 

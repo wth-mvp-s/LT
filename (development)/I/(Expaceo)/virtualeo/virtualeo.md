@@ -13,3 +13,4 @@ not detectable language
 nomenclature pour les versions ? 
     Version : 1.0.8598.0
     ReleaseVersion : 1.0.8598.0
+< html lang="en" > langue specifié en En

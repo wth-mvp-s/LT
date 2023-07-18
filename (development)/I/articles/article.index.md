@@ -44,3 +44,21 @@ low high cardinality, numbers of unique values
     HC b-tree, hash index
 
 
+sandbox
+Generate your test data: You can manually create your test data, but with the volume you're speaking of, it might be easier to use a tool or write a script to generate it. There are many data generation tools available online, such as Mockaroo, GenerateData.com, etc.
+
+Searching: 
+    title, author, or ISBN
+    library card number or patron name
+sort
+    overdue books by the date they were due 
+    title
+    author
+join 
+    list of books checked out with a list of patron contact information
+Grouping
+    for categorizing data
+        book by genre
+        patrons by the city they live in. This can help the librarian make decisions, such as which types of books to order more of.
+
+Foreign Key Lookups: In a database context, foreign keys are used to link records in different tables. In a library, one use case might be linking a checkout record to a specific book and patron. The checkout record may have a book_id field and a patron_id field which are the "foreign keys". When a librarian wants to see who has checked out a specific book, they would use these foreign keys to lookup the information in the patron table and the books table.

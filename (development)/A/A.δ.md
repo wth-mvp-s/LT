@@ -13,6 +13,7 @@ Having clear goals can make it easier to dedicate time to your work.
       E
       visit galleries
       A 
+      co mnie interesuje w tym spojrzeniu ? 
       drawing better possible for painting pourpouse 2h, 2 dessins
       paint small version
       I 

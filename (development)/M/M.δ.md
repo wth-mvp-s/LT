@@ -1,3 +1,14 @@
+Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
+
+short-term goals
+    odnalezc max, podzielic na grupy, 3 wyjscia 3 grupy, wybrac priorytety, przetestowac cwiczenia, znalezc te ktore u mnie czuje ze pracuja
+long-term goals
+    increase reps on 25
+    stabiliser les bras et le hip
+    former les 6
+    garder la systematique
+    creuser pour mieux comprendre la nourriture, les muscles, 
+
 Gdzie juz osiagnalem obciazenie, z data 
 przepisyuwac tu najwazniejsze co w  google agenda, 
 

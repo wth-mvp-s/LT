@@ -4,9 +4,6 @@ Psi (Ψ, ψ): This symbol is used in philosophy of mind, particularly in discuss
 
 # traktuj czas jak pieniadz
 
-# short-term goals
-
-# long-term goals
 
 zawsze focus, coherence, to reach new reality new dimension    
     wrazliwosc of work from,     lzy w oczach i drzacy glos

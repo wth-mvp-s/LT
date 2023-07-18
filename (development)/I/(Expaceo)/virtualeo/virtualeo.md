@@ -6,6 +6,13 @@ virtualeo-dev.azurewebsites.net
     virtualtrainer053@gmail.com
     expaceo2023!
 
+Développement :
+    BDD : dbs-virtualeo-dev.database.windows.net
+    ID : admvirtualeo
+    MDP : H6a0vg5fAh4vvBxei4oT
+
+
+
 responsive
 ARIA tab 
 log visible lint

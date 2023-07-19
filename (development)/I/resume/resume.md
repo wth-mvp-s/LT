@@ -1,3 +1,9 @@
+------------------------------------------------------------------
+Comment moi je comprends le metier de l'ingenieer consultant, garantir le meilleur perf et securite de l'application et aussi savoir proposer des service azure si peut etre benefique pour le clients de les appliquer. 
+I bring to the table une palette des bonnes pratique, des solutions pret a etre employer que je decouvert sur les projets de grands envergure pour les societes de renomme international. 
+Vous avez besoin une employee comme moi, car au niveau de motivation et l'engagement je suis le cas unique a Paris. 
+----------------------------------------------------------------------
+------------------------------------------------------------------
 Mon resumé
     perf
         caching
@@ -9,7 +15,7 @@ Mon resumé
 
 ----------------------------------------------------------------------
 Crack Interview
-    highlight smart code
+    highlight code smart
     1p 10s understanding prioritize content
     only relevant positions Accomplished X by implementing Y which led to Z
         reduced object rendering time by 75% by implementing distributed caching, leading to a 10% reduction in long-in time. 

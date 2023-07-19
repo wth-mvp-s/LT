@@ -5,6 +5,8 @@ pamietnik
 # t31
 # t30 
 # t29 [current]
+Kallagan - Point-Virgule, Le dimanche 23 juillet 2023 à 19h00
+
 PLAN
 Set clear intentions: Create a vision for what you want to achieve. 
 This could be anything from visiting one good gallery per week to having showing a portrait for a new potential client. 

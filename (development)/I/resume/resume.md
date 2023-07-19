@@ -36,3 +36,8 @@ wall street resumé
     Risks and Challenges: A discussion of the potential downsides, including competition, regulatory risks, market risks, or other factors that could negatively impact the stock's value.
 
     Conclusion and Call to Action: A summary of the argument and a clear statement of what the investor should do (e.g., buy, sell, or hold).
+
+my resume
+    Company Overview
+        me working since 2009, worklflow, 
+        speaking english

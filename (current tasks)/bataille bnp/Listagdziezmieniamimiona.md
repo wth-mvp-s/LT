@@ -1,11 +1,12 @@
-                    1707.2023           correct confirmé        en attente de màj
+                    status                          correct confirmé        en attente de màj       comment faire
 Vital               envoye
-impots              envoye              ok
-Swile               site                ok
+impots                  clos                        ok
+Swile                   clos                        ok
 fitness Park        impossible
-navigo              impossible
-amv                 envoye
+navigo              impossible                                                                      au guichet
+amv                 envoyé 19.07.2023   +3j                                 en attente                                 
 hemos               envoye
-la mediatheque      envoye              ok
+la mediatheque          clos                        ok
 boursorama          envoye
-bnp                 envoyé                                      en attent
+bnp                 envoyé                                                  en attent
+swiss assurance?

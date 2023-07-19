@@ -9,6 +9,9 @@ Daily 1907.1617
         y a t'il autres projets qui m'interesse ? 
     j'ai turn on Hyper-V, Internet Information Services: Web Management Tool et World Wide Web Services, Media Features
 
+    installé : Application Request Routing, URL Rewrite:
+    fini wiki : How to develop in Virtualeo
+    
 remarques 
     que veut dire Eo ? 
     responsive

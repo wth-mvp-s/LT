@@ -20,3 +20,4 @@ Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by ex
                    ici j'ai un pop up disant you dont have subscription
 
                    
+      Open the IIS Manager: inetmgr

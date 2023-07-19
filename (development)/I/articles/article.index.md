@@ -1,3 +1,11 @@
+article.index.md
+
+
+
+
+not just for searching. It is beneficial when: Sorting, Join operations, Grouping, Foreign Key lookups
+
+
 Indexing 
 
 In SQL Server two type of B-tree (clustered and non clustered)

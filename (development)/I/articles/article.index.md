@@ -62,3 +62,4 @@ Grouping
         patrons by the city they live in. This can help the librarian make decisions, such as which types of books to order more of.
 
 Foreign Key Lookups: In a database context, foreign keys are used to link records in different tables. In a library, one use case might be linking a checkout record to a specific book and patron. The checkout record may have a book_id field and a patron_id field which are the "foreign keys". When a librarian wants to see who has checked out a specific book, they would use these foreign keys to lookup the information in the patron table and the books table.
+

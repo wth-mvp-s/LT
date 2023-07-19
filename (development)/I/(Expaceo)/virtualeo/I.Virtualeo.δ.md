@@ -4,6 +4,11 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t30
 # t29 [current] 
 
+Daily 1907.1617
+    j'ai recuperé le code : de la branch VirtualEo-Client
+        y a t'il autres projets qui m'interesse ? 
+    j'ai turn on Hyper-V, Internet Information Services: Web Management Tool et World Wide Web Services, Media Features
+
 remarques 
     que veut dire Eo ? 
     responsive

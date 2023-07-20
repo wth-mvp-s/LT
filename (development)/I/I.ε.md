@@ -2,6 +2,8 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 
 
 tweets 
+     npm install -g @vue/cli & npm audit fix --force
+     npm install -g @vue/cli
      JBA formations panoramique, end-up handshake
      TBO getaround.com
      how not true, IQ stress test, 

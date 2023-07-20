@@ -39,6 +39,7 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
         math unit convertor
 
 # t29 [current] 
+C:\Python27\
 
 PLAN
 Set clear intentions: Create a vision for what you want to achieve. 

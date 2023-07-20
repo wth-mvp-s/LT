@@ -3,7 +3,17 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 
 # t30
 # t29 [current] 
+
+2107.1555
+
+
 2007.1139
+    velocite - is a metric used to gauge the amount of work a team can tackle during a single sprint. key aspect used to plan future sprints and to predict project timelines.
+    category : agile metrics and Key Performance Indicators (KPIs).
+    to estimate through the backlog speed , predict project completion.
+
+
+        
 
     why of project
     Your project goals should align with the organization's strategic objectives

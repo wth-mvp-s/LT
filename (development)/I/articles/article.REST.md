@@ -23,9 +23,26 @@ Code-On-Demand (optional): Event-Driven Programming
 
     inspiration from "French Through Their Eyes" by Walter Lippmann and Walter H. Buell:
 
-        Client-Server: In the dance of savoir-vivre, one person (client) asks another (server) to dance (a request). The invitation can either be accepted (200 OK response) or politely declined (404 Not Found response).
+        1. Client-Server: many clients can send requests to the server at the same time, and the server will handle each request
 
-        Stateless: Each social interaction is independent. Just because you had an intense political debate (POST /political-discussions) at the last dinner doesn't mean you should bring up politics at the next event.
+              O  
+            / | \  
+            /  \   
+            
+                    O
+                \ | / 
+                    / \
+
+        2. Stateless:  each request from the client to the server is independent of the others
+            CLIENT ----> SERVER
+                (Get)
+            CLIENT <---- SERVER
+                (Get response)
+
+                CLIENT ----> SERVER
+                    (Put)
+                CLIENT <---- SERVER
+                    (Put response)
 
         Cacheable: Remembering (caching) social etiquette, such as polite expressions and table manners, so you can use them when appropriate without needing to ask (send GET requests) each time.
 

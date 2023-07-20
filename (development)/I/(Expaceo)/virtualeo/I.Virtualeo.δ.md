@@ -72,8 +72,8 @@ remarques
     que veut dire Eo ? 
     responsive
     ARIA tab 
-    log visible lint
-    not detectable language
+    log visible lint ? 66 console.log
+    not detectable language En
     nomenclature pour les versions ? 
         Version : 1.0.8598.0
         ReleaseVersion : 1.0.8598.0

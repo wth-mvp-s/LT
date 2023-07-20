@@ -3,7 +3,8 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 
 tweets 
      F&é, LocalStorage, credentialType, secret jwt.io
-
+     Open the IIS Manager: inetmgr
+     
 credentials
      virtualeo-dev.azurewebsites.net
      Virtualeo

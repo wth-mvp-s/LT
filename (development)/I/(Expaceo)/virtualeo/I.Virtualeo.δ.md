@@ -4,6 +4,10 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t30
 # t29 [current] 
 2007.1139
+    Rozumiem, że wiki projektu może być niekompletne
+    braki informacyjne zrozumienie, dokumentacja kodu, team.
+    zrozumieć kontekst projektu. skuteczne przyswajanie wiedzy i  angażowanie się w projekt.
+
     Proszę daj mi znać, dogodny czas na rozmowę.
         dostosowanie moich działań
             Zrozumienie roli Chef de Projet w naszym projekcie.

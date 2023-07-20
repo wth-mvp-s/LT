@@ -3,8 +3,16 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 
 # t30
 # t29 [current] 
+2007.1139
 
-Daily 1907.1617
+    reverse proxy
+        type of server that retrieves resources on behalf of a client from one or more servers.
+
+    Application Request Routing (ARR): ARR is essentially a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers, server variables, and load balance algorithms. With ARR, an IIS server can be configured to act as a reverse proxy, which is a type of server that retrieves resources on behalf of a client from one or more servers. This is useful in scenarios such as load balancing, where requests need to be distributed across multiple servers to manage load and ensure high availability.
+
+    URL Rewrite: The URL Rewrite module is used to modify incoming URL requests in some way before further processing. This is often used for tasks like making URLs "prettier" or more user/SEO friendly, redirecting URLs based on certain patterns or conditions, or rewriting URLs based on certain rules. URL rewriting can also be used for security purposes, such as preventing certain types of malicious requests.
+    
+1907.1617
     j'ai recuperé le code : de la branch VirtualEo-Client
         y a t'il autres projets qui m'interesse ? 
     j'ai turn on Hyper-V, Internet Information Services: Web Management Tool et World Wide Web Services, Media Features

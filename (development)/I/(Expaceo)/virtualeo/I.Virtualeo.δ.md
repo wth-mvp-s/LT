@@ -4,6 +4,22 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t30
 # t29 [current] 
 2007.1139
+    Proszę daj mi znać, dogodny czas na rozmowę.
+        dostosowanie moich działań
+            Zrozumienie roli Chef de Projet w naszym projekcie.
+        Bardzo doceniłbym, wskazówek 
+            odnośnie pierwszych zadań przypisanych do mnie na początku.
+
+    perf terminowosc oraz efektywnosc 
+        koordynowanie i zarządzanie zasobami
+        organizowanie         start stop realisation naszego projektu.
+    securite 
+        ocena i minimalizacja ryzyka, zarządzanie interesariuszami oraz tworzenie współpracującego i produktywnego środowiska zespołowego.
+    
+    ustalanie celów projektu, definiowanie kluczowych wskaźników wydajności i zapewnianie zgodności z ogólnymi celami organizacji.
+    
+    dodatkowe niuanse i priorytety, każdy projekt jest unikalny.
+
 
     reverse proxy
         type of server that retrieves resources on behalf of a client from one or more servers.
@@ -11,7 +27,7 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
     Application Request Routing (ARR): ARR is essentially a proxy-based routing module that forwards HTTP requests to content servers based on HTTP headers, server variables, and load balance algorithms. With ARR, an IIS server can be configured to act as a reverse proxy, which is a type of server that retrieves resources on behalf of a client from one or more servers. This is useful in scenarios such as load balancing, where requests need to be distributed across multiple servers to manage load and ensure high availability.
 
     URL Rewrite: The URL Rewrite module is used to modify incoming URL requests in some way before further processing. This is often used for tasks like making URLs "prettier" or more user/SEO friendly, redirecting URLs based on certain patterns or conditions, or rewriting URLs based on certain rules. URL rewriting can also be used for security purposes, such as preventing certain types of malicious requests.
-    
+
 1907.1617
     j'ai recuperé le code : de la branch VirtualEo-Client
         y a t'il autres projets qui m'interesse ? 

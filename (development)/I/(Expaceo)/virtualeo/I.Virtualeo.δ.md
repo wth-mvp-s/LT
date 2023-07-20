@@ -4,6 +4,17 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t30
 # t29 [current] 
 2007.1139
+
+    why of project
+    Your project goals should align with the organization's strategic objectives
+
+    ST LT goals timeframes ? 
+    Define Key Performance Indicators (KPIs) ? 
+    Stakeholder Input: Involve key stakeholders when setting project goals. This will ensure buy-in and increase the likelihood of project success. Q
+
+    Document and Communicate Goals: Once you've established your goals, document them in your project plan and share them with your project team and stakeholders. This will ensure everyone is on the same page and understands what the project is trying to achieve.
+
+
     Rozumiem, że wiki projektu może być niekompletne
     braki informacyjne zrozumienie, dokumentacja kodu, team.
     zrozumieć kontekst projektu. skuteczne przyswajanie wiedzy i  angażowanie się w projekt.
@@ -14,11 +25,13 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
         Bardzo doceniłbym, wskazówek 
             odnośnie pierwszych zadań przypisanych do mnie na początku.
 
-    perf terminowosc oraz efektywnosc 
+    PERF 
+        terminowosc oraz efektywnosc 
         koordynowanie i zarządzanie zasobami
         organizowanie         start stop realisation naszego projektu.
     securite 
         ocena i minimalizacja ryzyka, zarządzanie interesariuszami oraz tworzenie współpracującego i produktywnego środowiska zespołowego.
+            STAKEHOLDER is like N + 1 for a product owner, "stake" or interest in the project
     
     ustalanie celów projektu, definiowanie kluczowych wskaźników wydajności i zapewnianie zgodności z ogólnymi celami organizacji.
     

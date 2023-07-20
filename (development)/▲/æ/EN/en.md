@@ -15,3 +15,5 @@ synapse::the point at which electrical signals move from one nerve cell to anoth
 ostracized:: zakazany
 # youtube
 distortion::a change to the original or natural shape of something
+# t29
+stake ::  or interest in the project

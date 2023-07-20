@@ -5,7 +5,12 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t29 [current] 
 
 2107.1555
-
+    Daily
+        gitflow ? organisation ? 
+        model
+            State in backlog mean ? 
+            what used to connect to bdd
+            can't connect to bdd
 
 2007.1139
     velocite - is a metric used to gauge the amount of work a team can tackle during a single sprint. key aspect used to plan future sprints and to predict project timelines.

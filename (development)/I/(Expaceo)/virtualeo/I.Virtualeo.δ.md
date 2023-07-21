@@ -6,6 +6,15 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 
 2107.1555
     Daily
+        currently bug
+            InstrumentHooks.js:102     GET https://192.168.1.159:8080/sockjs-node/info?t=1689868255649 net::ERR_SSL_PROTOCOL_ERROR
+
+        1. back Trois projets - defs each ? 
+        2.  
+
+
+
+
         gitflow ? organisation ? 
         model
             State in backlog mean ? 

@@ -1,6 +1,16 @@
 # Teal Swan, 
 
 
+###     If You Want To Be Happy, Don't Do This! - Teal Swan
+https://www.youtube.com/watch?v=I4pLiKrtRFE&ab_channel=TealSwan
+
+get what you want strategy(get laid){
+    find a ways to do what I love
+    in order to get what I want
+
+        to co ja myslem - nie pod nia tylko pod siebie, chcesz byc king zachowuj sie jak king
+} 
+
 ###         Want to Succeed? What Pain Will You Say YES To?
 
             pain struggle accepted    definiuje Twoj sukces w zyciu

@@ -4,7 +4,7 @@ fitness Park        envoyé                                                  en 
 Vital               suivre le process, question pharmacie                                           process expliqué dans le mail, via Leur site
 amv                 en attente, envoyé 19.07.2023   +3j                     en attente                                 
 hemos               en attente, envoye ?                                    en attente
-swiss assurance?    où, quel site ? 
+swiss assurance?    à faire , todo                                          où, quel site ? 
 ursaff              à faire , todo 
 
 boursorama              en attante new CB           ok

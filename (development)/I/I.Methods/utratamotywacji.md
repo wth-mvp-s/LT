@@ -33,3 +33,12 @@ stop fight(){
         that they don't want it enough, 
         becouse the cost is not worth the benefit.
 }
+recipe for absolute distaster(){
+    do a job you don't wanna do 
+    so you can get what you want which is money. 
+        in our childhood we were trained that in order to get something we want 
+        we have to do some things that we don't want
+}
+for a happy life (){
+    To, co robisz, aby osiągnąć cel, jest równie ważne, jak sam cel".
+}

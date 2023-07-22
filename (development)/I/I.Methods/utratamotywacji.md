@@ -42,3 +42,4 @@ recipe for absolute distaster(){
 for a happy life (){
     To, co robisz, aby osiągnąć cel, jest równie ważne, jak sam cel".
 }
+# meet my needs

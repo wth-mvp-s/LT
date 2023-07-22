@@ -1,0 +1,2 @@
+
+Menedżer projektu, w tradycyjnym ujęciu, często ma szerszy zakres obowiązków niz scrum master, włączając zarządzanie zasobami, komunikację z interesariuszami, zarządzanie ryzykiem i często także pewien nadzór nad aspektami technicznymi projektu. 

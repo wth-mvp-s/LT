@@ -1,7 +1,11 @@
 # Teal Swan, 
 
 
+###         Want to Succeed? What Pain Will You Say YES To?
 
+            pain struggle accepted    definiuje Twoj sukces w zyciu
+                
+                
 
 ###        Authenticity, Happy Life
 ###        FAKE PERSONALITY 

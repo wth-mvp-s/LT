@@ -5,6 +5,9 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 # t31
 # t30
 # t29 [current]
+Galerie d'art Carré d'artistes Paris 4 Le Marais
+200 o/ mois, 50% 40 en stock
+
 PLAN
 Set clear intentions: Create a vision for what you want to achieve. 
 This could be anything from finishing one good drawing per week to having a starting point for a website, writing description. 

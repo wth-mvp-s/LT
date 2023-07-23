@@ -11,6 +11,14 @@ get what you want strategy(get laid){
         to co ja myslem - nie pod nia tylko pod siebie, chcesz byc king zachowuj sie jak king
 } 
 
+to success(){
+
+the most succesful people on this earth, in terms of living life itself, 
+approach this with an even more aggressive strategy, 
+instead of finding a means that they enjoy to get to the ends that they enjoy, 
+they find a means that they enjoy even more than getting to the ends. 
+}
+
 ###         Want to Succeed? What Pain Will You Say YES To?
 
             pain struggle accepted    definiuje Twoj sukces w zyciu

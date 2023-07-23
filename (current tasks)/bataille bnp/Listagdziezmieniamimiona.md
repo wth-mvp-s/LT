@@ -1,15 +1,18 @@
-                    status                          correct confirmé        en attente de màj       comment faire
+                    status                          
 
-fitness Park        envoyé                                                  en attente de reponse a mail, faire sur place aussi 
-Vital               suivre le process, question pharmacie                                           process expliqué dans le mail, via Leur site
-amv                 en attente, envoyé 19.07.2023   +3j                     en attente                                 
-hemos               en attente, envoye ?                                    en attente
-swiss assurance?    à faire , todo                                          où, quel site ? 
-ursaff              à faire , todo 
+Vital               suivre process                                                                  suivre le process, question pharmacie, pies, process expliqué dans le mail, via Leur site
+zelasko PL          en attente
+Wojtek              en attente
+hemos               en attente
+swiss assurance?    en attente                                                                      demande fait 23.07.2023 https://myswisslife.fr/univers/aide-contact
+ursaff              en attante                                                                      demande fait 23.07.2023 
 
-boursorama              en attante new CB           ok
-impots                  clos                        ok
-la mediatheque          clos                        ok
-Swile                   clos                        ok
+boursorama              en attante new CB           
+impots                  clos                        
+la mediatheque          clos                        
+Swile                   clos                        
 navigo                  clos
-bnp                     clos 
+fitness Park            clos
+amv                     clos
+
+bnp                     La modification sera effective dans les meilleurs délais. maj de coordonnes bancaire

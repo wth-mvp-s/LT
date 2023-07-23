@@ -4,8 +4,8 @@
     Fine Art 57
     Café Dior
     
-    Ice bucket
-        Le W
+    
+        Le W    `Ice bucket`
     Bad resto
         Alzace
         Le Marignan

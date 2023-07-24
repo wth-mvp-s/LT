@@ -8,6 +8,13 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
         GRANT 
 # t33
     sort algorithms
+
+    const filteredClassrooms = computed(() =>
+      props.classrooms
+        .filter(activeFilter.value.filter)
+        .sort((a, b) => (b.startingDateTime > a.startingDateTime ? 1 : -1))
+    );
+
 # t32
     ARIA
         https://angular.io/guide/accessibility

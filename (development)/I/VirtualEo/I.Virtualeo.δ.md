@@ -1,8 +1,16 @@
 Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
 
 
-# t30
-# t29 [current] 
+# t30 [current]
+    вторник двадцать пять
+        sort
+                >0      [b,a]       1
+                <0      [a,b]       -1
+                ===0    a b         0   oryginal order
+
+    want add class in the past with SQL 
+
+# t29  
 
 2107.1555
     Daily

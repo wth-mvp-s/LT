@@ -17,3 +17,8 @@ credentials
      BDD : dbs-virtualeo-dev.database.windows.net
      ID : admvirtualeo
      MDP : H6a0vg5fAh4vvBxei4oT
+
+dependencies
+     "vuetify": "^2.6.2",  equivalent to Angular Material
+
+Class = classroom

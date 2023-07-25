@@ -1,8 +1,6 @@
                     status                          
 
 Vital               suivre process                                                                  suivre le process, question pharmacie, pies, process expliqué dans le mail, via Leur site
-zelasko PL          en attente
-Wojtek              en attente
 hemos               en attente
 ursaff              en attante                                                                      demande fait 23.07.2023 
 

@@ -2,8 +2,10 @@
 ma nouvelle branch : 
 
 stash pop 
-branch origin/users/jbo/624-sort-endDate
-commit 
+bad name    branch origin/users/jbo/624-sort-endDate
+new good name    branch origin/users/jbo/624-sort-endDate
+commit Add user creation to save changes action #633
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 git checkout  users/jbo/624-sort-endDate    worked
 ////////////////////////////////////////////////

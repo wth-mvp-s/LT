@@ -2,7 +2,8 @@
 ma nouvelle branch : 
 
 stash pop 
-origin/users/jbo/624-sort-endDate
+branch origin/users/jbo/624-sort-endDate
+commit 
 
 git checkout  users/jbo/624-sort-endDate    worked
 ////////////////////////////////////////////////

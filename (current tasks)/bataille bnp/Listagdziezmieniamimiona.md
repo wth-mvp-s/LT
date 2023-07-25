@@ -4,7 +4,6 @@ Vital               suivre process                                              
 zelasko PL          en attente
 Wojtek              en attente
 hemos               en attente
-swiss assurance?    en attente                                                                      demande fait 23.07.2023 https://myswisslife.fr/univers/aide-contact
 ursaff              en attante                                                                      demande fait 23.07.2023 
 
 boursorama              en attante new CB           
@@ -14,5 +13,6 @@ Swile                   clos
 navigo                  clos
 fitness Park            clos
 amv                     clos
+swisslife assurance     clos
 
 bnp                     La modification sera effective dans les meilleurs délais. maj de coordonnes bancaire

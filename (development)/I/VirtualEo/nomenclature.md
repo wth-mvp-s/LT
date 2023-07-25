@@ -1,5 +1,11 @@
 
+ma nouvelle branch : 
 
+stash pop 
+origin/users/jbo/624-sort-endDate
+
+git checkout  users/jbo/624-sort-endDate    worked
+////////////////////////////////////////////////
 bug 
 origin/users/dbe/640-header-icon
 branch par modif

@@ -5,7 +5,7 @@ tweets
      F&é, LocalStorage, credentialType, secret jwt.io
      Open the IIS Manager: inetmgr
      
-credentials
+credentials                                       role
      virtualeo-dev.azurewebsites.net
      Virtualeo
      Jérémy ROBIN

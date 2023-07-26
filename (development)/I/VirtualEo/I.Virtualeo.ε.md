@@ -18,6 +18,10 @@ credentials
      ID : admvirtualeo
      MDP : H6a0vg5fAh4vvBxei4oT
 
+     VPN
+     LBodal
+     qVmrtLOutxAXTw5XnX7i
+
 dependencies
      "vuetify": "^2.6.2",  equivalent to Angular Material
 

@@ -1,0 +1,1 @@
+<TargetFramework>netcoreapp3.1</TargetFramework> end of support December 13, 2022

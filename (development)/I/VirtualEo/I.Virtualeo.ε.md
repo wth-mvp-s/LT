@@ -4,7 +4,7 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 tweets 
      F12, LocalStorage, credentialType, secret jwt.io
      Open the IIS Manager: inetmgr
-     Vue Devtools
+     Vue Devtools via chrome web store
      branch : git checkout  users/jbo/624-sort-endDate    worked
 
      

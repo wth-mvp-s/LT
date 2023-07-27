@@ -1,0 +1,1 @@
+Ctrl+Shift+I        Open Developer Tools in Chrome

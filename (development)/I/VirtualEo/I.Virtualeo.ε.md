@@ -6,7 +6,9 @@ tweets
      Open the IIS Manager: inetmgr
      Vue Devtools via chrome web store
      branch : git checkout  users/jbo/624-sort-endDate    worked
-
+     vue
+          created() vs ngOnInit()
+          "vuex-class-component": "^2.3.5" like oop setter, mutation like dispached methods in reducer
      
 credentials                                       role
      virtualeo-dev.azurewebsites.net

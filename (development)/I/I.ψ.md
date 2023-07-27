@@ -1,4 +1,29 @@
 
+# resultat final
+    interview presentation
+        abreviations.md 5
+        new competences state Vue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # intentions Whys
 traktuj czas jak pieniadz

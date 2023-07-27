@@ -2,9 +2,11 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 
 
 tweets 
-     F&é, LocalStorage, credentialType, secret jwt.io
+     F12, LocalStorage, credentialType, secret jwt.io
      Open the IIS Manager: inetmgr
-     administrateur du centre de formation == Classroom administrator
+     Vue Devtools
+     branch : git checkout  users/jbo/624-sort-endDate    worked
+
      
 credentials                                       role
      virtualeo-dev.azurewebsites.net
@@ -26,4 +28,3 @@ credentials                                       role
 dependencies
      "vuetify": "^2.6.2",  equivalent to Angular Material
 
-Class = classroom

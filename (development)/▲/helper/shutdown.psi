@@ -1,0 +1,15 @@
+function Schedule-Shutdown {
+    param(
+        [Parameter(Mandatory=$true)]
+        [int]
+        $delay
+    )
+
+    # Wait for the specified time
+    Start-Sleep -Seconds $delay
+
+    # Shutdown
+    Stop-Computer
+}
+
+Schedule-Shutdown -delay 3600  # Schedule a shutdown in one hour

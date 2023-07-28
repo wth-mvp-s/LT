@@ -9,8 +9,10 @@ tweets
      vue
           created() vs ngOnInit()
           "vuex-class-component": "^2.3.5" like oop setter, mutation like dispached methods in reducer
-     AUTODELETE, visible after publish in auto-completion for a PR
-     SVG, only 140 color names are recognized by SVG specification
+
+     dependencies
+          "vuetify": "^2.6.2",  equivalent to Angular Material
+     
 credentials                                       role
      virtualeo-dev.azurewebsites.net
      Virtualeo
@@ -28,6 +30,4 @@ credentials                                       role
      LBodal
      qVmrtLOutxAXTw5XnX7i
 
-dependencies
-     "vuetify": "^2.6.2",  equivalent to Angular Material
 

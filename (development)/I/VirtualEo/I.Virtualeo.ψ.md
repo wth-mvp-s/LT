@@ -11,5 +11,6 @@ MDP : H6a0vg5fAh4vvBxei4oT
 
 # CNI
 
-Login : LBodal
-Pwd : qVmrtLOutxAXTw5XnX7i
+vpn.expaceo.com:8443
+LBodal
+qVmrtLOutxAXTw5XnX7i

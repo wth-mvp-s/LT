@@ -6,7 +6,7 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
      npm install -g @vue/cli
      JBA formations panoramique, end-up handshake
      TBO getaround.com
-     how not true, IQ stress test, 
+     how not true, IQ stress test, BP
 
 # dictionaires encyclopedies
     ok Computer Science Illuminated Nell Dale and John Lewis

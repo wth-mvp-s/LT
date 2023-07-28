@@ -6,7 +6,7 @@ Moj sprzet obecny
     DOM
         
         New machine : 
-        CPU:  i9-10900K, or even an i9-11900K.
+        350eCPU:  i9-10900K, or even an i9-11900K.
         RAM: DDR5 32GB
         Tour Mini ITX cases, NZXT, Cooler Master, and Fractal Design 
 

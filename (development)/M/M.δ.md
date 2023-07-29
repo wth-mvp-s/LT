@@ -1,5 +1,13 @@
 Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
 
+# t30
+Gray's Anatomy
+Atlas of Human Anatomy by Frank H. Netter, MD
+Anatomy
+The Complete Human Body by Dr. Alice Roberts
+Human Anatomy & Physiology by Elaine N. Marieb and Katja Hoehn
+
+# t29
 short-term goals
     odnalezc max, podzielic na grupy, 3 wyjscia 3 grupy, wybrac priorytety, przetestowac cwiczenia, znalezc te ktore u mnie czuje ze pracuja
 long-term goals

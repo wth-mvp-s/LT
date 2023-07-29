@@ -9,10 +9,9 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
      how not true, IQ stress test, BP
 
 # dictionaires encyclopedies
-    ok Computer Science Illuminated Nell Dale and John Lewis
-    ok Encyclopedia of Computer Science and Technology Harry Henderson
-    Encyclopedia of Information Technology Atlantic Publishers & Distributors
-    Dictionary of Computer and Internet Terms Douglas Downing
-    The Computer and Information Science and Technology Abbreviations and Acronyms Dictionary" David W. South
-    Webopedia's Data Formats and Their File Extensions" Webopedia
-    Oxford Dictionary of Computing Oxford University Press
+    
+    - The Computer and Information Science and Technology Abbreviations and Acronyms Dictionary" David W. South archive.org
+    - The Art of Computer Programm - Donald E Knuth
+    - The Computer Science Handbook - Michael Young - Serches
+    - Dictionary of Computer and Int - Douglas A. Downing, Ph.D._2091
+    - microsoft-computer-dictionary Index nice

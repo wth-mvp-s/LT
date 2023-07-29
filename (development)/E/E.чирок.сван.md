@@ -2,9 +2,8 @@
 
 
 ###     If You Want To Be Happy, Don't Do This! - Teal Swan
-https://www.youtube.com/watch?v=I4pLiKrtRFE&ab_channel=TealSwan
 
-get what you want strategy(get laid){
+get-what-you-want-strategy(){
     find a ways to do what I love
     in order to get what I want
 
@@ -13,10 +12,10 @@ get what you want strategy(get laid){
 
 to success(){
 
-the most succesful people on this earth, in terms of living life itself, 
-approach this with an even more aggressive strategy, 
-instead of finding a means that they enjoy to get to the ends that they enjoy, 
-they find a means that they enjoy even more than getting to the ends. 
+    the most succesful people on this earth, in terms of living life itself, 
+    approach this with an even more aggressive strategy, 
+    instead of finding a means that they enjoy to get to the ends that they enjoy, 
+    they find a means that they enjoy even more than getting to the ends. 
 }
 
 ###         Want to Succeed? What Pain Will You Say YES To?
@@ -35,7 +34,7 @@ they find a means that they enjoy even more than getting to the ends.
                     solution youtube part work
 ###         ENLIGHTMENT
             shortcut love yourself
-            Whta someone who love themself do ? 
+            What someone who love themself do ? 
             365 jours agenda - I love myself. 
             If you are stuggling, it's becouse you don't live your life like someone who love himself. 
             It takes guts, to follow intuition. 

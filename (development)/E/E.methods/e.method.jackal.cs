@@ -17,7 +17,7 @@ namespace ConsoleApp1tealswanmethods
         //it's me, my life
     }
 
-    interface IWisdom // Fetch
+    interface IExperience // Fetch
     {
         int znapassport { get;  }
         int znagdziezrobicpassport { get;  }
@@ -30,7 +30,7 @@ namespace ConsoleApp1tealswanmethods
     interface IAccess
     {
         int jakkupicAuto { get; }
-        int jakkupicborn { get; }
+        int jakkupicbron { get; }
     }
     
     public struct Transport

@@ -3,24 +3,9 @@ Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by ex
 
 
 
-analiza research pod phi
-
-DLACZEGO NIE MA ZADNYCH RESULTATOW ? 
-    BO KASUJE MIEJSCA I NIE MAM NIC CO BY JE ZASTAPILO, 
-    BYLE JAKIE BRANIE MNIE NIE INTERESUJE, 
     
 ▲ 
     use this time to search for galeries
-        temporally closed - belleville, pyrenees, buttes chaumont
-        galerie templon - rambuteau, Arts et metier, Reamur Sebastopol
-        Luxembourg, Saint-Placide, and Notre-Dame-des-Champs.
-
-        abandonnes idee dreieck 1       W, etc, Plaza, klub o ktorym powiedziano mi ze mozna poznac tam zone  
-        
-
-plan 
-tetster ** une fois tout les 3 mois et * between, know *** 
-
 
 searching 
     milosc do dzieci

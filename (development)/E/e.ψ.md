@@ -3,8 +3,7 @@ Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ra
 
 
 # Politics
-    authenticity priority absolu
-    
+      1st authenticity 
     
       dont spend time with loosers, false ami, hipsters, pd, tourists, no religion no values people
 
@@ -14,16 +13,15 @@ Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ra
       ginguette makes me sad, concert happy, go with values
 
 # intentions Whys
-       enhance future, 
-      
-
+      enhance future, 
+      smart kid
 # coherence
       she decide.       /     me king what I am looking for
  
       guangette alc     vs    galeries, 
       boite d n               sztuka, muzyka, etc. 
       bar                     dreieck, exploring resting
-      payer pour entrer       feel well ***, plaisir de bon resto ou on est agreablement traite
+      payer pour entrer       plaisir de bon resto ou on est agreablement traite
       tiring                  pleasure for resting
 
 

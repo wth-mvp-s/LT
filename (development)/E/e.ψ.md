@@ -25,7 +25,7 @@ Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ra
       tiring                  pleasure for resting
 
 
-# nie musisz czekac az bedziesz kims zeby kogos poznac ? 
+# nie musisz czekac az bedziesz kims zeby kogos poznac ? Dr Jamieson
       Manish
       Brice
       MGD L'pool

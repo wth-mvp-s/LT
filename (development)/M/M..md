@@ -2,6 +2,8 @@
     stabilizacja biodra, skakanka
     rollers
     elastique jambes
+    bark destabilise
+    
 # a voir 
 Google: chess muscle exercicves
 ćwiczeniem wielostawowym

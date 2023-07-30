@@ -11,9 +11,8 @@ Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by ex
     seans 2 MAX - pecs 
                 , max 3 repet, routine pompki, giant sets home, tractions
 
-    friends
-        st cloud batiment
-        
+    
+    
 des muscles de l'épaule
 Les muscles de la coiffe des rotateurs : Ce sont quatre muscles situés plus profondément dans l'épaule qui permettent la rotation de l'articulation. Ceux-ci incluent le muscle subscapulaire (à l'avant), le muscle sus-épineux (au-dessus), le muscle infra-épineux (au-dessous) et le muscle petit rond (à l'arrière).
 

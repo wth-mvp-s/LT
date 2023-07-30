@@ -27,57 +27,52 @@ respect time
 
 # Zlote mysli.
 
-## Co jest dla mnie najwazniejsze w zyciu?
->>coherence
->>nie grac 
+## Co jest dla mnie najwazniejsze w portrecie?
 
-
-## 1. Co chce osiagnac w zyciu?
+## 1. Co chce osiagnac w pejzazu?
 famille
 
 ## 2. Co jest moim marzeniem?
-sell painting for 5K
 
-## Czego najbardziej zaluje w zyciu?
+## Czego najbardziej zaluje w malowaniu?
 loosing time
 
-## Co sprawia mi najwiecej radosci?
+## Co sprawia mi najwiecej radosci w moich pracach?
 Painture
 Inteligence
 
 
-## 4. Co jest dla mnie najwazniejsze w pracy?
+## 4. Co jest dla mnie najwazniejsze w obrazach?
 vision
 
-## Jakie sa moje najwazniejsze relacje z innymi ludzmi?
+## Jakie sa moje najwazniejsze relacje z innymi malarzami?
 przyjaznie to ci co pamietaja 
 
-## Jakie sa moje najwieksze porazki?
+## Jakie sa moje najwieksze porazki w malowaniu?
 bad presentation
 loosing time
 
-## Co jest dla mnie najwazniejsze w zyciu duchowym?
+## Co jest dla mnie najwazniejsze w zyciu artysty?
 west wall
 
-## Co jest dla mnie najwazniejsze w zyciu zawodowym?
+## Co jest dla mnie najwazniejsze w zyciu rysownika?
 benefit myself
 Nie robic rzeczy tymczasowych. 
 nie robic rzeczy bez wizji konca
 
-## Jakie sa moje najwieksze leki i obawy?
+## Jakie sa moje najwieksze leki i obawy zwiazane z tworzeniem?
 loosing time
 
-## Czego pragne najbardziej w zyciu?
+## Czego pragne najbardziej w obrazach?
 don't loose my soul
 
-## Czego najbardziej boje sie stracic w zyciu?
+## Czego najbardziej boje sie stracic w malowaniu?
 coherence
 
 ## Co jest dla mnie najwazniejsze w zyciu osobistym?
 coherence
 
 ## PLAN B
-payement
 
 
 

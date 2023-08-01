@@ -1,6 +1,6 @@
 methods:
     access modifiers no built-in support 
-    Use case: function used in file
+    Use case: function used in file scope
 
 async mounted(): like ngAfterViewInit 
 Use case: for operations when your component is first created and added to the DOM.

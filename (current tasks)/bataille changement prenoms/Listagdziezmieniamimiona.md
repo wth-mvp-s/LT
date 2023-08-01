@@ -4,7 +4,7 @@ Vital               en attente                                                  
 hemos               en attente
 ursaff              en attante                                                                      demande fait 23.07.2023 
 
-boursorama              reclamation, call           bad CB
+boursorama              envoyé le 1.08.2023
 
 
 

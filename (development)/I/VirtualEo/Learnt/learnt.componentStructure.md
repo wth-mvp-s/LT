@@ -1,21 +1,44 @@
-methods:
-    access modifiers no built-in support 
-    Use case: function used in file scope
-
-async mounted(): like ngAfterViewInit 
-Use case: for operations when your component is first created and added to the DOM.
-
+data(): THINK OBSERVABLES
+    called before the component instance is fully created.
+        this - is undefined, becouse data is called before the component instance is fully created.
+        reactive properties - auto subscribe, unsubscribe.
 
 computed:
-    Problem solved: properties based on other data properties, recalculated only when their dependencies change. 
+    this = refers to the Vue component instance, but in which is used, right ? 
+        used 4 computed, methods, data
     
-    for optimized computations and caching of their results.
-    
+    recalculated (based on other data properties), only when their dependencies change. 
+    cached
 
-data():
-    reactive data properties of your component. Any changes to these properties will trigger the component to re-render.
-Use case: Any data that your component will use or modify should be defined here.
-components:
+Hooks
+    created() 
+        this = c
+
+    async mounted(): like ngAfterViewInit 
+        Use case: for operations when your component is first created and added to the DOM.
+
+methods:
+    this = component
+
+    like computed, refers to component
+    no access modifiers built-in support 
+    Use case: function used in file scope
+
+
+@vue/composition-api ??? 
+    importing defineComponent or watch
+
+Options API ??? 
+    When you define your component using the Options API, Vue takes care of binding this to the correct context for you.
+
+automatism
+    accessor not supported
+    Observable subscribed unsubscribed in data()
+
+ambinguity
+    Note that if you're using the Composition API (introduced as a plugin in Vue 2 and built into Vue 3), the way you access reactive properties changes, and you generally don't use this in the same way. The Composition API uses a more functional style, and you work directly with reactive references and computed properties without needing to access them through this. But from your code example, it looks like you're using the Options API, so the above explanation should apply to your situation.
+
+
 
 Introduced by: Vue.js
 Version: Since the initial version

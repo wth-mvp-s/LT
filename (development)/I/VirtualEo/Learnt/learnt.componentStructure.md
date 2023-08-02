@@ -25,11 +25,14 @@ methods:
     Use case: function used in file scope
 
 
+    
+Options API
+    standard way of writing components in Vue 2 and is also available in Vue 3.
+    When you define your component using the Options API, Vue takes care of binding this to the correct context for you.
+
 @vue/composition-api ??? 
     importing defineComponent or watch
-
-Options API ??? 
-    When you define your component using the Options API, Vue takes care of binding this to the correct context for you.
+    ref reactive
 
 automatism
     accessor not supported
@@ -50,3 +53,8 @@ Introduced by: Vue Composition API, part of Vue.js as an optional package
 Version: Since the initial release of the Composition API (released with Vue 2.6 and a built-in feature of Vue 3.0)
 Problem solved: It helps to create and type components using the Composition API. It's especially useful in TypeScript environments.
 Use case: If you're using the Composition API and want to create a component, you would use defineComponent to do so.
+
+
+defineComponent<any, any, any>
+    to provide types for your Props, State, and Emits in TypeScript
+    

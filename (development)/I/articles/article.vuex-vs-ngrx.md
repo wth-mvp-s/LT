@@ -8,6 +8,9 @@ vuex-class-component is a helper library that provides a set of decorators to bi
 
 #   Comparator
 
+    created() -vs - ngOnInit()
+    vuetify  -vs - Angular Material
+
     Props: - vs -   @Input()
       defines properties receive from parent
 

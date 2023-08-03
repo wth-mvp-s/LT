@@ -1,10 +1,11 @@
                     status                          
 
 
-ikea etc
+ikea                ok
+ck                  ok
 
 Vital               en attente                                                                      envoyé 30.07.2023   
-hemos               en attente
+hemos               en attente en attente apres call
 ursaff              en attante                                                                      demande fait 23.07.2023 
 
 boursorama              envoyé le 1.08.2023

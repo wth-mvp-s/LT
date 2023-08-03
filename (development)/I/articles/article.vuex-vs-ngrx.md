@@ -6,10 +6,14 @@
 
 vuex-class-component is a helper library that provides a set of decorators to bind classes and components to Vuex state, actions, getters, and mutations. If Vuex is not being used in your project, then vuex-class-component would not be necessary or useful.
 
+#   Comparator
 
-# Props: - vs - @Input()
-defines properties receive from parent
+    Props: - vs -   @Input()
+      defines properties receive from parent
 
+    @input  -vs -   (change)
+      input listener changes
+    
 
 # Setup function:
 new Vue 3, entry point for using the Composition API.

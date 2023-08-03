@@ -1,5 +1,5 @@
 
-SELECT cs.StudentId FROM Classroom AS c
+SELECT cs.StudentId, cs.Id FROM Classroom AS c
 	INNER JOIN ClassroomStudent AS cs
 		ON c.Id = cs.ClassroomId
 	WHERE c.Id = 11
@@ -29,4 +29,10 @@ INSERT INTO [dbo].[ClassroomStudent]
 
 
 	select * from ClassroomStudent
+	where Id=228
+
+	update ClassroomStudent
+	set StudentIndex = 0 
+	where Id= 228
+
 	select * from Classroom

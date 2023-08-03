@@ -1,5 +1,5 @@
 
-#   credentials
+#   e-mails
      virtualeo-dev.azurewebsites.net
      Virtualeo
      Jérémy ROBIN
@@ -7,8 +7,9 @@
      virtualtrainer053@gmail.com
      expaceo2023!
 
-#   Développement :
+#   SQL Server Management Studio
     BDD : dbs-virtualeo-dev.database.windows.net
+    SQL SERVER Authentification
     ID : admvirtualeo
     MDP : H6a0vg5fAh4vvBxei4oT
 

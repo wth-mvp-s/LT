@@ -2,8 +2,9 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 
 # t33
 # t32
-# t31
-# t30 [current]
+# t31 [current]
+      carre d'artiste, 13 19 25 36 
+# t30 
 # t29 
       Galerie d'art Carré d'artistes Paris 4 Le Marais
       200 o/ mois, 50% 40 en stock

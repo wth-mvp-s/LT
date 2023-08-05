@@ -2,8 +2,6 @@
 
 wszystkie zakupy przesunac na wrzesien
 
-skateshop
-lhuile lubrifiqnt roller
 
 
 lidl 
@@ -12,10 +10,9 @@ gabki
 
 amazon
     24pencils steadler sth 28e
+    steadler taille crayon 
 
-sortie 
-    ben Point-Virgule , Paris
 
-    sunset-sunside
-    JE 24/08/2023 À 21H0035,00€
-    Jeremy PELT & Steve DAVIS « European Swing Machine »
+bvh
+    jak porzyczepic ta lampe
+    przedluzacz czarny 3m maly in

@@ -39,4 +39,8 @@ AI
 development personelle
 culture anglophone 
 
+    kiedy od fr
+    jakie loisir
+    
+
 

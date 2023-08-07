@@ -1,2 +1,2 @@
 git 
-    git config --global user.name "Your Full Name"
+    git config --global user.name "Louis Bodal Expaceo"

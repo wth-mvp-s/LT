@@ -12,9 +12,15 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
      Azure Bastion - accès sécurisé VM, sans IP public
      subnet, sous-réseau - isoles parties d'un réseauun pour bdd, l'autre pour VM, traffic obligé de passer par un point de controle (comme un pare-feu). ex.: 192.0.2.0 to 192.0.2.127 for one subnet 
 
-#    best practice
+#    Vue best practice
      package-lock.json   faut toujours commit 
                          auto created when npm i
+     Vue order for the top-level component options
+          1. Name of the component
+          2. props
+          3. components
+          4. mixins
+          5. Other options like data, computed, watch, methods, lifecycle hooks, etc.
 
      svg
           SVG icon: If the icon is used in multiple places, consider making it a reusable component. This allows you to change the icon in one place and have it update everywhere. If the icon color needs to change based on the state or props, consider using CSS or SVG filters to change the color, rather than having separate SVG files for each state.

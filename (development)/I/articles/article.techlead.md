@@ -18,6 +18,9 @@
         technical quality
     Manager
         resource performance, team productivity.
+            VELOCITY use US points 
+                A Comparison between the work the development team planned to deliver and what was delivered
+
 
     Critics: this separation can create communication gaps.
     

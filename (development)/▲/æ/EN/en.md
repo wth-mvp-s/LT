@@ -17,3 +17,5 @@ ostracized:: zakazany
 distortion::a change to the original or natural shape of something
 # t29
 stake ::  or interest in the project
+
+sparingly::in small amounts, or without wasting any::There wasn't enough coal during the war, so we had to use it sparingly.

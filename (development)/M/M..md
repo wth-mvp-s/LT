@@ -57,6 +57,9 @@ gateau sans glucide ni sucre
         gen, 60s 21.99, PoS 0.366
         pure berliner PoS 0.274
 
+#   tweets
+        black protein Gabriel 33
+        
 #       BEST VALUE - foodelis - 18.50€, PoS 0.185 €
 
         kurwy Creapure Nutripure 16.14 /50 porc, PoS 0.32

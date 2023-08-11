@@ -4,4 +4,8 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 
     biennale d'art 
     galeries 
-        
+    artistes
+        Richter
+        Rotchko
+        Stella
+        Soulages, Musee Rodes

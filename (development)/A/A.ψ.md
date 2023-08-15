@@ -1,6 +1,18 @@
 Psi (Ψ, ψ): This symbol is used in philosophy of mind, particularly in discussions around consciousness and psychology (which gets its name from the Greek word "psyche")..
 
+# Lefranc & Bourgeois
+    Siccatif de courtrai blanc, 
+        made from zirconium, 
+        2 to 3 drops per knob of paint (par hazelnut, noisette)
+            Blanc de plomb (aujourd'hui rarement utilisé en raison de sa toxicité)
+            Blanc de zinc
+            Terre de Sienne naturelle
+            Terre d'ombre naturelle
+            Vert émeraude
+            Certains bleus et rouges, selon les pigments spécifiques utilisés.
+
 # intentions Whys
+
 
 # traktuj czas jak pieniadz
 

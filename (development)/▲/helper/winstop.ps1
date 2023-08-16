@@ -1,5 +1,5 @@
 param (
-    [int]$minutes = 0
+    [int]$minutes = 3
 )
 
 #Check if the AudioDeviceCmdlets module is installed
@@ -14,7 +14,8 @@ if ($minutes -eq 0) {
 }
 else {
 
-    $delayInSeconds = $minutes * 60
+    # $delayInSeconds = $minutes * 60
+    $delayInSeconds = 15
     $delayInMilliseconds = $minutes * 60 * 1000
 
     Import-Module AudioDeviceCmdlets

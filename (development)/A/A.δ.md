@@ -7,7 +7,10 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
             Bridges of Paris, 1991 by Peter Turnley - 20 X 28 Inches (Art Print) – Artistica Fine Art
             Art Tannenwald (Pine Forest), c.1902 by Gustav Klimt Giclee Print Canvas | eBay
             Paul Klee - Chemin principal et chemins secondaires - 1929 - Neutral Art
-
+            Nu Bleu I by Henri Matisse 
+            GRACEFUL ASCENT BY WASSILY KANDINSKY
+            Edward Hopper The Mansard Roof
+            Hans Hartung P50 - 1975 - H23 
             
 # t31 [current]
       carre d'artiste, 13 19 25 36 

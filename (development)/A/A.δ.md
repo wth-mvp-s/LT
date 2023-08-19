@@ -2,6 +2,13 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 
 # t33
 # t32
+      BOUBOURG
+            https://www.cartes-gravures.com/products/carte-gastronomique-par-alain-bourguignon
+            Bridges of Paris, 1991 by Peter Turnley - 20 X 28 Inches (Art Print) – Artistica Fine Art
+            Art Tannenwald (Pine Forest), c.1902 by Gustav Klimt Giclee Print Canvas | eBay
+            Paul Klee - Chemin principal et chemins secondaires - 1929 - Neutral Art
+
+            
 # t31 [current]
       carre d'artiste, 13 19 25 36 
 # t30 

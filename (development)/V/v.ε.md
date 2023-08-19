@@ -2,4 +2,5 @@ Epsilon (Ε, ε): In the philosophy of mathematics, epsilon is often used to rep
 
 ## tweets
 
-            
+Subtitle for Personal Growth: "Fine Details and Nuances"
+    Potential Use: Capturing minor yet impactful personal realizations, or the subtle changes you intend to make.

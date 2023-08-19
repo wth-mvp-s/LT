@@ -1,38 +1,35 @@
-# Teal Swan, 
 
+IF YOU WANT TO BE HAPPY, DON'T DO THIS! - TEAL SWAN
 
-###     If You Want To Be Happy, Don't Do This! - Teal Swan
+    get-what-you-want-strategy(){
+        find a ways to do what I love
+        in order to get what I want
 
-get-what-you-want-strategy(){
-    find a ways to do what I love
-    in order to get what I want
+            to co ja myslem - nie pod nia tylko pod siebie, chcesz byc king zachowuj sie jak king
+    } 
 
-        to co ja myslem - nie pod nia tylko pod siebie, chcesz byc king zachowuj sie jak king
-} 
+    to success(){
 
-to success(){
+        the most succesful people on this earth, in terms of living life itself, 
+        approach this with an even more aggressive strategy, 
+        instead of finding a means that they enjoy to get to the ends that they enjoy, 
+#       they find a means that they enjoy even more than getting to the ends.  }
 
-    the most succesful people on this earth, in terms of living life itself, 
-    approach this with an even more aggressive strategy, 
-    instead of finding a means that they enjoy to get to the ends that they enjoy, 
-    they find a means that they enjoy even more than getting to the ends. 
-}
+WANT TO SUCCEED? WHAT PAIN WILL YOU SAY YES TO?
 
-###         Want to Succeed? What Pain Will You Say YES To?
-
-            pain struggle accepted    definiuje Twoj sukces w zyciu
+    pain struggle accepted    definiuje Twoj sukces w zyciu
                 
                 
 
-###        Authenticity, Happy Life
-###        FAKE PERSONALITY 
+AUTHENTICITY, HAPPY LIFE
+    FAKE PERSONALITY 
             parents, society tells you whats acceptable, what's anapprouved makes you feel vulnerable, your personality what makes you safe, you are hiding even from yourself what's not acceptable. 
                 ex. rid out of spontanity, being fun, rid of relaxation, 
                 self estim derived from being hard worker, 
                 solution, do things that comes easy for you. 
                 element disowned more then possible to end distortion. 
                     solution youtube part work
-###         ENLIGHTMENT
+ENLIGHTMENT
             shortcut love yourself
             What someone who love themself do ? 
             365 jours agenda - I love myself. 
@@ -41,7 +38,7 @@ to success(){
             365 days love sound. 
             ONE OF THE MOST DIFFICULT PROCESS YOU CAN DO. 
             
-## why I always meet loosers
+WHY I ALWAYS MEET LOOSERS
 
     dom jaki byl
         chore
@@ -76,4 +73,4 @@ to success(){
             Karolina - niezrownowazona
             Xenia - nerwowa
 
-# change or double down
+CHANGE OR DOUBLE DOWN

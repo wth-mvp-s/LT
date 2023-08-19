@@ -39,7 +39,7 @@ Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ra
     ----------------|------------------
     Lidia-----------|empik, sylvester
     
-    rosa bonheur----|versaille, W
+    rosa bonheur----|void
     
-    tinder----------|mammi primo
+    tinder----------|mammi primo, so rare...
 

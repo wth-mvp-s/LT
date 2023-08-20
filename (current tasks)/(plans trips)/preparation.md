@@ -1,0 +1,1 @@
+checking for medicaments accessibility, and authorisation

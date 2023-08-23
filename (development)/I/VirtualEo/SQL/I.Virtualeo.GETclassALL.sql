@@ -1,5 +1,8 @@
 
 SELECT 
+	
+	c.CreatedOn,
+	c.DeletedOn,
 
 	d.Name AS ChoixDuDepartement,
 	ct.Code AS TypeDeClasse_FromCode, 
@@ -13,6 +16,7 @@ SELECT
 	d.Id
 
 FROM Classroom AS c
+
 INNER JOIN Department AS d	
 	ON c.DepartmentId = d.Id
 

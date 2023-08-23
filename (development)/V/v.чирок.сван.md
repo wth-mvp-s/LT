@@ -7,19 +7,21 @@ IF YOU WANT TO BE HAPPY, DON'T DO THIS! - TEAL SWAN
 
             to co ja myslem - nie pod nia tylko pod siebie, chcesz byc king zachowuj sie jak king
     } 
-
+# which video ????  = If You Want To Be Happy, Don't Do This! - Teal Swan : 4min15
     to success(){
 
         the most succesful people on this earth, in terms of living life itself, 
         approach this with an even more aggressive strategy, 
-        instead of finding a means that they enjoy to get to the ends that they enjoy, 
-#       they find a means that they enjoy even more than getting to the ends.  }
+        INSTEAD OF FINDING A MEANS THAT THEY ENJOY TO GET TO THE ENDS THAT THEY ENJOY, 
+#       THEY FIND A MEANS THAT THEY ENJOY EVEN MORE THAN GETTING TO THE ENDS.  }
 
 WANT TO SUCCEED? WHAT PAIN WILL YOU SAY YES TO?
 
     pain struggle accepted    definiuje Twoj sukces w zyciu
                 
-                
+https://www.youtube.com/watch?v=yPiw3wZC8Q8
+Committed to Success? Be Willing To Be Seen as Bad by Others
+
 
 AUTHENTICITY, HAPPY LIFE
     FAKE PERSONALITY 

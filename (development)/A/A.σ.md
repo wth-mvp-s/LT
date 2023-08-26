@@ -80,3 +80,6 @@ Poprawa konsystencji (Quality Beaux Art Brillant)
 | Propriétés addition.---| Peu d'effet couleur---------|
 | Toxicité---------------| Modéré----------------------|
 | Gouttes/Noisette-------| 2-3-------------------------|
+
+
+changer le format affichage correct sur mobile

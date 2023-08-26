@@ -33,8 +33,8 @@ Poprawa konsystencji (Quality Beaux Art Brillant)
 | Objectif principal-----| Accélère séchage------------|
 | Efficacité séchage-----| Haut------------------------|
 | Propriétés addition.---| Possible altération couleur |
-| Toxicité---------------| Élevé-----------------------|
-| Gouttes/Noisette-------| 2-3-------------------------|
+| Toxicité---------------| Élevé-----------------------|comment se protéger , masque ??
+| Gouttes/Noisette-------| 2-3-------------------------|//Todo plus précisément 
 |------------------------|-----------------------------|
 | Medium Alkyde L.&B.                                  \
 |------------------------|-----------------------------|

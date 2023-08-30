@@ -19,3 +19,13 @@ distortion::a change to the original or natural shape of something
 stake ::  or interest in the project
 
 sparingly::in small amounts, or without wasting any::There wasn't enough coal during the war, so we had to use it sparingly.
+
+halve
+::
+to reduce something by half or divide something into two equal pieces; 
+If something halves, it is reduced by half
+::
+In the past eight years, the elephant population in Africa has been halved.
+The potatoes will cook more quickly if you halve them before you put them in the oven.
+ 
+convergence::the fact that two or more things, ideas, etc. become similar or come together

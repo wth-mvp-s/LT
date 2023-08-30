@@ -15,4 +15,5 @@ commonly known complains, problems , alternatives, design pattern, definition, a
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
+before answering my request repeat my oryginal question with second version placed after first one,  
+gramatically corrected if possible and nessesery 

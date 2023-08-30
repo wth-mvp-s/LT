@@ -1,12 +1,19 @@
 de vitamine B6 qui contribue à réguler l’activité hormonale ;
 
 b solgar 52e B-complex "50" 4+ (un peu trop de design)
+
+                                solgar sterss formula 52e20
+                                    amazon.fr 43e90
+                                
+                                pharmanity
+                                    vitamine b complex avec C 28e09
+                                    neuro-nutrients 34e53
 b nutergia ERGYCÉBÉ (ok)
-                14e50 30p
+                14e50 30p   pharmanity 13e08
                 29e90 90
 b pileje (bien)           
     Multibiane 
-                14e30 30p
+                14e30 30p   pharmanity 12e65
                 
     Multibiane Age Protect 29e90
 b bion3 ÉQUILIBRE 13e (supermarket à miracles, moins serieux)

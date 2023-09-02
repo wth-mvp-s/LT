@@ -18,24 +18,6 @@ Poprawa konsystencji (Quality Beaux Art Brillant)
       Zmieniając konsystencję farby, medium może uczynić ją bardziej gęstą lub płynną, w zależności od potrzeb artysty. Ulepszona konsystencja może być przydatna w różnych technikach malarskich, takich jak impasto lub technikach szczegółowych.
 
 |------------------------|-----------------------------|
-| Siccatif au Cobalt                                   \
-|------------------------|-----------------------------|
-| Séchage rapide ?-------| Oui-------------------------|
-| Objectif principal-----| Accélère séchage------------|
-| Efficacité séchage-----| Moyen-Haut------------------|
-| Propriétés addition.---| Peut assombrir--------------|
-| Toxicité---------------| Modéré----------------------|
-| Gouttes/Noisette-------| 2-3-------------------------|
-|------------------------|-----------------------------|
-| Siccatif Harlem                                      \
-|------------------------|-----------------------------|
-| Séchage rapide ?-------| Oui-------------------------|
-| Objectif principal-----| Accélère séchage------------|
-| Efficacité séchage-----| Haut------------------------|
-| Propriétés addition.---| Possible altération couleur |
-| Toxicité---------------| Élevé-----------------------|comment se protéger , masque ??
-| Gouttes/Noisette-------| 2-3-------------------------|//Todo plus précisément 
-|------------------------|-----------------------------|
 | Medium Alkyde L.&B.                                  \
 |------------------------|-----------------------------|
 | Séchage rapide ?-------| Partiel---------------------|
@@ -72,6 +54,11 @@ Poprawa konsystencji (Quality Beaux Art Brillant)
 | Toxicité---------------| Incertain-------------------|
 | Gouttes/Noisette-------| 1-2-------------------------|
 |------------------------|-----------------------------|
+
+
+changer le format affichage correct sur mobile
+
+|------------------------|-----------------------------|
 | Siccatif Courtrai L.                                 \
 |------------------------|-----------------------------|
 | Séchage rapide ?-------| Oui-------------------------|
@@ -80,6 +67,25 @@ Poprawa konsystencji (Quality Beaux Art Brillant)
 | Propriétés addition.---| Peu d'effet couleur---------|
 | Toxicité---------------| Modéré----------------------|
 | Gouttes/Noisette-------| 2-3-------------------------|
-
-
-changer le format affichage correct sur mobile
+| -----------------------| 1%-5%--/volume de peinture--|
+|------------------------|-----------------------------|
+| Siccatif au Cobalt                                   \
+|------------------------|-----------------------------|
+| Séchage rapide ?-------| Oui-------------------------|
+| Objectif principal-----| Accélère séchage------------|
+| Efficacité séchage-----| Moyen-Haut------------------|
+| Propriétés addition.---| Peut assombrir--------------|
+| Toxicité---------------| Modéré----------------------|
+| Gouttes/Noisette-------| 2-3-------------------------|
+| -----------------------| 1%-2%--/volume de peinture--|
+|------------------------|-----------------------------|
+| Siccatif Harlem                                      \
+|------------------------|-----------------------------|
+| Séchage rapide ?-------| Oui-------------------------|
+| Objectif principal-----| Accélère séchage------------|
+| Efficacité séchage-----| Haut------------------------|
+| Propriétés addition.---| Possible altération couleur |
+| Toxicité---------------| Élevé-----------------------|
+| Gouttes/Noisette-------| 2-3-------------------------|
+| -----------------------| 1%-5%--/volume de peinture--|
+|------------------------|-----------------------------|

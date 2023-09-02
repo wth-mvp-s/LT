@@ -1,5 +1,18 @@
 
 
+
+                    |energy |Fat    |saturates  |carb   |sugar  |Fiber|Protein|Salt   |
+|BioTechUSA ISO WHAY ZERO 
++ vitamins, lglut etc
+                    |408    |3      |1.5        |4.4    |2.2    |       |90     |1.4    |86€
+
+On                  |372    |4.7    |1.7        |4.8    |2.3    |2.5    |76     |0.45   |72€
+                            
+                            
+                            |energy |Fat    |saturates  |carb   |sugar  |Protein|Salt   |
+kidney beans                |127    |0.5    |           |22.8   |0.3    |8.7    |1      |
+
+
 trop de vitamines:
 https://www.fitnessboutique.fr/whey-proteine-isolate/black-protein-whey-arkens-isolate/prod-blablpwhey3000cc.html#product-details
 

@@ -16,7 +16,7 @@ b pileje (bien)
                 14e30 30p   pharmanity 12e65
                 
     Multibiane Age Protect 29e90
-b bion3 ÉQUILIBRE 13e (supermarket à miracles, moins serieux)
+b bion3 ÉQUILIBRE 13e (supermarket aux miracles, moins serieux)
 
 
 B-Complex: 

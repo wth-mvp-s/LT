@@ -52,11 +52,24 @@ babel
         
         Babel's primary role has been to transpile newer versions of JavaScript (like ES6 and beyond) to older, more widely supported versions for broader browser compatibility.
 
-    Source Maps (set up by Vue CLI): They allow you to debug your code as if it were the original source, even after it's been transpiled. The source map is a file that maps the transpiled code back to the original, so when you set a breakpoint or inspect the code in developer tools, it references the original code, not the transpiled code. This makes debugging easier and more intuitive.
+    Source Maps (set up by Vue CLI): 
+        They allow you to debug your code as if it were the original source, even after it's been transpiled. The source map is a file that maps the transpiled code back to the original, so when you set a breakpoint or inspect the code in developer tools, it references the original code, not the transpiled code. This makes debugging easier and more intuitive.
 
-tsconfig.json
-.prettierrc
 package-lock.json
+    'npm install' generate automatically
+    lock versions so everyone uses the exact same versions, reducing "it works on my machine" type of problems.
+
+    How it is built:
+
+        When you run npm install, npm checks for dependencies listed in package.json. As it installs these packages, it adds an entry for each one in package-lock.json with its specific version. This file also includes other metadata, such as the required integrity for each package.
+
+    Extra:
+
+        It's crucial to commit package-lock.json to your version control (like Git) so that everyone on the team has access to the same dependency versions.
+        There's a similar concept in other package managers, like yarn.lock for Yarn.
+
+        tsconfig.json
+        .prettierrc
 
 VirtualEo
     Linting:

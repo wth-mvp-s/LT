@@ -20,3 +20,5 @@ In the future, you can verify the status and expiration of your eTA by using the
 For information on what to see and do in Canada, visit www.Canada.travel. See you in Canada!
 
 Do you plan on visiting the United States? You may require authorization through the Electronic System for Travel Authorization (ESTA). Find out more on the ESTA website.
+
+https://www.canada.ca/en/health-canada/services/drugs-medication.html

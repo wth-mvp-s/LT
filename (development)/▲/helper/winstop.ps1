@@ -60,7 +60,7 @@ else {
             Start-Sleep -Seconds 1
         }
         Write-Host "[OS Notification] System shutdown imminent."
-        # Stop-Computer -Force
+        Stop-Computer -Force
 
     }
     elseif ($delayInSeconds -gt $initialVolumeAsNumber) {
@@ -85,7 +85,7 @@ else {
             Start-Sleep -Milliseconds $cadence
         }
         Write-Host "[OS Notification] System shutdown imminent."
-        # Stop-Computer -Force
+        Stop-Computer -Force
 
     }       
     elseif ($delayInSeconds -lt $initialVolumeAsNumber) {
@@ -109,7 +109,7 @@ else {
             Start-Sleep -Seconds 1
         }
         Write-Host "[OS Notification] System shutdown imminent."
-        # Stop-Computer -Force
+        Stop-Computer -Force
 
     }       
 }

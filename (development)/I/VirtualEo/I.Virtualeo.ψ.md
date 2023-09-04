@@ -5,7 +5,9 @@
      Jérémy ROBIN
      virtualstudent513@gmail.com
      virtualtrainer053@gmail.com
+     virtualadLvl3@gmail.com
      expaceo2023!
+
 
 #   SQL Server Management Studio
     BDD : dbs-virtualeo-dev.database.windows.net

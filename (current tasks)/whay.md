@@ -1,14 +1,37 @@
 
 
 
-                    |energy |Fat    |saturates  |carb   |sugar  |Fiber|Protein|Salt   |
+                    |energy |Fat    |saturates  |carb   |sugar  |Fiber  |Protein|Salt   |
 |BioTechUSA ISO WHAY ZERO 
 + vitamins, lglut etc
                     |408    |3      |1.5        |4.4    |2.2    |       |90     |1.4    |86€
 
-On                  |372    |4.7    |1.7        |4.8    |2.3    |2.5    |76     |0.45   |72€
-                            
-                            
+On standard         |372    |4.7    |1.7        |4.8    |2.3    |2.5    |76     |0.45   |72€/
+On standard fr vani |376    |4.2    |1.4        |5.2    |3.3    |2.5    |79     |0.49   |72€/
+                    |energy |Fat    |saturates  |carb   |sugar  |Fiber  |Protein|Salt   |
+On standard non     |373    |3.7    |1.2        |3.1    |2.2    |       |82     |0.5    |72€/
+
+On Isolate          |361    |1.2    |0.3        |4      |1      |       |83     |0.12| 44€/930g
+33 servings 44€ 30g = 1 p
+
+iso whay zero       |372    |1.6    |1.0        |5.2    |0.8    |       |84     |0.71   |72€
+36 portions 45€                            
+---------------------------------------------------------------------------------------------- 
+
+                     1       2
+1 portion           |       |       |           |       |       |       |       |       |
+price               |       |
+kcal                |93     |112
+protein             |21     |24   
+gras sature         |0.3    |0.4
+salt                |0.18   |0.15
+sugar               |0.5    |0.7   
+
+Legende :       
+        Ad.1. Iso whay zero
+        Ad.2. Gold Standard BCAA 5.5
+
+
                             |energy |Fat    |saturates  |carb   |sugar  |Protein|Salt   |
 kidney beans                |127    |0.5    |           |22.8   |0.3    |8.7    |1      |
 

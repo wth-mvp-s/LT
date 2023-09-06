@@ -89,3 +89,12 @@ changer le format affichage correct sur mobile
 | Gouttes/Noisette-------| 2-3-------------------------|
 | -----------------------| 1%-5%--/volume de peinture--|
 |------------------------|-----------------------------|
+
+
+| Medium Alkyde L.&B.                                  \
+| Medium à Peindre L.                                  \
+| Huile de Lin                                         \
+| Beaux Art Brillant                                   \
+| Siccatif Harlem                                      \
+| Siccatif au Cobalt                                   \
+| Siccatif Courtrai L.                                 \

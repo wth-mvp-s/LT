@@ -1,4 +1,8 @@
-
+Los labios _____ siempre mienten.::rojos::Red lips always lie
+UN CHISTE _____.::VERDE:: Un chiste verde is a joke with erotic, sexual content. A dirty joke. 
+SER EL PRÍNCIPE _____.::AZUL:: Llamamos “príncipe azul” al hombre perfecto, aunque…no existe XD 
+CHEQUE EN _____.::BLANCO::Un cheque en el que no aparece la cantidad de dinero que el receptor va a cobrar. 
+Hombres de _____.::negro:: man in black(1997)
 
 "Ponerse rojo como un tomate." – To turn as red as a tomato. (To blush deeply)
 

@@ -3,15 +3,13 @@ UN CHISTE _____.::VERDE:: Un chiste verde is a joke with erotic, sexual content.
 SER EL PRÍNCIPE _____.::AZUL:: Llamamos “príncipe azul” al hombre perfecto, aunque…no existe XD 
 CHEQUE EN _____.::BLANCO::Un cheque en el que no aparece la cantidad de dinero que el receptor va a cobrar. 
 Hombres de _____.::negro:: man in black(1997)
+Mi madre quiere que recoja a mi tía en el aeropuerto y la lleve en coche hasta Toledo…¡Qué _____!::marrón::what a mess!
 
-"Ponerse rojo como un tomate." – To turn as red as a tomato. (To blush deeply)
+
 
 
 Amarillo (Yellow):
 2. "Estar amarillo de envidia." – To be yellow with envy. (Equivalent to the English "green with envy")
-
-
-"Sangre azul" – Blue blood. Refers to someone of noble birth.
 
 . "Estás verde." – You're green. (You're inexperienced or immature)
 

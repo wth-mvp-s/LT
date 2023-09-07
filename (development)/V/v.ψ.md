@@ -1,8 +1,17 @@
-Phi (Φ, φ): This symbol is often used in philosophy to represent the golden ratio, a concept of perfect balance and beauty. It's also used in symbolic logic and philosophy of mind to denote "generic" or "unspecified" functions or actions.
+Psi (Ψ, ψ): This symbol is used in philosophy of mind, particularly in discussions around consciousness and psychology (which gets its name from the Greek word "psyche")..
+
+Psi (Ψ)
+
+    Traditional Symbolism: Psi has been associated with the mind or psyche, especially in psychology.
+    Subtitle for Personal Growth: "Mind and Consciousness"
+    Potential Use: Deep thoughts, reflections on consciousness, dreams, or psychological insights.
+
 
 
 
 # Politics
+      Byc wypoczetym to jedyna polityka jaka potrafie sobie wyobrazic pod V
+
       1st authenticity 
     
       dont spend time with loosers, false ami, hipsters, pd, tourists, no religion no values people

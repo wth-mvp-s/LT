@@ -20,3 +20,4 @@
     LBodal
     qVmrtLOutxAXTw5XnX7i
 
+    vue require npm 16.13.1

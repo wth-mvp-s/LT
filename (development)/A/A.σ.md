@@ -1,5 +1,16 @@
 Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by extension, it can be used philosophically to discuss concepts of totality, accumulation, or completeness.
 
+Sigma (Σ)
+
+      Traditional Symbolism: Summation. Sigma is widely used in mathematics to represent the sum of a sequence.
+      Subtitle for Personal Growth: "Cumulative Experiences and Knowledge"
+      Potential Use: Compiling collective lessons, experiences, and wisdom gathered over time.
+
+
+
+
+
+
       portrait
       paysage
 # 
@@ -98,3 +109,4 @@ changer le format affichage correct sur mobile
 | Siccatif Harlem                                      \
 | Siccatif au Cobalt                                   \
 | Siccatif Courtrai L.                                 \
+

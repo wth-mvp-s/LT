@@ -1,3 +1,6 @@
+09.IX.2023
+pomoglo travail extensive de triceps
+
 01.IX.2023 right elbow pain
 
 Strengthening Exercises: Strengthening the muscles around the elbow joint can help provide stability. Some exercises to consider include:

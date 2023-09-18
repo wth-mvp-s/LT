@@ -1,4 +1,32 @@
 
+
+
+
+
+
+18.IX.2023
+
+Time -8 hours 
+
+PARIS   -vs-    VANCOUVER 
+12h00           4 am
+
+
+//
+Check your eTA status
+
+    A final decision has been reached      Approved 
+    eTA number      J523562232
+    Expiry date     2028/04/23
+
+    When you travel to Canada you will need to present the passport you used to apply for your eTA to the airline check-in staff. They will use your passport details to verify your eTA status in the Canada Border Services Agency (CBSA) database. An eTA is linked to your passport. It is not a physical document.
+
+    An eTA is valid for up to five years or until your passport expires, whichever comes first.
+
+    Visitors to Canada are responsible for the cost of any healthcare services they require. Before you come to Canada, you should get health insurance.
+
+
+//
 mar. 25 avr. 21:55
 
 Status :  eTA approved

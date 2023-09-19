@@ -1,5 +1,7 @@
 Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by extension, it can be used philosophically to discuss concepts of totality, accumulation, or completeness.
 
+# I tweets 
+      problem with button border 18.IX.2023; solution => outline: none; reset css
 
       best practive 
       perf

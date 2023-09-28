@@ -1,5 +1,10 @@
 
 
+28.IX.2023
+canada seperated vols. 
+paris - toronto 280-400
+toronto - edmonton 100-314€
+vancouvert - paris 314
 
 
 

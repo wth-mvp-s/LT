@@ -1,3 +1,9 @@
+# assurance voyage 
+
+allianz 106.04€, frais medicaux d'urgence Canada 300K$
+axa moins concret
+
+
 checking for medicaments accessibility, and authorisation
 
 best prices when

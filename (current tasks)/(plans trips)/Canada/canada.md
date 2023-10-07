@@ -1,14 +1,28 @@
 
 
-# kupiony bilet
+## FLIGHTS 
 
-    Paris (CDG) to Toronto (YYZ)
+1. Paris (CDG) to Toronto (YYZ)
     Sat, Jan 20 . 12:50 PM - Sat, Jan 20 . 2:40 PM 
     direct 8h35 economy 
+
+## HOTELS
+#   1 CONFIRMED Toronto
+    
         hotel 20-25jan , 20.21.22.23.24.25 = 6jours 
 
+#   2 CONFIRMED Edmonton
+        25.jan 2024 - 4-days
+
+#   2.1 CAR RENTAL 
+
+#   3 CONFIRMED Vancouver 
+        Hi Vancouver Downtown
+        stay 1-9 fevr. 2024 
+
+##  Atractions
             waterfalls in Hamilton 
-                GO Train from Toronto to Hamilton: You can take a GO Train from Toronto's Union Station to Hamilton's GO Centre. The journey usually takes a little over an hour. Check the GO Train schedule to plan your trip.
+                GO Train from toronto to Hamilton: You can take a GO Train from Toronto's Union Station to Hamilton's GO Centre. The journey usually takes a little over an hour. Check the GO Train schedule to plan your trip.
 
                 Local Transit in Hamilton: Once you arrive in Hamilton, you can use the Hamilton Street Railway (HSR) buses to get closer to some waterfalls.
 

@@ -6,6 +6,7 @@ Psi (Ψ)
     Subtitle for Personal Growth: "Mind and Consciousness"
     Potential Use: Deep thoughts, reflections on consciousness, dreams, or psychological insights.
 
+tinder TNDR.a9f65da9-c74c-4973-a993-95052c39a13f
 
 
 

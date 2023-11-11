@@ -1,4 +1,4 @@
-test.q-a.phonetic-alphabet
+GKE-phonetic-alphabet-test.q-a
 A :: Alfa
 B :: Bravo
 C :: Charlie

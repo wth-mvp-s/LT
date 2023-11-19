@@ -1,0 +1,55 @@
+Pour optimiser le CV de votre développeur, je vous propose des modifications spécifiques, étape par étape, afin de le rendre plus adapté pour un poste de senior expert développeur et potentiel tech lead :
+
+1. Réorganisation et hiérarchisation des Expériences Significatives
+Original:
+
+Du 01/09/2021 au 22/09/2022 - EXPACEO, INGÉNIEUR CONSULTANT
+Modifié:
+
+Sept 2021 - Sept 2022, Ingénieur Consultant, EXPACEO
+Rôle principal et technologies utilisées: [.NET 6, RabbitMQ, xUnit...]
+Projets clés et responsabilités: [Développement de l’application de gestion pour ANS, Refonte d'une application de comptabilité...]
+2. Simplification des Sections Techniques
+Original:
+
+Développement: Langages: C#JavaScriptTypeScriptSQLT-SQLLINQPowerShell...
+Modifié:
+
+Compétences Techniques
+Langages de programmation: [C#, JavaScript, TypeScript, SQL, T-SQL, LINQ, PowerShell]
+Frameworks et outils: [.NET, Angular, Vue.js, Entity Framework...]
+Gestion de projet: [Agile/Scrum, Waterfall, Design Thinking]
+3. Mise en Valeur des Diplômes et Formations
+Original:
+
+2018 BAC + 4, master 1 l’École d’ingénierie informatique IPSSI - Paris...
+Modifié:
+
+Formation Académique
+Master 1, Ingénierie Informatique, IPSSI, Paris, 2018
+Bachelier, Faculté de l'automobile et de la robotique, École polytechnique de Varsovie, 2002
+4. Présentation des Certifications
+Original:
+
+2021 - .NET framework - LinkedIn Skill Assessment badge...
+Modifié:
+
+Certifications Professionnelles
+.NET Framework, LinkedIn Skill Assessment, 2021
+Azure Developer Associate AZ-204, 2022
+Microsoft DevOps Engineer Expert AZ-400, 2023
+5. Langues et Compétences Supplémentaires
+Original:
+
+Anglais - Courant, Polonais - Bilingue, Français - Courant
+Modifié:
+
+Langues
+Anglais: Courant
+Polonais: Bilingue
+Français: Courant
+6. Format et Style
+Utiliser une police professionnelle et uniforme.
+Assurer des marges et des espacements cohérents.
+Éviter les éléments de formatage inutiles présents dans le texte original (comme les balises de mise en forme).
+En suivant ces étapes, le CV deviendra plus structuré, plus clair, et mettra en avant les compétences et expériences les plus pertinentes pour le poste visé.

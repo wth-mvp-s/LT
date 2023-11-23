@@ -1,7 +1,9 @@
 Aperture Priority Mode (A):
+
 Purpose: Control depth of field.
 How it works: You set the aperture, and the camera adjusts the shutter speed.
 Ideal for: Still subjects, capturing details, and creating a shallow depth of field.
+
 Shutter Priority Mode (S):
 Purpose: Control motion blur.
 How it works: You choose the shutter speed, and the camera adjusts the aperture.

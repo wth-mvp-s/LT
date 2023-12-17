@@ -3,9 +3,9 @@ Sigma (Σ, σ): This symbol is used to represent 'sum' in mathematics, and by ex
 
 
 #     HAVING MORE OPTIONS IN MY CAREERA CHOICE, PREPARING MYSELF FOR BETTER POSITION 
-##   cv 
+##    cv 
         TECHNOS OF CHOICE
-
+##    ngrx      
 
 # I tweets 
       problem with button border 18.IX.2023; solution => outline: none; reset css

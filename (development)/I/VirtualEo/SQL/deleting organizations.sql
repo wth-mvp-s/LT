@@ -1,0 +1,18 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Id]
+      ,[Name]
+      ,[Description]
+      ,[InstructorId]
+      ,[VmImageId]
+      ,[VmSizeId]
+      ,[ClassroomTypeId]
+      ,[Active]
+      ,[CreatedBy]
+      ,[CreatedOn]
+      ,[UpdatedBy]
+      ,[UpdatedOn]
+      ,[DeletedBy]
+      ,[DeletedOn]
+      ,[DepartmentId]
+      ,[VmPackId]
+  FROM [dbo].[Classroom] order by CreatedOn desc 

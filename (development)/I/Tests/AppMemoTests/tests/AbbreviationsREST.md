@@ -1,0 +1,21 @@
+Core
+
+REST, Representational State Transfer, an architectural style for building web services,
+GET, an HTTP method for retrieving a resource,
+POST, an HTTP method for creating a resource,
+PUT, an HTTP method for updating a resource,
+DELETE, an HTTP method for deleting a resource,
+HEAD, an HTTP method for retrieving the headers of a resource,
+OPTIONS, an HTTP method for retrieving the available options for a resource,
+PATCH, an HTTP method for partially updating a resource,
+URI, Uniform Resource Identifier, a string that identifies a resource,
+URL, Uniform Resource Locator, a type of URI that specifies the location of a resource,
+JSON, JavaScript Object Notation, a data format for representing structured data,
+XML, Extensible Markup Language, a data format for representing structured data,
+SOAP, Simple Object Access Protocol, a protocol for sending structured data in web services,
+HATEOAS, Hypermedia as the Engine of Application State, a constraint of the REST architecture that requires a service to include links to related resources in its responses,
+CORS, Cross-Origin Resource Sharing, a mechanism for allowing web pages to make requests to a different origin than the one that served the page,
+Authentication, a mechanism for verifying the identity of a client making a request,
+Authorization, a mechanism for determining whether a client is allowed to access a resource,
+Stateless, a constraint of the REST architecture that requires a service to not maintain client state,
+Cacheable, a constraint of the REST architecture that allows a service to indicate whether a response can be cached.

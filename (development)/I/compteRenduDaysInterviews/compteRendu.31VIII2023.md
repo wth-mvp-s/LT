@@ -1,12 +1,12 @@
 1. theorie
     abreviations
-
-    where are perf & sec
 2. amelioration
     validation mail
 3. comprehension
-    ajaxcall 
-    api proc
+  - ajaxcall
+      Angular use HttpClient with  XMLHttpRequest, without browser HttpClient would not function in a browser environment.
+      
+  - api proc
 
 Ad.2. vee-validate
     <template>

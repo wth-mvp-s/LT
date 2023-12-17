@@ -1,5 +1,8 @@
 Psi (Ψ, ψ): This symbol is used in philosophy of mind, particularly in discussions around consciousness and psychology (which gets its name from the Greek word "psyche")..
 
+
+#   DREAM TO BE CALLED TO MAKE PICTURE AS A PAINTER , HAVING BUSINESS CARD, OR PORTFOLIO, ADDITIONAL INCOME LIKE 5 K OR 100K A YEAR 
+
 # Lefranc & Bourgeois
     Siccatif de courtrai blanc, 
         made from zirconium, 

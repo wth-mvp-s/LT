@@ -1,24 +1,39 @@
 
 
-## FLIGHTS 
+## FLIGHTS booking ref: UQWPR6
 
-1. Paris (CDG) to Toronto (YYZ)
-    Sat, Jan 20 . 12:50 PM - Sat, Jan 20 . 2:40 PM 
-    direct 8h35 economy 
+    1. Paris (CDG) to Toronto (YYZ)
+        Sat, Jan 20 . 12:50 PM - Sat, Jan 20 . 2:40 PM 
+        direct 8h35 economy 
+    2. Toronto (YYZ) to Edmonton(YEG) = 3462km
+        Thursday, Jan 25 . 16:30 PM - Sat, Jan 25 . 20:57 PM 
+        1 stop Calgary, 6h27m economy
+
+
+            Edmonton to Vencouvert = 1160 km
+
+    3. Vancouver (YYZ) to Paris (CDG)
+        Fri, Feb 9 11:30 AM - Sat, Feb 10 . 10:20 AM 
+        1 stop Calgary, 6h27m economy
+
 
 ## HOTELS
 #   1 CONFIRMED Toronto
     
-        hotel 20-25jan , 20.21.22.23.24.25 = 6jours 
+        hotel 20-22 & 22-25jan , 20.21.22.23.24.25 = 6jours 
 
 #   2 CONFIRMED Edmonton
-        25.jan 2024 - 4-days
+        HI Edmonton - Hostel
+        25-29 & 29-31.jan 2024 - 4-days
 
 #   2.1 CAR RENTAL 
 
 #   3 CONFIRMED Vancouver 
         Hi Vancouver Downtown
         stay 1-9 fevr. 2024 
+
+## Train Edmonton - Vancouver
+    ? - 1 Feb 2024
 
 ##  Atractions
             waterfalls in Hamilton 

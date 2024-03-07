@@ -1,0 +1,2 @@
+SKU 
+    SKU stands for Stock Keeping Unit. In the context of Azure services, SKU refers to a specific version of a service that dictates its capabilities, performance, and pricing. SKUs help differentiate between various offerings of a service, such as capacity, capabilities, or performance levels, allowing customers to choose the one that best fits their requirements and budget.

@@ -1,3 +1,8 @@
+speaking requirements to fullfil: https://www.coe.int/en/web/common-european-framework-reference-languages/table-1-cefr-3.3-common-reference-levels-global-scale
+
+learning help: 
+https://britishcouncil.gelielts.com/
+
 
 General Training and the 
 Academic

@@ -1,0 +1,41 @@
+1. Introduction to Azure Virtual Networks
+2. Design and implement hybrid networking
+3. Design and implement Azure ExpressRoute
+4. Load balance non-HTTP(S) traffic in Azure
+5. Load balance HTTP(S) traffic in Azure
+6. Design and implement network security
+7. Design and implement private access to Azure Services
+8. Design and implement network monitoring
+9. Introduction to Azure Front Door
+10. Introduction to Azure Web Application Firewall
+11. Introduction to Azure Private Link
+12. Introduction to Azure Bastion
+	problem scenario : 
+		When administrators connect to remote VMs, they typically use either RDP or SSH to achieve their administrative goals. The problem is, to connect to a hosted VM, you must connect to its public IP address. However, exposing the IP ports used by RDP and SSH (3389 and 22) to the internet is highly undesirable, because it presents significant security risks.
+		
+	solve problem: 
+		- withstand attacks.
+		- Provides RDP and SSH connectivity
+	how it work: 
+		TCP 443
+		Bastion and connected VM are in diffirent subnets
+	downside ? 
+	when to use: 
+		- avoid using jump box
+
+13. Introduction to Azure Firewall
+14. Introduction to Azure Firewall Manager
+15. Introduction to Azure DDoS Protection
+16. Introduction to Azure Virtual WAN
+17. Introduction to Azure NAT Gateway
+18. Intro to Azure DNS Private Resolver
+
+dedicated subnet = ? 
+
+abreviations: 
+	NSG - network security group
+	TLS - between administrator and the azure portal
+
+	protocols: 
+	- RDP
+	- TCP

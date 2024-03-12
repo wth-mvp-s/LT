@@ -17,3 +17,19 @@ Accurately providing guidance on Azure networking involves careful consideration
     Therefore, the corrected statement should be:
 
     The enable remote gateway setting must be enabled on the virtual net peering to provide VM2 Internet access by using Firewall1. : Yes
+
+
+support availability zones. 
+    Azure Standard Load Balancer
+    Application Gateway 
+
+used for port forwarding
+     inbound NAT rule
+supports URL rewrites with rewrite sets
+    Azure Application Gateway v2
+
+allows certain query strings to be sent to a different backend pool than other traffic.
+    URL Path Based Routing 
+
+a global service with edge location around the world, has WAF capabilities, can do caching at the edge and can enable a private link to backend resources.
+    Azure Front Door

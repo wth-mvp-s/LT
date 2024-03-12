@@ -4,3 +4,12 @@ NAT ::Network Address Translation
 BGP ::Border Gateway Protocol:: (BGP) is a standardized exterior gateway protocol designed to exchange routing and reachability information among autonomous systems (AS) on the Internet.
 BFD::Bidirectional Forwarding Detection
 TCP ::	transmission control protocol::a protocol developed for the internet to get data from one network device to another Synonyms	
+Site-to-Site VPN::
+Azure Point-to-Site (P2S) VPN
+
+
+      peering
+           VNet-to-VNet VPN connections
+           route tables
+           service endpoints
+          

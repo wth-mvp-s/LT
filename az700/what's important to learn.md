@@ -33,3 +33,29 @@ allows certain query strings to be sent to a different backend pool than other t
 
 a global service with edge location around the world, has WAF capabilities, can do caching at the edge and can enable a private link to backend resources.
     Azure Front Door
+
+# requires
+    Azure Firewall requires a /26 subnet 
+
+# capacity 
+    subnet can have zero or one route tables associated to it.
+
+## precedence for routing 
+1.ExpressRopute
+2.Gateway
+3.AzLB1
+
+# method 
+to connect on-premises virtual machines to Azure Monitor.:: the Azure Connected Machine agent
+
+
+Azure Firewall
+
+ExpressRoute
+
+Network Virtual Appliance (NVA) on a virtual WAN
+
+Point-to-Site (P2S) VPN
+
+S2S::Azure virtual WAN by using the Basic WAN type::Site-to-Site (S2S) VPN
+S2S::on-premises network and Azure subscription 

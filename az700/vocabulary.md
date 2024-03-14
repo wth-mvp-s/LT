@@ -12,4 +12,6 @@ Azure Point-to-Site (P2S) VPN
            VNet-to-VNet VPN connections
            route tables
            service endpoints
-          
+NS record:: nameserver:: What is a DNS NS record? NS stands for 'nameserver,' and the nameserver record indicates which DNS server is authoritative for that domain (
+
+WAF::Web Application Firewall (WAF).

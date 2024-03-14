@@ -28,3 +28,9 @@ seamless::VNet peering is used to connect two Azure Virtual Networks ------- (ho
 
 
 Wide Area Network::, is a telecommunications network that extends over a large geographical area for the purpose of computer networking. _____s are used to connect smaller networks, such as local area networks (LANs) or metro area networks (MANs), enabling businesses, governments, and individuals to communicate and share data over long distances. Unlike LANs, which are typically restricted to a single building or site, _____s can span cities, regions, countries, or even continents.::WAN
+
+private endpoints::Unlike most services in Azure, _______ do not require a dedicated subnet 
+26::Azure Firewall requires a /__ subnet allocated to it, 
+BGP::Azure Route Server supports only the _____ protocol.
+
+subnet::In Azure, you create a route table, and then associate the route table to zero or more ___. Each ______can have zero or one route tables associated to it.::virtual network subnets

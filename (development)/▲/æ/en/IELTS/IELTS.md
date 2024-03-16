@@ -30,3 +30,20 @@ buy or not ?
 Complete IELTS Bands 4-5 Workbook with Answers with Audio CD https://www.cambridgebookshop.co.uk/products/complete-ielts-bands-4-5-workbook-with-answers-with-audio-cd?_pos=29&_sid=986c40e32&_ss=r
 
 IELTS Vocabulary Up to Band 6.0 With Answers and Audio https://www.cambridgebookshop.co.uk/products/ielts-vocabulary-up-to-band-6-0?_pos=23&_sid=986c40e32&_ss=r
+
+
+1. If you are outside of the UK
+    PSI Services (UK) Ltd – Skills for English (UKVI)
+2. Find an approved test
+    For your results to be accepted, your test must:
+        be on the list of approved English language tests
+        have been sat at an approved test location
+        have been awarded in the two years before the date of your application
+
+        The list of approved English language tests has been assessed as meeting Home Office requirements under the secure English language testing arrangements. Only those tests and test levels specified are approved. If you intend to use an English language test in your immigration or nationality application, you must take one of the tests on the list.
+
+        You should make sure the test that you book is the one approved for SELT:
+
+            IELTS SELT Consortium: ‘IELTS for UKVI’ or ‘IELTS Life Skills’
+
+            It is for you to decide which test to take.

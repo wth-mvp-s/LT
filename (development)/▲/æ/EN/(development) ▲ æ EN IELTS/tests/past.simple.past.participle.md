@@ -5,4 +5,4 @@ ride ::rode ridden
 break :: broke broken
 fly  ::flew flown
 send ::sent sent
-
+spend ::spent spent

@@ -34,3 +34,5 @@ private endpoints::Unlike most services in Azure, _______ do not require a dedic
 BGP::Azure Route Server supports only the _____ protocol.
 
 subnet::In Azure, you create a route table, and then associate the route table to zero or more ___. Each ______can have zero or one route tables associated to it.::virtual network subnets
+
+NetApp Files::blocks anything else from being deployed to the subnet.

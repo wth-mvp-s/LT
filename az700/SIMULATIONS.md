@@ -384,7 +384,7 @@ NOTE: Each correct selection is worth one point.
 
 
 
-#### page014;chatbotgenerated::
+#### page011;chatbotgenerated::
 `You are planning the IP addressing for the subnets in Azure virtual networks.
 `
 `Which type of resource requires IP addresses in the subnets?
@@ -404,7 +404,7 @@ NOTE: Each correct selection is worth one point.
 
 
 
-#### page014;chatbotgenerated(answered by chat)::
+#### page010;chatbotgenerated(answered by chat)::
 `You have an Azure subscription that contains four virtual networks named VNet1, VNet2, VNet3, and VNet4.
 `
 `You plan to deploy a hub and spoke topology by using virtual network peering.
@@ -425,51 +425,83 @@ NOTE: Each correct selection is worth one point.
 
 
 
-#### page14.05;::
-`You have an Azure subscription that contains the resource groups shown in the following table.
-`
-`|Name       |Location |
-`|-----------|---------|
-`|RG1        |East US  |
-`|RG2        |East US  |
-`|RG3        |UK West  |
-`
-`You have the virtual networks shown in the following table.
-`
-`|Name   |Location |IP address space |Resource group|
-`|-------|---------|-----------------|--------------|
-`|Vnet1  |East US  |10.1.0.0/16      |RG1           |
-`|Vnet2  |West US  |10.2.0.0/16      |RG2           |
-`|Vnet3  |UK West  |10.1.0.0/16      |RG3           |
-`
-`You have the subnets shown in the following table.
-`
-`|Name      |Virtual network|IP address range |
-`|----------|---------------|-----------------|
-`|Subnet1-1 |Vnet1          |10.1.1.0/24      |
-`|Subnet2-1 |Vnet2          |10.2.1.0/24      |
-`|Subnet3-1 |Vnet3          |10.1.1.0/24      |
-`
-`For each of the following statements, select Yes if the statement is true. Otherwise, select No.
 
 
-- [x] Vnet1 can be moved to RG3. : Yes
-- [ ] Vnet1 can be moved to RG3. : No
-- [ ] Three hundred virtual machines can be deployed to the East US Azure region. : Yes 
-- [x] Three hundred virtual machines can be deployed to the East US Azure region. : No  `
-- [ ] A new virtual network named Vnet2 can be created in RG2 in the East US Azure region. : Yes
-- [x] A new virtual network named Vnet2 can be created in RG2 in the East US Azure region. : No
 
 
-#### page15;
-`You are planning the IP addressing for the subnets in Azure virtual networks.
-`
-`Which type of resource requires IP addresses in the subnets?
 
-- [x] internal load balancers
-- [ ] Azure DDoS Protection for virtual networks
-- [ ] service endpoint policies
-- [ ] service endpoints
+
+
+
+
+
+You have an Azure subscription that contains the resource groups shown in the following table.
+
+
+Name Location
+RG1 East US
+RG2 East US
+RG3 UK West
+
+
+You have the virtual networks shown in the following table.
+
+
+Name Location IP address space Resource group
+Vnet1 East US 10.1.0.0/16 RG1
+Vnet2 West US 10.2.0.0/16 RG2
+Vnet3 UK West 10.1.0.0/16 RG3
+
+You have the subnets shown in the following table.
+
+
+Name Virtual network IP address range 
+Subnet1-1 Vnet1 10.1.1.0/24
+Subnet2-1 Vnet2 10.2.1.0/24
+Subnet3-1 Vnet3 10.1.1.0/24
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+NOTE: Each correct selection is worth one point.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You are planning the IP addressing for the subnets in Azure virtual networks.
+
+Which type of resource requires IP addresses in the subnets?
+
+A. internal load balancers
+B. Azure DDoS Protection for virtual networks
+C. service endpoint policies
+D. service endpoints
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### page018;chatbotgenerated::
 `You have an Azure subscription that contains a virtual network named Vnet1. Vnet1 has a /24 IPv4 address space.

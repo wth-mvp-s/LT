@@ -1,0 +1,364 @@
+az-204
+
+You are developing an application. The application stores all application settings in the Azure App Configuration service.
+
+Application development includes the following four environments:
+
+Development
+Test
+Staging
+Production
+You need to version the configuration data and use the same configuration values across all environments.
+
+Which key-values pairs attribute should you use?
+
+Select only one answer.
+
+Labels
+
+Feature flags
+
+Feature managers
+
+Filters
+
+
+002 
+You are developing an application that uses feature flags.
+
+You must externalize the feature flags used by the application and allow feature flag states to be updated without changing or redeploying the application.
+
+You need to store the feature flags in a central repository hosted in Azure.
+
+Which service should you use?
+
+Select only one answer.
+
+Azure Key Vault
+
+Azure App Service
+
+Azure App Configuration
+
+Microsoft Entra ID
+
+Azure API Management
+
+003
+You are developing an application that includes feature management.
+
+You need to implement a feature flag.
+
+Which two components should you configure? Each correct answer presents part of the solution.
+
+Select all answers that apply.
+
+name
+
+keys and values
+
+labels
+
+list of filters
+
+list of snapshots
+
+004
+You plan to to provision the following resource in Azure App Configuration:
+
+AppName:Region1:DbEndpoint
+AppName:region1:dbendpoint
+Key = AppName:Service1:ApiEndpoint
+Key = AppName:Service1:ApiEndpoint & Label = \0
+Key = AppName:Service1:ApiEndpoint & Label = QA
+How many unique keys will be stored in Azure App Configuration?
+
+Select only one answer.
+
+2
+
+3
+
+4
+
+5
+
+005
+You develop and deploy a Java web app to Azure Spring Cloud that includes the latest Application Insights SDK. You create an Application Insights instance and enable auto-instrumentation. The web app generates a large volume of telemetry and Application Insights is throttling the telemetry.
+
+You need to reduce telemetry traffic while preserving a statistically correct analysis of the web app data.
+
+What should you configure?
+
+Select only one answer.
+
+sampling
+
+distributed tracing
+
+metric alerts
+
+log alerts
+
+006
+You develop and deploy several microservices to an Azure Kubernetes Service (AKS) cluster. The microservices are instrumented with the Application Insights SDK. You configure an Application Insights instance and use the connection string in the instrumentation.
+
+The instrumentation includes a custom telemetry value used to track the order checkout action. Order checkout is an action that includes a property to capture the order number.
+
+You need to capture the custom order telemetry.
+
+Which Application Insights data type should you use?
+
+Select only one answer.
+
+trace
+
+dependency
+
+metric
+
+event
+
+007
+You are developing an app.
+
+You need to monitor the app's performance by correlating trace events with requests in the app.
+
+Which feature should you use?
+
+Select only one answer.
+
+trace logs
+
+user and session counts
+
+page views and load performance
+
+AJAX calls
+
+
+008
+You develop and deploy an Azure App Service web app by using the latest Application Insights SDK. You are developing a dashboard and near-real-time alerting for the web app.
+
+You need to query operational data to support the dashboard and alerts.
+
+Which data should you use?
+
+Select only one answer.
+
+standard metrics
+
+log-based metrics
+
+distributed traces
+
+change analysis
+
+Azure Activity log
+
+009
+You plan to create a solution by using Azure Container Apps. The solution will consist of multiple container apps.
+
+You are assessing whether you should create multiple environments.
+
+You need to identify criteria that will require the creation of multiple environments.
+
+Which two criteria should you identify? Each correct answer presents a complete solution.
+
+Select all answers that apply.
+
+Each container app must maintain its own versioning.
+
+Each container app must support different upgrade cadency.
+
+Each container app must be able to scale independently of others.
+
+Each container app must be deployed to a different virtual network.
+
+Each container app must write its logs to a different Log Analytics workspace.
+
+010
+You have an Azure Container Apps application named App1. App1 uses an environment named App1Env1, has a revision named App1Rev1, and contains a container named Container1.
+
+You need to create a secret whose value will be available to the code running in App1.
+
+What should you configure?
+
+Select only one answer.
+
+App1
+
+App1Env1
+
+App1Rev1
+
+Container1
+
+011
+You plan to create a solution by using Azure Container Apps.
+
+You must configure the solution for autoscaling.
+
+You need to use triggers that allow you to scale to zero instances.
+
+Which three triggers can you use? Each correct answer presents a complete solution.
+
+Select all answers that apply.
+
+Blob count
+
+CPU metrics
+
+MySQL query
+
+Memory utilization
+
+Service Bus queues
+
+
+012
+You have a Dockerfile stored on your local computer.
+
+You need to publish a container image based on the Dockerfile to Azure Container Registry.
+
+Which Azure CLI command should you use?
+
+Select only one answer.
+
+az acr build
+
+az acr export
+
+az acr import
+
+az acr repository
+
+013
+You need to publish a container image to Azure Container Registry.
+
+Which tool or interface should you use?
+
+Select only one answer.
+
+Microsoft Artifact Registry portal
+
+Azure Cloud Shell in the Azure portal
+
+Azure Container Registry Tasks page in the Azure portal
+
+Azure Container Registry Repositories page in the Azure portal
+
+
+014
+You develop and deploy a new Linux container to Azure Container Instances.
+
+You need to access data from the container by using the Server Message Block (SMB) protocol.
+
+What should you use?
+
+Select only one answer.
+
+YAML file
+
+Container group
+
+Azure File share
+
+Environment variable
+
+Resource Manager template
+
+015
+You are developing an application to store JSON documents in an Azure Cosmos DB container.
+
+You must create, read, update, and delete documents inside the container.
+
+You need to write a stored procedure to be able to modify the documents.
+
+Which language should you use?
+
+Select only one answer.
+
+C#
+
+Java
+
+Python
+
+JavaScript
+
+
+016
+You are using the Azure Cosmos DB .NET SDK v3 API for NoSQL to create Azure Cosmos DB resources.
+
+You want to store JSON documents in a container.
+
+You need to verify whether a container already exists.
+
+Which SDK property should you review for this information?
+
+Select only one answer.
+
+database id
+
+database client
+
+container scripts
+
+container conflicts
+
+017
+You have an Azure Cosmos DB for NoSQL account.
+
+You plan to use the .NET SDK to implement a change feed processor for a container.
+
+You need to write code that invokes the GetChangeFeedProcessorBuilder method.
+
+Which object should you instantiate to invoke the method?
+
+Select only one answer.
+
+lease container
+
+monitored container
+
+change feed processor
+
+change estimation handler
+
+
+018
+You have an Azure Cosmos DB for NoSQL container.
+
+You plan to use the .NET SDK to implement a client application that will process each individual change to items in the container.
+
+You need to write code that invokes the GetChangeFeedProcessorBuilder method.
+
+Which object should you reference as a parameter in the method invocation?
+
+Select only one answer.
+
+delegate
+
+lease container
+
+change feed processor
+
+change estimation handler
+
+019
+You are implementing a change feed processor by using the .NET SDK for Azure Cosmos DB for NoSQL.
+
+You need to implement a change feed processor component to manage state across multiple change feed consumers.
+
+Which change feed processor component should you implement?
+
+Select only one answer.
+
+host
+
+delegate
+
+lease container
+
+monitored container

@@ -90,6 +90,34 @@ without using dynamic routing protocol.
 
 # 7th.1from1.58::You need to ensure that traffic to host.fabrikam.com is directed to the Traffic Manager profile.
 
-8 -7
+
+# 8th.1from7.26::You need to create an Azure Firewall instance named FW1 that meets the following requirements:
+
+• Has an IP address from the address range of 10.1.255.0/24
+• Uses a new Premium firewall policy named FW-policy1
+• Routes traffic directly to the internet
+
+# 8th.2from8.27::You plan to implement an Azure application gateway in the East US Azure region. The
+application gateway will have Web Application Firewall (WAF) enabled.
+
+You need to create a policy that can be linked to the planned application gateway. The policy must block connections from IP addresses in the 131.107.150.0/24 range. You do NOT need to provision the application gateway to complete this task.
+
+
+# 8th.3from8.28::You need to configure VNET1 to log all events and metrics. The solution must ensure that you can query the events and metrics directly from the Azure portal by using KQL.
+
+# 8th.4from8.42::You need to block all outbound internet traffic for HTTP and HTTPS that originates from subnet1-1. All other traffic must be allowed.
+
+# 8th.5from8.43::You need to restrict access to the storage35433841 storage account to ensure that only subnet1-2 can access the account.
+
+# 8th.6from8.44::You need to ensure that subnet3-2 can only access resources on subnet3-1.
+
+# 8th.7from8.45::You are planning security for Azure Front Door.
+
+You need to create a rule that can be applied to Front Door hosts. The rule must prevent hosts in Japan from making more than 50 requests per minute. You do NOT need to associate the rule to a Front Door instance to complete this task.
+
+
+
+
+
 9 -3
 10 -0

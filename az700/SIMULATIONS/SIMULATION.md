@@ -116,8 +116,11 @@ You need to create a policy that can be linked to the planned application gatewa
 You need to create a rule that can be applied to Front Door hosts. The rule must prevent hosts in Japan from making more than 50 requests per minute. You do NOT need to associate the rule to a Front Door instance to complete this task.
 
 
+# 9th.1from3.14::You need to ensure that connections to the storage12345678 storage account can be made by using an IP address in the 10.1.1.0/24 range and the name storage12345678.privatelink.blob.core.windows.net.
 
 
+# 9th.2from3.15::You need to ensure that requests for www.relecloud.com from any of your Azure virtual networks resolve to frontdoor1.azurefd.net.
 
-9 -3
-10 -0
+# 9th.3from3.16::You need to ensure that the storage12345678 storage account will only accept connections from the hosts on VNET1.
+
+

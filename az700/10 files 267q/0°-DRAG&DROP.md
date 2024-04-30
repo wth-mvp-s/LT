@@ -367,3 +367,241 @@ Which three actions should you perform in sequence? To answer, move the appropri
 - [ ] For fd1.contoso.com, create a DNS A record that resolves to the IP address of the private endpoint.
 - [ ] Change the DNS record of app1.contoso.com to resolve to the FQDN of FD1.
 - [ ] For app1.contoso.com, create a DNS A record that resolves to the IP address of the private endpoint.
+
+
+//
+10 
+
+
+#### 010.008::
+`Introductory Info
+`Case Study -
+`This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+`To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+`At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+`
+`To start the case study -
+`To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+`
+`Overview -
+`Litware, Inc. is a financial company that has a main datacenter in Boston and 20 branch offices across the United States. Users have Android, iOS, and Windows
+`10 devices.
+`
+`Existing Environment -
+`
+`Hybrid Environment -
+`The on-premises network contains an Active Directory forest named litwareinc.com that syncs to an Azure Active Directory (Azure AD) tenant named litwareinc.com by using Azure AD Connect.
+`All offices connect to a virtual network named Vnet1 by using a Site-to-Site VPN connection.
+`
+`Azure Environment -
+`Litware has an Azure subscription named Sub1 that is linked to the litwareinc.com Azure AD tenant. Sub1 contains resources in the East US Azure region as shown in the following table.
+`
+`
+``|Name---------------|Type-----------------|Description--------------------------------------------------|
+``|Vnet1--------------|Virtual-network------|Uses-an-IP-address-space-of-192.168.0.0/20-----------------|
+``|GatewaySubnet------|Virtual-network-subnet|Located-in-Vnet1-and-uses-an-IP-address-space-of-192.168.15.128/29|
+``|VPNGW1-------------|VPN-gateway----------|Deployed-to-Vnet1------------------------------------------|
+``|Vnet2--------------|Virtual-network------|Uses-an-IP-address-space-of-192.168.16.0/20----------------|
+``|SubnetA------------|Virtual-network-subnet|Located-in-Vnet2-and-uses-an-IP-address-space-of-192.168.16.0/24|
+``|Vnet3--------------|Virtual-network------|Uses-an-IP-address-space-of-192.168.32.0/20----------------|
+``|cloud.litwareinc.com|Private-DNS-zone----|None-------------------------------------------------------|
+``|VMScaleSet1--------|scale-set------------|Contains-four-virtual-machines-deployed-to-SubnetA--------|
+``|VMScaleSet2--------|scale-set------------|Contains-two-virtual-machines-deployed-to-SubnetA---------|
+``|storage1-----------|Storage-account------|Has-the-public-endpoint-blocked---------------------------|
+``|storage2-----------|Storage-account------|Has-the-public-endpoint-blocked---------------------------|
+`
+`A diagram of the resource in the East US Azure region is shown in the Azure Network Diagram exhibit.
+`There is bidirectional peering between Vnet1 and Vnet2. There is bidirectional peering between Vnet1 and Vnet3. Currently, Vnet2 and Vnet3 cannot communicate directly.
+`
+`Azure Network Diagram -
+`
+`Vnet1-------------192.168.0.0/20
+`----|                
+`----|----GatewaySubnet------192.168.15.128/29
+`----|
+`----|----VPNGW1
+`----|
+`----+----<Bidirectional-peering>-------Vnet2-------------192.168.16.0/20
+`---------|      
+`---------|----SubnetA---<>
+`---------|---------|
+`---------|---------+----VMScaleSet1---4-VMs
+`---------|---------|
+`---------|---------+----VMScaleSet2---2-VMs
+`----|
+`----+----<Bidirectional-peering>-------Vnet3-------------192.168.32.0/20
+`
+`storage1
+`storage2
+`
+`(DNS*)
+`Cloud.litwareinc.com
+`
+`
+`Requirements -
+`
+`Business Requirements -
+`Litware wants to minimize costs whenever possible, as long as all other requirements are met.
+`
+`Virtual Networking Requirements -
+`Litware identifies the following virtual networking requirements:
+`Direct the default route of 0.0.0.0/0 on Vnet2 and Vnet3 to the Boston datacenter over an ExpressRoute circuit.
+`Ensure that the records in the cloud.litwareinc.com can be resolved from the on-premises locations.
+`Automatically register the DNS names of Azure virtual machines to the cloud.litwareinc.com zone.
+`Minimize the size of the subnets allocated to platform-managed services.
+`Allow traffic from VMScaleSet1 to VMScaleSet2 on the TCP port 443 only.
+`
+`Hybrid Networking Requirements -
+`Litware identifies the following hybrid networking requirements:
+`Users must be able to connect to Vnet1 by using a Point-to-Site (P2S) VPN when working remotely. Connections must be authenticated by Azure AD.
+`Latency of the traffic between the Boston datacenter and all the virtual networks must be minimized.
+`The Boston datacenter must connect to the Azure virtual networks by using an ExpressRoute FastPath connection.
+`Traffic between Vnet2 and Vnet3 must be routed through Vnet1.
+`
+`PaaS Networking Requirements -
+`Litware identifies the following networking requirements for platform as a service (PaaS):
+`The storage1 account must be accessible from all on-premises locations without exposing the public endpoint of storage1.
+`The storage2 account must be accessible from Vnet2 and Vnet3 without exposing the public endpoint of storage2.
+`Question
+`You need to prepare Vnet1 for the deployment of an ExpressRoute gateway. The solution must meet the hybrid connectivity requirements and the business requirements.
+`Which three actions should you perform in sequence for Vnet1? To answer, move the appropriate actions from the list of actions to the answer.
+`Select and Place:
+`::
+`1. Delete VPN GW1.
+`2. Set the subnet mask of Gateway Subnet to /27.
+`3. Create a VPN gateway by using the VPN GW1 SKU.
+`
+`Basic VPN Gateway does not support P2S.
+`If the gateway subnet is /29, you've to first delete the virtual network gateway and increase the gateway subnet size.
+
+- [0] Delete VPN GW1.
+- [1] Set the subnet mask of Gateway Subnet to /27.
+- [2] Create a VPN gateway by using the VPN GW1 SKU.
+- [ ] Create a VPN gateway by using the Basic SKU.
+- [ ] Assign a user-defined route to Gateway Subnet.
+
+
+
+#### 010.015::
+`Introductory Info
+`Case Study -
+`This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
+`To answer the questions included in a case study, you will need to reference information that is provided in the case study. Case studies might contain exhibits and other resources that provide more information about the scenario that is described in the case study. Each question is independent of the other questions in this case study.
+`At the end of this case study, a review screen will appear. This screen allows you to review your answers and to make changes before you move to the next section of the exam. After you begin a new section, you cannot return to this section.
+`
+`To start the case study -
+`To display the first question in this case study, click the Next button. Use the buttons in the left pane to explore the content of the case study before you answer the questions. Clicking these buttons displays information such as business requirements, existing environment, and problem statements. When you are ready to answer a question, click the Question button to return to the question.
+`
+`Overview -
+`Litware, Inc. is a financial company that has a main datacenter in Boston and 20 branch offices across the United States. Users have Android, iOS, and Windows
+`10 devices.
+`
+`Existing Environment -
+`
+`Hybrid Environment -
+`The on-premises network contains an Active Directory forest named litwareinc.com that syncs to an Azure Active Directory (Azure AD) tenant named litwareinc.com by using Azure AD Connect.
+`All offices connect to a virtual network named Vnet1 by using a Site-to-Site VPN connection.
+`
+`Azure Environment -
+`Litware has an Azure subscription named Sub1 that is linked to the litwareinc.com Azure AD tenant. Sub1 contains resources in the East US Azure region as shown in the following table.
+`
+`
+``|Name---------------|Type-----------------|Description--------------------------------------------------|
+``|Vnet1--------------|Virtual-network------|Uses-an-IP-address-space-of-192.168.0.0/20-----------------|
+``|GatewaySubnet------|Virtual-network-subnet|Located-in-Vnet1-and-uses-an-IP-address-space-of-192.168.15.128/29|
+``|VPNGW1-------------|VPN-gateway----------|Deployed-to-Vnet1------------------------------------------|
+``|Vnet2--------------|Virtual-network------|Uses-an-IP-address-space-of-192.168.16.0/20----------------|
+``|SubnetA------------|Virtual-network-subnet|Located-in-Vnet2-and-uses-an-IP-address-space-of-192.168.16.0/24|
+``|Vnet3--------------|Virtual-network------|Uses-an-IP-address-space-of-192.168.32.0/20----------------|
+``|cloud.litwareinc.com|Private-DNS-zone----|None-------------------------------------------------------|
+``|VMScaleSet1--------|scale-set------------|Contains-four-virtual-machines-deployed-to-SubnetA--------|
+``|VMScaleSet2--------|scale-set------------|Contains-two-virtual-machines-deployed-to-SubnetA---------|
+``|storage1-----------|Storage-account------|Has-the-public-endpoint-blocked---------------------------|
+``|storage2-----------|Storage-account------|Has-the-public-endpoint-blocked---------------------------|
+`
+`A diagram of the resource in the East US Azure region is shown in the Azure Network Diagram exhibit.
+`There is bidirectional peering between Vnet1 and Vnet2. There is bidirectional peering between Vnet1 and Vnet3. Currently, Vnet2 and Vnet3 cannot communicate directly.
+`
+`Azure Network Diagram -
+`
+`Vnet1-------------192.168.0.0/20
+`----|                
+`----|----GatewaySubnet------192.168.15.128/29
+`----|
+`----|----VPNGW1
+`----|
+`----+----<Bidirectional-peering>-------Vnet2-------------192.168.16.0/20
+`---------|      
+`---------|----SubnetA---<>
+`---------|---------|
+`---------|---------+----VMScaleSet1---4-VMs
+`---------|---------|
+`---------|---------+----VMScaleSet2---2-VMs
+`----|
+`----+----<Bidirectional-peering>-------Vnet3-------------192.168.32.0/20
+`
+`storage1
+`storage2
+`
+`(DNS*)
+`Cloud.litwareinc.com
+`
+`
+`Requirements -
+`
+`Business Requirements -
+`Litware wants to minimize costs whenever possible, as long as all other requirements are met.
+`
+`Virtual Networking Requirements -
+`Litware identifies the following virtual networking requirements:
+`Direct the default route of 0.0.0.0/0 on Vnet2 and Vnet3 to the Boston datacenter over an ExpressRoute circuit.
+`Ensure that the records in the cloud.litwareinc.com can be resolved from the on-premises locations.
+`Automatically register the DNS names of Azure virtual machines to the cloud.litwareinc.com zone.
+`Minimize the size of the subnets allocated to platform-managed services.
+`Allow traffic from VMScaleSet1 to VMScaleSet2 on the TCP port 443 only.
+`
+`Hybrid Networking Requirements -
+`Litware identifies the following hybrid networking requirements:
+`Users must be able to connect to Vnet1 by using a Point-to-Site (P2S) VPN when working remotely. Connections must be authenticated by Azure AD.
+`Latency of the traffic between the Boston datacenter and all the virtual networks must be minimized.
+`The Boston datacenter must connect to the Azure virtual networks by using an ExpressRoute FastPath connection.
+`Traffic between Vnet2 and Vnet3 must be routed through Vnet1.
+`
+`PaaS Networking Requirements -
+`Litware identifies the following networking requirements for platform as a service (PaaS):
+`The storage1 account must be accessible from all on-premises locations without exposing the public endpoint of storage1.
+`The storage2 account must be accessible from Vnet2 and Vnet3 without exposing the public endpoint of storage2.
+`Question
+`
+`You need to implement outbound connectivity for VMScaleSet1. The solution must meet the virtual networking requirements and the business requirements.
+`Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+`::
+`HTTPS health probe and Outbound Rules are ONLY supported on STD LB
+`
+`Create a Standard Load Balancer:
+`Specify the load balancer's name, SKU (Standard), and public frontend IP configuration.
+`Configure the HTTPS protocol for the frontend IP configuration.
+`Set up the SSL certificate if required.
+`Create a Backend Pool:
+`Create a backend pool that includes the virtual machines in VMScaleSet1.
+`Associate the backend pool with the frontend IP configuration of the load balancer.
+`Configure Health Probe:
+`Create a health probe with the required settings, such as the port (443) and probe interval.
+`Associate the health probe with the backend pool.
+`Create Outbound Rule:
+`Define an outbound rule for the load balancer.
+`Specify the backend pool and health probe to use for outbound traffic.
+`
+`Create a public load balancer in the Standard SKU:
+`Think of this like buying a new gaming console. It's the main device you need. The "Standard SKU" means you're getting the version that has all the necessary features, not just the basic one.
+`Create a backend pool that contains VMScaleSet1:
+`Imagine gathering all your favorite games to play on this console. The backend pool is like a collection of games (here, it's the virtual machines in VMScaleSet1) that the console can run.
+`Create an outbound rule:
+`Set up the rules for who can play and when. Just like setting parental controls on your gaming console, creating an outbound rule controls how the virtual machines can connect to the outside world, ensuring they communicate securely and efficiently.
+
+- [0] Create a public load balancer in the Standard SKU
+- [1] Create a backend pool that contains VMScaleSet1
+- [2] Create an outbound rule
+- [ ] Create a health probe
+- [ ] Create a public load balancer in the Basic SKU
+- [ ] Create a NAT rule

@@ -37,7 +37,7 @@
 2 -3
 
 
-#### 028::
+#### 028-P2_1/4::
 `You have an on-premises network.
 `
 `You have an Azure subscription that contains a virtual network named VNet1. VNet1 contains an ExpressRoute gateway.
@@ -65,7 +65,7 @@
 
 
 
-#### 044::
+#### 044-P2_2/4::
 `You have an Azure subscription that contains the resources shown in the following table.
 `
 `
@@ -135,7 +135,7 @@
 
 
 
-#### 046::
+#### 046-P2_4/4::
 `You have three on-premises sites. Each site has a third-party VPN device.
 `You have an Azure virtual WAN named VWAN1 that has a hub named Hub1. Hub1 connects two of the three on-premises sites by using a Site-to-Site VPN connection.
 `You need to connect the third site to the other two sites by using Hub1.
@@ -211,7 +211,7 @@
 5 -1
 
 
-#### 001::
+#### 001-P5_1/1::
 `You have an Azure Front Door instance named FrontDoor1.
 `You deploy two instances of an Azure web app to different Azure regions.
 `You plan to provide access to the web app through FrontDoor1 by using the name app1.contoso.com.
@@ -373,7 +373,7 @@ Which three actions should you perform in sequence? To answer, move the appropri
 10 
 
 
-#### 010.008::
+#### 010.008-P10_1/2::
 `Introductory Info
 `Case Study -
 `This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.
@@ -482,7 +482,7 @@ Which three actions should you perform in sequence? To answer, move the appropri
 
 
 
-#### 010.015::
+#### 010.015-P10_2/2::
 `Introductory Info
 `Case Study -
 `This is a case study. Case studies are not timed separately. You can use as much exam time as you would like to complete each case. However, there may be additional case studies and sections on this exam. You must manage your time to ensure that you are able to complete all questions included on this exam in the time provided.

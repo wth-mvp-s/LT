@@ -1,3 +1,7 @@
+`[EXAMTOPICS COMMENT]
+
+
+
 please use your full cpu power for the task which I will ask you to do 
 
 given text which I will give you below 

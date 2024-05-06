@@ -13,3 +13,5 @@ not working
 
     both and keep 2 secs = NTH
     both and keep 3 secs = WORK
+
+    there is still kind of locker on Ctrl+F4, like I have to press harder the first time. 

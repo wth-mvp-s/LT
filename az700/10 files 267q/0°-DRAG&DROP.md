@@ -191,16 +191,17 @@
 
 
 #### 001;p4_1f1::
-`You have an Azure subscription that contains the resources shown in the following table.
-`
-`
-`
+`You have an Azure subscription that contains the resources shown in the following table:
+`- Gateway1 -- NAT gateway -- Unconfigured
+`- NIC1 -- Network interface -- A network interface with a statically assigned public IP address named PIP1
+`- PIP1 -- Public IP address -- A Basic SKU public IP address
+`- VNet1 -- Virtual network -- Contains a subnet named Subnet1
+`- Subnet1 -- Virtual subnet -- Part of VNet1
+`- VM1 -- Virtual machine -- Connected to Subnet1 via NIC1
 `You need to associate Gateway1 with Subnet1. The solution must minimize downtime on VM1.
-`
-`Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
-
-
-
+`Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. 
+`::
+`so delete key, update key type, and 3 update serure
 - [0] Disassociate PIP1 from NIC1.
 - [1] Change the PIP1 SKU to Standard.
 - [2] Associate PIP1 to NIC1.
@@ -327,45 +328,58 @@ Select and Place:
 
 
 
-#### 002::
+
+
+#### 006.08(#### 002)::
+`DRAG DROP -
 `You have two Azure subscriptions named Subscription1 and Subscription2. Subscription1 contains a virtual network named Vnet1. Vnet1 contains an application server. Subscription2 contains a virtual network named Vnet2.
 `You need to provide the virtual machines in Vnet2 with access to the application server in Vnet1 by using a private endpoint.
 `Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
 `Select and Place:
+`::
+`User
+`so this is 
+`
+`like 
+`1. creating many small streets connections exclusively for the stadium events tonight 
+`in city Subscription 1 
+`later 
+`2. is subscription 1 crate buses excusively for the event those are private link, like private buses station (buses station = private link)
+`
+`and 3 
+`from city2, create private endpoints, private buses, going to the event, 
+`
+`and 4 ; in bus station, accepting buses with barier opening only fron private endpoint from sub2
 
 
-- [0] Deploy an Azure Standard Load Balancer in front of the application server.
-- [1] In Subscription 1, create a private link service and attach the service to the frontend IP configuration of the load balancer.
-- [2] In Subscription 2, create a private endpoint by using the private link service.
-- [3] In Subscription 1, accept the private endpoint connection request.
-- [ ] Enable virtual network peering between Vnet1 and Vnet2.
-
-
-#### 003::
+#### 004::
+`DRAG DROP
 `You have an Azure subscription that contains the resources shown in the following table.
-
-
-|Name--------|Type----------------------------|Description------------|
-|App1--------|Azure App Service app-----------|Accessed by using a URL of https://app1.contoso.com/-----|
-|FD1---------|Azure Front Door Premium profile|Configured as an endpoint for App1--------|
-|contoso.com-|Azure DNS zone------------------|Contains a DNS CNAME record for App1 
-|------------|--------------------------------|that resolves to an FQDN of app1.azurewebsites.net|
-
-You discover that users connect directly to App1.
-
-You need to meet the following requirements:
-
-• Administrators must only access App1 by using a private endpoint.
-• All user connections to App1 must be routed through FD1.
-• The downtime of connections to App1 must be minimized.
-
-Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+`
+`Name --------- Туре ------------------------------- Description
+`App1 --------- Azure App Service app -------------- Accessed by using a URL of https://app1.contoso.com/
+`FD1 ---------- Azure Front Door Premium profile --- Configured as an endpoint for App1 
+`contoso.com -- Azure DNS zone --------------------- Contains a DNS CNAME record for App1 
+`----------------------------------------------------that resolves to an FQDN of app1.azurewebsites.net
+`
+`You discover that users connect directly to App1.
+`
+`You need to meet the following requirements:
+`
+`• Administrators must only access App1 by using a private endpoint.
+`• All user connections to App1 must be routed through FD1.
+`• The downtime of connections to App1 must be minimized.
+``Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+`::
+`1.so it is like setting the street sign to allow only light cars entering the autoroute - is that it ? 
+`2.app1 is like small stadion in the city , and private endpoint is like street letting enter the visitors only by the side entry, right ? 
+`3. Approving a pending private endpoint connection is akin to giving the green light for the construction of that side street leading directly to the stadium.
 
 - [0] In the settings of FD1, configure the origin group to enable the Azure Private Link service.
-- [1] In the settings of App1, approve a pending private endpoint connection.
-- [2] In the settings of App1, create a private endpoint.
-- [ ] For fd1.contoso.com, create a DNS A record that resolves to the IP address of the private endpoint.
+- [1] In the settings of App1, create a private endpoint.
+- [2] In the settings of App1, approve a pending private endpoint connection.
 - [ ] Change the DNS record of app1.contoso.com to resolve to the FQDN of FD1.
+- [ ] For fd1.contoso.com, create a DNS A record that resolves to the IP address of the private endpoint.
 - [ ] For app1.contoso.com, create a DNS A record that resolves to the IP address of the private endpoint.
 
 

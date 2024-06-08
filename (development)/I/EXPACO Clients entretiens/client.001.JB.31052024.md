@@ -1,3 +1,19 @@
+- Vous connaisez pas le besoin donc il est compliquer de poser des questions. 
+
+- on a l'impression que vous savez plus de c'est que vous dit. Vous matter un accent au fait de travailler en maintenance et avec les techno anciens. 
+- par rapport à ça on a l'impression que vous essayer de me seduir disant qu'ils one d'autre projets interessants. 
+- de mon côté par rapport à ça 
+    - j'ai l'impression que c'est n'est pas clair quels sont mes souhaits, j'ai l'impression que vous ne connaisez pas mon profil. 
+
+    il est pour moi difficile d'imaginer que votre client cherche pour la maintenance quelq'un pour une court duree, vue le temps que ça prends de passer les connaisance, je crois pas qu'ils cherche quelqu'un que pour 3-6 mois, periode court
+    Mon resentie est que vous voulez un profil pour la maintenance tout court, avec les technos anciens, 
+    et l'offre que vous avez envoyé sert comme un sort d'appat, selon la methode, sur un malentandu ça peut marcher, 
+    le fait que vous souligné bonne ambiance sur place, confirme encore mon soupconne sur vos motivation. 
+
+
+
+
+
 - pourquoi elle nous envois cela, si c'est n'est pas une offre ? 
 - elle veut savoir c'est qu'on pense, moi je vais savoir c'est quoi le deal. 
 - null communication, elle sais plus de ce que'elle nous dise. 

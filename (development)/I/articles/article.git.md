@@ -27,4 +27,5 @@ If the branch you renamed has already been pushed to a remote repository, you'll
 ```git checkout a1b2c3d4``` 65f9b2ddbaf92536892f91b764358fa9c10bfc04
 
 
-
+# add and commit in one command
+```git commit -am "message"

@@ -1,0 +1,1 @@
+To manage the synchronization of data between components in an Angular application effectively, especially when using the OnPush change detection strategy, you need a robust state management strategy. 

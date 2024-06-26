@@ -1,5 +1,10 @@
 Delta (Δ, δ): While more common in the sciences, this letter is used in philosophy to denote change.
 
+
+CreativeGallery4
+docker on desktop
+
+
 # 35
     
 # t34

@@ -2,7 +2,7 @@ Delta (Δ, δ): While more common in the sciences, this letter is used in philos
 
 
 CreativeGallery4
-docker on desktop
+# 24t27 (o) docker on desktop
 
 
 # 35
